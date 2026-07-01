@@ -10,24 +10,24 @@ Interactive multiple-choice quizzes for all 12 modules of **CompTIA Network+ Gui
 
 ## Chapter Quizzes
 
-Question counts are weighted by module importance for the N10-008 exam (25–50 range).
+Each module has a pool of **~100 questions**; every attempt shows **25 random** of them.
 
-| # | Module | Questions |
-|---|--------|-----------|
-| 01 | Introduction to Networking | 40 |
-| 02 | Infrastructure & Documentation | 30 |
-| 03 | Addressing | 50 |
-| 04 | Network Protocols | 50 |
-| 05 | Cabling | 35 |
-| 06 | Wireless Networking | 35 |
-| 07 | Cloud Computing & Remote Access | 30 |
-| 08 | Subnets & VLANs | 50 |
-| 09 | Network Risk Management | 35 |
-| 10 | Security in Network Design | 45 |
-| 11 | Network Performance & Recovery | 40 |
-| 12 | Wide Area Networks | 35 |
+| # | Module | Pool |
+|---|--------|------|
+| 01 | Introduction to Networking | ~100 |
+| 02 | Infrastructure & Documentation | ~100 |
+| 03 | Addressing | ~100 |
+| 04 | Network Protocols | ~100 |
+| 05 | Cabling | ~100 |
+| 06 | Wireless Networking | ~100 |
+| 07 | Cloud Computing & Remote Access | ~100 |
+| 08 | Subnets & VLANs | ~100 |
+| 09 | Network Risk Management | ~100 |
+| 10 | Security in Network Design | ~100 |
+| 11 | Network Performance & Recovery | ~100 |
+| 12 | Wide Area Networks | ~100 |
 
-**Total: 475 chapter questions.**
+**Total: ~1,200 chapter questions** (25 drawn per attempt).
 
 ## Final Mixed Quizzes
 
@@ -47,19 +47,19 @@ Cumulative re-mixes drawn from all 12 module pools. The weighting shifts from fu
 
 Each attempt draws a **random subset** of questions from the topic's pool, so no two attempts are the same:
 
-- **Chapter quizzes:** 30 random questions per attempt (from a pool of 30–50).
-- **Mixed quizzes:** the full 50 / 50 / 75 / 100 / 100.
+- **Chapter quizzes:** 25 random questions per attempt, drawn from a pool of **~100 per module** (≈1,200 chapter questions in total).
+- **Mixed quizzes:** the full 50 / 50 / 75 / 100 / 100, drawn from the combined module pools.
 - **Retry** re-draws a brand-new random set.
 
 Sizing is configured in `data.js` (`QUIZ_CONFIG`): change `defaultAttempt`, or add a per-topic override. You can also override on the fly with a URL parameter:
 
 ```
-quiz.html?topic=03        → 30 random questions
+quiz.html?topic=03        → 25 random questions
 quiz.html?topic=03&n=15   → 15 random questions
-quiz.html?topic=03&n=50   → up to the whole pool
+quiz.html?topic=03&n=100  → up to the whole pool
 ```
 
-> The bigger the pool, the more variety. Extra questions live in per-module expansion files, `data-NN-b.js`, which `push()` onto the base pool and load **before** the mixed quizzes (so mixed draws from the enlarged pools too). To grow a pool further, just add more objects there — the engine automatically keeps drawing 25 (or whatever you set).
+> The bigger the pool, the more variety. Each module's questions live across `data-NN.js` (base) + `data-NN-b.js` (expansion) + `data-topup*.js`, all of which `push()` onto the pool and load **before** the mixed quizzes (so mixed draws from the full pools too). To grow a pool further, just add more objects — the engine keeps drawing 25 (or whatever you set).
 
 ## Answer positions
 

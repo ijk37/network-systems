@@ -29,10 +29,11 @@ A structured, self-paced curriculum built around **CompTIA Network+ Guide to Net
 
 ## 🧪 Quiz
 
-**[👉 Open the Quiz Hub](https://ijk37.github.io/network-systems/03-quiz/)** — 12 chapter quizzes (30–50 Qs each, weighted by exam importance) + 5 cumulative mixed quizzes (50–100 Qs), with instant scoring and wrong-answer review.
+**[👉 Open the Quiz Hub](https://ijk37.github.io/network-systems/03-quiz/)** — 12 chapter quizzes + 5 cumulative mixed quizzes, with instant scoring and full end-of-quiz review.
 
-- **475** chapter questions across the 12 modules
+- **~1,200** chapter questions (~100 per module); each attempt draws **25 random**, with options shuffled so no two attempts are alike
 - **5** mixed quizzes (50 / 50 / 75 / 100 / 100), re-mixed from the module pools
+- Skip / back navigation, and every attempt re-draws a fresh set
 
 ## How to Use
 
