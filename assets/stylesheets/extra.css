@@ -1,0 +1,119 @@
+:root {
+  --ns-teal: #007c89;
+  --ns-ink: #17252a;
+  --ns-orange: #d85d27;
+  --ns-gold: #c28b00;
+  --ns-green: #248263;
+  --ns-border: rgba(23, 37, 42, 0.14);
+}
+
+[data-md-color-scheme="slate"] {
+  --ns-border: rgba(255, 255, 255, 0.16);
+}
+
+.md-header,
+.md-tabs {
+  box-shadow: none;
+}
+
+.md-header__title {
+  font-weight: 700;
+}
+
+.md-typeset h1,
+.md-typeset h2 {
+  font-weight: 750;
+  letter-spacing: 0;
+}
+
+.md-typeset h1 {
+  margin-bottom: 0.9rem;
+}
+
+.md-typeset h2 {
+  border-bottom: 1px solid var(--ns-border);
+  padding-bottom: 0.35rem;
+}
+
+.md-typeset table:not([class]) {
+  border: 1px solid var(--ns-border);
+  border-radius: 0.4rem;
+  overflow: hidden;
+}
+
+.md-typeset table:not([class]) th {
+  background: color-mix(in srgb, var(--md-primary-fg-color) 14%, transparent);
+  font-weight: 700;
+}
+
+.md-typeset code {
+  border-radius: 0.25rem;
+}
+
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 0.45rem;
+}
+
+.ns-hero-grid {
+  display: grid;
+  gap: 0.8rem;
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  margin: 1.5rem 0 2rem;
+}
+
+.md-typeset .ns-card {
+  align-items: center;
+  border: 1px solid var(--ns-border);
+  border-left: 0.35rem solid var(--md-primary-fg-color);
+  border-radius: 0.5rem;
+  color: var(--md-default-fg-color);
+  display: flex;
+  font-size: 1.05rem;
+  font-weight: 700;
+  gap: 0.55rem;
+  min-height: 5rem;
+  padding: 1rem;
+  text-decoration: none;
+  transition: border-color 150ms ease, box-shadow 150ms ease, transform 150ms ease;
+}
+
+.md-typeset .ns-card:hover {
+  border-color: var(--md-accent-fg-color);
+  box-shadow: 0 0.55rem 1.4rem rgba(0, 0, 0, 0.09);
+  transform: translateY(-1px);
+}
+
+.md-typeset .ns-card-notes {
+  border-left-color: var(--ns-teal);
+}
+
+.md-typeset .ns-card-exercises {
+  border-left-color: var(--ns-orange);
+}
+
+.md-typeset .ns-card-quiz {
+  border-left-color: var(--ns-gold);
+}
+
+.md-typeset .ns-card-projects {
+  border-left-color: var(--ns-green);
+}
+
+.md-nav__item .md-nav__link--active {
+  font-weight: 700;
+}
+
+.md-footer {
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 44.9375em) {
+  .ns-hero-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .md-typeset .ns-card {
+    min-height: 4.25rem;
+  }
+}

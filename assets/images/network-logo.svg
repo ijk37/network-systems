@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Network Systems</title>
+  <rect width="64" height="64" rx="12" fill="#007c89"/>
+  <path fill="#fff" d="M18 20h12v12H18V20Zm16 0h12v12H34V20ZM18 36h12v12H18V36Zm16 0h12v12H34V36Z"/>
+  <path fill="none" stroke="#ffd166" stroke-width="4" stroke-linecap="round" d="M30 26h4M24 32v4m16-4v4m-10 6h4"/>
+</svg>

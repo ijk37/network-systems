@@ -1,0 +1,222 @@
+site_name: Network Systems
+site_description: CompTIA Network+ course notes, quizzes, exercises, projects, and resources.
+site_author: Jahid
+site_url: https://ijk37.github.io/network-systems/
+
+repo_name: ijk37/network-systems
+repo_url: https://github.com/ijk37/network-systems
+edit_uri: edit/main/
+
+docs_dir: .
+site_dir: ../network-systems-site
+exclude_docs: |
+  mkdocs.yml
+  requirements.txt
+  .gitignore
+  .claude/**
+  .git/**
+  05-resources/**
+
+theme:
+  name: material
+  custom_dir: overrides
+  logo: assets/images/network-logo.svg
+  favicon: assets/images/favicon.svg
+  language: en
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.code.copy
+    - content.code.select
+    - content.tabs.link
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.path
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.blocks.caption
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra_javascript:
+  - assets/javascripts/extra.js
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ijk37/network-systems
+      name: GitHub repository
+
+not_in_nav: |
+  README.md
+  take_quiz_here.md
+
+nav:
+  - Home: index.md
+  - Notes:
+      - Overview: 01-notes/README.md
+      - "Module 01: Introduction":
+          - "What Is a Network?": 01-notes/01-01-what-is-network.md
+          - "Network Models and Topologies": 01-notes/01-02-network-models.md
+          - "The OSI Model": 01-notes/01-03-osi-model.md
+          - "Network Hardware": 01-notes/01-04-network-hardware.md
+          - "Troubleshooting and Safety": 01-notes/01-05-troubleshooting-and-safety.md
+      - "Module 02: Infrastructure":
+          - "Structured Cabling": 01-notes/02-01-structured-cabling.md
+          - "Racks and Terminations": 01-notes/02-02-racks-and-terminations.md
+          - "Network Documentation": 01-notes/02-03-network-documentation.md
+          - "Change Management": 01-notes/02-04-change-management.md
+      - "Module 03: Addressing":
+          - "MAC Addresses": 01-notes/03-01-mac-addresses.md
+          - "IPv4 Addressing": 01-notes/03-02-ipv4-addressing.md
+          - "IPv6 Addressing": 01-notes/03-03-ipv6-addressing.md
+          - "DHCP": 01-notes/03-04-dhcp.md
+          - "DNS": 01-notes/03-05-dns.md
+          - "Ports and Protocols": 01-notes/03-06-ports-and-protocols.md
+          - "CLI Troubleshooting Tools": 01-notes/03-07-cli-troubleshooting-tools.md
+      - "Module 04: Protocols":
+          - "TCP/IP Suite": 01-notes/04-01-tcp-ip-suite.md
+          - "TCP vs UDP": 01-notes/04-02-tcp-vs-udp.md
+          - "Core Protocols and Ports": 01-notes/04-03-core-protocols-and-ports.md
+          - "Secure Protocols": 01-notes/04-04-secure-protocols.md
+          - "Remote Access": 01-notes/04-05-remote-access.md
+      - "Module 05: Cabling":
+          - "Copper Cabling": 01-notes/05-01-copper-cabling.md
+          - "Fiber Optic Cabling": 01-notes/05-02-fiber-optic.md
+          - "Ethernet Standards": 01-notes/05-03-ethernet-standards.md
+          - "Cable Issues and Tools": 01-notes/05-04-cable-issues-and-tools.md
+      - "Module 06: Wireless":
+          - "Wireless Standards": 01-notes/06-01-wireless-standards.md
+          - "Frequencies and Channels": 01-notes/06-02-frequencies-and-channels.md
+          - "Wireless Security": 01-notes/06-03-wireless-security.md
+          - "Wireless Design": 01-notes/06-04-wireless-design.md
+      - "Module 07: Cloud and Remote Access":
+          - "Cloud Service Models": 01-notes/07-01-cloud-service-models.md
+          - "Cloud Deployment": 01-notes/07-02-cloud-deployment.md
+          - "Virtualization": 01-notes/07-03-virtualization.md
+          - "Remote Access Methods": 01-notes/07-04-remote-access-methods.md
+      - "Module 08: Subnets and VLANs":
+          - "Network Segmentation": 01-notes/08-01-network-segmentation.md
+          - "IP Address Structure": 01-notes/08-02-ip-address-structure.md
+          - "Subnet Mask": 01-notes/08-03-subnet-mask.md
+          - "Classful Networks": 01-notes/08-04-classful-networks.md
+          - "CIDR": 01-notes/08-05-cidr.md
+          - "Subnetting Basics": 01-notes/08-06-subnetting-basics.md
+          - "Subnetting Examples": 01-notes/08-07-subnetting-examples.md
+          - "Binary Subnet Calculation": 01-notes/08-08-subnet-calculation-using-binary.md
+          - "Implementing Subnets": 01-notes/08-09-implementing-subnets.md
+          - "VLSM": 01-notes/08-10-vlsm.md
+          - "IPv6 Subnetting": 01-notes/08-11-ipv6-subnetting.md
+          - "VLANs": 01-notes/08-12-vlan.md
+      - "Module 09: Risk Management":
+          - "Security Concepts": 01-notes/09-01-security-concepts.md
+          - "Common Attacks": 01-notes/09-02-common-attacks.md
+          - "Security Assessments": 01-notes/09-03-security-assessments.md
+          - "Policies and Continuity": 01-notes/09-04-policies-and-risk-management.md
+      - "Module 10: Secure Design":
+          - "Firewalls and ACLs": 01-notes/10-01-firewalls-and-acls.md
+          - "IDS and IPS": 01-notes/10-02-ids-ips.md
+          - "NAC and AAA": 01-notes/10-03-nac-and-aaa.md
+          - "Secure Network Design": 01-notes/10-04-secure-network-design.md
+          - "Switch Hardening": 01-notes/10-05-switch-hardening.md
+      - "Module 11: Performance and Recovery":
+          - "Performance Concepts": 01-notes/11-01-performance-concepts.md
+          - "Network Monitoring": 01-notes/11-02-monitoring.md
+          - "High Availability": 01-notes/11-03-high-availability.md
+          - "Fault Tolerance and Recovery": 01-notes/11-04-fault-tolerance-and-recovery.md
+      - "Module 12: WAN":
+          - "WAN Fundamentals": 01-notes/12-01-wan-fundamentals.md
+          - "WAN Technologies": 01-notes/12-02-wan-technologies.md
+          - "Routing": 01-notes/12-03-routing.md
+          - "WAN Topologies": 01-notes/12-04-wan-topologies.md
+  - Exercises:
+      - Overview: 02-exercises/README.md
+      - "Exercise 01": 02-exercises/01-exercise.md
+      - "Exercise 02": 02-exercises/02-exercise.md
+      - "Exercise 03": 02-exercises/03-exercise.md
+      - "Exercise 04": 02-exercises/04-exercise.md
+      - "Exercise 05": 02-exercises/05-exercise.md
+      - "Exercise 06": 02-exercises/06-exercise.md
+      - "Exercise 07": 02-exercises/07-exercise.md
+      - "Exercise 08": 02-exercises/08-exercise.md
+      - "Exercise 09": 02-exercises/09-exercise.md
+      - "Exercise 10": 02-exercises/10-exercise.md
+      - "Exercise 11": 02-exercises/11-exercise.md
+      - "Exercise 12": 02-exercises/12-exercise.md
+  - Quiz:
+      - Overview: 03-quiz/README.md
+      - Quiz Hub: 03-quiz/index.html
+  - Projects:
+      - Overview: 04-projects/README.md
+      - "VLSM Network Design": 04-projects/01-vlsm-network-design/README.md
+      - "VLANs and Inter-VLAN Routing": 04-projects/02-vlans-inter-vlan-routing/README.md
+      - "Static Routing and OSPF": 04-projects/03-routing-static-and-ospf/README.md
+      - "DHCP, DNS, and Web Services": 04-projects/04-dhcp-dns-web-services/README.md
+      - "Secure Network Design": 04-projects/05-secure-network-design/README.md
+      - "Wireshark Traffic Analysis": 04-projects/06-wireshark-traffic-analysis/README.md
+      - "Network Documentation": 04-projects/07-network-documentation/README.md
+      - "Structured Cabling Plan": 04-projects/08-structured-cabling-plan/README.md
+      - "Wireless Network Design": 04-projects/09-wireless-network-design/README.md
+      - "Cloud and VPN Connectivity": 04-projects/10-cloud-and-vpn-connectivity/README.md
+      - "High Availability and Monitoring": 04-projects/11-high-availability-and-monitoring/README.md
+  - "05 Resources": resources.md
