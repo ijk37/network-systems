@@ -1,5 +1,19 @@
 # 08: Subnets & VLANs — Exercises
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="../01-notes/README.md">All Notes</a> &nbsp;|&nbsp; <a href="README.md">All Exercises</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Practice |
+| --- | --- | ---: |
+| Network Systems | 08: Subnets and VLANs | 6 questions |
+
+> Try each question first. Open the answer only after you have written or spoken your attempt.
+<!-- /course-header -->
+
 Hands-on **subnetting drills** — the highest-value practice for the exam. Read each question, work it out on paper, then click **▶ Show worked solution** to check (binary method, block-size/magic-number method, VLSM, and IPv6). Quick-recall questions follow at the end.
 
 > Related note: [Subnetting Basics](../01-notes/08-06-subnetting-basics.md)
@@ -765,7 +779,8 @@ Number of host addresses = 2^64
 
 ### Q1. How many usable hosts are in a /26, /28, and /30?
 
-<details><summary>▶ Show answer</summary>
+<details>
+<summary><strong>Show answer</strong></summary>
 
 - /26 → 2^6 − 2 = **62**
 - /28 → 2^4 − 2 = **14**
@@ -776,7 +791,8 @@ Number of host addresses = 2^64
 
 ### Q2. What is the subnet mask for /27, and its block size?
 
-<details><summary>▶ Show answer</summary>
+<details>
+<summary><strong>Show answer</strong></summary>
 
 /27 = **255.255.255.224**. Block size = 256 − 224 = **32**.
 </details>
@@ -785,7 +801,8 @@ Number of host addresses = 2^64
 
 ### Q3. Which subnet does host 192.168.10.100/27 belong to (network ID and broadcast)?
 
-<details><summary>▶ Show answer</summary>
+<details>
+<summary><strong>Show answer</strong></summary>
 
 Block size 32 → subnets .0, .32, .64, **.96**, .128. 100 falls in the **192.168.10.96/27** subnet: network **.96**, broadcast **.127**, usable **.97–.126**.
 </details>
@@ -794,7 +811,8 @@ Block size 32 → subnets .0, .32, .64, **.96**, .128. 100 falls in the **192.16
 
 ### Q4. You need at least 500 hosts in one subnet. What is the smallest prefix that works?
 
-<details><summary>▶ Show answer</summary>
+<details>
+<summary><strong>Show answer</strong></summary>
 
 2^9 − 2 = 510 ≥ 500, so **9 host bits → a /23**. (A /24 gives only 254.)
 </details>
@@ -803,7 +821,8 @@ Block size 32 → subnets .0, .32, .64, **.96**, .128. 100 falls in the **192.16
 
 ### Q5. What standard subnet size is used for an IPv6 LAN, and how many /64s come from a /48?
 
-<details><summary>▶ Show answer</summary>
+<details>
+<summary><strong>Show answer</strong></summary>
 
 IPv6 LANs use **/64**. From /48 to /64 = 16 subnet bits → 2^16 = **65,536** subnets.
 </details>
@@ -812,7 +831,8 @@ IPv6 LANs use **/64**. From /48 to /64 = 16 subnet bits → 2^16 = **65,536** su
 
 ### Q6. Summarize the four networks 192.168.4.0/24 … 192.168.7.0/24 into one route.
 
-<details><summary>▶ Show answer</summary>
+<details>
+<summary><strong>Show answer</strong></summary>
 
 **192.168.4.0/22** — a /22 covers a block of 4 contiguous /24s aligned on a multiple of 4 (192.168.4.0 – 192.168.7.255).
 </details>
@@ -820,3 +840,13 @@ IPv6 LANs use **/64**. From /48 to /64 = 16 subnet bits → 2^16 = **65,536** su
 ---
 
 ⬅️ **Prev:** [Module 07](07-exercise.md)  ·  [📚 All Exercises](README.md)  ·  **Next:** [Module 09 — Network Risk Management](09-exercise.md) ➡️
+
+<!-- course-footer -->
+---
+
+<div align="center">
+
+<strong>Previous:</strong> <a href="07-exercise.md">07: Cloud Computing &amp; Remote Access — Exercises</a> &nbsp;|&nbsp; <a href="README.md">All Exercises</a> &nbsp;|&nbsp; <a href="../01-notes/08-01-network-segmentation.md">Module 08 Notes</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="09-exercise.md">09: Network Risk Management — Exercises</a>
+
+</div>
+<!-- /course-footer -->

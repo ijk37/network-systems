@@ -1,5 +1,17 @@
 # 01-02: Network Models & Topologies
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/01-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Lesson |
+| --- | --- | --- |
+| Network Systems | 01: Introduction to Networking | 01-02 |
+<!-- /course-header -->
+
 ## Topology
 
 **Topology** describes how the parts of a network fit and work together.
@@ -45,8 +57,12 @@ Real networks combine topologies — e.g., a **star-of-stars** (hierarchical sta
 
 See also: [The OSI Model](01-03-osi-model.md), [Network Hardware Devices](01-04-network-hardware.md)
 
-<!-- nav -->
-
+<!-- course-footer -->
 ---
 
-⬅️ **Prev:** [What Is a Network?](01-01-what-is-network.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [The OSI Model](01-03-osi-model.md) ➡️
+<div align="center">
+
+<strong>Previous:</strong> <a href="01-01-what-is-network.md">What Is a Network?</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/01-exercise.md">Module 01 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="01-03-osi-model.md">The OSI Model</a>
+
+</div>
+<!-- /course-footer -->

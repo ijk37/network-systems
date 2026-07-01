@@ -1,5 +1,17 @@
 # 02-03: Network Documentation
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/02-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Lesson |
+| --- | --- | --- |
+| Network Systems | 02: Infrastructure and Documentation | 02-03 |
+<!-- /course-header -->
+
 ## Why Document?
 
 Documentation makes troubleshooting faster, onboarding easier, audits possible, and changes safer. **Stale documentation is worse than none** — update it after every change.
@@ -44,8 +56,12 @@ IPAM tracks which addresses/subnets are **assigned, reserved, or free**, along w
 
 See also: [Change Management & Agreements](02-04-change-management.md), [DHCP](03-04-dhcp.md)
 
-<!-- nav -->
-
+<!-- course-footer -->
 ---
 
-⬅️ **Prev:** [Racks, Patch Panels & Terminations](02-02-racks-and-terminations.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Change Management & Agreements](02-04-change-management.md) ➡️
+<div align="center">
+
+<strong>Previous:</strong> <a href="02-02-racks-and-terminations.md">Racks, Patch Panels &amp; Terminations</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/02-exercise.md">Module 02 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="02-04-change-management.md">Change Management &amp; Agreements</a>
+
+</div>
+<!-- /course-footer -->

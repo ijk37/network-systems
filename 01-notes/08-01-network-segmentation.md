@@ -1,5 +1,17 @@
 # 08-01: Network Segmentation
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/08-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Lesson |
+| --- | --- | --- |
+| Network Systems | 08: Subnets and VLANs | 08-01 |
+<!-- /course-header -->
+
 ## What is Network Segmentation?
 
 Network segmentation is the practice of dividing a network into smaller, isolated segments to improve security, performance, and manageability.
@@ -69,8 +81,12 @@ Instead of one large network:
 
 ➡️ Create multiple smaller, controlled network segments
 
-<!-- nav -->
-
+<!-- course-footer -->
 ---
 
-⬅️ **Prev:** [Remote Access Methods](07-04-remote-access-methods.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [IP Address Structure](08-02-ip-address-structure.md) ➡️
+<div align="center">
+
+<strong>Previous:</strong> <a href="07-04-remote-access-methods.md">Remote Access Methods</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/08-exercise.md">Module 08 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="08-02-ip-address-structure.md">IP Address Structure</a>
+
+</div>
+<!-- /course-footer -->

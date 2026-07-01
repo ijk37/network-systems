@@ -1,5 +1,17 @@
 # 11-01: Performance Concepts & QoS
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/11-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Lesson |
+| --- | --- | --- |
+| Network Systems | 11: Network Performance and Recovery | 11-01 |
+<!-- /course-header -->
+
 ## Key Metrics
 
 | Metric | Definition |
@@ -47,8 +59,12 @@ A **bottleneck** is the point of least capacity that caps end-to-end performance
 
 See also: [Network Monitoring](11-02-monitoring.md), [TCP vs. UDP](04-02-tcp-vs-udp.md)
 
-<!-- nav -->
-
+<!-- course-footer -->
 ---
 
-⬅️ **Prev:** [Switch & Port Hardening](10-05-switch-hardening.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Network Monitoring](11-02-monitoring.md) ➡️
+<div align="center">
+
+<strong>Previous:</strong> <a href="10-05-switch-hardening.md">Switch &amp; Port Hardening</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/11-exercise.md">Module 11 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="11-02-monitoring.md">Network Monitoring</a>
+
+</div>
+<!-- /course-footer -->

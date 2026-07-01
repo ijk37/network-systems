@@ -1,5 +1,17 @@
 # 01-03: The OSI Model
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/01-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Lesson |
+| --- | --- | --- |
+| Network Systems | 01: Introduction to Networking | 01-03 |
+<!-- /course-header -->
+
 ## What Is the OSI Model?
 
 The **OSI (Open Systems Interconnection)** model is a 7-layer conceptual framework that standardizes how data moves through a network. Each layer has a specific job and talks to the layers above and below it.
@@ -60,8 +72,12 @@ Data  →  Segment  →  Packet  →  Frame  →  Bits
 
 See also: [Network Hardware Devices](01-04-network-hardware.md), [The TCP/IP Suite & Encapsulation](04-01-tcp-ip-suite.md)
 
-<!-- nav -->
-
+<!-- course-footer -->
 ---
 
-⬅️ **Prev:** [Network Models & Topologies](01-02-network-models.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Network Hardware Devices](01-04-network-hardware.md) ➡️
+<div align="center">
+
+<strong>Previous:</strong> <a href="01-02-network-models.md">Network Models &amp; Topologies</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/01-exercise.md">Module 01 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="01-04-network-hardware.md">Network Hardware Devices</a>
+
+</div>
+<!-- /course-footer -->

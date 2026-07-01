@@ -1,5 +1,17 @@
 # 01-05: Troubleshooting Methodology & Safety
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/01-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Lesson |
+| --- | --- | --- |
+| Network Systems | 01: Introduction to Networking | 01-05 |
+<!-- /course-header -->
+
 ## The 7-Step CompTIA Troubleshooting Model
 
 1. **Identify the problem** — gather information, question users, note symptoms and recent changes.
@@ -40,8 +52,12 @@
 
 See also: [The OSI Model](01-03-osi-model.md), [CLI Troubleshooting Tools](03-07-cli-troubleshooting-tools.md)
 
-<!-- nav -->
-
+<!-- course-footer -->
 ---
 
-⬅️ **Prev:** [Network Hardware Devices](01-04-network-hardware.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Structured Cabling](02-01-structured-cabling.md) ➡️
+<div align="center">
+
+<strong>Previous:</strong> <a href="01-04-network-hardware.md">Network Hardware Devices</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/01-exercise.md">Module 01 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="02-01-structured-cabling.md">Structured Cabling</a>
+
+</div>
+<!-- /course-footer -->

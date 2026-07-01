@@ -1,5 +1,17 @@
 # 04-05: Remote Access
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/04-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Lesson |
+| --- | --- | --- |
+| Network Systems | 04: Network Protocols | 04-05 |
+<!-- /course-header -->
+
 ## Methods to Reach Systems Remotely
 
 | Method | Port | Use |
@@ -44,8 +56,12 @@ A **VPN concentrator** terminates and manages many tunnels at the edge.
 
 See also: [Secure Protocols & Encryption](04-04-secure-protocols.md), [Remote Access Methods](07-04-remote-access-methods.md)
 
-<!-- nav -->
-
+<!-- course-footer -->
 ---
 
-⬅️ **Prev:** [Secure Protocols & Encryption](04-04-secure-protocols.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Copper Cabling](05-01-copper-cabling.md) ➡️
+<div align="center">
+
+<strong>Previous:</strong> <a href="04-04-secure-protocols.md">Secure Protocols &amp; Encryption</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/04-exercise.md">Module 04 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="05-01-copper-cabling.md">Copper Cabling</a>
+
+</div>
+<!-- /course-footer -->

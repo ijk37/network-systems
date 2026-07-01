@@ -1,12 +1,27 @@
 # 01: Introduction to Networking — Exercises
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="../01-notes/README.md">All Notes</a> &nbsp;|&nbsp; <a href="README.md">All Exercises</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Practice |
+| --- | --- | ---: |
+| Network Systems | 01: Introduction to Networking | 12 questions |
+
+> Try each question first. Open the answer only after you have written or spoken your attempt.
+<!-- /course-header -->
+
 Work through each question, then click **▶ Show answer** to check yourself. Review the [notes](../01-notes/01-01-what-is-network.md) if you get stuck.
 
 ---
 
 ### Q1. List the seven OSI layers in order (Layer 1 → Layer 7).
 
-<details><summary>▶ Show answer</summary>
+<details>
+<summary><strong>Show answer</strong></summary>
 
 1. Physical
 2. Data Link
@@ -23,7 +38,8 @@ Mnemonic (1→7): *Please Do Not Throw Sausage Pizza Away.*
 
 ### Q2. What is the Protocol Data Unit (PDU) name at the Data Link, Network, and Transport layers?
 
-<details><summary>▶ Show answer</summary>
+<details>
+<summary><strong>Show answer</strong></summary>
 
 - **Data Link (L2)** → **Frame**
 - **Network (L3)** → **Packet**
@@ -36,7 +52,8 @@ Full sequence down the stack: Data → Segment → Packet → Frame → Bits.
 
 ### Q3. Classify each device by the OSI layer it primarily operates at: hub, switch, router, NIC.
 
-<details><summary>▶ Show answer</summary>
+<details>
+<summary><strong>Show answer</strong></summary>
 
 - **Hub → Layer 1** (repeats signals out all ports)
 - **NIC → Layers 1–2** (physical connection + MAC address)
@@ -48,7 +65,8 @@ Full sequence down the stack: Data → Segment → Packet → Frame → Bits.
 
 ### Q4. What is the difference between a collision domain and a broadcast domain? Which device breaks up each?
 
-<details><summary>▶ Show answer</summary>
+<details>
+<summary><strong>Show answer</strong></summary>
 
 - **Collision domain** — a segment where frames can collide. **Switches** break these up (one collision domain per port).
 - **Broadcast domain** — the set of devices a broadcast reaches. **Routers** (and VLANs) break these up.
@@ -58,7 +76,8 @@ Full sequence down the stack: Data → Segment → Packet → Frame → Bits.
 
 ### Q5. A 6-computer office shares files directly with no server; a 300-user firm uses central logins. Name each network model and one advantage of each.
 
-<details><summary>▶ Show answer</summary>
+<details>
+<summary><strong>Show answer</strong></summary>
 
 - Small office → **peer-to-peer** — cheap, simple, no server/NOS required.
 - 300-user firm → **client-server** — centralized authentication, backups, and control; scales well.
@@ -68,7 +87,8 @@ Full sequence down the stack: Data → Segment → Packet → Frame → Bits.
 
 ### Q6. Match each scope to its example: PAN, LAN, MAN, WAN — (a) the Internet, (b) a Bluetooth headset, (c) an office network, (d) a city-wide fiber ring.
 
-<details><summary>▶ Show answer</summary>
+<details>
+<summary><strong>Show answer</strong></summary>
 
 - (a) Internet → **WAN**
 - (b) Bluetooth headset → **PAN**
@@ -80,7 +100,8 @@ Full sequence down the stack: Data → Segment → Packet → Frame → Bits.
 
 ### Q7. A user reports "the Internet is down." Apply the first three steps of the CompTIA 7-step troubleshooting model.
 
-<details><summary>▶ Show answer</summary>
+<details>
+<summary><strong>Show answer</strong></summary>
 
 1. **Identify the problem** — ask what "down" means (all sites or one app?), what changed, when it started, who's affected.
 2. **Establish a theory of probable cause** — e.g., DNS failure, gateway down, or ISP outage; question the obvious (cable, Wi-Fi).
@@ -91,7 +112,8 @@ Full sequence down the stack: Data → Segment → Packet → Frame → Bits.
 
 ### Q8. What are the last two steps of the 7-step troubleshooting model?
 
-<details><summary>▶ Show answer</summary>
+<details>
+<summary><strong>Show answer</strong></summary>
 
 - Step 6: **Verify full system functionality** (and implement preventive measures).
 - Step 7: **Document findings, actions, and outcomes.**
@@ -101,7 +123,8 @@ Full sequence down the stack: Data → Segment → Packet → Frame → Bits.
 
 ### Q9. Which OSI layer would you check first if the link light is off and the cable seems dead? Why?
 
-<details><summary>▶ Show answer</summary>
+<details>
+<summary><strong>Show answer</strong></summary>
 
 **Layer 1 (Physical)** — cabling, connectors, and port/link status are physical issues. Higher layers can't function without a working physical link, so bottom-up troubleshooting starts here.
 </details>
@@ -110,7 +133,8 @@ Full sequence down the stack: Data → Segment → Packet → Frame → Bits.
 
 ### Q10. What safety device prevents static electricity from damaging components, and what document lists safe handling of hazardous materials?
 
-<details><summary>▶ Show answer</summary>
+<details>
+<summary><strong>Show answer</strong></summary>
 
 - **ESD (anti-static) strap** — bleeds static charge from your body to prevent electrostatic discharge damage.
 - **MSDS / SDS** (Material/Safety Data Sheet) — handling, storage, and disposal info for hazardous materials.
@@ -120,7 +144,8 @@ Full sequence down the stack: Data → Segment → Packet → Frame → Bits.
 
 ### Q11. In a physical **star** topology, what happens if one workstation's cable breaks vs. if the central switch fails?
 
-<details><summary>▶ Show answer</summary>
+<details>
+<summary><strong>Show answer</strong></summary>
 
 - One cable break → **only that one node** loses connectivity.
 - Central switch failure → **the whole star** goes down (the switch is a single point of failure).
@@ -132,7 +157,8 @@ This is why star is easy to manage but the central device should be made redunda
 
 ### Q12. Give one advantage and one disadvantage of a full-mesh topology.
 
-<details><summary>▶ Show answer</summary>
+<details>
+<summary><strong>Show answer</strong></summary>
 
 - **Advantage:** maximum redundancy — every node has a direct link to every other, so a single link failure doesn't isolate anyone.
 - **Disadvantage:** cost/complexity — the number of links grows rapidly (n(n−1)/2), so it's expensive to build and maintain.
@@ -141,3 +167,13 @@ This is why star is easy to manage but the central device should be made redunda
 ---
 
 [📚 All Exercises](README.md)  ·  **Next:** [Module 02 — Infrastructure & Documentation](02-exercise.md) ➡️
+
+<!-- course-footer -->
+---
+
+<div align="center">
+
+<a href="README.md">All Exercises</a> &nbsp;|&nbsp; <a href="../01-notes/01-01-what-is-network.md">Module 01 Notes</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="02-exercise.md">02: Infrastructure &amp; Documentation — Exercises</a>
+
+</div>
+<!-- /course-footer -->

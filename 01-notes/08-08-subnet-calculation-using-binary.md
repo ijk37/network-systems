@@ -1,5 +1,17 @@
 # 08-08: Subnet Calculation Using Binary
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/08-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Lesson |
+| --- | --- | --- |
+| Network Systems | 08: Subnets and VLANs | 08-08 |
+<!-- /course-header -->
+
 ## Why Use Binary in Subnetting?
 
 Subnetting is fundamentally a binary operation.
@@ -194,8 +206,12 @@ Subnetting using binary helps you:
 - understand how address ranges are formed  
 - avoid calculation mistakes
 
-<!-- nav -->
-
+<!-- course-footer -->
 ---
 
-⬅️ **Prev:** [Subnetting Examples](08-07-subnetting-examples.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Implementing Subnets on a Network](08-09-implementing-subnets.md) ➡️
+<div align="center">
+
+<strong>Previous:</strong> <a href="08-07-subnetting-examples.md">Subnetting Examples</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/08-exercise.md">Module 08 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="08-09-implementing-subnets.md">Implementing Subnets on a Network</a>
+
+</div>
+<!-- /course-footer -->

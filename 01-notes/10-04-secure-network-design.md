@@ -1,5 +1,17 @@
 # 10-04: Secure Network Design
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/10-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Lesson |
+| --- | --- | --- |
+| Network Systems | 10: Security in Network Design | 10-04 |
+<!-- /course-header -->
+
 ## Segmentation for Security
 
 Splitting the network into zones **contains breaches** and limits **lateral movement**.
@@ -54,8 +66,12 @@ Internet → Firewall → IPS → DMZ segmentation → NAC/802.1X → Monitoring
 
 See also: [Switch & Port Hardening](10-05-switch-hardening.md), [Virtual LAN (VLAN)](08-12-vlan.md)
 
-<!-- nav -->
-
+<!-- course-footer -->
 ---
 
-⬅️ **Prev:** [Network Access Control & AAA](10-03-nac-and-aaa.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Switch & Port Hardening](10-05-switch-hardening.md) ➡️
+<div align="center">
+
+<strong>Previous:</strong> <a href="10-03-nac-and-aaa.md">Network Access Control &amp; AAA</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/10-exercise.md">Module 10 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="10-05-switch-hardening.md">Switch &amp; Port Hardening</a>
+
+</div>
+<!-- /course-footer -->

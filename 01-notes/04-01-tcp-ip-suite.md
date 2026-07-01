@@ -1,5 +1,17 @@
 # 04-01: The TCP/IP Suite & Encapsulation
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/04-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Lesson |
+| --- | --- | --- |
+| Network Systems | 04: Network Protocols | 04-01 |
+<!-- /course-header -->
+
 ## What Is TCP/IP?
 
 **TCP/IP** is a **suite** of cooperating protocols — not a single protocol. Core members:
@@ -56,8 +68,12 @@ The receiving host reverses this (**decapsulation**), stripping one header per l
 
 See also: [The OSI Model](01-03-osi-model.md), [TCP vs. UDP](04-02-tcp-vs-udp.md)
 
-<!-- nav -->
-
+<!-- course-footer -->
 ---
 
-⬅️ **Prev:** [CLI Troubleshooting Tools](03-07-cli-troubleshooting-tools.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [TCP vs. UDP](04-02-tcp-vs-udp.md) ➡️
+<div align="center">
+
+<strong>Previous:</strong> <a href="03-07-cli-troubleshooting-tools.md">CLI Troubleshooting Tools</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/04-exercise.md">Module 04 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="04-02-tcp-vs-udp.md">TCP vs. UDP</a>
+
+</div>
+<!-- /course-footer -->

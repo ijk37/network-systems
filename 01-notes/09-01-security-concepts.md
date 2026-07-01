@@ -1,5 +1,17 @@
 # 09-01: Security Concepts
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/09-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Lesson |
+| --- | --- | --- |
+| Network Systems | 09: Network Risk Management | 09-01 |
+<!-- /course-header -->
+
 ## The CIA Triad
 
 The foundation of information security:
@@ -51,8 +63,12 @@ The foundation of information security:
 
 See also: [Common Attacks](09-02-common-attacks.md), [Secure Network Design](10-04-secure-network-design.md)
 
-<!-- nav -->
-
+<!-- course-footer -->
 ---
 
-⬅️ **Prev:** [Virtual LAN (VLAN)](08-12-vlan.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Common Attacks](09-02-common-attacks.md) ➡️
+<div align="center">
+
+<strong>Previous:</strong> <a href="08-12-vlan.md">Virtual LAN (VLAN)</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/09-exercise.md">Module 09 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="09-02-common-attacks.md">Common Attacks</a>
+
+</div>
+<!-- /course-footer -->

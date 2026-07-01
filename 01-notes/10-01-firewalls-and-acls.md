@@ -1,5 +1,17 @@
 # 10-01: Firewalls & ACLs
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/10-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Lesson |
+| --- | --- | --- |
+| Network Systems | 10: Security in Network Design | 10-01 |
+<!-- /course-header -->
+
 ## What a Firewall Does
 
 A **firewall** filters traffic between network zones based on a **rule set (policy)** — permitting or denying by address, port, protocol, and more.
@@ -46,8 +58,12 @@ An **ACL** is an ordered list of permit/deny rules matched top-down.
 
 See also: [IDS & IPS](10-02-ids-ips.md), [Secure Network Design](10-04-secure-network-design.md)
 
-<!-- nav -->
-
+<!-- course-footer -->
 ---
 
-⬅️ **Prev:** [Policies, Physical Security & Continuity](09-04-policies-and-risk-management.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [IDS & IPS](10-02-ids-ips.md) ➡️
+<div align="center">
+
+<strong>Previous:</strong> <a href="09-04-policies-and-risk-management.md">Policies, Physical Security &amp; Continuity</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/10-exercise.md">Module 10 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="10-02-ids-ips.md">IDS &amp; IPS</a>
+
+</div>
+<!-- /course-footer -->

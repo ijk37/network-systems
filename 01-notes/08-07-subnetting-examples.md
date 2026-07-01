@@ -1,5 +1,17 @@
 # 08-07: Subnetting Examples
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/08-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Lesson |
+| --- | --- | --- |
+| Network Systems | 08: Subnets and VLANs | 08-07 |
+<!-- /course-header -->
+
 ## Example 1: Basic Subnetting (/24 → /26)
 
 ### Given:
@@ -144,8 +156,12 @@ Subnetting involves:
 - determining host ranges  
 - identifying network and broadcast addresses
 
-<!-- nav -->
-
+<!-- course-footer -->
 ---
 
-⬅️ **Prev:** [Subnetting Basics](08-06-subnetting-basics.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Subnet Calculation Using Binary](08-08-subnet-calculation-using-binary.md) ➡️
+<div align="center">
+
+<strong>Previous:</strong> <a href="08-06-subnetting-basics.md">Subnetting Basics</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/08-exercise.md">Module 08 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="08-08-subnet-calculation-using-binary.md">Subnet Calculation Using Binary</a>
+
+</div>
+<!-- /course-footer -->

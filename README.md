@@ -1,15 +1,17 @@
 <div align="center">
 
-# Network Systems
+<h1>Network Systems</h1>
 
-### CompTIA Network+ study notes, exercises, quizzes, and hands-on projects
+<h3>CompTIA Network+ study notes, exercises, quizzes, and hands-on projects</h3>
 
-[![Course Notes](https://img.shields.io/badge/Notes-12%20modules-007C89?style=for-the-badge)](01-notes/README.md)
-[![Exercises](https://img.shields.io/badge/Exercises-12%20sets-D85D27?style=for-the-badge)](02-exercises/README.md)
-[![Quiz Hub](https://img.shields.io/badge/Quiz%20Hub-Open-C28B00?style=for-the-badge)](https://ijk37.github.io/network-systems/03-quiz/)
-[![Projects](https://img.shields.io/badge/Projects-11%20labs-248263?style=for-the-badge)](04-projects/README.md)
+<p>
+  <a href="01-notes/README.md"><img src="https://img.shields.io/badge/Notes-12%20modules-007C89?style=for-the-badge" alt="Course Notes"></a>
+  <a href="02-exercises/README.md"><img src="https://img.shields.io/badge/Exercises-12%20sets-D85D27?style=for-the-badge" alt="Exercises"></a>
+  <a href="https://ijk37.github.io/network-systems/03-quiz/"><img src="https://img.shields.io/badge/Quiz%20Hub-Open-C28B00?style=for-the-badge" alt="Quiz Hub"></a>
+  <a href="04-projects/README.md"><img src="https://img.shields.io/badge/Projects-11%20labs-248263?style=for-the-badge" alt="Projects"></a>
+</p>
 
-A structured, self-paced learning repository built around **CompTIA Network+ Guide to Networks, 9th Edition** by Jill West.
+<p>A structured, self-paced learning repository built around <strong>CompTIA Network+ Guide to Networks, 9th Edition</strong> by Jill West.</p>
 
 </div>
 
@@ -103,6 +105,6 @@ The project track turns concepts into implementation and design practice.
 
 <div align="center">
 
-**Study the notes. Drill the exercises. Prove it in the labs.**
+<strong>Study the notes. Drill the exercises. Prove it in the labs.</strong>
 
 </div>

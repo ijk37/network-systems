@@ -1,5 +1,17 @@
 # 05-04: Cable Issues, Tools & PoE
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/05-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Lesson |
+| --- | --- | --- |
+| Network Systems | 05: Cabling | 05-04 |
+<!-- /course-header -->
+
 ## Common Cabling Problems
 
 | Problem | Symptom | Fix |
@@ -52,8 +64,12 @@ PoE delivers **DC power + data** over the same twisted-pair cable — powering A
 
 See also: [Copper Cabling](05-01-copper-cabling.md), [Racks, Patch Panels & Terminations](02-02-racks-and-terminations.md)
 
-<!-- nav -->
-
+<!-- course-footer -->
 ---
 
-⬅️ **Prev:** [Ethernet Standards & Transceivers](05-03-ethernet-standards.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Wireless Fundamentals & 802.11 Standards](06-01-wireless-standards.md) ➡️
+<div align="center">
+
+<strong>Previous:</strong> <a href="05-03-ethernet-standards.md">Ethernet Standards &amp; Transceivers</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/05-exercise.md">Module 05 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="06-01-wireless-standards.md">Wireless Fundamentals &amp; 802.11 Standards</a>
+
+</div>
+<!-- /course-footer -->

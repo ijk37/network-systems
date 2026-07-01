@@ -1,5 +1,17 @@
 # 06-01: Wireless Fundamentals & 802.11 Standards
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/06-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Lesson |
+| --- | --- | --- |
+| Network Systems | 06: Wireless Networking | 06-01 |
+<!-- /course-header -->
+
 ## IEEE 802.11
 
 The **802.11** family defines Wi-Fi WLAN standards. Wireless uses **radio frequencies** and the **CSMA/CA** access method (Collision *Avoidance*, since collisions can't be reliably detected on air).
@@ -44,8 +56,12 @@ The **802.11** family defines Wi-Fi WLAN standards. Wireless uses **radio freque
 
 See also: [Frequencies, Channels & Antennas](06-02-frequencies-and-channels.md), [Wireless Security](06-03-wireless-security.md)
 
-<!-- nav -->
-
+<!-- course-footer -->
 ---
 
-⬅️ **Prev:** [Cable Issues, Tools & PoE](05-04-cable-issues-and-tools.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Frequencies, Channels & Antennas](06-02-frequencies-and-channels.md) ➡️
+<div align="center">
+
+<strong>Previous:</strong> <a href="05-04-cable-issues-and-tools.md">Cable Issues, Tools &amp; PoE</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/06-exercise.md">Module 06 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="06-02-frequencies-and-channels.md">Frequencies, Channels &amp; Antennas</a>
+
+</div>
+<!-- /course-footer -->

@@ -1,5 +1,17 @@
 # 05-01: Copper Cabling
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/05-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Lesson |
+| --- | --- | --- |
+| Network Systems | 05: Cabling | 05-01 |
+<!-- /course-header -->
+
 ## Twisted-Pair Basics
 
 Most LAN copper cabling is **twisted pair** — pairs of wires twisted together to cancel EMI and crosstalk (common-mode rejection).
@@ -52,8 +64,12 @@ Mitigate EMI with **STP** or **fiber**, and route away from noise sources.
 
 See also: [Fiber-Optic Cabling](05-02-fiber-optic.md), [Cable Issues, Tools & PoE](05-04-cable-issues-and-tools.md)
 
-<!-- nav -->
-
+<!-- course-footer -->
 ---
 
-⬅️ **Prev:** [Remote Access](04-05-remote-access.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Fiber-Optic Cabling](05-02-fiber-optic.md) ➡️
+<div align="center">
+
+<strong>Previous:</strong> <a href="04-05-remote-access.md">Remote Access</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/05-exercise.md">Module 05 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="05-02-fiber-optic.md">Fiber-Optic Cabling</a>
+
+</div>
+<!-- /course-footer -->

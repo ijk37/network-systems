@@ -1,5 +1,17 @@
 # 08-06: Subnetting Basics
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/08-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Lesson |
+| --- | --- | --- |
+| Network Systems | 08: Subnets and VLANs | 08-06 |
+<!-- /course-header -->
+
 ## What is Subnetting?
 
 Subnetting is the process of dividing a network into smaller sub-networks (subnets).
@@ -125,8 +137,12 @@ Classful networking uses fixed boundaries.
 
 👉 Subnetting introduces flexibility by allowing custom network boundaries.
 
-<!-- nav -->
-
+<!-- course-footer -->
 ---
 
-⬅️ **Prev:** [CIDR (Classless Inter-Domain Routing)](08-05-cidr.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Subnetting Examples](08-07-subnetting-examples.md) ➡️
+<div align="center">
+
+<strong>Previous:</strong> <a href="08-05-cidr.md">CIDR (Classless Inter-Domain Routing)</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/08-exercise.md">Module 08 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="08-07-subnetting-examples.md">Subnetting Examples</a>
+
+</div>
+<!-- /course-footer -->

@@ -1,5 +1,17 @@
 # 03-07: CLI Troubleshooting Tools
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/03-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Lesson |
+| --- | --- | --- |
+| Network Systems | 03: Addressing | 03-07 |
+<!-- /course-header -->
+
 ## IP Configuration
 
 | Command | OS | Shows |
@@ -59,8 +71,12 @@
 
 See also: [Troubleshooting Methodology & Safety](01-05-troubleshooting-and-safety.md), [DNS](03-05-dns.md)
 
-<!-- nav -->
-
+<!-- course-footer -->
 ---
 
-⬅️ **Prev:** [Ports & Protocols Reference](03-06-ports-and-protocols.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [The TCP/IP Suite & Encapsulation](04-01-tcp-ip-suite.md) ➡️
+<div align="center">
+
+<strong>Previous:</strong> <a href="03-06-ports-and-protocols.md">Ports &amp; Protocols Reference</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/03-exercise.md">Module 03 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="04-01-tcp-ip-suite.md">The TCP/IP Suite &amp; Encapsulation</a>
+
+</div>
+<!-- /course-footer -->

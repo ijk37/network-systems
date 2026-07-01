@@ -1,5 +1,17 @@
 # 04-04: Secure Protocols & Encryption
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/04-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Lesson |
+| --- | --- | --- |
+| Network Systems | 04: Network Protocols | 04-04 |
+<!-- /course-header -->
+
 ## Why Encryption?
 
 Plaintext protocols (Telnet, HTTP, FTP) expose credentials and data to sniffers. Secure protocols add **confidentiality, integrity, and authentication**.
@@ -50,8 +62,12 @@ Plaintext protocols (Telnet, HTTP, FTP) expose credentials and data to sniffers.
 
 See also: [Remote Access](04-05-remote-access.md), [Firewalls & ACLs](10-01-firewalls-and-acls.md)
 
-<!-- nav -->
-
+<!-- course-footer -->
 ---
 
-⬅️ **Prev:** [Core Protocols & Their Ports](04-03-core-protocols-and-ports.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Remote Access](04-05-remote-access.md) ➡️
+<div align="center">
+
+<strong>Previous:</strong> <a href="04-03-core-protocols-and-ports.md">Core Protocols &amp; Their Ports</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/04-exercise.md">Module 04 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="04-05-remote-access.md">Remote Access</a>
+
+</div>
+<!-- /course-footer -->

@@ -1,5 +1,17 @@
 # 02-01: Structured Cabling
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/02-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Lesson |
+| --- | --- | --- |
+| Network Systems | 02: Infrastructure and Documentation | 02-01 |
+<!-- /course-header -->
+
 ## The Standard: ANSI/TIA-568
 
 **ANSI/TIA-568** is the Commercial Building Wiring Standard ("structured cabling"). It defines how to install network media to maximize performance and minimize maintenance, assuming a **hierarchical star** topology.
@@ -45,8 +57,12 @@ Entrance Facility  →  MDF  →  Backbone cabling  →  IDF  →  Horizontal ca
 
 See also: [Racks, Patch Panels & Terminations](02-02-racks-and-terminations.md), [Copper Cabling](05-01-copper-cabling.md)
 
-<!-- nav -->
-
+<!-- course-footer -->
 ---
 
-⬅️ **Prev:** [Troubleshooting Methodology & Safety](01-05-troubleshooting-and-safety.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Racks, Patch Panels & Terminations](02-02-racks-and-terminations.md) ➡️
+<div align="center">
+
+<strong>Previous:</strong> <a href="01-05-troubleshooting-and-safety.md">Troubleshooting Methodology &amp; Safety</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/02-exercise.md">Module 02 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="02-02-racks-and-terminations.md">Racks, Patch Panels &amp; Terminations</a>
+
+</div>
+<!-- /course-footer -->

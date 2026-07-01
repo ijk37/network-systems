@@ -1,5 +1,17 @@
 # 08-09: Implementing Subnets on a Network
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/08-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Lesson |
+| --- | --- | --- |
+| Network Systems | 08: Subnets and VLANs | 08-09 |
+<!-- /course-header -->
+
 ## Why Implement Subnets?
 
 Subnetting is not only a mathematical process, but also a practical network design technique.
@@ -119,8 +131,12 @@ A **DHCP relay agent** allows DHCP communication across subnets.
 
 Subnetting transforms a large network into smaller, manageable networks, enabling efficient communication and better network design in real-world environments.
 
-<!-- nav -->
-
+<!-- course-footer -->
 ---
 
-⬅️ **Prev:** [Subnet Calculation Using Binary](08-08-subnet-calculation-using-binary.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Variable Length Subnet Mask (VLSM)](08-10-vlsm.md) ➡️
+<div align="center">
+
+<strong>Previous:</strong> <a href="08-08-subnet-calculation-using-binary.md">Subnet Calculation Using Binary</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/08-exercise.md">Module 08 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="08-10-vlsm.md">Variable Length Subnet Mask (VLSM)</a>
+
+</div>
+<!-- /course-footer -->

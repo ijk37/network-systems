@@ -1,5 +1,17 @@
 # 01-01: What Is a Network?
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/01-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Lesson |
+| --- | --- | --- |
+| Network Systems | 01: Introduction to Networking | 01-01 |
+<!-- /course-header -->
+
 ## Definition
 
 A **computer network** is a collection of two or more interconnected devices that communicate and share resources over a shared medium.
@@ -53,8 +65,12 @@ Networks are organized in one of two logical models.
 
 See also: [Network Models & Topologies](01-02-network-models.md), [The OSI Model](01-03-osi-model.md)
 
-<!-- nav -->
-
+<!-- course-footer -->
 ---
 
-[📚 All Notes](README.md)  ·  **Next:** [Network Models & Topologies](01-02-network-models.md) ➡️
+<div align="center">
+
+<a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/01-exercise.md">Module 01 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="01-02-network-models.md">Network Models &amp; Topologies</a>
+
+</div>
+<!-- /course-footer -->

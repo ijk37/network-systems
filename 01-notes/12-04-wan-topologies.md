@@ -1,5 +1,17 @@
 # 12-04: WAN Topologies & Modern WAN
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/12-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Lesson |
+| --- | --- | --- |
+| Network Systems | 12: Wide Area Networks | 12-04 |
+<!-- /course-header -->
+
 ## WAN Topologies
 
 | Topology | Description | Trade-off |
@@ -42,8 +54,12 @@ A **site-to-site VPN** over the public Internet provides WAN connectivity betwee
 
 See also: [WAN Technologies](12-02-wan-technologies.md), [High Availability & Redundancy](11-03-high-availability.md)
 
-<!-- nav -->
-
+<!-- course-footer -->
 ---
 
-⬅️ **Prev:** [Routing](12-03-routing.md)  ·  [📚 All Notes](README.md)
+<div align="center">
+
+<strong>Previous:</strong> <a href="12-03-routing.md">Routing</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/12-exercise.md">Module 12 Exercise</a>
+
+</div>
+<!-- /course-footer -->

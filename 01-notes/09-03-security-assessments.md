@@ -1,5 +1,17 @@
 # 09-03: Security Assessments
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/09-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Lesson |
+| --- | --- | --- |
+| Network Systems | 09: Network Risk Management | 09-03 |
+<!-- /course-header -->
+
 ## Finding Weaknesses Before Attackers Do
 
 | Assessment | What it does |
@@ -46,8 +58,12 @@ Findings are **prioritized** (often by CVSS) and remediated via **patching**, co
 
 See also: [Policies, Physical Security & Continuity](09-04-policies-and-risk-management.md), [IDS & IPS](10-02-ids-ips.md)
 
-<!-- nav -->
-
+<!-- course-footer -->
 ---
 
-⬅️ **Prev:** [Common Attacks](09-02-common-attacks.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Policies, Physical Security & Continuity](09-04-policies-and-risk-management.md) ➡️
+<div align="center">
+
+<strong>Previous:</strong> <a href="09-02-common-attacks.md">Common Attacks</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/09-exercise.md">Module 09 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="09-04-policies-and-risk-management.md">Policies, Physical Security &amp; Continuity</a>
+
+</div>
+<!-- /course-footer -->

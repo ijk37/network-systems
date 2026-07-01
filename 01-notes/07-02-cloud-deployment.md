@@ -1,5 +1,17 @@
 # 07-02: Cloud Deployment Models & Characteristics
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/07-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Lesson |
+| --- | --- | --- |
+| Network Systems | 07: Cloud Computing and Remote Access | 07-02 |
+<!-- /course-header -->
+
 ## Deployment Models
 
 | Model | Description | Trade-off |
@@ -47,8 +59,12 @@ Distributing across **regions/availability zones** isolates failures for resilie
 
 See also: [Cloud Service Models](07-01-cloud-service-models.md), [Fault Tolerance & Recovery](11-04-fault-tolerance-and-recovery.md)
 
-<!-- nav -->
-
+<!-- course-footer -->
 ---
 
-⬅️ **Prev:** [Cloud Service Models](07-01-cloud-service-models.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Virtualization](07-03-virtualization.md) ➡️
+<div align="center">
+
+<strong>Previous:</strong> <a href="07-01-cloud-service-models.md">Cloud Service Models</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/07-exercise.md">Module 07 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="07-03-virtualization.md">Virtualization</a>
+
+</div>
+<!-- /course-footer -->

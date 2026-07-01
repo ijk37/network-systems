@@ -1,12 +1,27 @@
 # 11: Network Performance & Recovery — Exercises
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="../01-notes/README.md">All Notes</a> &nbsp;|&nbsp; <a href="README.md">All Exercises</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Practice |
+| --- | --- | ---: |
+| Network Systems | 11: Network Performance and Recovery | 12 questions |
+
+> Try each question first. Open the answer only after you have written or spoken your attempt.
+<!-- /course-header -->
+
 Work through each question, then click **▶ Show answer** to check yourself. Review the [notes](../01-notes/11-01-performance-concepts.md) if you get stuck.
 
 ---
 
 ### Q1. Distinguish bandwidth, throughput, latency, and jitter.
 
-<details><summary>▶ Show answer</summary>
+<details>
+<summary><strong>Show answer</strong></summary>
 
 - **Bandwidth** — max theoretical capacity.
 - **Throughput** — actual achieved rate (≤ bandwidth).
@@ -18,7 +33,8 @@ Work through each question, then click **▶ Show answer** to check yourself. Re
 
 ### Q2. VoIP audio is choppy. Which three metrics are most likely to blame, and which QoS action helps?
 
-<details><summary>▶ Show answer</summary>
+<details>
+<summary><strong>Show answer</strong></summary>
 
 **Latency, jitter, and packet loss.** Apply **QoS** — mark voice (DSCP EF) and give it a **priority/low-latency queue**.
 </details>
@@ -27,7 +43,8 @@ Work through each question, then click **▶ Show answer** to check yourself. Re
 
 ### Q3. Two routers should present a single, always-available gateway to hosts. Which protocol family?
 
-<details><summary>▶ Show answer</summary>
+<details>
+<summary><strong>Show answer</strong></summary>
 
 A **First-Hop Redundancy Protocol** — **HSRP / VRRP** (or GLBP). They share a virtual gateway IP/MAC; a standby takes over if the active router fails.
 </details>
@@ -36,7 +53,8 @@ A **First-Hop Redundancy Protocol** — **HSRP / VRRP** (or GLBP). They share a 
 
 ### Q4. What does STP prevent, and how?
 
-<details><summary>▶ Show answer</summary>
+<details>
+<summary><strong>Show answer</strong></summary>
 
 **Layer 2 switching loops** (and the broadcast storms they cause). STP blocks redundant paths, keeping one active while a backup stands ready if the active link fails.
 </details>
@@ -45,7 +63,8 @@ A **First-Hop Redundancy Protocol** — **HSRP / VRRP** (or GLBP). They share a 
 
 ### Q5. What does link aggregation (LACP/EtherChannel) achieve?
 
-<details><summary>▶ Show answer</summary>
+<details>
+<summary><strong>Show answer</strong></summary>
 
 Bundles multiple physical links into **one logical link** for **more bandwidth** and **redundancy** — if one member fails, traffic continues on the rest.
 </details>
@@ -54,7 +73,8 @@ Bundles multiple physical links into **one logical link** for **more bandwidth**
 
 ### Q6. Compare full, incremental, and differential backups by what they copy and what a restore needs.
 
-<details><summary>▶ Show answer</summary>
+<details>
+<summary><strong>Show answer</strong></summary>
 
 - **Full** — everything; restore needs just the full.
 - **Incremental** — changes since the **last backup**; restore needs full + **all** incrementals.
@@ -65,7 +85,8 @@ Bundles multiple physical links into **one logical link** for **more bandwidth**
 
 ### Q7. Order hot, warm, and cold DR sites by recovery speed and cost.
 
-<details><summary>▶ Show answer</summary>
+<details>
+<summary><strong>Show answer</strong></summary>
 
 Fastest/most expensive → slowest/cheapest: **Hot → Warm → Cold.** (Hot = running with current data; cold = space/power only.)
 </details>
@@ -74,7 +95,8 @@ Fastest/most expensive → slowest/cheapest: **Hot → Warm → Cold.** (Hot = r
 
 ### Q8. RAID protects against drive failure — but which RAID level mirrors data, and why isn't RAID a backup?
 
-<details><summary>▶ Show answer</summary>
+<details>
+<summary><strong>Show answer</strong></summary>
 
 **RAID 1** mirrors data across two drives (either can fail). RAID isn't a backup because it doesn't protect against deletion, corruption, or ransomware — those changes are written to all drives instantly.
 </details>
@@ -83,7 +105,8 @@ Fastest/most expensive → slowest/cheapest: **Hot → Warm → Cold.** (Hot = r
 
 ### Q9. Which protocols/tools would you use to (a) poll device metrics, (b) analyze traffic flows, (c) centralize logs?
 
-<details><summary>▶ Show answer</summary>
+<details>
+<summary><strong>Show answer</strong></summary>
 
 - (a) **SNMP** (use v3 for security)
 - (b) **NetFlow / IPFIX / sFlow**
@@ -94,7 +117,8 @@ Fastest/most expensive → slowest/cheapest: **Hot → Warm → Cold.** (Hot = r
 
 ### Q10. What is a network baseline, and why capture one?
 
-<details><summary>▶ Show answer</summary>
+<details>
+<summary><strong>Show answer</strong></summary>
 
 A record of **normal** performance (utilization, latency, errors). Comparing current metrics to it reveals anomalies, trends, and when to upgrade — you can't spot "abnormal" without knowing "normal."
 </details>
@@ -103,7 +127,8 @@ A record of **normal** performance (utilization, latency, errors). Comparing cur
 
 ### Q11. Express "five nines" availability and roughly how much downtime it allows per year.
 
-<details><summary>▶ Show answer</summary>
+<details>
+<summary><strong>Show answer</strong></summary>
 
 **99.999%** uptime → about **5 minutes** of downtime per year. Achieving it requires substantial redundancy and fast failover.
 </details>
@@ -112,7 +137,8 @@ A record of **normal** performance (utilization, latency, errors). Comparing cur
 
 ### Q12. What is failover, and how does it differ from load balancing?
 
-<details><summary>▶ Show answer</summary>
+<details>
+<summary><strong>Show answer</strong></summary>
 
 - **Failover** — automatic switch to a standby system when the primary fails (availability).
 - **Load balancing** — distributes traffic across multiple active servers/paths (performance + availability). They're often combined.
@@ -121,3 +147,13 @@ A record of **normal** performance (utilization, latency, errors). Comparing cur
 ---
 
 ⬅️ **Prev:** [Module 10](10-exercise.md)  ·  [📚 All Exercises](README.md)  ·  **Next:** [Module 12 — Wide Area Networks](12-exercise.md) ➡️
+
+<!-- course-footer -->
+---
+
+<div align="center">
+
+<strong>Previous:</strong> <a href="10-exercise.md">10: Security in Network Design — Exercises</a> &nbsp;|&nbsp; <a href="README.md">All Exercises</a> &nbsp;|&nbsp; <a href="../01-notes/11-01-performance-concepts.md">Module 11 Notes</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="12-exercise.md">12: Wide Area Networks — Exercises</a>
+
+</div>
+<!-- /course-footer -->

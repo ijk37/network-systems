@@ -1,5 +1,17 @@
 # 04-03: Core Protocols & Their Ports
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/04-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Lesson |
+| --- | --- | --- |
+| Network Systems | 04: Network Protocols | 04-03 |
+<!-- /course-header -->
+
 ## Application-Layer Services
 
 | Protocol | Port(s) | Transport | Purpose |
@@ -45,8 +57,12 @@
 
 See also: [Ports & Protocols Reference](03-06-ports-and-protocols.md), [Secure Protocols & Encryption](04-04-secure-protocols.md)
 
-<!-- nav -->
-
+<!-- course-footer -->
 ---
 
-⬅️ **Prev:** [TCP vs. UDP](04-02-tcp-vs-udp.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Secure Protocols & Encryption](04-04-secure-protocols.md) ➡️
+<div align="center">
+
+<strong>Previous:</strong> <a href="04-02-tcp-vs-udp.md">TCP vs. UDP</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/04-exercise.md">Module 04 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="04-04-secure-protocols.md">Secure Protocols &amp; Encryption</a>
+
+</div>
+<!-- /course-footer -->

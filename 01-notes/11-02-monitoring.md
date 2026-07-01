@@ -1,5 +1,17 @@
 # 11-02: Network Monitoring
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/11-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Lesson |
+| --- | --- | --- |
+| Network Systems | 11: Network Performance and Recovery | 11-02 |
+<!-- /course-header -->
+
 ## Why Monitor?
 
 Monitoring provides **visibility** to detect problems, plan capacity, and hold systems accountable. You can't manage what you can't see.
@@ -44,8 +56,12 @@ A **baseline** records normal performance so deviations (spikes, slowdowns, brea
 
 See also: [Performance Concepts & QoS](11-01-performance-concepts.md), [IDS & IPS](10-02-ids-ips.md)
 
-<!-- nav -->
-
+<!-- course-footer -->
 ---
 
-⬅️ **Prev:** [Performance Concepts & QoS](11-01-performance-concepts.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [High Availability & Redundancy](11-03-high-availability.md) ➡️
+<div align="center">
+
+<strong>Previous:</strong> <a href="11-01-performance-concepts.md">Performance Concepts &amp; QoS</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/11-exercise.md">Module 11 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="11-03-high-availability.md">High Availability &amp; Redundancy</a>
+
+</div>
+<!-- /course-footer -->

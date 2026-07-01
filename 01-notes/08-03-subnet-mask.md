@@ -1,5 +1,17 @@
 # 08-03: Subnet Mask
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/08-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Lesson |
+| --- | --- | --- |
+| Network Systems | 08: Subnets and VLANs | 08-03 |
+<!-- /course-header -->
+
 ## What is a Subnet Mask?
 
 A subnet mask is used to divide an IP address into two parts:
@@ -76,8 +88,12 @@ An IP address alone is not enough.
 - which part is the network  
 - which part is the host
 
-<!-- nav -->
-
+<!-- course-footer -->
 ---
 
-⬅️ **Prev:** [IP Address Structure](08-02-ip-address-structure.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Classful Networks](08-04-classful-networks.md) ➡️
+<div align="center">
+
+<strong>Previous:</strong> <a href="08-02-ip-address-structure.md">IP Address Structure</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/08-exercise.md">Module 08 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="08-04-classful-networks.md">Classful Networks</a>
+
+</div>
+<!-- /course-footer -->

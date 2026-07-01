@@ -1,5 +1,17 @@
 # 02-02: Racks, Patch Panels & Terminations
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/02-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Lesson |
+| --- | --- | --- |
+| Network Systems | 02: Infrastructure and Documentation | 02-02 |
+<!-- /course-header -->
+
 ## Equipment Racks
 
 - Standard rack width is **19 inches**; height is measured in **rack units (U)**, where **1U = 1.75 inches**.
@@ -50,8 +62,12 @@ Two pin/pair color schemes define how the 8 conductors map to the RJ-45 pins:
 
 See also: [Structured Cabling](02-01-structured-cabling.md), [Cable Issues, Tools & PoE](05-04-cable-issues-and-tools.md)
 
-<!-- nav -->
-
+<!-- course-footer -->
 ---
 
-⬅️ **Prev:** [Structured Cabling](02-01-structured-cabling.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Network Documentation](02-03-network-documentation.md) ➡️
+<div align="center">
+
+<strong>Previous:</strong> <a href="02-01-structured-cabling.md">Structured Cabling</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/02-exercise.md">Module 02 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="02-03-network-documentation.md">Network Documentation</a>
+
+</div>
+<!-- /course-footer -->

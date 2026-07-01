@@ -1,5 +1,17 @@
 # 08-04: Classful Networks
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/08-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Lesson |
+| --- | --- | --- |
+| Network Systems | 08: Subnets and VLANs | 08-04 |
+<!-- /course-header -->
+
 ## What are Classful Networks?
 
 Classful networking is an older method of IP address allocation where IP addresses are divided into fixed classes.
@@ -114,8 +126,12 @@ Classful networking uses fixed network boundaries,
 
 while modern networking allows flexible boundaries using subnet masks.
 
-<!-- nav -->
-
+<!-- course-footer -->
 ---
 
-⬅️ **Prev:** [Subnet Mask](08-03-subnet-mask.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [CIDR (Classless Inter-Domain Routing)](08-05-cidr.md) ➡️
+<div align="center">
+
+<strong>Previous:</strong> <a href="08-03-subnet-mask.md">Subnet Mask</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/08-exercise.md">Module 08 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="08-05-cidr.md">CIDR (Classless Inter-Domain Routing)</a>
+
+</div>
+<!-- /course-footer -->

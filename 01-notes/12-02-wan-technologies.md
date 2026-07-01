@@ -1,5 +1,17 @@
 # 12-02: WAN Technologies
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/12-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Lesson |
+| --- | --- | --- |
+| Network Systems | 12: Wide Area Networks | 12-02 |
+<!-- /course-header -->
+
 ## Dedicated & Provider Technologies
 
 | Technology | Notes |
@@ -44,8 +56,12 @@
 
 See also: [WAN Fundamentals](12-01-wan-fundamentals.md), [WAN Topologies & Modern WAN](12-04-wan-topologies.md)
 
-<!-- nav -->
-
+<!-- course-footer -->
 ---
 
-⬅️ **Prev:** [WAN Fundamentals](12-01-wan-fundamentals.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Routing](12-03-routing.md) ➡️
+<div align="center">
+
+<strong>Previous:</strong> <a href="12-01-wan-fundamentals.md">WAN Fundamentals</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/12-exercise.md">Module 12 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="12-03-routing.md">Routing</a>
+
+</div>
+<!-- /course-footer -->

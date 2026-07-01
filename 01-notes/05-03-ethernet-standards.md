@@ -1,5 +1,17 @@
 # 05-03: Ethernet Standards & Transceivers
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/05-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Lesson |
+| --- | --- | --- |
+| Network Systems | 05: Cabling | 05-03 |
+<!-- /course-header -->
+
 ## Reading Ethernet Names
 
 Format: **`<speed>BASE-<media>`**
@@ -49,8 +61,12 @@ Modern switch ports auto-detect straight-through vs. crossover cabling and adjus
 
 See also: [Fiber-Optic Cabling](05-02-fiber-optic.md), [Network Hardware Devices](01-04-network-hardware.md)
 
-<!-- nav -->
-
+<!-- course-footer -->
 ---
 
-⬅️ **Prev:** [Fiber-Optic Cabling](05-02-fiber-optic.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Cable Issues, Tools & PoE](05-04-cable-issues-and-tools.md) ➡️
+<div align="center">
+
+<strong>Previous:</strong> <a href="05-02-fiber-optic.md">Fiber-Optic Cabling</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/05-exercise.md">Module 05 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="05-04-cable-issues-and-tools.md">Cable Issues, Tools &amp; PoE</a>
+
+</div>
+<!-- /course-footer -->

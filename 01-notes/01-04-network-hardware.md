@@ -1,5 +1,17 @@
 # 01-04: Network Hardware Devices
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/01-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Lesson |
+| --- | --- | --- |
+| Network Systems | 01: Introduction to Networking | 01-04 |
+<!-- /course-header -->
+
 ## Common Devices and Their Roles
 
 | Device | OSI Layer | Function |
@@ -48,8 +60,12 @@
 
 See also: [The OSI Model](01-03-osi-model.md), [Network Segmentation](08-01-network-segmentation.md)
 
-<!-- nav -->
-
+<!-- course-footer -->
 ---
 
-⬅️ **Prev:** [The OSI Model](01-03-osi-model.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Troubleshooting Methodology & Safety](01-05-troubleshooting-and-safety.md) ➡️
+<div align="center">
+
+<strong>Previous:</strong> <a href="01-03-osi-model.md">The OSI Model</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/01-exercise.md">Module 01 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="01-05-troubleshooting-and-safety.md">Troubleshooting Methodology &amp; Safety</a>
+
+</div>
+<!-- /course-footer -->

@@ -1,5 +1,17 @@
 # 06-02: Frequencies, Channels & Antennas
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/06-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Lesson |
+| --- | --- | --- |
+| Network Systems | 06: Wireless Networking | 06-02 |
+<!-- /course-header -->
+
 ## The Two Main Bands
 
 | | **2.4 GHz** | **5 GHz** |
@@ -48,8 +60,12 @@ Higher **gain** = more focused/farther signal.
 
 See also: [Wireless Fundamentals & 802.11 Standards](06-01-wireless-standards.md), [Wireless Design & Roaming](06-04-wireless-design.md)
 
-<!-- nav -->
-
+<!-- course-footer -->
 ---
 
-⬅️ **Prev:** [Wireless Fundamentals & 802.11 Standards](06-01-wireless-standards.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Wireless Security](06-03-wireless-security.md) ➡️
+<div align="center">
+
+<strong>Previous:</strong> <a href="06-01-wireless-standards.md">Wireless Fundamentals &amp; 802.11 Standards</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/06-exercise.md">Module 06 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="06-03-wireless-security.md">Wireless Security</a>
+
+</div>
+<!-- /course-footer -->

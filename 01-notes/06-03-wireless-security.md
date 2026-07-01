@@ -1,5 +1,17 @@
 # 06-03: Wireless Security
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/06-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Lesson |
+| --- | --- | --- |
+| Network Systems | 06: Wireless Networking | 06-03 |
+<!-- /course-header -->
+
 ## The Evolution of Wi-Fi Security
 
 | Standard | Status | Cipher | Notes |
@@ -44,8 +56,12 @@ Mitigations: **WPA2/WPA3**, **802.1X**, WIPS, and disabling unused APs. **Hiding
 
 See also: [Wireless Design & Roaming](06-04-wireless-design.md), [Network Access Control & AAA](10-03-nac-and-aaa.md)
 
-<!-- nav -->
-
+<!-- course-footer -->
 ---
 
-⬅️ **Prev:** [Frequencies, Channels & Antennas](06-02-frequencies-and-channels.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Wireless Design & Roaming](06-04-wireless-design.md) ➡️
+<div align="center">
+
+<strong>Previous:</strong> <a href="06-02-frequencies-and-channels.md">Frequencies, Channels &amp; Antennas</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/06-exercise.md">Module 06 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="06-04-wireless-design.md">Wireless Design &amp; Roaming</a>
+
+</div>
+<!-- /course-footer -->

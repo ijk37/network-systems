@@ -1,5 +1,17 @@
 # 12-01: WAN Fundamentals
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/12-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Lesson |
+| --- | --- | --- |
+| Network Systems | 12: Wide Area Networks | 12-01 |
+<!-- /course-header -->
+
 ## LAN vs. WAN
 
 | | **LAN** | **WAN** |
@@ -49,8 +61,12 @@ Routers manage **internetwork communication** — forwarding packets between sep
 
 See also: [WAN Technologies](12-02-wan-technologies.md), [Routing](12-03-routing.md)
 
-<!-- nav -->
-
+<!-- course-footer -->
 ---
 
-⬅️ **Prev:** [Fault Tolerance & Recovery](11-04-fault-tolerance-and-recovery.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [WAN Technologies](12-02-wan-technologies.md) ➡️
+<div align="center">
+
+<strong>Previous:</strong> <a href="11-04-fault-tolerance-and-recovery.md">Fault Tolerance &amp; Recovery</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/12-exercise.md">Module 12 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="12-02-wan-technologies.md">WAN Technologies</a>
+
+</div>
+<!-- /course-footer -->

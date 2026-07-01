@@ -1,5 +1,17 @@
 # 03-06: Ports & Protocols Reference
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/03-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Lesson |
+| --- | --- | --- |
+| Network Systems | 03: Addressing | 03-06 |
+<!-- /course-header -->
+
 ## Port Number Ranges
 
 | Range | Name | Use |
@@ -54,8 +66,12 @@ A **socket** = IP address + port (e.g., `192.168.1.5:443`).
 
 See also: [Core Protocols & Their Ports](04-03-core-protocols-and-ports.md), [Secure Protocols & Encryption](04-04-secure-protocols.md)
 
-<!-- nav -->
-
+<!-- course-footer -->
 ---
 
-⬅️ **Prev:** [DNS](03-05-dns.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [CLI Troubleshooting Tools](03-07-cli-troubleshooting-tools.md) ➡️
+<div align="center">
+
+<strong>Previous:</strong> <a href="03-05-dns.md">DNS</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/03-exercise.md">Module 03 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="03-07-cli-troubleshooting-tools.md">CLI Troubleshooting Tools</a>
+
+</div>
+<!-- /course-footer -->

@@ -1,5 +1,17 @@
 # 10-03: Network Access Control & AAA
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/10-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Lesson |
+| --- | --- | --- |
+| Network Systems | 10: Security in Network Design | 10-03 |
+<!-- /course-header -->
+
 ## AAA Framework
 
 | A | Question | Meaning |
@@ -57,8 +69,12 @@ A stolen password alone is then insufficient.
 
 See also: [Wireless Security](06-03-wireless-security.md), [Secure Network Design](10-04-secure-network-design.md)
 
-<!-- nav -->
-
+<!-- course-footer -->
 ---
 
-⬅️ **Prev:** [IDS & IPS](10-02-ids-ips.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Secure Network Design](10-04-secure-network-design.md) ➡️
+<div align="center">
+
+<strong>Previous:</strong> <a href="10-02-ids-ips.md">IDS &amp; IPS</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/10-exercise.md">Module 10 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="10-04-secure-network-design.md">Secure Network Design</a>
+
+</div>
+<!-- /course-footer -->

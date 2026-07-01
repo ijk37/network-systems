@@ -1,5 +1,17 @@
 # 11-03: High Availability & Redundancy
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/11-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Lesson |
+| --- | --- | --- |
+| Network Systems | 11: Network Performance and Recovery | 11-03 |
+<!-- /course-header -->
+
 ## Availability ("Nines")
 
 Availability is expressed as an uptime percentage:
@@ -51,8 +63,12 @@ Automatic switching to a redundant/standby system when the primary fails, minimi
 
 See also: [Fault Tolerance & Recovery](11-04-fault-tolerance-and-recovery.md), [WAN Topologies & Modern WAN](12-04-wan-topologies.md)
 
-<!-- nav -->
-
+<!-- course-footer -->
 ---
 
-⬅️ **Prev:** [Network Monitoring](11-02-monitoring.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Fault Tolerance & Recovery](11-04-fault-tolerance-and-recovery.md) ➡️
+<div align="center">
+
+<strong>Previous:</strong> <a href="11-02-monitoring.md">Network Monitoring</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/11-exercise.md">Module 11 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="11-04-fault-tolerance-and-recovery.md">Fault Tolerance &amp; Recovery</a>
+
+</div>
+<!-- /course-footer -->

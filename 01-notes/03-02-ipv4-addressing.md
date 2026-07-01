@@ -1,5 +1,17 @@
 # 03-02: IPv4 Addressing
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/03-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Lesson |
+| --- | --- | --- |
+| Network Systems | 03: Addressing | 03-02 |
+<!-- /course-header -->
+
 ## Structure
 
 An **IPv4 address** is **32 bits**, written as four decimal **octets** (0–255):
@@ -65,8 +77,12 @@ Not routable on the Internet — used inside networks with NAT:
 
 See also: [IPv6 Addressing](03-03-ipv6-addressing.md), [IP Address Structure](08-02-ip-address-structure.md), [Subnet Mask](08-03-subnet-mask.md)
 
-<!-- nav -->
-
+<!-- course-footer -->
 ---
 
-⬅️ **Prev:** [MAC Addresses](03-01-mac-addresses.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [IPv6 Addressing](03-03-ipv6-addressing.md) ➡️
+<div align="center">
+
+<strong>Previous:</strong> <a href="03-01-mac-addresses.md">MAC Addresses</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/03-exercise.md">Module 03 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="03-03-ipv6-addressing.md">IPv6 Addressing</a>
+
+</div>
+<!-- /course-footer -->

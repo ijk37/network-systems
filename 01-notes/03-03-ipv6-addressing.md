@@ -1,5 +1,17 @@
 # 03-03: IPv6 Addressing
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/03-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Lesson |
+| --- | --- | --- |
+| Network Systems | 03: Addressing | 03-03 |
+<!-- /course-header -->
+
 ## Why IPv6?
 
 IPv4's 32-bit space (~4.3 billion addresses) is exhausted. **IPv6** uses **128 bits**, providing a virtually unlimited address space.
@@ -52,8 +64,12 @@ Eight groups (hextets) of four hex digits, separated by colons:
 
 See also: [IPv4 Addressing](03-02-ipv4-addressing.md), [Subnets in IPv6](08-11-ipv6-subnetting.md)
 
-<!-- nav -->
-
+<!-- course-footer -->
 ---
 
-⬅️ **Prev:** [IPv4 Addressing](03-02-ipv4-addressing.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [DHCP](03-04-dhcp.md) ➡️
+<div align="center">
+
+<strong>Previous:</strong> <a href="03-02-ipv4-addressing.md">IPv4 Addressing</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/03-exercise.md">Module 03 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="03-04-dhcp.md">DHCP</a>
+
+</div>
+<!-- /course-footer -->

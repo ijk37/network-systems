@@ -1,27 +1,41 @@
-# Exercises
+# 02 Exercises
 
-Practice exercises for each module. Every question has its answer hidden right beneath it — click **▶ Show answer** to reveal it, so you can self-test without scrolling to a separate solutions section.
+<div align="center">
 
-- Modules **01–07, 09–12**: ~12 short-answer/scenario questions each with collapsible answers.
-- Module **08**: five full **subnetting worked problems** (collapsible solutions) plus quick-recall drills.
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="../01-notes/README.md">Notes</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a> &nbsp;|&nbsp; <a href="../04-projects/README.md">Projects</a>
 
-| Module | Exercise |
-|--------|----------|
-| 01 — Introduction to Networking | [01-exercise](01-exercise.md) |
-| 02 — Infrastructure & Documentation | [02-exercise](02-exercise.md) |
-| 03 — Addressing | [03-exercise](03-exercise.md) |
-| 04 — Network Protocols | [04-exercise](04-exercise.md) |
-| 05 — Cabling | [05-exercise](05-exercise.md) |
-| 06 — Wireless Networking | [06-exercise](06-exercise.md) |
-| 07 — Cloud Computing & Remote Access | [07-exercise](07-exercise.md) |
-| 08 — Subnets & VLANs | [08-exercise](08-exercise.md) |
-| 09 — Network Risk Management | [09-exercise](09-exercise.md) |
-| 10 — Security in Network Design | [10-exercise](10-exercise.md) |
-| 11 — Network Performance & Recovery | [11-exercise](11-exercise.md) |
-| 12 — Wide Area Networks | [12-exercise](12-exercise.md) |
+</div>
 
-> **Tip:** the collapsible answers render on GitHub and in most Markdown viewers. If your viewer shows the raw `<details>` tags, open the file on GitHub or in a viewer that supports HTML.
+Practice sets for each course module. Work the question first, then expand the answer block to check your reasoning.
 
-Each exercise links to the matching [note](../01-notes/README.md) at the top and has **Prev · Next** navigation at the bottom.
+## Exercise Dashboard
 
-[← Back to Root](../README.md)
+| Module | Focus | Questions | Practice Set | Notes |
+| --- | --- | ---: | --- | --- |
+| 01 | Introduction to Networking | 12 | [01-exercise.md](01-exercise.md) | [Review notes](../01-notes/01-01-what-is-network.md) |
+| 02 | Infrastructure and Documentation | 12 | [02-exercise.md](02-exercise.md) | [Review notes](../01-notes/02-01-structured-cabling.md) |
+| 03 | Addressing | 12 | [03-exercise.md](03-exercise.md) | [Review notes](../01-notes/03-01-mac-addresses.md) |
+| 04 | Network Protocols | 12 | [04-exercise.md](04-exercise.md) | [Review notes](../01-notes/04-01-tcp-ip-suite.md) |
+| 05 | Cabling | 12 | [05-exercise.md](05-exercise.md) | [Review notes](../01-notes/05-01-copper-cabling.md) |
+| 06 | Wireless Networking | 12 | [06-exercise.md](06-exercise.md) | [Review notes](../01-notes/06-01-wireless-standards.md) |
+| 07 | Cloud Computing and Remote Access | 12 | [07-exercise.md](07-exercise.md) | [Review notes](../01-notes/07-01-cloud-service-models.md) |
+| 08 | Subnets and VLANs | 6 | [08-exercise.md](08-exercise.md) | [Review notes](../01-notes/08-01-network-segmentation.md) |
+| 09 | Network Risk Management | 12 | [09-exercise.md](09-exercise.md) | [Review notes](../01-notes/09-01-security-concepts.md) |
+| 10 | Security in Network Design | 12 | [10-exercise.md](10-exercise.md) | [Review notes](../01-notes/10-01-firewalls-and-acls.md) |
+| 11 | Network Performance and Recovery | 12 | [11-exercise.md](11-exercise.md) | [Review notes](../01-notes/11-01-performance-concepts.md) |
+| 12 | Wide Area Networks | 12 | [12-exercise.md](12-exercise.md) | [Review notes](../01-notes/12-01-wan-fundamentals.md) |
+
+## How to Practice
+
+1. Try each question before opening the answer.
+2. Mark anything that felt slow or uncertain.
+3. Re-read the related note page.
+4. Retake the matching quiz after review.
+
+> The answer blocks use GitHub-supported `<details>` sections, so they are readable directly in the repository.
+
+<div align="center">
+
+<a href="../README.md">Back to repository home</a>
+
+</div>

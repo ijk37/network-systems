@@ -1,5 +1,17 @@
 # 05-02: Fiber-Optic Cabling
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/05-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Lesson |
+| --- | --- | --- |
+| Network Systems | 05: Cabling | 05-02 |
+<!-- /course-header -->
+
 ## How Fiber Works
 
 Fiber carries data as **pulses of light** through a glass/plastic core. Because it carries no electrical signal, it is **immune to EMI/RFI** and supports **long distances** and **high bandwidth**.
@@ -54,8 +66,12 @@ Mnemonic: **S**ingle-mode = **S**maller core, **S**tretches further.
 
 See also: [Copper Cabling](05-01-copper-cabling.md), [Ethernet Standards & Transceivers](05-03-ethernet-standards.md)
 
-<!-- nav -->
-
+<!-- course-footer -->
 ---
 
-⬅️ **Prev:** [Copper Cabling](05-01-copper-cabling.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Ethernet Standards & Transceivers](05-03-ethernet-standards.md) ➡️
+<div align="center">
+
+<strong>Previous:</strong> <a href="05-01-copper-cabling.md">Copper Cabling</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/05-exercise.md">Module 05 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="05-03-ethernet-standards.md">Ethernet Standards &amp; Transceivers</a>
+
+</div>
+<!-- /course-footer -->

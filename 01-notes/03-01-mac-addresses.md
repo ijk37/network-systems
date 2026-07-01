@@ -1,5 +1,17 @@
 # 03-01: MAC Addresses
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/03-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Lesson |
+| --- | --- | --- |
+| Network Systems | 03: Addressing | 03-01 |
+<!-- /course-header -->
+
 ## What Is a MAC Address?
 
 A **MAC (Media Access Control) address** is a **48-bit** Layer 2 physical address burned into every NIC. It is written as **six pairs of hex digits**:
@@ -50,8 +62,12 @@ A **MAC (Media Access Control) address** is a **48-bit** Layer 2 physical addres
 
 See also: [IPv4 Addressing](03-02-ipv4-addressing.md), [CLI Troubleshooting Tools](03-07-cli-troubleshooting-tools.md)
 
-<!-- nav -->
-
+<!-- course-footer -->
 ---
 
-⬅️ **Prev:** [Change Management & Agreements](02-04-change-management.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [IPv4 Addressing](03-02-ipv4-addressing.md) ➡️
+<div align="center">
+
+<strong>Previous:</strong> <a href="02-04-change-management.md">Change Management &amp; Agreements</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/03-exercise.md">Module 03 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="03-02-ipv4-addressing.md">IPv4 Addressing</a>
+
+</div>
+<!-- /course-footer -->

@@ -1,5 +1,17 @@
 # 02-04: Change Management & Agreements
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/02-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Lesson |
+| --- | --- | --- |
+| Network Systems | 02: Infrastructure and Documentation | 02-04 |
+<!-- /course-header -->
+
 ## Change Management
 
 **Change management** is the process of proposing, reviewing, approving, implementing, and documenting changes to minimize risk of outages.
@@ -51,8 +63,12 @@
 
 See also: [Network Documentation](02-03-network-documentation.md), [Fault Tolerance & Recovery](11-04-fault-tolerance-and-recovery.md)
 
-<!-- nav -->
-
+<!-- course-footer -->
 ---
 
-⬅️ **Prev:** [Network Documentation](02-03-network-documentation.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [MAC Addresses](03-01-mac-addresses.md) ➡️
+<div align="center">
+
+<strong>Previous:</strong> <a href="02-03-network-documentation.md">Network Documentation</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/02-exercise.md">Module 02 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="03-01-mac-addresses.md">MAC Addresses</a>
+
+</div>
+<!-- /course-footer -->

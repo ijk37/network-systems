@@ -1,5 +1,17 @@
 # 10-02: IDS & IPS
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/10-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Lesson |
+| --- | --- | --- |
+| Network Systems | 10: Security in Network Design | 10-02 |
+<!-- /course-header -->
+
 ## Detecting and Preventing Intrusions
 
 | | **IDS** | **IPS** |
@@ -44,8 +56,12 @@
 
 See also: [Firewalls & ACLs](10-01-firewalls-and-acls.md), [Network Monitoring](11-02-monitoring.md)
 
-<!-- nav -->
-
+<!-- course-footer -->
 ---
 
-⬅️ **Prev:** [Firewalls & ACLs](10-01-firewalls-and-acls.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Network Access Control & AAA](10-03-nac-and-aaa.md) ➡️
+<div align="center">
+
+<strong>Previous:</strong> <a href="10-01-firewalls-and-acls.md">Firewalls &amp; ACLs</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/10-exercise.md">Module 10 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="10-03-nac-and-aaa.md">Network Access Control &amp; AAA</a>
+
+</div>
+<!-- /course-footer -->

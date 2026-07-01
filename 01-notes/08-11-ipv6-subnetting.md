@@ -1,5 +1,17 @@
 # 08-11: Subnets in IPv6
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/08-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Lesson |
+| --- | --- | --- |
+| Network Systems | 08: Subnets and VLANs | 08-11 |
+<!-- /course-header -->
+
 ## What is IPv6 Subnetting?
 
 IPv6 subnetting is the process of dividing an IPv6 network into smaller sub-networks.
@@ -184,8 +196,12 @@ IPv6 subnetting focuses on simplicity and scalability,
 
 👉 using large, fixed-size subnets (/64) instead of complex calculations like IPv4.
 
-<!-- nav -->
-
+<!-- course-footer -->
 ---
 
-⬅️ **Prev:** [Variable Length Subnet Mask (VLSM)](08-10-vlsm.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Virtual LAN (VLAN)](08-12-vlan.md) ➡️
+<div align="center">
+
+<strong>Previous:</strong> <a href="08-10-vlsm.md">Variable Length Subnet Mask (VLSM)</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/08-exercise.md">Module 08 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="08-12-vlan.md">Virtual LAN (VLAN)</a>
+
+</div>
+<!-- /course-footer -->

@@ -1,5 +1,17 @@
 # 09-02: Common Attacks
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/09-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Lesson |
+| --- | --- | --- |
+| Network Systems | 09: Network Risk Management | 09-02 |
+<!-- /course-header -->
+
 ## Denial of Service
 
 | Attack | Description |
@@ -56,8 +68,12 @@ A **zero-day** exploits a flaw before a patch exists.
 
 See also: [Security Concepts](09-01-security-concepts.md), [Switch & Port Hardening](10-05-switch-hardening.md)
 
-<!-- nav -->
-
+<!-- course-footer -->
 ---
 
-⬅️ **Prev:** [Security Concepts](09-01-security-concepts.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Security Assessments](09-03-security-assessments.md) ➡️
+<div align="center">
+
+<strong>Previous:</strong> <a href="09-01-security-concepts.md">Security Concepts</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/09-exercise.md">Module 09 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="09-03-security-assessments.md">Security Assessments</a>
+
+</div>
+<!-- /course-footer -->

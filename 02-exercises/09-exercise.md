@@ -1,12 +1,27 @@
 # 09: Network Risk Management — Exercises
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="../01-notes/README.md">All Notes</a> &nbsp;|&nbsp; <a href="README.md">All Exercises</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Practice |
+| --- | --- | ---: |
+| Network Systems | 09: Network Risk Management | 12 questions |
+
+> Try each question first. Open the answer only after you have written or spoken your attempt.
+<!-- /course-header -->
+
 Work through each question, then click **▶ Show answer** to check yourself. Review the [notes](../01-notes/09-01-security-concepts.md) if you get stuck.
 
 ---
 
 ### Q1. Define vulnerability, threat, and risk, and state the relationship.
 
-<details><summary>▶ Show answer</summary>
+<details>
+<summary><strong>Show answer</strong></summary>
 
 - **Vulnerability** — a weakness.
 - **Threat** — something that could exploit it.
@@ -19,7 +34,8 @@ Controls reduce likelihood and/or impact.
 
 ### Q2. Map each to the CIA triad: (a) ransomware encrypting files, (b) altering a bank balance, (c) eavesdropping on unencrypted traffic.
 
-<details><summary>▶ Show answer</summary>
+<details>
+<summary><strong>Show answer</strong></summary>
 
 - (a) Ransomware → **Availability** (and often Confidentiality).
 - (b) Altering a balance → **Integrity**.
@@ -30,7 +46,8 @@ Controls reduce likelihood and/or impact.
 
 ### Q3. Distinguish a vulnerability scan from a penetration test.
 
-<details><summary>▶ Show answer</summary>
+<details>
+<summary><strong>Show answer</strong></summary>
 
 A **vulnerability scan** automatically *finds and reports* known weaknesses. A **penetration test** *actively exploits* them (with authorization) to demonstrate real-world impact.
 </details>
@@ -39,7 +56,8 @@ A **vulnerability scan** automatically *finds and reports* known weaknesses. A *
 
 ### Q4. A user gets an urgent email "from IT" asking for their password. Name the attack category and the best organizational defense.
 
-<details><summary>▶ Show answer</summary>
+<details>
+<summary><strong>Show answer</strong></summary>
 
 **Social engineering (phishing)**. Best defense: **user security-awareness training** (plus email filtering and **MFA** so a stolen password isn't enough).
 </details>
@@ -48,7 +66,8 @@ A **vulnerability scan** automatically *finds and reports* known weaknesses. A *
 
 ### Q5. Distinguish a virus, a worm, and a Trojan.
 
-<details><summary>▶ Show answer</summary>
+<details>
+<summary><strong>Show answer</strong></summary>
 
 - **Virus** — needs a host file + user action to spread.
 - **Worm** — self-replicates across networks, no user action.
@@ -59,7 +78,8 @@ A **vulnerability scan** automatically *finds and reports* known weaknesses. A *
 
 ### Q6. What is a zero-day vulnerability?
 
-<details><summary>▶ Show answer</summary>
+<details>
+<summary><strong>Show answer</strong></summary>
 
 A flaw that is **exploited before the vendor has a patch** (defenders have had "zero days" to fix it) — especially dangerous because signature defenses may not detect it.
 </details>
@@ -68,7 +88,8 @@ A flaw that is **exploited before the vendor has a patch** (defenders have had "
 
 ### Q7. What do CVE and CVSS refer to?
 
-<details><summary>▶ Show answer</summary>
+<details>
+<summary><strong>Show answer</strong></summary>
 
 - **CVE** — a uniquely numbered, publicly cataloged known vulnerability (e.g., CVE-2021-44228).
 - **CVSS** — a **severity score** (0–10) based on exploitability and impact, used to prioritize remediation.
@@ -78,7 +99,8 @@ A flaw that is **exploited before the vendor has a patch** (defenders have had "
 
 ### Q8. What are the four risk responses? Give an example of each.
 
-<details><summary>▶ Show answer</summary>
+<details>
+<summary><strong>Show answer</strong></summary>
 
 - **Mitigate** — reduce with controls (add a firewall).
 - **Transfer** — shift the cost (cyber-insurance).
@@ -90,7 +112,8 @@ A flaw that is **exploited before the vendor has a patch** (defenders have had "
 
 ### Q9. Explain least privilege and separation of duties.
 
-<details><summary>▶ Show answer</summary>
+<details>
+<summary><strong>Show answer</strong></summary>
 
 - **Least privilege** — give each user/process only the minimum access needed, shrinking the attack surface and containing damage.
 - **Separation of duties** — split critical tasks among people (e.g., request vs. approve) so no one can complete a sensitive process alone.
@@ -100,7 +123,8 @@ A flaw that is **exploited before the vendor has a patch** (defenders have had "
 
 ### Q10. A company sets RTO = 4 hours and RPO = 1 hour. What does each require operationally?
 
-<details><summary>▶ Show answer</summary>
+<details>
+<summary><strong>Show answer</strong></summary>
 
 - **RTO = 4 h** — the service must be restorable within 4 hours (drives redundancy/DR readiness).
 - **RPO = 1 h** — no more than 1 hour of data loss (backups/replication must run at least hourly).
@@ -110,7 +134,8 @@ A flaw that is **exploited before the vendor has a patch** (defenders have had "
 
 ### Q11. What is the 3-2-1 backup rule, and why does it defend against ransomware?
 
-<details><summary>▶ Show answer</summary>
+<details>
+<summary><strong>Show answer</strong></summary>
 
 **3 copies**, on **2 different media**, with **1 offsite** (ideally offline/immutable). The offline/immutable copy is unreachable by ransomware, so recovery is still possible.
 </details>
@@ -119,7 +144,8 @@ A flaw that is **exploited before the vendor has a patch** (defenders have had "
 
 ### Q12. Name one physical and one detective security control.
 
-<details><summary>▶ Show answer</summary>
+<details>
+<summary><strong>Show answer</strong></summary>
 
 - **Physical:** badge reader, lock, mantrap, or fence.
 - **Detective:** CCTV footage, IDS alerts, log review, or audits (they reveal that an event happened).
@@ -128,3 +154,13 @@ A flaw that is **exploited before the vendor has a patch** (defenders have had "
 ---
 
 ⬅️ **Prev:** [Module 08](08-exercise.md)  ·  [📚 All Exercises](README.md)  ·  **Next:** [Module 10 — Security in Network Design](10-exercise.md) ➡️
+
+<!-- course-footer -->
+---
+
+<div align="center">
+
+<strong>Previous:</strong> <a href="08-exercise.md">08: Subnets &amp; VLANs — Exercises</a> &nbsp;|&nbsp; <a href="README.md">All Exercises</a> &nbsp;|&nbsp; <a href="../01-notes/09-01-security-concepts.md">Module 09 Notes</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="10-exercise.md">10: Security in Network Design — Exercises</a>
+
+</div>
+<!-- /course-footer -->

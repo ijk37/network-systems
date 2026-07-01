@@ -1,5 +1,17 @@
 # 10-05: Switch & Port Hardening
 
+<!-- course-header -->
+<div align="center">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/10-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
+
+| Course | Module | Lesson |
+| --- | --- | --- |
+| Network Systems | 10: Security in Network Design | 10-05 |
+<!-- /course-header -->
+
 ## Layer 2 Attacks and Their Defenses
 
 | Attack | Defense |
@@ -45,8 +57,12 @@ These work together using a **binding table**:
 
 See also: [Secure Network Design](10-04-secure-network-design.md), [Virtual LAN (VLAN)](08-12-vlan.md)
 
-<!-- nav -->
-
+<!-- course-footer -->
 ---
 
-⬅️ **Prev:** [Secure Network Design](10-04-secure-network-design.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Performance Concepts & QoS](11-01-performance-concepts.md) ➡️
+<div align="center">
+
+<strong>Previous:</strong> <a href="10-04-secure-network-design.md">Secure Network Design</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/10-exercise.md">Module 10 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="11-01-performance-concepts.md">Performance Concepts &amp; QoS</a>
+
+</div>
+<!-- /course-footer -->
