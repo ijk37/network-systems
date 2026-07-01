@@ -68,11 +68,15 @@ Every question's **options are shuffled on each render**, so the correct answer 
 ## Features
 
 - Random subset drawn each attempt (and re-drawn on retry)
-- Remaining questions still shuffle in order
+- Options shuffled every render — no answer-position bias
+- **Question navigator sidebar** — a numbered grid showing answered (green) vs unanswered, with the current question highlighted; click any number to jump straight to it
+- **Elapsed timer** shown while you work and on the results screen
+- **Finish** button to submit at any time (warns if questions are unanswered)
+- **Skip** and **Back** navigation between questions
 - Instant feedback — correct/wrong highlighted after each answer
 - Explanation shown after every answer
-- Score, grade, and percentage at the end
-- Review of every wrong answer with the correct answer and explanation
+- Score, grade, percentage, and time at the end
+- Full end-of-quiz review of **every** question with your answer, the correct answer, and explanation
 
 ## Files
 

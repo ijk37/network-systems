@@ -18,7 +18,95 @@
       padding: 2rem 1rem;
     }
 
-    #app { width: 100%; max-width: 700px; }
+    #app { width: 100%; max-width: 960px; }
+
+    /* ── Two-column layout: quiz + sidebar ── */
+    .quiz-body {
+      display: flex;
+      gap: 1.5rem;
+      align-items: flex-start;
+    }
+    .quiz-main { flex: 1; min-width: 0; }
+
+    .quiz-side {
+      width: 220px;
+      flex-shrink: 0;
+      background: #1e2231;
+      border: 1px solid #2d3348;
+      border-radius: 14px;
+      padding: 1rem;
+      position: sticky;
+      top: 1rem;
+    }
+
+    .timer {
+      font-size: 1.5rem;
+      font-weight: 800;
+      text-align: center;
+      color: #f1f5f9;
+      font-variant-numeric: tabular-nums;
+      letter-spacing: 1px;
+    }
+    .timer-label {
+      text-align: center;
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #475569;
+      margin-bottom: 0.6rem;
+    }
+    .side-summary {
+      text-align: center;
+      font-size: 0.75rem;
+      color: #64748b;
+      margin-bottom: 0.75rem;
+    }
+
+    .qnav-title {
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #475569;
+      margin-bottom: 0.4rem;
+    }
+    .qnav {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 0.35rem;
+      max-height: 340px;
+      overflow-y: auto;
+    }
+    .qnav button {
+      aspect-ratio: 1 / 1;
+      border-radius: 6px;
+      border: 1.5px solid #2d3348;
+      background: #131720;
+      color: #94a3b8;
+      font-size: 0.78rem;
+      font-weight: 600;
+      cursor: pointer;
+      padding: 0;
+      transition: border-color 0.12s, background 0.12s;
+    }
+    .qnav button:hover { border-color: #4f8ef7; }
+    .qnav button.answered {
+      background: #0f2a1a;
+      border-color: #22c55e;
+      color: #86efac;
+    }
+    .qnav button.current {
+      border-color: #4f8ef7;
+      box-shadow: 0 0 0 1px #4f8ef7;
+      color: #fff;
+    }
+
+    .side-finish { width: 100%; margin-top: 0.9rem; }
+
+    @media (max-width: 760px) {
+      .quiz-body { flex-direction: column; }
+      .quiz-side { width: 100%; position: static; }
+      .qnav { max-height: 200px; }
+    }
 
     /* ── Header ── */
     .quiz-header {
@@ -295,20 +383,33 @@
       <span class="topic-label" id="topic-label"></span>
     </div>
 
-    <div class="progress-bar-wrap">
-      <div class="progress-bar-fill" id="progress-fill" style="width:0%"></div>
-    </div>
-    <div class="progress-text" id="progress-text"></div>
+    <div class="quiz-body">
+      <div class="quiz-main">
+        <div class="progress-bar-wrap">
+          <div class="progress-bar-fill" id="progress-fill" style="width:0%"></div>
+        </div>
+        <div class="progress-text" id="progress-text"></div>
 
-    <div class="question-card">
-      <div class="question-text" id="question-text"></div>
-      <div class="options" id="options"></div>
-      <div class="explanation" id="explanation"></div>
-    </div>
+        <div class="question-card">
+          <div class="question-text" id="question-text"></div>
+          <div class="options" id="options"></div>
+          <div class="explanation" id="explanation"></div>
+        </div>
 
-    <div class="btn-row">
-      <button class="btn-outline" id="back-btn" disabled>← Back</button>
-      <button class="btn" id="next-btn">Skip →</button>
+        <div class="btn-row">
+          <button class="btn-outline" id="back-btn" disabled>← Back</button>
+          <button class="btn" id="next-btn">Skip →</button>
+        </div>
+      </div>
+
+      <aside class="quiz-side">
+        <div class="timer" id="timer">00:00</div>
+        <div class="timer-label">Elapsed</div>
+        <div class="side-summary" id="side-summary"></div>
+        <div class="qnav-title">Questions</div>
+        <div class="qnav" id="qnav"></div>
+        <button class="btn side-finish" id="finish-btn">Finish ▸</button>
+      </aside>
     </div>
   </div>
 
@@ -418,6 +519,42 @@
   let current = 0;
   let userAnswers = new Array(shuffled.length).fill(null);
 
+  // ── Timer (counts up) ─────────────────────────────────────────────────────
+  let elapsed = 0;
+  let timerId = null;
+  function fmtTime(s) {
+    const m = Math.floor(s / 60), ss = s % 60;
+    return String(m).padStart(2, "0") + ":" + String(ss).padStart(2, "0");
+  }
+  function startTimer() {
+    stopTimer();
+    elapsed = 0;
+    document.getElementById("timer").textContent = fmtTime(0);
+    timerId = setInterval(() => {
+      elapsed++;
+      document.getElementById("timer").textContent = fmtTime(elapsed);
+    }, 1000);
+  }
+  function stopTimer() { if (timerId) { clearInterval(timerId); timerId = null; } }
+
+  // ── Sidebar question navigator ────────────────────────────────────────────
+  function renderNav() {
+    const nav = document.getElementById("qnav");
+    nav.innerHTML = "";
+    shuffled.forEach((q, i) => {
+      const b = document.createElement("button");
+      b.textContent = i + 1;
+      if (userAnswers[i] !== null) b.classList.add("answered");
+      if (i === current) b.classList.add("current");
+      b.title = userAnswers[i] !== null ? `Question ${i + 1} — answered` : `Question ${i + 1} — not answered`;
+      b.addEventListener("click", () => { current = i; render(); });
+      nav.appendChild(b);
+    });
+    const ans = userAnswers.filter(a => a !== null).length;
+    document.getElementById("side-summary").textContent =
+      `${ans} answered · ${shuffled.length - ans} left`;
+  }
+
   // ── Render question (restores answered state when navigating back) ─────────
   function render() {
     const q = shuffled[current];
@@ -466,6 +603,8 @@
     const nextBtn = document.getElementById("next-btn");
     const last = current === shuffled.length - 1;
     nextBtn.textContent = last ? "See Results" : (answered ? "Next →" : "Skip →");
+
+    renderNav();
   }
 
   // ── Select answer ─────────────────────────────────────────────────────────
@@ -483,9 +622,15 @@
     if (current < shuffled.length - 1) { current++; render(); }
     else showResults();
   });
+  document.getElementById("finish-btn").addEventListener("click", () => {
+    const left = userAnswers.filter(a => a === null).length;
+    if (left > 0 && !confirm(`You have ${left} unanswered question(s). Finish and submit now?`)) return;
+    showResults();
+  });
 
   // ── Results ───────────────────────────────────────────────────────────────
   function showResults() {
+    stopTimer();
     document.getElementById("quiz").style.display = "none";
     document.getElementById("results").style.display = "block";
 
@@ -513,6 +658,7 @@
       sub = `${pct}% — go back to the notes, then retry.`;
     }
     if (answeredCount < total) sub += ` · ${total - answeredCount} skipped`;
+    sub += ` · ⏱ ${fmtTime(elapsed)}`;
 
     document.getElementById("result-title").textContent = title;
     document.getElementById("result-sub").textContent = sub;
@@ -556,10 +702,12 @@
     document.getElementById("results").style.display = "none";
     document.getElementById("quiz").style.display = "block";
     document.getElementById("score-card").classList.remove("all-correct");
+    startTimer();
     render();
   }
 
   // ── Start ─────────────────────────────────────────────────────────────────
+  startTimer();
   render();
 </script>
 </body>
