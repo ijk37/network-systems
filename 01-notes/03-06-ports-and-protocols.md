@@ -1,0 +1,55 @@
+# 03-06: Ports & Protocols Reference
+
+## Port Number Ranges
+
+| Range | Name | Use |
+|-------|------|-----|
+| 0–1023 | **Well-known** | Standard services (HTTP, DNS, SSH) |
+| 1024–49151 | **Registered** | Vendor/app-specific |
+| 49152–65535 | **Dynamic/ephemeral** | Temporary client-side ports |
+
+A **socket** = IP address + port (e.g., `192.168.1.5:443`).
+
+---
+
+## Must-Know Ports (N10-008)
+
+| Port | Protocol | Purpose |
+|------|----------|---------|
+| 20/21 | FTP | File transfer (data/control) |
+| 22 | SSH / SFTP / SCP | Secure shell & file transfer |
+| 23 | Telnet | Remote CLI (insecure) |
+| 25 | SMTP | Send email |
+| 53 | DNS | Name resolution |
+| 67/68 | DHCP | IP configuration |
+| 69 | TFTP | Trivial file transfer |
+| 80 | HTTP | Web (unencrypted) |
+| 110 | POP3 | Retrieve email |
+| 123 | NTP | Time synchronization |
+| 143 | IMAP | Retrieve email (sync) |
+| 161/162 | SNMP | Network monitoring/traps |
+| 389 | LDAP | Directory services |
+| 443 | HTTPS | Web (TLS) |
+| 445 | SMB | File/printer sharing |
+| 636 | LDAPS | Secure LDAP |
+| 993 / 995 | IMAPS / POP3S | Secure email retrieval |
+| 3389 | RDP | Remote desktop |
+
+---
+
+## Secure vs. Insecure Pairs
+
+| Insecure | Secure replacement |
+|----------|--------------------|
+| Telnet (23) | SSH (22) |
+| HTTP (80) | HTTPS (443) |
+| FTP (20/21) | SFTP (22) / FTPS |
+| SNMPv1/2c (161) | SNMPv3 |
+
+---
+
+## Key Idea
+
+> Memorize the **well-known ports** and their secure equivalents. Ports identify the **application**; a **socket** (IP:port) uniquely identifies an endpoint of a connection.
+
+See also: [[04-03-core-protocols-and-ports]], [[04-04-secure-protocols]]

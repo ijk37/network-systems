@@ -1,82 +1,46 @@
-\# What is a Network?
+# 01-02: Network Models & Topologies
 
+## Topology
 
+**Topology** describes how the parts of a network fit and work together.
 
-A computer network is a collection of interconnected devices that communicate with each other and share resources using a communication medium.
+- **Physical topology** — the actual hardware layout: devices, cables, and how they physically connect.
+- **Logical topology** — how software controls access and how data logically flows across the network.
 
+> Two networks can share the same *physical* topology but behave differently at the *logical* level.
 
+---
 
-\## Key Components
+## Physical Topologies
 
+| Topology | Description | Pros | Cons |
+|----------|-------------|------|------|
+| **Star** | All nodes connect to a central device (switch) | One cable fault affects one node; easy to manage | Central device is a single point of failure |
+| **Bus** | All nodes share one backbone cable | Cheap, simple (legacy) | One break kills the whole segment |
+| **Ring** | Each node connects to two neighbors in a loop | Predictable performance (legacy) | A break can disrupt the ring |
+| **Mesh** | Nodes interconnect directly (full or partial) | High redundancy/fault tolerance | Expensive, many links |
 
+The **star** topology dominates modern LANs (every device to a switch). **Mesh** is common in WAN cores for redundancy.
 
-\### 1. Devices
+---
 
-Devices are the endpoints in a network.
+## Hybrid Topologies
 
+Real networks combine topologies — e.g., a **star-of-stars** (hierarchical star) where multiple switches connect up to a core switch. Structured cabling assumes a hierarchical star.
 
+---
 
-Examples:
+## Logical Models Recap
 
-\- Computers
+- **Peer-to-peer** — no central control; each host shares its own resources.
+- **Client-server** — a NOS on servers centrally controls access.
 
-\- Smartphones
+(See [[01-01-what-is-network]] for the full comparison.)
 
-\- Printers
+---
 
-\- Routers
+## Key Idea
 
+> **Physical topology = the wiring diagram; logical topology = the traffic flow.** Modern LANs are physically star (to a switch) and can be logically segmented (e.g., with VLANs — see [[08-12-vlan]]).
 
-
-\---
-
-
-
-\### 2. Communication Medium
-
-The medium through which data is transmitted between devices.
-
-
-
-Examples:
-
-\- Wired: Ethernet cables
-
-\- Wireless: WiFi
-
-\- Other: Fiber optics, phone lines
-
-
-
-\---
-
-
-
-\### 3. Network Size
-
-A network can vary in size and complexity:
-
-
-
-\- Small: Two computers connected directly
-
-\- Medium: Home or office network
-
-\- Large: The Internet (billions of devices)
-
-
-
-\---
-
-
-
-\## Examples of Networks
-
-
-
-\- Internet (largest global network)
-
-\- Home WiFi network
-
-\- Campus or enterprise network
-
+See also: [[01-03-osi-model]], [[01-04-network-hardware]]

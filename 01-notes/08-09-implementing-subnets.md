@@ -67,7 +67,7 @@ Each subnet requires a **default gateway** to communicate with other networks.
 
 ## One Router Connecting Multiple LANs
 
-![One router connecting multiple LANs]](<image 2.png>)
+![One router connecting multiple LANs](<image 2.png>)
 
 A single router can connect multiple LANs:
 - Each LAN is assigned a different subnet  

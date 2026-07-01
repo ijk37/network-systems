@@ -10,3 +10,6 @@ __pycache__
 *.txt
 *.pkt
 *.pka
+
+# ...but keep the diagram images embedded in the notes
+!01-notes/*.png

@@ -1,0 +1,89 @@
+# Project 03 — Static & Dynamic Routing (OSPF)
+
+**Type:** Hands-on Packet Tracer lab
+**Modules:** 12 (WAN), 03/08 (Addressing/Subnets)
+**Difficulty:** ⭐⭐⭐⭐
+
+---
+
+## Objective
+
+Build a three-router WAN and make every LAN reachable — first with **static routes**, then with **OSPF** dynamic routing — and understand why one route is chosen over another (**administrative distance**).
+
+---
+
+## Topology
+
+```
+   [PC-A]         [PC-B]          [PC-C]
+     |              |               |
+  (LAN A)        (LAN B)         (LAN C)
+     |              |               |
+    R1 ==== WAN1 ==== R2 ==== WAN2 ==== R3
+```
+
+| Link | Subnet |
+|------|--------|
+| LAN A (R1) | 10.0.1.0/24 |
+| LAN B (R2) | 10.0.2.0/24 |
+| LAN C (R3) | 10.0.3.0/24 |
+| WAN1 (R1–R2) | 10.0.12.0/30 |
+| WAN2 (R2–R3) | 10.0.23.0/30 |
+
+---
+
+## Part A — Static Routing
+
+1. Configure all interface IPs and PC gateways.
+2. On each router, add static routes to the networks it doesn't directly connect to.
+
+```
+R1(config)# ip route 10.0.2.0 255.255.255.0 10.0.12.2
+R1(config)# ip route 10.0.3.0 255.255.255.0 10.0.12.2
+R1(config)# ip route 10.0.23.0 255.255.255.252 10.0.12.2
+```
+
+3. Verify PC-A can ping PC-C end to end.
+
+## Part B — Convert to OSPF
+
+1. Remove the static routes.
+2. Enable OSPF and advertise the connected networks.
+
+```
+R2(config)# router ospf 1
+R2(config-router)# network 10.0.2.0 0.0.0.255 area 0
+R2(config-router)# network 10.0.12.0 0.0.0.3 area 0
+R2(config-router)# network 10.0.23.0 0.0.0.3 area 0
+```
+
+3. Confirm routes are learned dynamically and full connectivity is restored.
+
+## Part C — Administrative Distance
+
+1. Re-add one static route to a network also learned via OSPF.
+2. Check `show ip route` — which is installed? Explain using AD (static = 1, OSPF = 110).
+
+---
+
+## Verification
+
+- [ ] `show ip route` shows remote networks (marked `S` for static, `O` for OSPF).
+- [ ] End-to-end ping PC-A ↔ PC-C succeeds under both methods.
+- [ ] `show ip ospf neighbor` lists adjacencies in Part B.
+- [ ] You can explain which route wins in Part C and why.
+
+---
+
+## Deliverables
+
+- Packet Tracer file (local).
+- A comparison table: static vs. dynamic (effort, scalability, convergence).
+- Answer: *what happens to OSPF if the R1–R2 link fails?* (Test it.)
+
+## Stretch Goals
+
+- Add a **default route** on R1 toward a simulated ISP and redistribute it.
+- Configure a **floating static route** as a backup path.
+
+See also notes: [[12-03-routing]], [[12-01-wan-fundamentals]]
