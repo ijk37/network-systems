@@ -58,4 +58,10 @@ For VoIP/video, a **late retransmitted packet is useless** — low latency beats
 
 > **TCP = reliable, ordered, connection-oriented** (3-way handshake, ACKs, windowing). **UDP = fast, connectionless, best-effort.** Match the protocol to the app's needs.
 
-See also: [[04-01-tcp-ip-suite]], [[11-01-performance-concepts]]
+See also: [The TCP/IP Suite & Encapsulation](04-01-tcp-ip-suite.md), [Performance Concepts & QoS](11-01-performance-concepts.md)
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [The TCP/IP Suite & Encapsulation](04-01-tcp-ip-suite.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Core Protocols & Their Ports](04-03-core-protocols-and-ports.md) ➡️

@@ -52,4 +52,10 @@
 
 > **RAID** survives drive loss (not a backup). Protect power with **UPS/generator**. Follow **3-2-1** backups and pick a DR site (**hot/warm/cold**) to meet your **RTO/RPO**.
 
-See also: [[09-04-policies-and-risk-management]], [[11-03-high-availability]]
+See also: [Policies, Physical Security & Continuity](09-04-policies-and-risk-management.md), [High Availability & Redundancy](11-03-high-availability.md)
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [High Availability & Redundancy](11-03-high-availability.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [WAN Fundamentals](12-01-wan-fundamentals.md) ➡️

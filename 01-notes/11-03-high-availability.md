@@ -49,4 +49,10 @@ Automatic switching to a redundant/standby system when the primary fails, minimi
 
 > High availability = **remove SPOFs** with redundancy: dual power/links, **FHRP** gateways, **LACP**, **STP**, **clustering**, and **load balancing**, with automatic **failover**.
 
-See also: [[11-04-fault-tolerance-and-recovery]], [[12-04-wan-topologies]]
+See also: [Fault Tolerance & Recovery](11-04-fault-tolerance-and-recovery.md), [WAN Topologies & Modern WAN](12-04-wan-topologies.md)
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [Network Monitoring](11-02-monitoring.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Fault Tolerance & Recovery](11-04-fault-tolerance-and-recovery.md) ➡️

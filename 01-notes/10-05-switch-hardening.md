@@ -43,4 +43,10 @@ These work together using a **binding table**:
 
 > Harden Layer 2: **port security** (MAC flooding), **DHCP snooping + DAI + IP Source Guard** (rogue DHCP / ARP / IP spoofing), **BPDU Guard** (STP), and disable unused ports + DTP (VLAN hopping).
 
-See also: [[10-04-secure-network-design]], [[08-12-vlan]]
+See also: [Secure Network Design](10-04-secure-network-design.md), [Virtual LAN (VLAN)](08-12-vlan.md)
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [Secure Network Design](10-04-secure-network-design.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Performance Concepts & QoS](11-01-performance-concepts.md) ➡️

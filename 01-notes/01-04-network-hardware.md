@@ -46,4 +46,10 @@
 
 > **Switches move frames within a network (Layer 2); routers move packets between networks (Layer 3).** Switches break up collision domains; routers break up broadcast domains.
 
-See also: [[01-03-osi-model]], [[08-01-network-segmentation]]
+See also: [The OSI Model](01-03-osi-model.md), [Network Segmentation](08-01-network-segmentation.md)
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [The OSI Model](01-03-osi-model.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Troubleshooting Methodology & Safety](01-05-troubleshooting-and-safety.md) ➡️

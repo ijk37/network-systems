@@ -58,4 +58,10 @@ Data  →  Segment  →  Packet  →  Frame  →  Bits
 
 > The OSI model splits communication into **7 independent layers**. Remember the order, the **PDU names** (segment → packet → frame → bits), and **which device operates at which layer**.
 
-See also: [[01-04-network-hardware]], [[04-01-tcp-ip-suite]]
+See also: [Network Hardware Devices](01-04-network-hardware.md), [The TCP/IP Suite & Encapsulation](04-01-tcp-ip-suite.md)
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [Network Models & Topologies](01-02-network-models.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Network Hardware Devices](01-04-network-hardware.md) ➡️

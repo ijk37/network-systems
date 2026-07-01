@@ -46,4 +46,10 @@ VMs connect via **virtual switches (vSwitches)** and virtual NICs inside the hyp
 
 > **Hypervisors** run VMs: **Type 1** on bare metal (servers), **Type 2** on a host OS (desktops). **Containers** are lighter, sharing the host kernel. **NFV** turns network appliances into software.
 
-See also: [[07-01-cloud-service-models]], [[07-04-remote-access-methods]]
+See also: [Cloud Service Models](07-01-cloud-service-models.md), [Remote Access Methods](07-04-remote-access-methods.md)
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [Cloud Deployment Models & Characteristics](07-02-cloud-deployment.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Remote Access Methods](07-04-remote-access-methods.md) ➡️

@@ -192,4 +192,10 @@ Subnetting using binary helps you:
 
 - clearly visualize network vs host bits  
 - understand how address ranges are formed  
-- avoid calculation mistakes  
+- avoid calculation mistakes
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [Subnetting Examples](08-07-subnetting-examples.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Implementing Subnets on a Network](08-09-implementing-subnets.md) ➡️

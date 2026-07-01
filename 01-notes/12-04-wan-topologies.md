@@ -40,4 +40,10 @@ A **site-to-site VPN** over the public Internet provides WAN connectivity betwee
 
 > WAN topologies trade **cost vs. redundancy**: hub-and-spoke (cheap, SPOF) → partial mesh → full mesh (redundant, costly). **Multihoming** adds ISP redundancy; **SD-WAN** and **VPNs** modernize and cut cost.
 
-See also: [[12-02-wan-technologies]], [[11-03-high-availability]]
+See also: [WAN Technologies](12-02-wan-technologies.md), [High Availability & Redundancy](11-03-high-availability.md)
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [Routing](12-03-routing.md)  ·  [📚 All Notes](README.md)

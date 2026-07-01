@@ -45,4 +45,10 @@ Distributing across **regions/availability zones** isolates failures for resilie
 
 > Deployment = **public/private/hybrid/community**. The cloud's power comes from **elasticity, multitenancy, and pay-as-you-go** — shifting **CapEx to OpEx**.
 
-See also: [[07-01-cloud-service-models]], [[11-04-fault-tolerance-and-recovery]]
+See also: [Cloud Service Models](07-01-cloud-service-models.md), [Fault Tolerance & Recovery](11-04-fault-tolerance-and-recovery.md)
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [Cloud Service Models](07-01-cloud-service-models.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Virtualization](07-03-virtualization.md) ➡️

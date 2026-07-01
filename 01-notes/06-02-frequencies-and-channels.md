@@ -46,4 +46,10 @@ Higher **gain** = more focused/farther signal.
 
 > **2.4 GHz** = range but crowded (use **channels 1/6/11**); **5/6 GHz** = speed and clean channels. Use **directional antennas** for point-to-point, and design for good **SNR**.
 
-See also: [[06-01-wireless-standards]], [[06-04-wireless-design]]
+See also: [Wireless Fundamentals & 802.11 Standards](06-01-wireless-standards.md), [Wireless Design & Roaming](06-04-wireless-design.md)
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [Wireless Fundamentals & 802.11 Standards](06-01-wireless-standards.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Wireless Security](06-03-wireless-security.md) ➡️

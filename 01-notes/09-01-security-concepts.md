@@ -49,4 +49,10 @@ The foundation of information security:
 
 > Security protects **Confidentiality, Integrity, Availability**. Understand **vulnerability vs. threat vs. risk**, the four **risk responses**, and apply **least privilege + defense in depth**.
 
-See also: [[09-02-common-attacks]], [[10-04-secure-network-design]]
+See also: [Common Attacks](09-02-common-attacks.md), [Secure Network Design](10-04-secure-network-design.md)
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [Virtual LAN (VLAN)](08-12-vlan.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Common Attacks](09-02-common-attacks.md) ➡️

@@ -42,4 +42,10 @@
 
 > **IDS = alert (out-of-band); IPS = block (inline).** Detection is **signature-based** (known) or **anomaly-based** (novel). Feed alerts to a **SIEM** for correlation.
 
-See also: [[10-01-firewalls-and-acls]], [[11-02-monitoring]]
+See also: [Firewalls & ACLs](10-01-firewalls-and-acls.md), [Network Monitoring](11-02-monitoring.md)
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [Firewalls & ACLs](10-01-firewalls-and-acls.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Network Access Control & AAA](10-03-nac-and-aaa.md) ➡️

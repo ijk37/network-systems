@@ -1,37 +1,123 @@
 # 11: Network Performance & Recovery — Exercises
 
-## Questions
-
-1. Distinguish bandwidth, throughput, latency, and jitter.
-2. A VoIP deployment has choppy audio. Which three metrics are most likely to blame, and which QoS action helps?
-3. Two routers should present a single, always-available gateway to hosts. Which protocol family provides this?
-4. Compare full, incremental, and differential backups by what they copy and what a restore needs.
-5. Order hot, warm, and cold DR sites by recovery speed and cost.
-6. Explain the 3-2-1 backup rule and why it defends against ransomware.
+Work through each question, then click **▶ Show answer** to check yourself. Review the [notes](../01-notes/11-01-performance-concepts.md) if you get stuck.
 
 ---
 
-## Solutions
+### Q1. Distinguish bandwidth, throughput, latency, and jitter.
 
-### 1. Performance metrics
+<details><summary>▶ Show answer</summary>
+
 - **Bandwidth** — max theoretical capacity.
 - **Throughput** — actual achieved rate (≤ bandwidth).
 - **Latency** — delay for data to travel.
 - **Jitter** — variation in latency between packets.
+</details>
 
-### 2. VoIP quality
-**Latency, jitter, and packet loss**. Apply **QoS** — mark voice (DSCP EF) and give it a **priority/low-latency queue**.
+---
 
-### 3. Redundant gateway
-A **First-Hop Redundancy Protocol** — **HSRP/VRRP** (or GLBP) — shares a virtual gateway IP/MAC; a standby takes over if the active router fails.
+### Q2. VoIP audio is choppy. Which three metrics are most likely to blame, and which QoS action helps?
 
-### 4. Backup types
+<details><summary>▶ Show answer</summary>
+
+**Latency, jitter, and packet loss.** Apply **QoS** — mark voice (DSCP EF) and give it a **priority/low-latency queue**.
+</details>
+
+---
+
+### Q3. Two routers should present a single, always-available gateway to hosts. Which protocol family?
+
+<details><summary>▶ Show answer</summary>
+
+A **First-Hop Redundancy Protocol** — **HSRP / VRRP** (or GLBP). They share a virtual gateway IP/MAC; a standby takes over if the active router fails.
+</details>
+
+---
+
+### Q4. What does STP prevent, and how?
+
+<details><summary>▶ Show answer</summary>
+
+**Layer 2 switching loops** (and the broadcast storms they cause). STP blocks redundant paths, keeping one active while a backup stands ready if the active link fails.
+</details>
+
+---
+
+### Q5. What does link aggregation (LACP/EtherChannel) achieve?
+
+<details><summary>▶ Show answer</summary>
+
+Bundles multiple physical links into **one logical link** for **more bandwidth** and **redundancy** — if one member fails, traffic continues on the rest.
+</details>
+
+---
+
+### Q6. Compare full, incremental, and differential backups by what they copy and what a restore needs.
+
+<details><summary>▶ Show answer</summary>
+
 - **Full** — everything; restore needs just the full.
-- **Incremental** — changes since the **last backup**; restore needs full + all incrementals.
-- **Differential** — changes since the **last full**; restore needs full + latest differential.
+- **Incremental** — changes since the **last backup**; restore needs full + **all** incrementals.
+- **Differential** — changes since the **last full**; restore needs full + the **latest** differential.
+</details>
 
-### 5. DR sites
-Fastest/most expensive → slowest/cheapest: **Hot → Warm → Cold**. (Hot = running with current data; cold = space/power only.)
+---
 
-### 6. 3-2-1 rule
-**3 copies**, on **2 different media**, with **1 offsite** (ideally offline/immutable). The offline/immutable copy is unreachable by ransomware, guaranteeing you can still recover.
+### Q7. Order hot, warm, and cold DR sites by recovery speed and cost.
+
+<details><summary>▶ Show answer</summary>
+
+Fastest/most expensive → slowest/cheapest: **Hot → Warm → Cold.** (Hot = running with current data; cold = space/power only.)
+</details>
+
+---
+
+### Q8. RAID protects against drive failure — but which RAID level mirrors data, and why isn't RAID a backup?
+
+<details><summary>▶ Show answer</summary>
+
+**RAID 1** mirrors data across two drives (either can fail). RAID isn't a backup because it doesn't protect against deletion, corruption, or ransomware — those changes are written to all drives instantly.
+</details>
+
+---
+
+### Q9. Which protocols/tools would you use to (a) poll device metrics, (b) analyze traffic flows, (c) centralize logs?
+
+<details><summary>▶ Show answer</summary>
+
+- (a) **SNMP** (use v3 for security)
+- (b) **NetFlow / IPFIX / sFlow**
+- (c) **Syslog** (often feeding a **SIEM**)
+</details>
+
+---
+
+### Q10. What is a network baseline, and why capture one?
+
+<details><summary>▶ Show answer</summary>
+
+A record of **normal** performance (utilization, latency, errors). Comparing current metrics to it reveals anomalies, trends, and when to upgrade — you can't spot "abnormal" without knowing "normal."
+</details>
+
+---
+
+### Q11. Express "five nines" availability and roughly how much downtime it allows per year.
+
+<details><summary>▶ Show answer</summary>
+
+**99.999%** uptime → about **5 minutes** of downtime per year. Achieving it requires substantial redundancy and fast failover.
+</details>
+
+---
+
+### Q12. What is failover, and how does it differ from load balancing?
+
+<details><summary>▶ Show answer</summary>
+
+- **Failover** — automatic switch to a standby system when the primary fails (availability).
+- **Load balancing** — distributes traffic across multiple active servers/paths (performance + availability). They're often combined.
+</details>
+
+---
+
+⬅️ **Prev:** [Module 10](10-exercise.md)  ·  [📚 All Exercises](README.md)  ·  **Next:** [Module 12 — Wide Area Networks](12-exercise.md) ➡️

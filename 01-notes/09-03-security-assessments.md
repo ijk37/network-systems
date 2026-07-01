@@ -44,4 +44,10 @@ Findings are **prioritized** (often by CVSS) and remediated via **patching**, co
 
 > Use **vulnerability scans** to find issues and **pen tests** to prove exploitability. Track flaws with **CVE** IDs and prioritize by **CVSS** score, then patch and re-scan.
 
-See also: [[09-04-policies-and-risk-management]], [[10-02-ids-ips]]
+See also: [Policies, Physical Security & Continuity](09-04-policies-and-risk-management.md), [IDS & IPS](10-02-ids-ips.md)
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [Common Attacks](09-02-common-attacks.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Policies, Physical Security & Continuity](09-04-policies-and-risk-management.md) ➡️

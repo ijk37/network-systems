@@ -142,4 +142,10 @@ Subnetting involves:
 - borrowing bits  
 - calculating subnets  
 - determining host ranges  
-- identifying network and broadcast addresses  
+- identifying network and broadcast addresses
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [Subnetting Basics](08-06-subnetting-basics.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Subnet Calculation Using Binary](08-08-subnet-calculation-using-binary.md) ➡️

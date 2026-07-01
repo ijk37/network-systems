@@ -42,4 +42,10 @@ The **802.11** family defines Wi-Fi WLAN standards. Wireless uses **radio freque
 
 > Wi-Fi = **802.11**, using **CSMA/CA**. Know the generations: **n = Wi-Fi 4, ac = Wi-Fi 5, ax = Wi-Fi 6**. **MIMO/OFDMA** boost capacity in dense environments.
 
-See also: [[06-02-frequencies-and-channels]], [[06-03-wireless-security]]
+See also: [Frequencies, Channels & Antennas](06-02-frequencies-and-channels.md), [Wireless Security](06-03-wireless-security.md)
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [Cable Issues, Tools & PoE](05-04-cable-issues-and-tools.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Frequencies, Channels & Antennas](06-02-frequencies-and-channels.md) ➡️

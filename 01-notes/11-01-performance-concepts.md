@@ -45,4 +45,10 @@ A **bottleneck** is the point of least capacity that caps end-to-end performance
 
 > Know **bandwidth vs. throughput** and **latency/jitter/loss**. Use **QoS** (mark with DSCP, prioritize voice, shape/police) to protect real-time traffic and find the **bottleneck**.
 
-See also: [[11-02-monitoring]], [[04-02-tcp-vs-udp]]
+See also: [Network Monitoring](11-02-monitoring.md), [TCP vs. UDP](04-02-tcp-vs-udp.md)
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [Switch & Port Hardening](10-05-switch-hardening.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Network Monitoring](11-02-monitoring.md) ➡️

@@ -52,4 +52,10 @@ Mnemonic: **S**ingle-mode = **S**maller core, **S**tretches further.
 
 > Fiber = **light, no EMI, long distance**. **Single-mode** (small core, laser) for long haul; **multimode** (large core, LED) for shorter runs. **LC** is the dominant connector.
 
-See also: [[05-01-copper-cabling]], [[05-03-ethernet-standards]]
+See also: [Copper Cabling](05-01-copper-cabling.md), [Ethernet Standards & Transceivers](05-03-ethernet-standards.md)
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [Copper Cabling](05-01-copper-cabling.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Ethernet Standards & Transceivers](05-03-ethernet-standards.md) ➡️

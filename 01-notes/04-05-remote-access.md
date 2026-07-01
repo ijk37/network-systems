@@ -42,4 +42,10 @@ A **VPN concentrator** terminates and manages many tunnels at the edge.
 
 > Remote access = **SSH** (CLI), **RDP** (GUI), **VPN** (tunnel). Always protect it with **MFA**, restrict exposure, and use **out-of-band** management for resilience.
 
-See also: [[04-04-secure-protocols]], [[07-04-remote-access-methods]]
+See also: [Secure Protocols & Encryption](04-04-secure-protocols.md), [Remote Access Methods](07-04-remote-access-methods.md)
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [Secure Protocols & Encryption](04-04-secure-protocols.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Copper Cabling](05-01-copper-cabling.md) ➡️

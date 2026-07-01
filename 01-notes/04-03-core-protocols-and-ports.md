@@ -43,4 +43,10 @@
 
 > Know each protocol's **port, transport (TCP/UDP), and job**. SMTP **sends**; POP3/IMAP **retrieve**. ICMP powers ping/traceroute; ARP maps IP↔MAC.
 
-See also: [[03-06-ports-and-protocols]], [[04-04-secure-protocols]]
+See also: [Ports & Protocols Reference](03-06-ports-and-protocols.md), [Secure Protocols & Encryption](04-04-secure-protocols.md)
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [TCP vs. UDP](04-02-tcp-vs-udp.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Secure Protocols & Encryption](04-04-secure-protocols.md) ➡️

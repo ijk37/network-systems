@@ -16,8 +16,7 @@ Each subnet forms a **separate broadcast domain**.
 
 ## Basic Network Structure
 
-![Subnets 1, 2, and 3 and
-their respective default gateways](<image 1.png>)
+![Subnets 1, 2, and 3 and their respective default gateways](image-1.png)
 
 A subnetted network typically consists of:
 
@@ -67,7 +66,7 @@ Each subnet requires a **default gateway** to communicate with other networks.
 
 ## One Router Connecting Multiple LANs
 
-![One router connecting multiple LANs](<image 2.png>)
+![One router connecting multiple LANs](image-2.png)
 
 A single router can connect multiple LANs:
 - Each LAN is assigned a different subnet  
@@ -87,7 +86,7 @@ A single router can connect multiple LANs:
 
 DHCP uses **broadcast messages**, which do not cross routers.
 
-![DHCP Relay Agent](<image 3.png>)
+![DHCP Relay Agent](image-3.png)
 
 ---
 
@@ -119,3 +118,9 @@ A **DHCP relay agent** allows DHCP communication across subnets.
 ## Key Insight
 
 Subnetting transforms a large network into smaller, manageable networks, enabling efficient communication and better network design in real-world environments.
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [Subnet Calculation Using Binary](08-08-subnet-calculation-using-binary.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Variable Length Subnet Mask (VLSM)](08-10-vlsm.md) ➡️

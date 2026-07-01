@@ -47,4 +47,10 @@ Routers manage **internetwork communication** — forwarding packets between sep
 
 > A **WAN** spans wide distances, is provider-owned, and differs from a LAN at **Layers 1–2**. Selection balances **bandwidth, budget, geography, availability, latency, and SLA**.
 
-See also: [[12-02-wan-technologies]], [[12-03-routing]]
+See also: [WAN Technologies](12-02-wan-technologies.md), [Routing](12-03-routing.md)
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [Fault Tolerance & Recovery](11-04-fault-tolerance-and-recovery.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [WAN Technologies](12-02-wan-technologies.md) ➡️

@@ -1,37 +1,143 @@
 # 01: Introduction to Networking — Exercises
 
-## Questions
-
-1. List the seven OSI layers in order (1→7) and give the PDU name at Layers 2, 3, and 4.
-2. A user reports "the Internet is down." Apply the first three steps of the CompTIA troubleshooting model to this scenario.
-3. Classify each device by OSI layer: hub, switch, router, NIC.
-4. Explain the difference between a collision domain and a broadcast domain, and state which device breaks up each.
-5. A small office of 6 computers shares files directly with no server. A 300-user company uses central logins. Name the network model each uses and one advantage of each.
-6. Match the scope to the example: PAN, LAN, MAN, WAN — (a) the Internet, (b) a Bluetooth headset, (c) an office network, (d) a city-wide fiber ring.
+Work through each question, then click **▶ Show answer** to check yourself. Review the [notes](../01-notes/01-01-what-is-network.md) if you get stuck.
 
 ---
 
-## Solutions
+### Q1. List the seven OSI layers in order (Layer 1 → Layer 7).
 
-### 1. OSI layers & PDUs
-1. Physical, 2. Data Link, 3. Network, 4. Transport, 5. Session, 6. Presentation, 7. Application.
-- **Layer 2 = Frame**, **Layer 3 = Packet**, **Layer 4 = Segment** (TCP) / datagram (UDP).
+<details><summary>▶ Show answer</summary>
 
-### 2. Troubleshooting steps
-1. **Identify the problem** — ask what "down" means (all sites? one app?), what changed, when it started, whether others are affected.
-2. **Establish a theory** — e.g., DNS failure, gateway down, or ISP outage; question the obvious (cable, Wi-Fi).
-3. **Test the theory** — `ping 8.8.8.8` (works ⇒ connectivity OK) then `nslookup` (fails ⇒ DNS is the cause).
+1. Physical
+2. Data Link
+3. Network
+4. Transport
+5. Session
+6. Presentation
+7. Application
 
-### 3. Device layers
-- **Hub → Layer 1**, **NIC → Layers 1–2**, **Switch → Layer 2**, **Router → Layer 3**.
+Mnemonic (1→7): *Please Do Not Throw Sausage Pizza Away.*
+</details>
 
-### 4. Collision vs. broadcast domains
-- **Collision domain** — a segment where frames can collide. **Switches** break these up (one per port).
-- **Broadcast domain** — the set of devices reached by a broadcast. **Routers** (and VLANs) break these up.
+---
 
-### 5. Network models
-- Office of 6 → **peer-to-peer** (advantage: cheap, no server/NOS needed).
-- 300-user company → **client-server** (advantage: centralized authentication, backups, and control).
+### Q2. What is the Protocol Data Unit (PDU) name at the Data Link, Network, and Transport layers?
 
-### 6. Scope matching
-- (a) Internet → **WAN**, (b) Bluetooth headset → **PAN**, (c) office network → **LAN**, (d) city fiber ring → **MAN**.
+<details><summary>▶ Show answer</summary>
+
+- **Data Link (L2)** → **Frame**
+- **Network (L3)** → **Packet**
+- **Transport (L4)** → **Segment** (TCP) / datagram (UDP)
+
+Full sequence down the stack: Data → Segment → Packet → Frame → Bits.
+</details>
+
+---
+
+### Q3. Classify each device by the OSI layer it primarily operates at: hub, switch, router, NIC.
+
+<details><summary>▶ Show answer</summary>
+
+- **Hub → Layer 1** (repeats signals out all ports)
+- **NIC → Layers 1–2** (physical connection + MAC address)
+- **Switch → Layer 2** (forwards frames by MAC)
+- **Router → Layer 3** (forwards packets by IP)
+</details>
+
+---
+
+### Q4. What is the difference between a collision domain and a broadcast domain? Which device breaks up each?
+
+<details><summary>▶ Show answer</summary>
+
+- **Collision domain** — a segment where frames can collide. **Switches** break these up (one collision domain per port).
+- **Broadcast domain** — the set of devices a broadcast reaches. **Routers** (and VLANs) break these up.
+</details>
+
+---
+
+### Q5. A 6-computer office shares files directly with no server; a 300-user firm uses central logins. Name each network model and one advantage of each.
+
+<details><summary>▶ Show answer</summary>
+
+- Small office → **peer-to-peer** — cheap, simple, no server/NOS required.
+- 300-user firm → **client-server** — centralized authentication, backups, and control; scales well.
+</details>
+
+---
+
+### Q6. Match each scope to its example: PAN, LAN, MAN, WAN — (a) the Internet, (b) a Bluetooth headset, (c) an office network, (d) a city-wide fiber ring.
+
+<details><summary>▶ Show answer</summary>
+
+- (a) Internet → **WAN**
+- (b) Bluetooth headset → **PAN**
+- (c) office network → **LAN**
+- (d) city-wide fiber ring → **MAN**
+</details>
+
+---
+
+### Q7. A user reports "the Internet is down." Apply the first three steps of the CompTIA 7-step troubleshooting model.
+
+<details><summary>▶ Show answer</summary>
+
+1. **Identify the problem** — ask what "down" means (all sites or one app?), what changed, when it started, who's affected.
+2. **Establish a theory of probable cause** — e.g., DNS failure, gateway down, or ISP outage; question the obvious (cable, Wi-Fi).
+3. **Test the theory** — `ping 8.8.8.8` (tests connectivity) then `nslookup` (tests DNS) to confirm or refute.
+</details>
+
+---
+
+### Q8. What are the last two steps of the 7-step troubleshooting model?
+
+<details><summary>▶ Show answer</summary>
+
+- Step 6: **Verify full system functionality** (and implement preventive measures).
+- Step 7: **Document findings, actions, and outcomes.**
+</details>
+
+---
+
+### Q9. Which OSI layer would you check first if the link light is off and the cable seems dead? Why?
+
+<details><summary>▶ Show answer</summary>
+
+**Layer 1 (Physical)** — cabling, connectors, and port/link status are physical issues. Higher layers can't function without a working physical link, so bottom-up troubleshooting starts here.
+</details>
+
+---
+
+### Q10. What safety device prevents static electricity from damaging components, and what document lists safe handling of hazardous materials?
+
+<details><summary>▶ Show answer</summary>
+
+- **ESD (anti-static) strap** — bleeds static charge from your body to prevent electrostatic discharge damage.
+- **MSDS / SDS** (Material/Safety Data Sheet) — handling, storage, and disposal info for hazardous materials.
+</details>
+
+---
+
+### Q11. In a physical **star** topology, what happens if one workstation's cable breaks vs. if the central switch fails?
+
+<details><summary>▶ Show answer</summary>
+
+- One cable break → **only that one node** loses connectivity.
+- Central switch failure → **the whole star** goes down (the switch is a single point of failure).
+
+This is why star is easy to manage but the central device should be made redundant in critical designs.
+</details>
+
+---
+
+### Q12. Give one advantage and one disadvantage of a full-mesh topology.
+
+<details><summary>▶ Show answer</summary>
+
+- **Advantage:** maximum redundancy — every node has a direct link to every other, so a single link failure doesn't isolate anyone.
+- **Disadvantage:** cost/complexity — the number of links grows rapidly (n(n−1)/2), so it's expensive to build and maintain.
+</details>
+
+---
+
+[📚 All Exercises](README.md)  ·  **Next:** [Module 02 — Infrastructure & Documentation](02-exercise.md) ➡️

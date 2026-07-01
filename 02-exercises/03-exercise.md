@@ -1,39 +1,133 @@
 # 03: Addressing — Exercises
 
-## Questions
-
-1. Classify each address: `10.24.5.9`, `172.20.0.1`, `192.168.100.5`, `8.8.8.8`, `169.254.13.7`, `127.0.0.1`.
-2. A workstation shows IP `169.254.44.10`. What happened, and what should you check?
-3. Give the port and transport (TCP/UDP) for: HTTPS, DNS, SSH, SMTP, RDP, DHCP.
-4. Compress the IPv6 address `2001:0db8:0000:0000:00a3:0000:0000:1f35`.
-5. In the DORA process, which message is a broadcast from the client requesting configuration, and which confirms the lease?
-6. A host can `ping 8.8.8.8` but cannot open `https://example.com`. What is the most likely cause and which command confirms it?
+Work through each question, then click **▶ Show answer** to check yourself. Review the [notes](../01-notes/03-01-mac-addresses.md) if you get stuck.
 
 ---
 
-## Solutions
+### Q1. How many bits is a MAC address, how is it written, and what does its first half identify?
 
-### 1. Address classification
+<details><summary>▶ Show answer</summary>
+
+**48 bits**, written as six pairs of hex digits (e.g., `00:1A:2B:3C:4D:5E`). The first 24 bits are the **OUI** identifying the NIC **manufacturer**; the last 24 bits are device-specific.
+</details>
+
+---
+
+### Q2. Classify each address as public, private, loopback, or APIPA: `10.24.5.9`, `8.8.8.8`, `169.254.13.7`, `127.0.0.1`, `172.20.0.1`, `192.168.100.5`.
+
+<details><summary>▶ Show answer</summary>
+
 - `10.24.5.9` → **Private** (10.0.0.0/8)
+- `8.8.8.8` → **Public**
+- `169.254.13.7` → **APIPA** (169.254.0.0/16 — DHCP failed)
+- `127.0.0.1` → **Loopback**
 - `172.20.0.1` → **Private** (172.16.0.0/12)
 - `192.168.100.5` → **Private** (192.168.0.0/16)
-- `8.8.8.8` → **Public**
-- `169.254.13.7` → **APIPA** (link-local, DHCP failed)
-- `127.0.0.1` → **Loopback**
+</details>
 
-### 2. APIPA address
-The host **failed to reach a DHCP server** and self-assigned a `169.254.x.x` address. Check: DHCP server up? Cable/link? VLAN correct? Is a **DHCP relay** needed on this subnet?
+---
 
-### 3. Ports
-- HTTPS → **443/TCP**, DNS → **53/UDP** (TCP for zone transfers), SSH → **22/TCP**, SMTP → **25/TCP**, RDP → **3389/TCP**, DHCP → **67/68 UDP**.
+### Q3. A workstation shows IP `169.254.44.10`. What happened, and what should you check?
 
-### 4. IPv6 compression
+<details><summary>▶ Show answer</summary>
+
+The host **failed to reach a DHCP server** and self-assigned an **APIPA** address. Check: is the DHCP server up? cable/link OK? correct VLAN? Does the subnet need a **DHCP relay** (`ip helper-address`)?
+</details>
+
+---
+
+### Q4. List the DHCP DORA process and the ports DHCP uses.
+
+<details><summary>▶ Show answer</summary>
+
+**D**iscover → **O**ffer → **R**equest → **A**ck. Ports: server **UDP 67**, client **UDP 68**.
+</details>
+
+---
+
+### Q5. Give the port and transport (TCP/UDP) for: HTTPS, DNS, SSH, SMTP, RDP.
+
+<details><summary>▶ Show answer</summary>
+
+- HTTPS → **443/TCP**
+- DNS → **53/UDP** (TCP for zone transfers / large responses)
+- SSH → **22/TCP**
+- SMTP → **25/TCP**
+- RDP → **3389/TCP**
+</details>
+
+---
+
+### Q6. Which DNS record type maps a name to an IPv4 address? To an IPv6 address? What does an MX record do?
+
+<details><summary>▶ Show answer</summary>
+
+- **A** → name to IPv4
+- **AAAA** → name to IPv6
+- **MX** → identifies the domain's mail server(s) (with a priority value)
+</details>
+
+---
+
+### Q7. Compress the IPv6 address `2001:0db8:0000:0000:00a3:0000:0000:1f35`.
+
+<details><summary>▶ Show answer</summary>
+
 `2001:db8::a3:0:0:1f35`
-(Drop leading zeros; replace the longest zero run `0000:0000` with `::`. The single `::` covers hextets 3–4; the later `0:0` cannot also use `::`.)
 
-### 5. DORA
-- Client broadcast requesting config = **DISCOVER** (the later **REQUEST** confirms the chosen offer).
-- Server confirms the lease = **ACK** (Acknowledge).
+Drop leading zeros; replace the **longest** run of all-zero hextets (`0000:0000`, hextets 3–4) with `::`. The later `0:0` can't also use `::` (only one `::` allowed).
+</details>
 
-### 6. Connectivity but no web
-Connectivity (IP) works but name resolution fails → **DNS problem**. Confirm with **`nslookup example.com`** (or `dig`). If it fails while `ping 8.8.8.8` works, DNS is the culprit.
+---
+
+### Q8. A host can `ping 8.8.8.8` but cannot open `https://example.com`. What's the likely cause, and which command confirms it?
+
+<details><summary>▶ Show answer</summary>
+
+IP connectivity works but name resolution fails → a **DNS problem**. Confirm with **`nslookup example.com`** (or `dig`).
+</details>
+
+---
+
+### Q9. What is the default subnet mask for a /24, and how many usable hosts does it provide?
+
+<details><summary>▶ Show answer</summary>
+
+**255.255.255.0**; 2^8 − 2 = **254** usable hosts.
+</details>
+
+---
+
+### Q10. What protocol resolves an IP to a MAC on the local segment, and what replaces it in IPv6?
+
+<details><summary>▶ Show answer</summary>
+
+**ARP** (Address Resolution Protocol) in IPv4. In IPv6, **NDP** (Neighbor Discovery Protocol, built on ICMPv6) performs the equivalent function.
+</details>
+
+---
+
+### Q11. What is the difference between a DHCP reservation and an exclusion?
+
+<details><summary>▶ Show answer</summary>
+
+- **Reservation** — binds a specific **MAC** to always receive the same IP from the pool.
+- **Exclusion** — removes addresses from the pool so they are never handed out (e.g., reserved for static devices like the gateway).
+</details>
+
+---
+
+### Q12. Which minimum three settings does a host need to communicate with hosts on other networks, and what is each for?
+
+<details><summary>▶ Show answer</summary>
+
+- **IP address** — the host's own address.
+- **Subnet mask** — tells it which addresses are local.
+- **Default gateway** — where to send traffic destined for other networks.
+
+(DNS is additionally needed to resolve names.)
+</details>
+
+---
+
+⬅️ **Prev:** [Module 02](02-exercise.md)  ·  [📚 All Exercises](README.md)  ·  **Next:** [Module 04 — Network Protocols](04-exercise.md) ➡️

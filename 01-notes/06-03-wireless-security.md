@@ -42,4 +42,10 @@ Mitigations: **WPA2/WPA3**, **802.1X**, WIPS, and disabling unused APs. **Hiding
 
 > Use **WPA2 (AES)** at minimum, **WPA3 (SAE)** where possible. Choose **Enterprise/802.1X** for per-user auth in organizations. **WEP is broken**; SSID hiding is not real security.
 
-See also: [[06-04-wireless-design]], [[10-03-nac-and-aaa]]
+See also: [Wireless Design & Roaming](06-04-wireless-design.md), [Network Access Control & AAA](10-03-nac-and-aaa.md)
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [Frequencies, Channels & Antennas](06-02-frequencies-and-channels.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Wireless Design & Roaming](06-04-wireless-design.md) ➡️

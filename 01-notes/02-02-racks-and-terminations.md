@@ -48,4 +48,10 @@ Two pin/pair color schemes define how the 8 conductors map to the RJ-45 pins:
 
 > Horizontal runs are **punched down** into patch panels; **patch cords** connect them to switches. Use **T568B** consistently (or A/B for a crossover), and remember **1U = 1.75 in**.
 
-See also: [[02-01-structured-cabling]], [[05-04-cable-issues-and-tools]]
+See also: [Structured Cabling](02-01-structured-cabling.md), [Cable Issues, Tools & PoE](05-04-cable-issues-and-tools.md)
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [Structured Cabling](02-01-structured-cabling.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Network Documentation](02-03-network-documentation.md) ➡️

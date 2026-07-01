@@ -1,6 +1,6 @@
 # Notes
 
-Topic-based study notes for **CompTIA Network+ Guide to Networks, 9th Edition**. Each module is broken into several focused notes rather than one long file. Notes cross-link related topics with `[[wiki-style]]` references.
+Topic-based study notes for **CompTIA Network+ Guide to Networks, 9th Edition**. Each module is broken into several focused notes rather than one long file. Every note has a **See also** section and **Prev · Next** navigation links at the bottom, so you can read straight through or jump between related topics.
 
 ## Module 01 — Introduction to Networking
 - [01-01 What Is a Network?](01-01-what-is-network.md)

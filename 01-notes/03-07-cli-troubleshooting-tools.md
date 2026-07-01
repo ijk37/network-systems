@@ -57,4 +57,10 @@
 
 > Master **ipconfig/ip, ping, tracert, nslookup, arp, netstat**. Test bottom-up (local stack → gateway → Internet → DNS) to isolate exactly where a problem lies.
 
-See also: [[01-05-troubleshooting-and-safety]], [[03-05-dns]]
+See also: [Troubleshooting Methodology & Safety](01-05-troubleshooting-and-safety.md), [DNS](03-05-dns.md)
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [Ports & Protocols Reference](03-06-ports-and-protocols.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [The TCP/IP Suite & Encapsulation](04-01-tcp-ip-suite.md) ➡️

@@ -74,4 +74,10 @@ An IP address alone is not enough.
 
 👉 A subnet mask tells:
 - which part is the network  
-- which part is the host  
+- which part is the host
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [IP Address Structure](08-02-ip-address-structure.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Classful Networks](08-04-classful-networks.md) ➡️

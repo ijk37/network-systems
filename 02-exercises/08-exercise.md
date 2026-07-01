@@ -1,6 +1,8 @@
 # 08: Subnets & VLANs — Exercises
 
-Hands-on **subnetting drills** — the highest-value practice for the exam. Each exercise includes a full worked solution (binary method, block-size/magic-number method, VLSM, and IPv6). Try each before reading the solution.
+Hands-on **subnetting drills** — the highest-value practice for the exam. Read each question, work it out on paper, then click **▶ Show worked solution** to check (binary method, block-size/magic-number method, VLSM, and IPv6). Quick-recall questions follow at the end.
+
+> Related note: [Subnetting Basics](../01-notes/08-06-subnetting-basics.md)
 
 ---
 
@@ -13,6 +15,8 @@ Find the **address range**, **usable host range**, **network ID**, and **broadca
 172.21.40.0/22  
 
 ---
+
+<details><summary>▶ Show worked solution</summary>
 
 ### Solution
 
@@ -128,6 +132,8 @@ Usable host range:
 - Address range: 172.21.40.0 to 172.21.43.255
 - Usable host range: 172.21.40.1 to 172.21.43.254
 
+</details>
+
 ---
 
 ## Exercise 2 — Subnet a Class B into 15 Subnets
@@ -155,6 +161,8 @@ Based on this requirement, answer the following:
    - the last required (15th) subnet  
 
 ---
+
+<details><summary>▶ Show worked solution</summary>
 
 ### Solution
 
@@ -294,6 +302,8 @@ Number of usable hosts: 2¹² − 2 = 4096 − 2 = **4094**
    - Second subnet → 172.20.16.1 to 172.20.31.254  
    - Last required subnet → 172.20.224.1 to 172.20.239.254
 
+</details>
+
 ---
 
 ## Exercise 3 — Locate a Host's Subnet (/27)
@@ -317,6 +327,8 @@ Based on this information, answer the following:
 6. What is the usable host range of that subnet?  
 
 ---
+
+<details><summary>▶ Show worked solution</summary>
 
 ### Solution
 
@@ -419,6 +431,8 @@ Usable host range: 192.168.89.129 to 192.168.89.158
 
 6. Host range = 192.168.89.129 to 192.168.89.158
 
+</details>
+
 ---
 
 ## Exercise 4 — VLSM for Four Departments
@@ -443,6 +457,8 @@ Based on this requirement, answer the following:
 6. What are the Network ID and Broadcast ID of each department?  
 
 ---
+
+<details><summary>▶ Show worked solution</summary>
 
 ### Solution
 
@@ -610,6 +626,8 @@ After allocating Department D, the remaining range is:
    - C → Network ID: 192.168.10.192, Broadcast ID: 192.168.10.223  
    - D → Network ID: 192.168.10.224, Broadcast ID: 192.168.10.239
 
+</details>
+
 ---
 
 ## Exercise 5 — IPv6 Subnetting (/48 to /64)
@@ -630,6 +648,8 @@ Based on this information, answer the following:
 6. How many host addresses are possible in each /64 subnet?  
 
 ---
+
+<details><summary>▶ Show worked solution</summary>
 
 ### Solution
 
@@ -736,3 +756,67 @@ Number of host addresses = 2^64
 5. Network prefix of the given department subnet = 2001:0abc:23a4:2::/64  
 
 6. Host addresses per /64 subnet = 2^64
+
+</details>
+
+---
+
+## Quick-Recall Drills
+
+### Q1. How many usable hosts are in a /26, /28, and /30?
+
+<details><summary>▶ Show answer</summary>
+
+- /26 → 2^6 − 2 = **62**
+- /28 → 2^4 − 2 = **14**
+- /30 → 2^2 − 2 = **2** (point-to-point links)
+</details>
+
+---
+
+### Q2. What is the subnet mask for /27, and its block size?
+
+<details><summary>▶ Show answer</summary>
+
+/27 = **255.255.255.224**. Block size = 256 − 224 = **32**.
+</details>
+
+---
+
+### Q3. Which subnet does host 192.168.10.100/27 belong to (network ID and broadcast)?
+
+<details><summary>▶ Show answer</summary>
+
+Block size 32 → subnets .0, .32, .64, **.96**, .128. 100 falls in the **192.168.10.96/27** subnet: network **.96**, broadcast **.127**, usable **.97–.126**.
+</details>
+
+---
+
+### Q4. You need at least 500 hosts in one subnet. What is the smallest prefix that works?
+
+<details><summary>▶ Show answer</summary>
+
+2^9 − 2 = 510 ≥ 500, so **9 host bits → a /23**. (A /24 gives only 254.)
+</details>
+
+---
+
+### Q5. What standard subnet size is used for an IPv6 LAN, and how many /64s come from a /48?
+
+<details><summary>▶ Show answer</summary>
+
+IPv6 LANs use **/64**. From /48 to /64 = 16 subnet bits → 2^16 = **65,536** subnets.
+</details>
+
+---
+
+### Q6. Summarize the four networks 192.168.4.0/24 … 192.168.7.0/24 into one route.
+
+<details><summary>▶ Show answer</summary>
+
+**192.168.4.0/22** — a /22 covers a block of 4 contiguous /24s aligned on a multiple of 4 (192.168.4.0 – 192.168.7.255).
+</details>
+
+---
+
+⬅️ **Prev:** [Module 07](07-exercise.md)  ·  [📚 All Exercises](README.md)  ·  **Next:** [Module 09 — Network Risk Management](09-exercise.md) ➡️

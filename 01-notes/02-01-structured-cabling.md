@@ -43,4 +43,10 @@ Entrance Facility  →  MDF  →  Backbone cabling  →  IDF  →  Horizontal ca
 
 > Structured cabling is a **hierarchical star**: work areas → IDFs → MDF → entrance facility/demarc. Copper serves the 100 m horizontal runs; fiber serves the long backbone.
 
-See also: [[02-02-racks-and-terminations]], [[05-01-copper-cabling]]
+See also: [Racks, Patch Panels & Terminations](02-02-racks-and-terminations.md), [Copper Cabling](05-01-copper-cabling.md)
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [Troubleshooting Methodology & Safety](01-05-troubleshooting-and-safety.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Racks, Patch Panels & Terminations](02-02-racks-and-terminations.md) ➡️

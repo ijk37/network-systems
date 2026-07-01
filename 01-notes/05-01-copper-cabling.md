@@ -50,4 +50,10 @@ Mitigate EMI with **STP** or **fiber**, and route away from noise sources.
 
 > Twisting cancels interference. Use **Cat 5e** for 1G and **Cat 6a** for 10G, all capped at **100 m**. Fight EMI with shielding or fiber.
 
-See also: [[05-02-fiber-optic]], [[05-04-cable-issues-and-tools]]
+See also: [Fiber-Optic Cabling](05-02-fiber-optic.md), [Cable Issues, Tools & PoE](05-04-cable-issues-and-tools.md)
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [Remote Access](04-05-remote-access.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Fiber-Optic Cabling](05-02-fiber-optic.md) ➡️

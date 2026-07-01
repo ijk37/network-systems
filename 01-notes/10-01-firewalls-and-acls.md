@@ -44,4 +44,10 @@ An **ACL** is an ordered list of permit/deny rules matched top-down.
 
 > Firewalls enforce policy between zones. **Stateful** > stateless; **NGFW** adds app-awareness/IPS. **ACLs** are ordered, first-match, with an **implicit deny** at the end.
 
-See also: [[10-02-ids-ips]], [[10-04-secure-network-design]]
+See also: [IDS & IPS](10-02-ids-ips.md), [Secure Network Design](10-04-secure-network-design.md)
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [Policies, Physical Security & Continuity](09-04-policies-and-risk-management.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [IDS & IPS](10-02-ids-ips.md) ➡️

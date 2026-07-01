@@ -55,4 +55,10 @@ A stolen password alone is then insufficient.
 
 > **AAA = Authenticate, Authorize, Account.** Use **802.1X + RADIUS** for network access, **TACACS+** for device admin, and **NAC** to enforce device posture. Add **MFA** everywhere.
 
-See also: [[06-03-wireless-security]], [[10-04-secure-network-design]]
+See also: [Wireless Security](06-03-wireless-security.md), [Secure Network Design](10-04-secure-network-design.md)
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [IDS & IPS](10-02-ids-ips.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Secure Network Design](10-04-secure-network-design.md) ➡️

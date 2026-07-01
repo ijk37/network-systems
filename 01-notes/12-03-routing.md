@@ -51,4 +51,10 @@ When multiple sources offer a route, the router prefers the **lowest AD** (most 
 
 > **Static** for small/stub; **dynamic** for scale. **OSPF/EIGRP** = interior; **BGP** = between autonomous systems (Internet). Ties are broken by **administrative distance** (lower = preferred).
 
-See also: [[12-01-wan-fundamentals]], [[08-06-subnetting-basics]]
+See also: [WAN Fundamentals](12-01-wan-fundamentals.md), [Subnetting Basics](08-06-subnetting-basics.md)
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [WAN Technologies](12-02-wan-technologies.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [WAN Topologies & Modern WAN](12-04-wan-topologies.md) ➡️

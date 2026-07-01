@@ -48,4 +48,10 @@ A **MAC (Media Access Control) address** is a **48-bit** Layer 2 physical addres
 
 > A MAC address is a **48-bit, vendor-assigned Layer 2 identifier** (OUI + device ID). It delivers frames locally; **ARP** maps IP → MAC.
 
-See also: [[03-02-ipv4-addressing]], [[03-07-cli-troubleshooting-tools]]
+See also: [IPv4 Addressing](03-02-ipv4-addressing.md), [CLI Troubleshooting Tools](03-07-cli-troubleshooting-tools.md)
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [Change Management & Agreements](02-04-change-management.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [IPv4 Addressing](03-02-ipv4-addressing.md) ➡️

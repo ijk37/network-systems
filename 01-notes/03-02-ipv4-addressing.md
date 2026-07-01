@@ -63,4 +63,10 @@ Not routable on the Internet — used inside networks with NAT:
 
 > IPv4 = **32 bits, four octets (0–255)**. The **subnet mask** marks network vs. host bits. Know the **private ranges**, **loopback (127.0.0.1)**, and **APIPA (169.254.x.x)**.
 
-See also: [[03-03-ipv6-addressing]], [[08-02-ip-address-structure]], [[08-03-subnet-mask]]
+See also: [IPv6 Addressing](03-03-ipv6-addressing.md), [IP Address Structure](08-02-ip-address-structure.md), [Subnet Mask](08-03-subnet-mask.md)
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [MAC Addresses](03-01-mac-addresses.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [IPv6 Addressing](03-03-ipv6-addressing.md) ➡️

@@ -42,4 +42,10 @@
 
 > Know **leased lines (T1/T3)**, **MPLS** (label switching), **Metro Ethernet**, broadband (**DSL/cable/fiber**), and wireless (**cellular/satellite**). **Fiber** wins on bandwidth/latency; **satellite** trades latency for reach.
 
-See also: [[12-01-wan-fundamentals]], [[12-04-wan-topologies]]
+See also: [WAN Fundamentals](12-01-wan-fundamentals.md), [WAN Topologies & Modern WAN](12-04-wan-topologies.md)
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [WAN Fundamentals](12-01-wan-fundamentals.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Routing](12-03-routing.md) ➡️

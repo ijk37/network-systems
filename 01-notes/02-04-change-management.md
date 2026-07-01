@@ -49,4 +49,10 @@
 
 > Every change should be **documented, reviewed, approved, and reversible** (rollback plan). Know the common agreements (**SLA, AUP**) and reliability metrics (**MTBF, MTTR**).
 
-See also: [[02-03-network-documentation]], [[11-04-fault-tolerance-and-recovery]]
+See also: [Network Documentation](02-03-network-documentation.md), [Fault Tolerance & Recovery](11-04-fault-tolerance-and-recovery.md)
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [Network Documentation](02-03-network-documentation.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [MAC Addresses](03-01-mac-addresses.md) ➡️

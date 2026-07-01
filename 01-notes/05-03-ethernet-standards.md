@@ -47,4 +47,10 @@ Modern switch ports auto-detect straight-through vs. crossover cabling and adjus
 
 > `speedBASE-media`: **T** = copper (100 m), **S/L** = MMF/SMF fiber. Use **SFP/SFP+/QSFP** transceivers to select the interface; **Auto-MDIX** handles cable type automatically.
 
-See also: [[05-02-fiber-optic]], [[01-04-network-hardware]]
+See also: [Fiber-Optic Cabling](05-02-fiber-optic.md), [Network Hardware Devices](01-04-network-hardware.md)
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [Fiber-Optic Cabling](05-02-fiber-optic.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Cable Issues, Tools & PoE](05-04-cable-issues-and-tools.md) ➡️

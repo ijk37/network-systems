@@ -183,3 +183,9 @@ It wants to assign a separate subnet to each department.
 IPv6 subnetting focuses on simplicity and scalability,
 
 👉 using large, fixed-size subnets (/64) instead of complex calculations like IPv4.
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [Variable Length Subnet Mask (VLSM)](08-10-vlsm.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Virtual LAN (VLAN)](08-12-vlan.md) ➡️

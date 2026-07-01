@@ -1,33 +1,118 @@
 # 02: Infrastructure & Documentation — Exercises
 
-## Questions
-
-1. Put these structured-cabling elements in order from the user's desk out to the ISP: MDF, work area, demarc, IDF, entrance facility, horizontal cabling, backbone cabling.
-2. A horizontal copper run measures 92 m of solid-core plus 12 m of patch cords. Does it comply with TIA-568? Why?
-3. You must terminate a cable to connect two switches together on gear without Auto-MDIX. Which cable type and which pin standards on each end?
-4. A rack holds a 1U firewall, a 2U server, and a 4U UPS. How many rack units are consumed, and how would you record their positions?
-5. Distinguish a physical network diagram from a logical network diagram, and give one item each would contain.
-6. Write the minimum contents of a change request for replacing a core switch.
+Work through each question, then click **▶ Show answer** to check yourself. Review the [notes](../01-notes/02-01-structured-cabling.md) if you get stuck.
 
 ---
 
-## Solutions
+### Q1. Order these structured-cabling elements from the user's desk out to the ISP: MDF, work area, demarc, IDF, entrance facility, horizontal cabling, backbone cabling.
 
-### 1. Cabling path
-**Work area → Horizontal cabling → IDF → Backbone cabling → MDF → Entrance facility → Demarc** (to the ISP).
+<details><summary>▶ Show answer</summary>
 
-### 2. TIA-568 compliance
-Total channel = 92 + 12 = **104 m**, which **exceeds the 100 m** limit. It does **not** comply. (Limit is ~90 m permanent link + ~10 m patch cords = 100 m.)
+**Work area → Horizontal cabling → IDF → Backbone cabling → MDF → Entrance facility → Demarc** (→ ISP).
+</details>
 
-### 3. Switch-to-switch cable
+---
+
+### Q2. What standard defines structured cabling for commercial buildings, and what topology does it assume?
+
+<details><summary>▶ Show answer</summary>
+
+**ANSI/TIA-568**, which assumes a hierarchical **star** topology.
+</details>
+
+---
+
+### Q3. A horizontal copper run measures 92 m of solid-core plus 12 m of patch cords. Does it comply with TIA-568? Why?
+
+<details><summary>▶ Show answer</summary>
+
+**No.** Total channel = 92 + 12 = **104 m**, exceeding the **100 m** limit (≈90 m permanent link + ≈10 m patch cords).
+</details>
+
+---
+
+### Q4. You must connect two switches on gear without Auto-MDIX. What cable type do you need, and which pin standards go on each end?
+
+<details><summary>▶ Show answer</summary>
+
 A **crossover cable** — **T568A on one end, T568B on the other**. (With Auto-MDIX, a straight-through would also work.)
+</details>
 
-### 4. Rack units
-1U + 2U + 4U = **7U** consumed. Record each device's **starting U position** (e.g., firewall at U42, server U40–41, UPS U1–4) in a **rack elevation diagram**.
+---
 
-### 5. Physical vs. logical diagram
+### Q5. What is the difference between the MDF and an IDF?
+
+<details><summary>▶ Show answer</summary>
+
+- **MDF (Main Distribution Frame)** — the central point of the building's cabling; houses core routers/switches and the main cross-connect.
+- **IDF (Intermediate Distribution Frame)** — a smaller wiring closet (often per floor) that aggregates work-area cabling and links back to the MDF via backbone cabling.
+</details>
+
+---
+
+### Q6. A rack holds a 1U firewall, a 2U server, and a 4U UPS. How many rack units are used, and where is this recorded?
+
+<details><summary>▶ Show answer</summary>
+
+1U + 2U + 4U = **7U** used (1U = 1.75 in). Recorded in a **rack elevation / rack diagram** showing each device's starting U position.
+</details>
+
+---
+
+### Q7. What is the demarcation point (demarc)?
+
+<details><summary>▶ Show answer</summary>
+
+The boundary where the **service provider's** responsibility ends and the **customer's** begins — useful for pinpointing who owns a fault.
+</details>
+
+---
+
+### Q8. Distinguish a physical network diagram from a logical network diagram, with one item each would contain.
+
+<details><summary>▶ Show answer</summary>
+
 - **Physical** — actual devices, ports, cable runs, locations (e.g., "Switch A port 12 → Room 204 jack").
 - **Logical** — IP addressing, subnets/VLANs, routing, data flow (e.g., "VLAN 10 = 192.168.10.0/24").
+</details>
 
-### 6. Change request contents
-Reason/scope, risk assessment, implementation plan + maintenance window, **rollback (back-out) plan**, and **approval/sign-off**. (Never includes personal credentials.)
+---
+
+### Q9. What is a performance baseline, and why is it valuable?
+
+<details><summary>▶ Show answer</summary>
+
+A record of **normal** traffic, utilization, latency, and error rates. It lets you recognize anomalies (spikes, slowdowns, breaches) by comparison and supports capacity planning.
+</details>
+
+---
+
+### Q10. List the minimum contents of a change request for replacing a core switch.
+
+<details><summary>▶ Show answer</summary>
+
+Reason/scope, risk assessment, implementation plan + maintenance window, **rollback (back-out) plan**, and **approval/sign-off**. (Never personal credentials.)
+</details>
+
+---
+
+### Q11. What do the metrics MTBF and MTTR measure?
+
+<details><summary>▶ Show answer</summary>
+
+- **MTBF (Mean Time Between Failures)** — average operating time before a device fails (reliability).
+- **MTTR (Mean Time To Repair)** — average time to restore a failed device/service (recovery speed).
+</details>
+
+---
+
+### Q12. Where must plenum-rated (CMP) cable be used, and why?
+
+<details><summary>▶ Show answer</summary>
+
+In **air-handling spaces (HVAC plenums)**. Plenum cable uses fire-resistant jacketing that emits **less toxic smoke** when burning, meeting fire code where building air circulates.
+</details>
+
+---
+
+⬅️ **Prev:** [Module 01](01-exercise.md)  ·  [📚 All Exercises](README.md)  ·  **Next:** [Module 03 — Addressing](03-exercise.md) ➡️

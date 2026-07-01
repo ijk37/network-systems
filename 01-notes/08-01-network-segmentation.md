@@ -68,3 +68,9 @@ Grouping devices based on their type or role in the network.
 Instead of one large network:
 
 ➡️ Create multiple smaller, controlled network segments
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [Remote Access Methods](07-04-remote-access-methods.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [IP Address Structure](08-02-ip-address-structure.md) ➡️

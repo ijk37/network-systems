@@ -48,4 +48,10 @@ Plaintext protocols (Telnet, HTTP, FTP) expose credentials and data to sniffers.
 
 > Prefer secure protocols: **TLS** for web/app data, **SSH** for remote CLI, **IPsec** for VPN tunnels at Layer 3. Always replace **Telnet/HTTP/FTP** with encrypted equivalents.
 
-See also: [[04-05-remote-access]], [[10-01-firewalls-and-acls]]
+See also: [Remote Access](04-05-remote-access.md), [Firewalls & ACLs](10-01-firewalls-and-acls.md)
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [Core Protocols & Their Ports](04-03-core-protocols-and-ports.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Remote Access](04-05-remote-access.md) ➡️

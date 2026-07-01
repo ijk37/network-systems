@@ -113,3 +113,9 @@ Due to these limitations, classful networking was replaced by:
 Classful networking uses fixed network boundaries,
 
 while modern networking allows flexible boundaries using subnet masks.
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [Subnet Mask](08-03-subnet-mask.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [CIDR (Classless Inter-Domain Routing)](08-05-cidr.md) ➡️

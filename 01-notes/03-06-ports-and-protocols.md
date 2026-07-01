@@ -52,4 +52,10 @@ A **socket** = IP address + port (e.g., `192.168.1.5:443`).
 
 > Memorize the **well-known ports** and their secure equivalents. Ports identify the **application**; a **socket** (IP:port) uniquely identifies an endpoint of a connection.
 
-See also: [[04-03-core-protocols-and-ports]], [[04-04-secure-protocols]]
+See also: [Core Protocols & Their Ports](04-03-core-protocols-and-ports.md), [Secure Protocols & Encryption](04-04-secure-protocols.md)
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [DNS](03-05-dns.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [CLI Troubleshooting Tools](03-07-cli-troubleshooting-tools.md) ➡️

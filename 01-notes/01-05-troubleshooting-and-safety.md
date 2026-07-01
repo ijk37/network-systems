@@ -38,4 +38,10 @@
 
 > Troubleshooting is a **repeatable process**: identify → theorize → test → plan → implement → verify → document. Pair it with the **OSI model** to isolate the layer at fault, and always work safely (ESD strap, MSDS).
 
-See also: [[01-03-osi-model]], [[03-07-cli-troubleshooting-tools]]
+See also: [The OSI Model](01-03-osi-model.md), [CLI Troubleshooting Tools](03-07-cli-troubleshooting-tools.md)
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [Network Hardware Devices](01-04-network-hardware.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Structured Cabling](02-01-structured-cabling.md) ➡️

@@ -124,3 +124,9 @@ Subnet ranges increase as:
 Classful networking uses fixed boundaries.
 
 👉 Subnetting introduces flexibility by allowing custom network boundaries.
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [CIDR (Classless Inter-Domain Routing)](08-05-cidr.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Subnetting Examples](08-07-subnetting-examples.md) ➡️

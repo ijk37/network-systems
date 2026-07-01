@@ -52,4 +52,10 @@ A **captive portal** intercepts new clients and redirects to a login/terms page 
 
 > **BSS** = one AP; **ESS** = many APs, one SSID (enables roaming). Plan with a **site survey/heat map**, avoid channel overlap, and use a **WLC** to manage APs at scale.
 
-See also: [[06-02-frequencies-and-channels]], [[08-12-vlan]]
+See also: [Frequencies, Channels & Antennas](06-02-frequencies-and-channels.md), [Virtual LAN (VLAN)](08-12-vlan.md)
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [Wireless Security](06-03-wireless-security.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Cloud Service Models](07-01-cloud-service-models.md) ➡️

@@ -73,3 +73,9 @@ An IP address alone does not define the network boundary.
 A subnet mask is required to determine:
 - which part is the network
 - which part is the host
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [Network Segmentation](08-01-network-segmentation.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Subnet Mask](08-03-subnet-mask.md) ➡️

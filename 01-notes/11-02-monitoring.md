@@ -42,4 +42,10 @@ A **baseline** records normal performance so deviations (spikes, slowdowns, brea
 
 > Monitor with **SNMP** (metrics), **NetFlow** (traffic patterns), and **syslog/SIEM** (events). Keep a **baseline** to spot anomalies, and use **SPAN** to feed analyzers.
 
-See also: [[11-01-performance-concepts]], [[10-02-ids-ips]]
+See also: [Performance Concepts & QoS](11-01-performance-concepts.md), [IDS & IPS](10-02-ids-ips.md)
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [Performance Concepts & QoS](11-01-performance-concepts.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [High Availability & Redundancy](11-03-high-availability.md) ➡️

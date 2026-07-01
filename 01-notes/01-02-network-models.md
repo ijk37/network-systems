@@ -35,12 +35,18 @@ Real networks combine topologies — e.g., a **star-of-stars** (hierarchical sta
 - **Peer-to-peer** — no central control; each host shares its own resources.
 - **Client-server** — a NOS on servers centrally controls access.
 
-(See [[01-01-what-is-network]] for the full comparison.)
+(See [What Is a Network?](01-01-what-is-network.md) for the full comparison.)
 
 ---
 
 ## Key Idea
 
-> **Physical topology = the wiring diagram; logical topology = the traffic flow.** Modern LANs are physically star (to a switch) and can be logically segmented (e.g., with VLANs — see [[08-12-vlan]]).
+> **Physical topology = the wiring diagram; logical topology = the traffic flow.** Modern LANs are physically star (to a switch) and can be logically segmented (e.g., with VLANs — see [Virtual LAN (VLAN)](08-12-vlan.md)).
 
-See also: [[01-03-osi-model]], [[01-04-network-hardware]]
+See also: [The OSI Model](01-03-osi-model.md), [Network Hardware Devices](01-04-network-hardware.md)
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [What Is a Network?](01-01-what-is-network.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [The OSI Model](01-03-osi-model.md) ➡️

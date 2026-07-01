@@ -50,4 +50,10 @@ Eight groups (hextets) of four hex digits, separated by colons:
 
 > IPv6 = **128 bits, eight hextets**, compressed with **`::` (once)** and dropped leading zeros. LANs use **/64**; hosts can self-configure via **SLAAC/EUI-64**.
 
-See also: [[03-02-ipv4-addressing]], [[08-11-ipv6-subnetting]]
+See also: [IPv4 Addressing](03-02-ipv4-addressing.md), [Subnets in IPv6](08-11-ipv6-subnetting.md)
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [IPv4 Addressing](03-02-ipv4-addressing.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [DHCP](03-04-dhcp.md) ➡️

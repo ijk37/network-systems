@@ -42,4 +42,10 @@ The provider secures the layers **they** manage; **you** secure your OS/apps/dat
 
 > **IaaS = VMs/infra**, **PaaS = dev platform**, **SaaS = finished apps**. The higher the service, the less you manage — but you always secure your **data and access**.
 
-See also: [[07-02-cloud-deployment]], [[07-03-virtualization]]
+See also: [Cloud Deployment Models & Characteristics](07-02-cloud-deployment.md), [Virtualization](07-03-virtualization.md)
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [Wireless Design & Roaming](06-04-wireless-design.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Cloud Deployment Models & Characteristics](07-02-cloud-deployment.md) ➡️

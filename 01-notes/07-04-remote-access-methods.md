@@ -51,4 +51,10 @@ Uses a **separate path** (console/serial port, dedicated management interface, o
 
 > Remote access = **VPN + SSH/RDP + VDI**, hardened with **MFA, jump boxes, and least privilege**. Keep an **out-of-band** path for managing devices during outages.
 
-See also: [[04-05-remote-access]], [[10-04-secure-network-design]]
+See also: [Remote Access](04-05-remote-access.md), [Secure Network Design](10-04-secure-network-design.md)
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [Virtualization](07-03-virtualization.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Network Segmentation](08-01-network-segmentation.md) ➡️

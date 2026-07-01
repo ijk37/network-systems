@@ -54,4 +54,10 @@ A **zero-day** exploits a flaw before a patch exists.
 
 > Know **DoS/DDoS**, **MITM/ARP spoofing**, **phishing/social engineering**, and **malware types** (virus vs. worm vs. trojan vs. ransomware). A **zero-day** has no patch yet.
 
-See also: [[09-01-security-concepts]], [[10-05-switch-hardening]]
+See also: [Security Concepts](09-01-security-concepts.md), [Switch & Port Hardening](10-05-switch-hardening.md)
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [Security Concepts](09-01-security-concepts.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Security Assessments](09-03-security-assessments.md) ➡️

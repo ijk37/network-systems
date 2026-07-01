@@ -51,4 +51,10 @@ Networks are organized in one of two logical models.
 
 > A network is about **sharing resources reliably**. The organizational model (peer-to-peer vs. client-server) determines *how control and security are managed*, while the scope (PAN/LAN/MAN/WAN) describes *how far it reaches*.
 
-See also: [[01-02-network-models]], [[01-03-osi-model]]
+See also: [Network Models & Topologies](01-02-network-models.md), [The OSI Model](01-03-osi-model.md)
+
+<!-- nav -->
+
+---
+
+[📚 All Notes](README.md)  ·  **Next:** [Network Models & Topologies](01-02-network-models.md) ➡️

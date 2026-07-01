@@ -48,4 +48,10 @@ Policies establish rules, roles, and expected behavior — the governance that t
 
 > Policies + access control (**least privilege, MFA**) + physical security + tested **3-2-1 backups** and **RTO/RPO** targets form a complete risk-management program.
 
-See also: [[09-01-security-concepts]], [[11-04-fault-tolerance-and-recovery]]
+See also: [Security Concepts](09-01-security-concepts.md), [Fault Tolerance & Recovery](11-04-fault-tolerance-and-recovery.md)
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [Security Assessments](09-03-security-assessments.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Firewalls & ACLs](10-01-firewalls-and-acls.md) ➡️

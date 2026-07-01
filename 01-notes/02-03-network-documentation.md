@@ -42,4 +42,10 @@ IPAM tracks which addresses/subnets are **assigned, reserved, or free**, along w
 
 > Keep **physical + logical diagrams, labels, IPAM, and a baseline** current. Documentation is only valuable if it is **accurate** — update it as part of every change.
 
-See also: [[02-04-change-management]], [[03-04-dhcp]]
+See also: [Change Management & Agreements](02-04-change-management.md), [DHCP](03-04-dhcp.md)
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [Racks, Patch Panels & Terminations](02-02-racks-and-terminations.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Change Management & Agreements](02-04-change-management.md) ➡️

@@ -54,4 +54,10 @@ The receiving host reverses this (**decapsulation**), stripping one header per l
 
 > TCP/IP is a **suite**. As data goes down the stack it's **encapsulated** — ports at L4, IPs at L3, MACs at L2 — becoming **segment → packet → frame → bits**.
 
-See also: [[01-03-osi-model]], [[04-02-tcp-vs-udp]]
+See also: [The OSI Model](01-03-osi-model.md), [TCP vs. UDP](04-02-tcp-vs-udp.md)
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [CLI Troubleshooting Tools](03-07-cli-troubleshooting-tools.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [TCP vs. UDP](04-02-tcp-vs-udp.md) ➡️

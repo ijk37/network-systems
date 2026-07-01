@@ -50,4 +50,10 @@ PoE delivers **DC power + data** over the same twisted-pair cable — powering A
 
 > Diagnose copper with a **wiremap/certifier** and fiber with an **OTDR/power meter**. **PoE** (802.3af/at/bt) powers devices over Ethernet. Use **plenum** cable in air spaces.
 
-See also: [[05-01-copper-cabling]], [[02-02-racks-and-terminations]]
+See also: [Copper Cabling](05-01-copper-cabling.md), [Racks, Patch Panels & Terminations](02-02-racks-and-terminations.md)
+
+<!-- nav -->
+
+---
+
+⬅️ **Prev:** [Ethernet Standards & Transceivers](05-03-ethernet-standards.md)  ·  [📚 All Notes](README.md)  ·  **Next:** [Wireless Fundamentals & 802.11 Standards](06-01-wireless-standards.md) ➡️
