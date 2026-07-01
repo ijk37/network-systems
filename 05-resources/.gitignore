@@ -8,4 +8,4 @@
 *.pka
 *.md
 *.py
-*.ini
+**/desktop.ini

@@ -2,6 +2,7 @@ __pycache__
 .claude
 .git
 .Rhistory
+**/desktop.ini
 *.pptx
 *.pdf
 *.docx
