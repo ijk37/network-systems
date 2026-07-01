@@ -151,9 +151,11 @@
     /* ── Buttons ── */
     .btn-row {
       display: flex;
-      justify-content: flex-end;
+      justify-content: space-between;
+      gap: 0.75rem;
       margin-top: 1.5rem;
     }
+    .btn-outline:disabled { opacity: 0.35; cursor: default; }
 
     .btn {
       background: #4f8ef7;
@@ -239,6 +241,12 @@
       margin-bottom: 0.5rem;
     }
 
+    .review-item .review-good {
+      font-size: 0.83rem;
+      color: #22c55e;
+      margin-bottom: 0.2rem;
+    }
+
     .review-item .review-explain {
       font-size: 0.82rem;
       color: #64748b;
@@ -246,6 +254,10 @@
       border-top: 1px solid #2d3348;
       padding-top: 0.5rem;
     }
+
+    .review-item.rev-correct { border-left: 3px solid #22c55e; }
+    .review-item.rev-wrong   { border-left: 3px solid #ef4444; }
+    .review-item.rev-skip    { border-left: 3px solid #64748b; }
 
     .result-actions {
       display: flex;
@@ -295,7 +307,8 @@
     </div>
 
     <div class="btn-row">
-      <button class="btn" id="next-btn" disabled>Next →</button>
+      <button class="btn-outline" id="back-btn" disabled>← Back</button>
+      <button class="btn" id="next-btn">Skip →</button>
     </div>
   </div>
 
@@ -337,6 +350,18 @@
 <script src="data-10.js"></script>
 <script src="data-11.js"></script>
 <script src="data-12.js"></script>
+<script src="data-01-b.js"></script>
+<script src="data-02-b.js"></script>
+<script src="data-03-b.js"></script>
+<script src="data-04-b.js"></script>
+<script src="data-05-b.js"></script>
+<script src="data-06-b.js"></script>
+<script src="data-07-b.js"></script>
+<script src="data-08-b.js"></script>
+<script src="data-09-b.js"></script>
+<script src="data-10-b.js"></script>
+<script src="data-11-b.js"></script>
+<script src="data-12-b.js"></script>
 <script src="data-mixed-1.js"></script>
 <script src="data-mixed-2.js"></script>
 <script src="data-mixed-3.js"></script>
@@ -360,17 +385,42 @@
   document.getElementById("topic-label").textContent = topic.title;
   document.getElementById("results-label").textContent = topic.title;
 
-  // Shuffle questions for variety
-  const shuffled = [...questions].sort(() => Math.random() - 0.5);
+  // How many questions this attempt shows (random subset of the pool).
+  const urlN = parseInt(params.get("n"), 10);
+  const attemptSize = (urlN > 0)
+    ? Math.min(urlN, questions.length)
+    : attemptSizeFor(topicId, questions.length);
 
+  // Shuffle a question's options so the correct answer isn't always in the
+  // same position; remap the answer index to match the new order.
+  function shuffleOptions(q) {
+    const order = q.options.map((_, i) => i).sort(() => Math.random() - 0.5);
+    return {
+      q: q.q,
+      options: order.map(i => q.options[i]),
+      answer: order.indexOf(q.answer),
+      explain: q.explain,
+    };
+  }
+
+  // Pick a fresh random subset from the full pool, options shuffled, per attempt.
+  function pickQuestions() {
+    return [...questions]
+      .sort(() => Math.random() - 0.5)
+      .slice(0, attemptSize)
+      .map(shuffleOptions);
+  }
+
+  const LETTERS = ["A", "B", "C", "D", "E", "F"];
+  let shuffled = pickQuestions();
   let current = 0;
-  let score = 0;
-  const userAnswers = new Array(shuffled.length).fill(null);
+  let userAnswers = new Array(shuffled.length).fill(null);
 
-  // ── Render question ───────────────────────────────────────────────────────
+  // ── Render question (restores answered state when navigating back) ─────────
   function render() {
     const q = shuffled[current];
-    const letters = ["A", "B", "C", "D"];
+    const chosen = userAnswers[current];
+    const answered = chosen !== null;
 
     // Progress
     document.getElementById("progress-fill").style.width =
@@ -387,56 +437,49 @@
     q.options.forEach((text, i) => {
       const div = document.createElement("div");
       div.className = "option";
-      div.innerHTML = `<span class="opt-letter">${letters[i]}</span><span>${text}</span>`;
-      div.addEventListener("click", () => selectAnswer(i));
+      div.innerHTML = `<span class="opt-letter">${LETTERS[i]}</span><span>${text}</span>`;
+      if (answered) {
+        div.classList.add("locked");
+        if (i === chosen && chosen === q.answer) div.classList.add("correct");
+        else if (i === chosen) div.classList.add("wrong");
+        else if (i === q.answer) div.classList.add("reveal");
+      } else {
+        div.addEventListener("click", () => selectAnswer(i));
+      }
       optContainer.appendChild(div);
     });
 
-    // Explanation
+    // Explanation (only after answering)
     const exp = document.getElementById("explanation");
-    exp.classList.remove("show");
-    exp.innerHTML = "";
+    if (answered) {
+      exp.innerHTML = `<strong>Explanation:</strong> ${q.explain}`;
+      exp.classList.add("show");
+    } else {
+      exp.classList.remove("show");
+      exp.innerHTML = "";
+    }
 
-    // Next button
-    const btn = document.getElementById("next-btn");
-    btn.disabled = true;
-    btn.textContent = current === shuffled.length - 1 ? "See Results" : "Next →";
+    // Buttons
+    document.getElementById("back-btn").disabled = current === 0;
+    const nextBtn = document.getElementById("next-btn");
+    const last = current === shuffled.length - 1;
+    nextBtn.textContent = last ? "See Results" : (answered ? "Next →" : "Skip →");
   }
 
   // ── Select answer ─────────────────────────────────────────────────────────
   function selectAnswer(chosen) {
     if (userAnswers[current] !== null) return; // already answered
-
     userAnswers[current] = chosen;
-    const q = shuffled[current];
-    const opts = document.querySelectorAll(".option");
-
-    opts.forEach(o => o.classList.add("locked"));
-
-    if (chosen === q.answer) {
-      score++;
-      opts[chosen].classList.add("correct");
-    } else {
-      opts[chosen].classList.add("wrong");
-      opts[q.answer].classList.add("reveal");
-    }
-
-    // Show explanation
-    const exp = document.getElementById("explanation");
-    exp.innerHTML = `<strong>Explanation:</strong> ${q.explain}`;
-    exp.classList.add("show");
-
-    document.getElementById("next-btn").disabled = false;
+    render();                                   // re-render to lock + reveal
   }
 
-  // ── Next / finish ─────────────────────────────────────────────────────────
+  // ── Navigation: Back / Skip / Next / Finish ───────────────────────────────
+  document.getElementById("back-btn").addEventListener("click", () => {
+    if (current > 0) { current--; render(); }
+  });
   document.getElementById("next-btn").addEventListener("click", () => {
-    current++;
-    if (current < shuffled.length) {
-      render();
-    } else {
-      showResults();
-    }
+    if (current < shuffled.length - 1) { current++; render(); }
+    else showResults();
   });
 
   // ── Results ───────────────────────────────────────────────────────────────
@@ -445,6 +488,8 @@
     document.getElementById("results").style.display = "block";
 
     const total = shuffled.length;
+    const score = shuffled.reduce((s, q, i) => s + (userAnswers[i] === q.answer ? 1 : 0), 0);
+    const answeredCount = userAnswers.filter(a => a !== null).length;
     const pct = Math.round((score / total) * 100);
 
     document.getElementById("score-num").textContent = score;
@@ -457,46 +502,55 @@
       document.getElementById("score-card").classList.add("all-correct");
     } else if (pct >= 80) {
       title = "Great Work! 👏";
-      sub = `${pct}% — solid understanding. Review the misses below.`;
+      sub = `${pct}% — solid understanding. Review below.`;
     } else if (pct >= 60) {
       title = "Getting There 💪";
-      sub = `${pct}% — re-read the note and try again.`;
+      sub = `${pct}% — re-read the notes and try again.`;
     } else {
       title = "Keep Studying 📖";
       sub = `${pct}% — go back to the notes, then retry.`;
     }
+    if (answeredCount < total) sub += ` · ${total - answeredCount} skipped`;
 
     document.getElementById("result-title").textContent = title;
     document.getElementById("result-sub").textContent = sub;
 
-    // Wrong answers review
+    // Full review — every question: your answer, correct answer, explanation
     const reviewList = document.getElementById("review-list");
-    reviewList.innerHTML = "";
-    const letters = ["A", "B", "C", "D"];
+    reviewList.innerHTML =
+      `<p style="font-size:0.75rem;font-weight:700;color:#475569;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:0.25rem">Review — all ${total} questions</p>`;
 
     shuffled.forEach((q, i) => {
-      if (userAnswers[i] === q.answer) return; // skip correct ones
+      const chosen = userAnswers[i];
+      const isCorrect = chosen === q.answer;
       const div = document.createElement("div");
-      div.className = "review-item";
+      div.className = "review-item " + (chosen === null ? "rev-skip" : isCorrect ? "rev-correct" : "rev-wrong");
+
+      let yourLine;
+      if (chosen === null) {
+        yourLine = `<div class="review-your">— Not answered</div>`;
+      } else if (isCorrect) {
+        yourLine = `<div class="review-good">✓ Your answer: ${LETTERS[chosen]}. ${q.options[chosen]}</div>`;
+      } else {
+        yourLine = `<div class="review-your">✗ Your answer: ${LETTERS[chosen]}. ${q.options[chosen]}</div>`;
+      }
+      const correctLine = isCorrect ? "" :
+        `<div class="review-correct">✓ Correct: ${LETTERS[q.answer]}. ${q.options[q.answer]}</div>`;
+
       div.innerHTML = `
         <div class="review-q">Q${i + 1}: ${q.q}</div>
-        <div class="review-your">✗ Your answer: ${userAnswers[i] === null ? "—" : letters[userAnswers[i]] + ". " + q.options[userAnswers[i]]}</div>
-        <div class="review-correct">✓ Correct: ${letters[q.answer]}. ${q.options[q.answer]}</div>
+        ${yourLine}
+        ${correctLine}
         <div class="review-explain">${q.explain}</div>`;
       reviewList.appendChild(div);
     });
-
-    if (score === total) {
-      reviewList.innerHTML = `<p style="text-align:center;color:#22c55e;padding:1rem 0">All answers correct — nothing to review!</p>`;
-    }
   }
 
   // ── Retry ─────────────────────────────────────────────────────────────────
   function restartQuiz() {
     current = 0;
-    score = 0;
-    userAnswers.fill(null);
-    shuffled.sort(() => Math.random() - 0.5);
+    shuffled = pickQuestions();               // new random subset each retry
+    userAnswers = new Array(shuffled.length).fill(null);
     document.getElementById("results").style.display = "none";
     document.getElementById("quiz").style.display = "block";
     document.getElementById("score-card").classList.remove("all-correct");

@@ -25,6 +25,27 @@ const TOPICS = [
   { id: "mixed-5", title: "Final Mixed Quiz 5" },
 ];
 
+// ── Quiz sizing ─────────────────────────────────────────────────────────────
+// Each attempt draws a RANDOM subset of this many questions from the topic
+// pool (re-picked on every retry). If a pool is smaller than the configured
+// size, the whole pool is used. Override per attempt with a ?n= URL parameter.
+const QUIZ_CONFIG = {
+  defaultAttempt: 25,        // random questions per attempt for chapter quizzes
+  attempt: {                 // per-topic overrides (mixed quizzes stay large)
+    "mixed-1": 50,
+    "mixed-2": 50,
+    "mixed-3": 75,
+    "mixed-4": 100,
+    "mixed-5": 100,
+  },
+};
+
+// How many questions a given topic shows per attempt (capped at pool size).
+function attemptSizeFor(topicId, poolLen) {
+  const cfg = (QUIZ_CONFIG.attempt && QUIZ_CONFIG.attempt[topicId]) || QUIZ_CONFIG.defaultAttempt;
+  return Math.min(cfg, poolLen);
+}
+
 const QUESTIONS = {};
 
 // ── Module 01 — Introduction to Networking (40) ─────────────────────────────
