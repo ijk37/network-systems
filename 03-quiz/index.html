@@ -9,7 +9,7 @@
 
     body {
       font-family: 'Segoe UI', system-ui, sans-serif;
-      background: #0f1117;
+      background: #160F13;
       color: #e2e8f0;
       min-height: 100vh;
       padding: 2rem 1rem;
@@ -17,20 +17,36 @@
 
     header {
       text-align: center;
-      margin-bottom: 2.5rem;
+      max-width: 1000px;
+      margin: 0 auto 2.5rem;
+      background: linear-gradient(135deg, #7E0E23 0%, #B4122E 55%, #8A1020 100%);
+      border: 1px solid #C8324B;
+      border-bottom: 4px solid #E4A72A;
+      border-radius: 16px;
+      padding: 2.2rem 1.5rem;
+      box-shadow: 0 12px 34px rgba(0, 0, 0, 0.4);
+    }
+
+    header .eyebrow {
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: #F5D283;
+      margin-bottom: 0.5rem;
     }
 
     header h1 {
-      font-size: 2rem;
-      font-weight: 700;
-      color: #f8fafc;
+      font-size: 2.1rem;
+      font-weight: 800;
+      color: #ffffff;
       letter-spacing: -0.5px;
     }
 
     header p {
       margin-top: 0.5rem;
-      color: #94a3b8;
-      font-size: 1rem;
+      color: #F3D6DB;
+      font-size: 0.98rem;
     }
 
     .grid {
@@ -42,8 +58,8 @@
     }
 
     .card {
-      background: #1e2231;
-      border: 1px solid #2d3348;
+      background: #241821;
+      border: 1px solid #3B2530;
       border-radius: 12px;
       padding: 1.25rem 1.5rem;
       cursor: pointer;
@@ -56,8 +72,8 @@
     }
 
     .card:hover {
-      border-color: #4f8ef7;
-      background: #1a2540;
+      border-color: #B4122E;
+      background: #331C28;
       transform: translateY(-2px);
     }
 
@@ -68,8 +84,8 @@
 
     .card-body .topic-id {
       font-size: 0.75rem;
-      font-weight: 600;
-      color: #4f8ef7;
+      font-weight: 700;
+      color: #E4A72A;
       text-transform: uppercase;
       letter-spacing: 0.05em;
     }
@@ -98,8 +114,9 @@
 <body>
 
 <header>
-  <h1>🌐 Network+ — Quiz Hub</h1>
-  <p>CompTIA Network+ Guide to Networks, 9th Edition · select a module to test yourself</p>
+  <div class="eyebrow">Network Systems · CompTIA Network+</div>
+  <h1>🌐 Network+ Quiz Hub</h1>
+  <p>CompTIA Network+ Guide to Networks, 9th Edition — pick a module and test yourself</p>
 </header>
 
 <div class="grid" id="grid"></div>
@@ -156,7 +173,7 @@
   function renderCards(list, labelText) {
     const section = document.createElement("div");
     section.style.cssText = "grid-column:1/-1;margin:1rem 0 0.25rem;";
-    section.innerHTML = `<p style="font-size:0.75rem;font-weight:700;color:#475569;text-transform:uppercase;letter-spacing:0.08em">${labelText}</p>`;
+    section.innerHTML = `<p style="font-size:0.8rem;font-weight:700;color:#E4A72A;text-transform:uppercase;letter-spacing:0.08em;border-left:3px solid #B4122E;padding-left:0.6rem">${labelText}</p>`;
     grid.appendChild(section);
 
     list.forEach(topic => {

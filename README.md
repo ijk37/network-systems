@@ -1,17 +1,22 @@
 <div align="center">
 
-<h1>Network Systems</h1>
-
-<h3>CompTIA Network+ study notes, exercises, quizzes, and hands-on projects</h3>
+<a href="https://ijk37.github.io/network-systems/03-quiz/"><img src="assets/banner.svg" alt="Network Systems — CompTIA Network+" width="100%"></a>
 
 <p>
-  <a href="01-notes/README.md"><img src="https://img.shields.io/badge/Notes-12%20modules-007C89?style=for-the-badge" alt="Course Notes"></a>
-  <a href="02-exercises/README.md"><img src="https://img.shields.io/badge/Exercises-12%20sets-D85D27?style=for-the-badge" alt="Exercises"></a>
-  <a href="https://ijk37.github.io/network-systems/03-quiz/"><img src="https://img.shields.io/badge/Quiz%20Hub-Open-C28B00?style=for-the-badge" alt="Quiz Hub"></a>
-  <a href="04-projects/README.md"><img src="https://img.shields.io/badge/Projects-11%20labs-248263?style=for-the-badge" alt="Projects"></a>
+  <a href="01-notes/README.md"><img src="https://img.shields.io/badge/Notes-12_modules-B4122E?style=for-the-badge&labelColor=7E0E23" alt="Course Notes"></a>
+  <a href="02-exercises/README.md"><img src="https://img.shields.io/badge/Exercises-12_sets-B4122E?style=for-the-badge&labelColor=7E0E23" alt="Exercises"></a>
+  <a href="https://ijk37.github.io/network-systems/03-quiz/"><img src="https://img.shields.io/badge/Quiz_Hub-Open-C8901A?style=for-the-badge&labelColor=7E0E23" alt="Quiz Hub"></a>
+  <a href="04-projects/README.md"><img src="https://img.shields.io/badge/Projects-11_labs-B4122E?style=for-the-badge&labelColor=7E0E23" alt="Projects"></a>
 </p>
 
-<p>A structured, self-paced learning repository built around <strong>CompTIA Network+ Guide to Networks, 9th Edition</strong> by Jill West.</p>
+<p>
+  <img src="https://img.shields.io/badge/Question_Bank-~1,200-C8901A?style=flat-square&labelColor=7E0E23" alt="Question Bank">
+  <img src="https://img.shields.io/badge/Modules-12-B4122E?style=flat-square&labelColor=7E0E23" alt="Modules">
+  <img src="https://img.shields.io/badge/Projects-11-B4122E?style=flat-square&labelColor=7E0E23" alt="Projects count">
+  <img src="https://img.shields.io/badge/Exam-N10--008-C8901A?style=flat-square&labelColor=7E0E23" alt="Exam">
+</p>
+
+<p><em>A structured, self-paced learning repository built around <strong>CompTIA Network+ Guide to Networks, 9th Edition</strong> by Jill West.</em></p>
 
 </div>
 

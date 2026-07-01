@@ -2,6 +2,10 @@
 
 <div align="center">
 
+<a href="../README.md"><img src="../assets/banner.svg" alt="Network Systems" width="100%"></a>
+
+<img src="https://img.shields.io/badge/02_·_Exercises-12_sets-B4122E?style=for-the-badge&labelColor=7E0E23" alt="Exercises">
+
 <a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="../01-notes/README.md">Notes</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a> &nbsp;|&nbsp; <a href="../04-projects/README.md">Projects</a>
 
 </div>

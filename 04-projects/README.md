@@ -1,4 +1,14 @@
-# Projects
+# 04 Projects
+
+<div align="center">
+
+<a href="../README.md"><img src="../assets/banner.svg" alt="Network Systems" width="100%"></a>
+
+<img src="https://img.shields.io/badge/04_·_Projects-11_labs-B4122E?style=for-the-badge&labelColor=7E0E23" alt="Projects">
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="../01-notes/README.md">Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/README.md">Exercises</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+
+</div>
 
 Hands-on projects that apply the notes to realistic scenarios — a mix of **Cisco Packet Tracer labs** and **design/analysis** work. Each project has its own folder with a full README (objective, scenario, step-by-step tasks, verification, deliverables, and stretch goals).
 

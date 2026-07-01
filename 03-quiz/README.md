@@ -1,8 +1,16 @@
-# Quiz
+# 03 Quiz
 
-Interactive multiple-choice quizzes for all 12 modules of **CompTIA Network+ Guide to Networks, 9th Edition**, plus 5 cumulative mixed quizzes. Built with plain HTML + JavaScript — no server required.
+<div align="center">
 
-## [👉 Open the Quiz Hub](https://ijk37.github.io/network-systems/03-quiz/)
+<a href="https://ijk37.github.io/network-systems/03-quiz/"><img src="../assets/banner.svg" alt="Network Systems" width="100%"></a>
+
+<a href="https://ijk37.github.io/network-systems/03-quiz/"><img src="https://img.shields.io/badge/▶_Launch_Quiz_Hub-C8901A?style=for-the-badge&labelColor=7E0E23" alt="Launch Quiz Hub"></a>
+
+<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="../01-notes/README.md">Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/README.md">Exercises</a> &nbsp;|&nbsp; <a href="../04-projects/README.md">Projects</a>
+
+</div>
+
+Interactive multiple-choice quizzes for all 12 modules of **CompTIA Network+ Guide to Networks, 9th Edition**, plus 5 cumulative mixed quizzes — crimson & gold theme, built with plain HTML + JavaScript, no server required.
 
 **Locally:** open `index.html` in your browser.
 
