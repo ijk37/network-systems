@@ -1,0 +1,12 @@
+__pycache__
+.claude
+.git
+.Rhistory
+*.pptx
+*.pdf
+*.docx
+*.jpg
+*.png
+*.txt
+*.pkt
+*.pka
