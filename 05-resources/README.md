@@ -1,4 +1,4 @@
-# 05 Resource
+# 05 Resources
 
 <div align="center" markdown>
 
