@@ -20,9 +20,11 @@ site (https://ijk37.github.io/network-systems/):
   4. Points quiz-README links at the quiz hub (03-quiz/README.md -> 03-quiz/),
      since the quiz app's index.html owns that folder.
   5. Fixes note image refs to assets/images/ (bare *.png -> ../assets/images/*.png).
-  6. Recreates resources.md if it is missing (nav references it).
-  7. Ensures the gold "View the Live Site" badge sits under the banner in every
+  6. Ensures the "View the Live Site" badge sits under the banner in every
      README (re-inserts it if a formatting pass strips it).
+
+The 05 Resources page lives at 05-resources/README.md (published on the site and
+on GitHub); it is maintained by hand, not generated here.
 
 Usage:
     python tools/finalize.py
@@ -105,47 +107,14 @@ def fix_file(path: str) -> bool:
     return False
 
 
-RESOURCES_MD = """# 05 Resources
-
-<div align="center" markdown>
-
-![Network Systems](assets/banner.svg)
-
-<img src="https://img.shields.io/badge/05_·_Resources-Reference-B4122E?style=for-the-badge&labelColor=7E0E23" alt="Resources">
-
-[Home](index.md) &nbsp;|&nbsp; [Notes](01-notes/README.md) &nbsp;|&nbsp; [Exercises](02-exercises/README.md) &nbsp;|&nbsp; [Quiz Hub](03-quiz/) &nbsp;|&nbsp; [Projects](04-projects/README.md)
-
-</div>
-
-Supplemental references that support the notes, exercises, and projects.
-
-> [!NOTE]
-> Course lecture slides, textbooks, and lab files live locally under `05-resources/`
-> but are **not published** with the site (excluded from the build and from version
-> control to respect copyright).
-
-## Tools
-
-| Tool | Use | Link |
-| --- | --- | --- |
-| **Cisco Packet Tracer** | Network simulation for the lab projects | [netacad.com](https://www.netacad.com/courses/packet-tracer) |
-| **Wireshark** | Packet capture & protocol analysis | [wireshark.org](https://www.wireshark.org/) |
-| **CompTIA Network+ (N10-008)** | Exam objectives this course maps to | [comptia.org](https://www.comptia.org/certifications/network) |
-"""
-
-
 def main():
     files = (
         glob.glob("01-notes/*.md")
         + glob.glob("02-exercises/*.md")
-        + ["04-projects/README.md"]
+        + ["04-projects/README.md", "05-resources/README.md"]
         + glob.glob("04-projects/*/README.md")
     )
     changed = sum(fix_file(f) for f in sorted(set(files)) if os.path.exists(f))
-
-    if not os.path.exists("resources.md"):
-        open("resources.md", "w", encoding="utf-8", newline="\n").write(RESOURCES_MD)
-        print("recreated resources.md")
 
     print(f"finalize: fixed {changed} file(s). Now run:  python -m mkdocs build")
 

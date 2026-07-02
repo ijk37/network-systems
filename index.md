@@ -49,4 +49,4 @@ CompTIA Network+ learning materials organized for fast review, practice, and lab
 - [Practice exercises](02-exercises/README.md)
 - [Interactive quizzes](03-quiz/index.html)
 - [Hands-on projects](04-projects/README.md)
-- [Resources](resources.md)
+- [Resources](05-resources/README.md)

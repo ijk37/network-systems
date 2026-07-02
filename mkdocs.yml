@@ -17,6 +17,7 @@ exclude_docs: |
   .claude/**
   .git/**
   05-resources/**
+  !05-resources/README.md
   tools/**
   01-notes.md
   02-exercises.md
@@ -225,4 +226,4 @@ nav:
       - "High Availability and Monitoring": 04-projects/11-high-availability-and-monitoring/README.md
       - "Network Troubleshooting and Incident Response": 04-projects/12-troubleshooting-incident-response/README.md
       - "IPv6 Dual-Stack Migration": 04-projects/13-ipv6-dual-stack-migration/README.md
-  - "05 Resources": resources.md
+  - "05 Resources": 05-resources/README.md
