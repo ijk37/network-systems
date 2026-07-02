@@ -9,7 +9,7 @@
 <p>
   <a href="01-notes/README.md"><img src="https://img.shields.io/badge/Notes-12_modules-B4122E?style=for-the-badge&labelColor=7E0E23" alt="Course Notes"></a>
   <a href="02-exercises/README.md"><img src="https://img.shields.io/badge/Exercises-12_sets-B4122E?style=for-the-badge&labelColor=7E0E23" alt="Exercises"></a>
-  <a href="https://ijk37.github.io/network-systems/03-quiz/"><img src="https://img.shields.io/badge/Quiz_Hub-Open-C8901A?style=for-the-badge&labelColor=7E0E23" alt="Quiz Hub"></a>
+  <a href="https://ijk37.com/network-systems/03-quiz/"><img src="https://img.shields.io/badge/Quiz_Hub-Open-C8901A?style=for-the-badge&labelColor=7E0E23" alt="Quiz Hub"></a>
   <a href="04-projects/README.md"><img src="https://img.shields.io/badge/Projects-13_labs-B4122E?style=for-the-badge&labelColor=7E0E23" alt="Projects"></a>
 </p>
 
@@ -32,7 +32,7 @@
 | --- | --- | --- |
 | **01 Notes** | Topic-based study notes organized by module | [Browse notes](01-notes/README.md) |
 | **02 Exercises** | Practice questions and worked activities | [Open exercises](02-exercises/README.md) |
-| **03 Quiz** | Interactive multiple-choice review quizzes | [Launch quiz hub](https://ijk37.github.io/network-systems/03-quiz/) |
+| **03 Quiz** | Interactive multiple-choice review quizzes | [Launch quiz hub](https://ijk37.com/network-systems/03-quiz/) |
 | **04 Projects** | Packet Tracer, design, documentation, and analysis labs | [View projects](04-projects/README.md) |
 | **05 Resources** | Reserved for supplemental resources | Hidden for now |
 
@@ -44,7 +44,7 @@ Read notes -> Practice exercises -> Take quiz -> Build project -> Review weak ar
 
 1. Start with the module notes in [`01-notes`](01-notes/README.md).
 2. Complete the matching exercise in [`02-exercises`](02-exercises/README.md).
-3. Test recall in the [Quiz Hub](https://ijk37.github.io/network-systems/03-quiz/).
+3. Test recall in the [Quiz Hub](https://ijk37.com/network-systems/03-quiz/).
 4. Apply the topic through a lab or design task in [`04-projects`](04-projects/README.md).
 
 ## Module Map
@@ -74,7 +74,7 @@ The quiz system includes chapter quizzes and cumulative mixed quizzes with insta
 | Question pool | Around 1,200 chapter questions |
 | Attempt style | Randomized questions and shuffled options |
 | Mixed review | 5 cumulative mixed quizzes |
-| Access | [Open the Quiz Hub](https://ijk37.github.io/network-systems/03-quiz/) |
+| Access | [Open the Quiz Hub](https://ijk37.com/network-systems/03-quiz/) |
 
 ## Projects
 
