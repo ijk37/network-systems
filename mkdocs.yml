@@ -19,6 +19,7 @@ exclude_docs: |
   05-resources/**
   !05-resources/README.md
   tools/**
+  assets/site_design.md
   01-notes.md
   02-exercises.md
   03-quiz.md
