@@ -21,6 +21,8 @@ site (https://ijk37.github.io/network-systems/):
      since the quiz app's index.html owns that folder.
   5. Fixes note image refs to assets/images/ (bare *.png -> ../assets/images/*.png).
   6. Recreates resources.md if it is missing (nav references it).
+  7. Ensures the gold "View the Live Site" badge sits under the banner in every
+     README (re-inserts it if a formatting pass strips it).
 
 Usage:
     python tools/finalize.py
@@ -39,6 +41,28 @@ BADGE_LINK = re.compile(r'<a href="([^"]+)"><img src="([^"]+)" alt="([^"]*)"></a
 TEXT_LINK = re.compile(r'<a href="([^"]+)">([^<]+)</a>')
 BARE_PNG = re.compile(r'\]\((?!\.\./)(?!http)([a-z0-9-]+\.png)\)')
 
+LIVE_SITE_BADGE = (
+    '[![View the live site — ijk37.com]'
+    '(https://img.shields.io/badge/%F0%9F%87%A7%F0%9F%87%A9_View_the_Live_Site-IJK37.COM-F42A41'
+    '?style=for-the-badge&labelColor=006A4E)]'
+    '(https://ijk37.com/network-systems/)'
+)
+
+
+def ensure_live_site_badge(s: str) -> str:
+    """Insert the gold live-site badge on the line after the banner, once."""
+    if 'View_the_Live_Site' in s:
+        return s
+    lines = s.split('\n')
+    out, done = [], False
+    for ln in lines:
+        out.append(ln)
+        if not done and 'banner.svg' in ln:
+            out.append('')
+            out.append(LIVE_SITE_BADGE)
+            done = True
+    return '\n'.join(out) if done else s
+
 
 def convert_nav(s: str) -> str:
     s = BANNER_LINKED.sub(r'![\2](\1)', s)
@@ -55,6 +79,10 @@ def fix_file(path: str) -> bool:
     depth = path.replace("\\", "/").count("/")   # 01-notes/x.md -> 1 ; 04-projects/n/README.md -> 2
 
     s = convert_nav(s)
+
+    # gold live-site badge under the banner (README pages only)
+    if path.replace("\\", "/").endswith("README.md"):
+        s = ensure_live_site_badge(s)
 
     # quiz README -> quiz hub
     s = s.replace("](../../03-quiz/README.md)", "](../../03-quiz/)")
