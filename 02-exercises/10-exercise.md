@@ -1,4 +1,4 @@
-# 10: Security in Network Design — Exercises
+# &#9997; 10: Security in Network Design — Exercises
 
 <!-- course-header -->
 <div align="center">
@@ -19,7 +19,7 @@ Work through each question, then click **▶ Show answer** to check yourself. Re
 
 ---
 
-### Q1. Explain the difference between a stateful and a stateless firewall.
+### &#129521; Q1. Explain the difference between a stateful and a stateless firewall.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -29,7 +29,7 @@ A **stateful** firewall tracks connection state and automatically permits legiti
 
 ---
 
-### Q2. An ACL has three permit rules and no deny rules. Is traffic matching none of them allowed? Why?
+### &#128161; Q2. An ACL has three permit rules and no deny rules. Is traffic matching none of them allowed? Why?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -39,7 +39,7 @@ A **stateful** firewall tracks connection state and automatically permits legiti
 
 ---
 
-### Q3. Where is an IPS placed relative to traffic, and how does that differ from an IDS?
+### &#128313; Q3. Where is an IPS placed relative to traffic, and how does that differ from an IDS?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -49,7 +49,7 @@ An **IPS is inline** so it can actively **block** traffic. An **IDS** is typical
 
 ---
 
-### Q4. A public web server must be reachable from the Internet without exposing the internal LAN. What design element solves this?
+### &#128313; Q4. A public web server must be reachable from the Internet without exposing the internal LAN. What design element solves this?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -59,7 +59,7 @@ A **DMZ (screened subnet)** — the server sits in an isolated segment reachable
 
 ---
 
-### Q5. Match each Layer 2 defense to the attack it stops: port security, DHCP snooping, Dynamic ARP Inspection, BPDU Guard.
+### &#128272; Q5. Match each Layer 2 defense to the attack it stops: port security, DHCP snooping, Dynamic ARP Inspection, BPDU Guard.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -72,7 +72,7 @@ A **DMZ (screened subnet)** — the server sits in an isolated segment reachable
 
 ---
 
-### Q6. Contrast RADIUS and TACACS+, and give a good use case for each.
+### &#128313; Q6. Contrast RADIUS and TACACS+, and give a good use case for each.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -83,7 +83,7 @@ A **DMZ (screened subnet)** — the server sits in an isolated segment reachable
 
 ---
 
-### Q7. What does AAA stand for, and what does each part do?
+### &#128313; Q7. What does AAA stand for, and what does each part do?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -93,7 +93,7 @@ A **DMZ (screened subnet)** — the server sits in an isolated segment reachable
 
 ---
 
-### Q8. What does 802.1X provide, and what are the three roles involved?
+### &#128313; Q8. What does 802.1X provide, and what are the three roles involved?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -103,7 +103,7 @@ Port-based network access control — authentication **before** the port opens. 
 
 ---
 
-### Q9. Summarize the zero-trust model in one line.
+### &#128313; Q9. Summarize the zero-trust model in one line.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -113,7 +113,7 @@ Port-based network access control — authentication **before** the port opens. 
 
 ---
 
-### Q10. How do DHCP snooping, Dynamic ARP Inspection, and IP Source Guard work together?
+### &#128225; Q10. How do DHCP snooping, Dynamic ARP Inspection, and IP Source Guard work together?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -123,7 +123,7 @@ Port-based network access control — authentication **before** the port opens. 
 
 ---
 
-### Q11. Why should unused switch ports be shut down?
+### &#128161; Q11. Why should unused switch ports be shut down?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -133,7 +133,7 @@ To stop an intruder from plugging into a live port (e.g., in a lobby) and gainin
 
 ---
 
-### Q12. Give a "defense in depth" chain of controls from the Internet edge inward.
+### &#128313; Q12. Give a "defense in depth" chain of controls from the Internet edge inward.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -144,6 +144,38 @@ To stop an intruder from plugging into a live port (e.g., in a lobby) and gainin
 ---
 
 ⬅️ **Prev:** [Module 09](09-exercise.md)  ·  [📚 All Exercises](README.md)  ·  **Next:** [Module 11 — Performance & Recovery](11-exercise.md) ➡️
+
+## &#129517; Bonus Scenario Practice
+
+### &#129513; Case A: Firewall Rule Order
+
+A firewall rule set contains these rules in order:
+
+1. Deny all traffic to the management subnet.
+2. Permit IT-admin subnet to SSH to the management subnet.
+3. Permit users to HTTP/HTTPS.
+
+IT administrators cannot SSH to switches. Why?
+
+<details>
+<summary><strong>Show answer</strong></summary>
+
+The deny rule appears before the more specific SSH permit. Because firewalls and ACLs usually process rules top-down and stop at the first match, the admin SSH traffic is denied before it reaches the permit rule. Move the specific permit above the broad deny.
+</details>
+
+---
+
+### &#129513; Case B: IDS or IPS?
+
+A company wants visibility into suspicious traffic but cannot risk the monitoring device interrupting production traffic if it fails. Should it place an IDS or IPS at that point, and why?
+
+<details>
+<summary><strong>Show answer</strong></summary>
+
+Use an IDS connected through a SPAN/mirror port or network tap. An IDS observes a copy of traffic and alerts without sitting inline. An IPS can block traffic, but because it is inline, a failure or misconfiguration can interrupt production traffic.
+</details>
+
+---
 
 <!-- course-footer -->
 ---

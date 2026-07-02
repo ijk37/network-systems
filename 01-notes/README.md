@@ -1,4 +1,4 @@
-# 01 Notes
+# &#128216; 01 Notes
 
 <div align="center">
 
@@ -12,7 +12,7 @@
 
 Topic-based Network+ study notes organized into 12 modules. Each page is designed to stand alone, with quick links back to the course flow and a matching practice set.
 
-## Module Dashboard
+## &#129517; Module Dashboard
 
 | Module | Focus | Lessons | Start | Practice |
 | --- | --- | ---: | --- | --- |
@@ -29,7 +29,7 @@ Topic-based Network+ study notes organized into 12 modules. Each page is designe
 | 11 | Network Performance and Recovery | 4 | [Start](11-01-performance-concepts.md) | [Practice](../02-exercises/11-exercise.md) |
 | 12 | Wide Area Networks | 4 | [Start](12-01-wan-fundamentals.md) | [Practice](../02-exercises/12-exercise.md) |
 
-## Full Lesson Index
+## &#128218; Full Lesson Index
 
 <details>
 <summary><strong>Module 01: Introduction to Networking</strong></summary>
@@ -154,7 +154,7 @@ Topic-based Network+ study notes organized into 12 modules. Each page is designe
 
 </details>
 
-## Recommended Flow
+## &#128739; Recommended Flow
 
 1. Read the module notes in order.
 2. Complete the matching exercise set.

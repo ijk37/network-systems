@@ -1,4 +1,4 @@
-# 03-07: CLI Troubleshooting Tools
+# &#128216; 03-07: CLI Troubleshooting Tools
 
 <!-- course-header -->
 <div align="center">
@@ -12,7 +12,7 @@
 </div>
 <!-- /course-header -->
 
-## IP Configuration
+## &#128204; IP Configuration
 
 | Command | OS | Shows |
 |---------|-----|-------|
@@ -22,7 +22,7 @@
 
 ---
 
-## Connectivity Testing
+## &#128204; Connectivity Testing
 
 | Command | Purpose |
 |---------|---------|
@@ -32,7 +32,7 @@
 
 ---
 
-## Name Resolution
+## &#128204; Name Resolution
 
 | Command | Purpose |
 |---------|---------|
@@ -41,7 +41,7 @@
 
 ---
 
-## Connections & Neighbors
+## &#128204; Connections & Neighbors
 
 | Command | Purpose |
 |---------|---------|
@@ -52,7 +52,7 @@
 
 ---
 
-## A Typical Troubleshooting Flow
+## &#128269; A Typical Troubleshooting Flow
 
 1. `ipconfig /all` — do I have a valid IP/gateway/DNS? (169.254.x.x = DHCP fail)
 2. `ping 127.0.0.1` — is my TCP/IP stack alive?

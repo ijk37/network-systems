@@ -1,4 +1,4 @@
-# 11-02: Network Monitoring
+# &#128216; 11-02: Network Monitoring
 
 <!-- course-header -->
 <div align="center">
@@ -12,13 +12,13 @@
 </div>
 <!-- /course-header -->
 
-## Why Monitor?
+## &#128161; Why Monitor?
 
 Monitoring provides **visibility** to detect problems, plan capacity, and hold systems accountable. You can't manage what you can't see.
 
 ---
 
-## Monitoring Tools & Protocols
+## &#129520; Monitoring Tools & Protocols
 
 | Tool/Protocol | Purpose |
 |---------------|---------|
@@ -33,13 +33,13 @@ Monitoring provides **visibility** to detect problems, plan capacity, and hold s
 
 ---
 
-## Baselines
+## &#128204; Baselines
 
 A **baseline** records normal performance so deviations (spikes, slowdowns, breaches) stand out by comparison. Establish one before you need it.
 
 ---
 
-## What to Watch
+## &#128204; What to Watch
 
 | Signal | Meaning |
 |--------|---------|
@@ -47,6 +47,23 @@ A **baseline** records normal performance so deviations (spikes, slowdowns, brea
 | Rising interface errors/drops | Cabling or congestion problem |
 | CPU/memory spikes on devices | Overload or attack |
 | Log anomalies | Possible security incident |
+
+---
+
+## &#129517; Scenario: Choosing the Right Evidence
+
+Different monitoring tools answer different questions during an incident.
+
+| Question | Best evidence |
+| --- | --- |
+| Is the device alive? | ICMP, SNMP availability, NMS status |
+| Is a link saturated? | Interface utilization graphs, SNMP counters |
+| Who is consuming the bandwidth? | NetFlow, IPFIX, or sFlow |
+| Did the firewall deny the session? | Firewall logs or SIEM search |
+| Are packets malformed or retransmitting? | Packet capture from SPAN/TAP |
+| Did this start after a change? | Change log plus time-correlated alerts |
+
+Good troubleshooting uses at least two sources of evidence. For example, high utilization plus NetFlow top talkers is stronger than a single "network is slow" report.
 
 ---
 

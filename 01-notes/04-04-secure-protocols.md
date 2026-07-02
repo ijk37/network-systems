@@ -1,4 +1,4 @@
-# 04-04: Secure Protocols & Encryption
+# &#128216; 04-04: Secure Protocols & Encryption
 
 <!-- course-header -->
 <div align="center">
@@ -12,13 +12,13 @@
 </div>
 <!-- /course-header -->
 
-## Why Encryption?
+## &#128161; Why Encryption?
 
 Plaintext protocols (Telnet, HTTP, FTP) expose credentials and data to sniffers. Secure protocols add **confidentiality, integrity, and authentication**.
 
 ---
 
-## TLS / SSL
+## &#128204; TLS / SSL
 
 - **TLS (Transport Layer Security)** — successor to SSL — encrypts sessions and authenticates servers via **certificates**.
 - Secures **HTTPS (443)**, secure email (993/995/587), and more.
@@ -26,7 +26,7 @@ Plaintext protocols (Telnet, HTTP, FTP) expose credentials and data to sniffers.
 
 ---
 
-## SSH
+## &#128204; SSH
 
 - **SSH (Secure Shell, port 22)** provides encrypted remote CLI access, key-based auth, and secure tunneling.
 - Basis for **SFTP** and **SCP** (secure file transfer).
@@ -34,7 +34,7 @@ Plaintext protocols (Telnet, HTTP, FTP) expose credentials and data to sniffers.
 
 ---
 
-## IPsec
+## &#128204; IPsec
 
 - **IPsec** secures traffic at **Layer 3** (Network), encrypting/authenticating IP packets.
 - Two core protocols:
@@ -44,7 +44,7 @@ Plaintext protocols (Telnet, HTTP, FTP) expose credentials and data to sniffers.
 
 ---
 
-## Secure vs. Insecure Reference
+## &#128204; Secure vs. Insecure Reference
 
 | Insecure | Secure |
 |----------|--------|

@@ -1,4 +1,4 @@
-# 03: Addressing — Exercises
+# &#9997; 03: Addressing — Exercises
 
 <!-- course-header -->
 <div align="center">
@@ -19,7 +19,7 @@ Work through each question, then click **▶ Show answer** to check yourself. Re
 
 ---
 
-### Q1. How many bits is a MAC address, how is it written, and what does its first half identify?
+### &#128313; Q1. How many bits is a MAC address, how is it written, and what does its first half identify?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -29,7 +29,7 @@ Work through each question, then click **▶ Show answer** to check yourself. Re
 
 ---
 
-### Q2. Classify each address as public, private, loopback, or APIPA: `10.24.5.9`, `8.8.8.8`, `169.254.13.7`, `127.0.0.1`, `172.20.0.1`, `192.168.100.5`.
+### &#128313; Q2. Classify each address as public, private, loopback, or APIPA: `10.24.5.9`, `8.8.8.8`, `169.254.13.7`, `127.0.0.1`, `172.20.0.1`, `192.168.100.5`.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -44,7 +44,7 @@ Work through each question, then click **▶ Show answer** to check yourself. Re
 
 ---
 
-### Q3. A workstation shows IP `169.254.44.10`. What happened, and what should you check?
+### &#128313; Q3. A workstation shows IP `169.254.44.10`. What happened, and what should you check?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -54,7 +54,7 @@ The host **failed to reach a DHCP server** and self-assigned an **APIPA** addres
 
 ---
 
-### Q4. List the DHCP DORA process and the ports DHCP uses.
+### &#128225; Q4. List the DHCP DORA process and the ports DHCP uses.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -64,7 +64,7 @@ The host **failed to reach a DHCP server** and self-assigned an **APIPA** addres
 
 ---
 
-### Q5. Give the port and transport (TCP/UDP) for: HTTPS, DNS, SSH, SMTP, RDP.
+### &#127760; Q5. Give the port and transport (TCP/UDP) for: HTTPS, DNS, SSH, SMTP, RDP.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -78,7 +78,7 @@ The host **failed to reach a DHCP server** and self-assigned an **APIPA** addres
 
 ---
 
-### Q6. Which DNS record type maps a name to an IPv4 address? To an IPv6 address? What does an MX record do?
+### &#127760; Q6. Which DNS record type maps a name to an IPv4 address? To an IPv6 address? What does an MX record do?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -90,7 +90,7 @@ The host **failed to reach a DHCP server** and self-assigned an **APIPA** addres
 
 ---
 
-### Q7. Compress the IPv6 address `2001:0db8:0000:0000:00a3:0000:0000:1f35`.
+### &#127760; Q7. Compress the IPv6 address `2001:0db8:0000:0000:00a3:0000:0000:1f35`.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -102,7 +102,7 @@ Drop leading zeros; replace the **longest** run of all-zero hextets (`0000:0000`
 
 ---
 
-### Q8. A host can `ping 8.8.8.8` but cannot open `https://example.com`. What's the likely cause, and which command confirms it?
+### &#128313; Q8. A host can `ping 8.8.8.8` but cannot open `https://example.com`. What's the likely cause, and which command confirms it?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -112,7 +112,7 @@ IP connectivity works but name resolution fails → a **DNS problem**. Confirm w
 
 ---
 
-### Q9. What is the default subnet mask for a /24, and how many usable hosts does it provide?
+### &#10067; Q9. What is the default subnet mask for a /24, and how many usable hosts does it provide?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -122,7 +122,7 @@ IP connectivity works but name resolution fails → a **DNS problem**. Confirm w
 
 ---
 
-### Q10. What protocol resolves an IP to a MAC on the local segment, and what replaces it in IPv6?
+### &#127760; Q10. What protocol resolves an IP to a MAC on the local segment, and what replaces it in IPv6?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -132,7 +132,7 @@ IP connectivity works but name resolution fails → a **DNS problem**. Confirm w
 
 ---
 
-### Q11. What is the difference between a DHCP reservation and an exclusion?
+### &#10067; Q11. What is the difference between a DHCP reservation and an exclusion?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -143,7 +143,7 @@ IP connectivity works but name resolution fails → a **DNS problem**. Confirm w
 
 ---
 
-### Q12. Which minimum three settings does a host need to communicate with hosts on other networks, and what is each for?
+### &#10067; Q12. Which minimum three settings does a host need to communicate with hosts on other networks, and what is each for?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -158,6 +158,32 @@ IP connectivity works but name resolution fails → a **DNS problem**. Confirm w
 ---
 
 ⬅️ **Prev:** [Module 02](02-exercise.md)  ·  [📚 All Exercises](README.md)  ·  **Next:** [Module 04 — Network Protocols](04-exercise.md) ➡️
+
+## &#129517; Bonus Scenario Practice
+
+### &#129513; Case A: DHCP Scope Conflict
+
+A small office uses `192.168.50.0/24`. The router is `192.168.50.1`, printers are statically assigned `.20` through `.30`, and the DHCP scope gives out `.10` through `.200`. Several users randomly lose printer access after rebooting laptops. What is the likely cause and fix?
+
+<details>
+<summary><strong>Show answer</strong></summary>
+
+The DHCP scope overlaps with the statically assigned printer range. A client can receive an address already used by a printer, causing an IP conflict. Fix it by excluding `.20` through `.30` from the DHCP scope, or moving static infrastructure addresses outside the dynamic pool.
+</details>
+
+---
+
+### &#129513; Case B: Wrong Gateway
+
+A host has IP `10.20.30.45/24`, DNS `10.20.30.10`, and gateway `10.20.40.1`. It can ping another host on `10.20.30.0/24` but cannot reach the Internet. What is wrong?
+
+<details>
+<summary><strong>Show answer</strong></summary>
+
+The default gateway is not in the host's local subnet. With `/24`, the local network is `10.20.30.0/24`, so the gateway should also be in that subnet, such as `10.20.30.1`.
+</details>
+
+---
 
 <!-- course-footer -->
 ---

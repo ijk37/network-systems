@@ -1,4 +1,4 @@
-# 09-02: Common Attacks
+# &#128216; 09-02: Common Attacks
 
 <!-- course-header -->
 <div align="center">
@@ -12,7 +12,7 @@
 </div>
 <!-- /course-header -->
 
-## Denial of Service
+## &#128204; Denial of Service
 
 | Attack | Description |
 |--------|-------------|
@@ -21,7 +21,7 @@
 
 ---
 
-## On-Path & Spoofing
+## &#128204; On-Path & Spoofing
 
 | Attack | Description |
 |--------|-------------|
@@ -32,7 +32,7 @@
 
 ---
 
-## Social Engineering
+## &#128204; Social Engineering
 
 Attacks that target **people**, not machines:
 
@@ -47,7 +47,7 @@ Best defense: **user awareness training**.
 
 ---
 
-## Malware Types
+## &#128204; Malware Types
 
 | Type | Behavior |
 |------|----------|

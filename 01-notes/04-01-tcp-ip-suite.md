@@ -1,4 +1,4 @@
-# 04-01: The TCP/IP Suite & Encapsulation
+# &#128216; 04-01: The TCP/IP Suite & Encapsulation
 
 <!-- course-header -->
 <div align="center">
@@ -12,7 +12,7 @@
 </div>
 <!-- /course-header -->
 
-## What Is TCP/IP?
+## &#10067; What Is TCP/IP?
 
 **TCP/IP** is a **suite** of cooperating protocols — not a single protocol. Core members:
 
@@ -25,7 +25,7 @@
 
 ---
 
-## The TCP/IP Model vs. OSI
+## &#128204; The TCP/IP Model vs. OSI
 
 | TCP/IP (4-layer) | OSI layers |
 |------------------|------------|
@@ -36,7 +36,7 @@
 
 ---
 
-## Encapsulation (Data Moving Down the Stack)
+## &#128204; Encapsulation (Data Moving Down the Stack)
 
 Each layer adds a header (Data Link also adds a trailer):
 
@@ -52,7 +52,7 @@ The receiving host reverses this (**decapsulation**), stripping one header per l
 
 ---
 
-## What Each Header Adds
+## &#128204; What Each Header Adds
 
 | Layer | Header adds |
 |-------|-------------|

@@ -1,4 +1,4 @@
-// ── Module 12 — Wide Area Networks (35) ─────────────────────────────────────
+// ── Module 12 — Wide Area Networks (39) ─────────────────────────────────────
 QUESTIONS["12"] = [
   {
     q: "A WAN differs from a LAN primarily in that a WAN...",
@@ -344,5 +344,29 @@ QUESTIONS["12"] = [
     ],
     answer: 1,
     explain: "Convergence is when all routers have updated and agreed on the network topology after a change. Faster convergence (e.g., OSPF/EIGRP over RIP) means less disruption during failures.",
+  },
+  {
+    q: "A router has routes for 10.0.0.0/8, 10.10.0.0/16, and 10.10.5.0/24. Which route is used for 10.10.5.88?",
+    options: ["10.0.0.0/8", "10.10.0.0/16", "10.10.5.0/24", "0.0.0.0/0"],
+    answer: 2,
+    explain: "Routers choose the longest prefix match first. /24 is more specific than /16 or /8, so 10.10.5.0/24 wins.",
+  },
+  {
+    q: "A branch has one ISP link and no backup connection. Which term best describes it?",
+    options: ["Single-homed", "Multihomed", "Anycast", "Mesh WAN"],
+    answer: 0,
+    explain: "Single-homed means the site has one provider or one path to the WAN/Internet, creating a single point of failure.",
+  },
+  {
+    q: "Voice calls are poor over a geostationary satellite WAN even though bandwidth tests look acceptable. What factor is the likely cause?",
+    options: ["High latency", "Too many private IP addresses", "Low DNS TTL", "Too many VLANs"],
+    answer: 0,
+    explain: "Real-time voice is sensitive to latency and jitter. Geostationary satellite links can have high round-trip delay even when bandwidth is sufficient.",
+  },
+  {
+    q: "Which routing protocol is normally used between autonomous systems on the Internet?",
+    options: ["RIP", "OSPF", "BGP", "STP"],
+    answer: 2,
+    explain: "BGP is the path-vector exterior gateway protocol used between autonomous systems, making it the core routing protocol of the Internet.",
   },
 ];

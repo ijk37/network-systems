@@ -1,4 +1,4 @@
-// ── Module 11 — Network Performance & Recovery (40) ─────────────────────────
+// ── Module 11 — Network Performance & Recovery (44) ─────────────────────────
 QUESTIONS["11"] = [
   {
     q: "QoS (Quality of Service) is used to...",
@@ -424,5 +424,39 @@ QUESTIONS["11"] = [
     ],
     answer: 1,
     explain: "Failover automatically shifts operation to a standby component/system upon detecting a failure, minimizing downtime — a cornerstone of high-availability design.",
+  },
+  {
+    q: "Users report slowness every afternoon. SNMP shows the WAN link is 95% utilized. Which data source best identifies the top talkers?",
+    options: ["NetFlow/IPFIX/sFlow", "NTP", "DHCP lease time", "Loopback ping only"],
+    answer: 0,
+    explain: "SNMP shows utilization, but flow data shows who is using the bandwidth, which applications/protocols are involved, and where traffic is going.",
+  },
+  {
+    q: "A monitoring system reports rising CRC errors on one switch port while utilization is low. What is the most likely area to inspect?",
+    options: ["Cabling, connectors, or physical layer problems", "DNS recursion", "BGP attributes", "DHCP reservations"],
+    answer: 0,
+    explain: "CRC and interface errors often indicate Layer 1 issues such as bad cables, dirty fiber, damaged connectors, duplex problems, or failing hardware.",
+  },
+  {
+    q: "Which pairing is most useful for investigating whether a firewall blocked a connection?",
+    options: [
+      "Firewall logs and SIEM search",
+      "Only CPU temperature",
+      "Only DHCP scope utilization",
+      "Only wireless channel width",
+    ],
+    answer: 0,
+    explain: "Firewall logs record permitted and denied sessions. A SIEM can correlate those logs with host, authentication, and time-based events.",
+  },
+  {
+    q: "A web app must stay online while one server is patched. Which design best supports this?",
+    options: [
+      "Two servers behind a load balancer",
+      "One server with a larger hard drive",
+      "A longer DNS TTL only",
+      "A cold site only",
+    ],
+    answer: 0,
+    explain: "Load balancing across multiple servers allows one server to be drained or patched while the other continues serving users.",
   },
 ];

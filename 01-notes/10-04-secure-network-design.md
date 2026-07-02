@@ -1,4 +1,4 @@
-# 10-04: Secure Network Design
+# &#128216; 10-04: Secure Network Design
 
 <!-- course-header -->
 <div align="center">
@@ -12,7 +12,7 @@
 </div>
 <!-- /course-header -->
 
-## Segmentation for Security
+## &#128272; Segmentation for Security
 
 Splitting the network into zones **contains breaches** and limits **lateral movement**.
 
@@ -27,19 +27,19 @@ Splitting the network into zones **contains breaches** and limits **lateral move
 
 ---
 
-## The DMZ
+## &#128204; The DMZ
 
 A **DMZ** sits behind firewall interfaces so the Internet can reach public servers (web, mail, DNS) but **not** the internal LAN. A compromise in the DMZ doesn't directly expose internal systems.
 
 ---
 
-## Zero Trust
+## &#128204; Zero Trust
 
 **"Never trust, always verify."** No implicit trust based on network location — every request is authenticated, authorized, and continuously validated (identity, device posture, least privilege). Shrinks lateral-movement risk.
 
 ---
 
-## Defense in Depth at the Edge
+## &#128204; Defense in Depth at the Edge
 
 Layer multiple controls so no single failure exposes everything:
 
@@ -49,7 +49,7 @@ Internet → Firewall → IPS → DMZ segmentation → NAC/802.1X → Monitoring
 
 ---
 
-## Supporting Components
+## &#128204; Supporting Components
 
 | Component | Role |
 |-----------|------|

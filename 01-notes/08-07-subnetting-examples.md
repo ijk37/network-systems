@@ -1,4 +1,4 @@
-# 08-07: Subnetting Examples
+# &#128216; 08-07: Subnetting Examples
 
 <!-- course-header -->
 <div align="center">
@@ -12,16 +12,16 @@
 </div>
 <!-- /course-header -->
 
-## Example 1: Basic Subnetting (/24 → /26)
+## &#129518; Example 1: Basic Subnetting (/24 → /26)
 
-### Given:
+### &#128313; Given:
 - IP Address: 192.168.1.0  
 - Default Subnet Mask: /24  
 - New Subnet Mask: /26  
 
 ---
 
-### Step 1: Identify Borrowed Bits
+### &#128313; Step 1: Identify Borrowed Bits
 
 - Original network bits = 24  
 - New network bits = 26  
@@ -32,7 +32,7 @@
 
 ---
 
-### Step 2: Number of Subnets
+### &#129518; Step 2: Number of Subnets
 
 **Formula:**  
 Number of subnets = 2ⁿ  
@@ -41,7 +41,7 @@ Number of subnets = 2ⁿ
 
 ---
 
-### Step 3: Number of Addresses and Hosts per Subnet
+### &#129518; Step 3: Number of Addresses and Hosts per Subnet
 
 **Total addresses per subnet:**  
 2ʰ = 2⁶ = 64  
@@ -51,7 +51,7 @@ Number of subnets = 2ⁿ
 
 ---
 
-### Step 4: Subnet Ranges
+### &#129518; Step 4: Subnet Ranges
 
 - Subnet mask (binary):  
   11111111.11111111.11111111.11000000  
@@ -72,7 +72,7 @@ Number of subnets = 2ⁿ
 
 ---
 
-### Step 5: Host Range (Example: Subnet 1)
+### &#129518; Step 5: Host Range (Example: Subnet 1)
 
 - Network ID: 192.168.1.0  
 - Broadcast ID: 192.168.1.63  
@@ -80,16 +80,16 @@ Number of subnets = 2ⁿ
 
 ---
 
-## Example 2: Subnetting a Class B Network (/16 → /18)
+## &#129518; Example 2: Subnetting a Class B Network (/16 → /18)
 
-### Given:
+### &#128313; Given:
 - IP Address: 172.16.0.0  
 - Default Subnet Mask: /16  
 - New Subnet Mask: /18  
 
 ---
 
-### Step 1: Identify Borrowed Bits
+### &#128313; Step 1: Identify Borrowed Bits
 
 - Original network bits = 16  
 - New network bits = 18  
@@ -100,7 +100,7 @@ Number of subnets = 2ⁿ
 
 ---
 
-### Step 2: Number of Subnets
+### &#129518; Step 2: Number of Subnets
 
 **Formula:**  
 Number of subnets = 2ⁿ  
@@ -109,7 +109,7 @@ Number of subnets = 2ⁿ
 
 ---
 
-### Step 3: Number of Addresses and Hosts per Subnet
+### &#129518; Step 3: Number of Addresses and Hosts per Subnet
 
 **Total addresses per subnet:**  
 2ʰ = 2¹⁴ = 16384  
@@ -119,7 +119,7 @@ Number of subnets = 2ⁿ
 
 ---
 
-### Step 4: Subnet Ranges
+### &#129518; Step 4: Subnet Ranges
 
 - Subnet mask (binary):  
   11111111.11111111.11000000.00000000  
@@ -140,7 +140,7 @@ Number of subnets = 2ⁿ
 
 ---
 
-### Step 5: Host Range (Example: Subnet 1)
+### &#129518; Step 5: Host Range (Example: Subnet 1)
 
 - Network ID: 172.16.0.0  
 - Broadcast ID: 172.16.63.255  
@@ -148,7 +148,7 @@ Number of subnets = 2ⁿ
 
 ---
 
-## Key Idea
+## &#128161; Key Idea
 
 Subnetting involves:
 - borrowing bits  

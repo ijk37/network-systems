@@ -1,4 +1,4 @@
-# 01: Introduction to Networking — Exercises
+# &#9997; 01: Introduction to Networking — Exercises
 
 <!-- course-header -->
 <div align="center">
@@ -19,7 +19,7 @@ Work through each question, then click **▶ Show answer** to check yourself. Re
 
 ---
 
-### Q1. List the seven OSI layers in order (Layer 1 → Layer 7).
+### &#128313; Q1. List the seven OSI layers in order (Layer 1 → Layer 7).
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -37,7 +37,7 @@ Mnemonic (1→7): *Please Do Not Throw Sausage Pizza Away.*
 
 ---
 
-### Q2. What is the Protocol Data Unit (PDU) name at the Data Link, Network, and Transport layers?
+### &#10067; Q2. What is the Protocol Data Unit (PDU) name at the Data Link, Network, and Transport layers?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -51,7 +51,7 @@ Full sequence down the stack: Data → Segment → Packet → Frame → Bits.
 
 ---
 
-### Q3. Classify each device by the OSI layer it primarily operates at: hub, switch, router, NIC.
+### &#128313; Q3. Classify each device by the OSI layer it primarily operates at: hub, switch, router, NIC.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -64,7 +64,7 @@ Full sequence down the stack: Data → Segment → Packet → Frame → Bits.
 
 ---
 
-### Q4. What is the difference between a collision domain and a broadcast domain? Which device breaks up each?
+### &#10067; Q4. What is the difference between a collision domain and a broadcast domain? Which device breaks up each?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -75,7 +75,7 @@ Full sequence down the stack: Data → Segment → Packet → Frame → Bits.
 
 ---
 
-### Q5. A 6-computer office shares files directly with no server; a 300-user firm uses central logins. Name each network model and one advantage of each.
+### &#128193; Q5. A 6-computer office shares files directly with no server; a 300-user firm uses central logins. Name each network model and one advantage of each.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -86,7 +86,7 @@ Full sequence down the stack: Data → Segment → Packet → Frame → Bits.
 
 ---
 
-### Q6. Match each scope to its example: PAN, LAN, MAN, WAN — (a) the Internet, (b) a Bluetooth headset, (c) an office network, (d) a city-wide fiber ring.
+### &#127757; Q6. Match each scope to its example: PAN, LAN, MAN, WAN — (a) the Internet, (b) a Bluetooth headset, (c) an office network, (d) a city-wide fiber ring.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -99,7 +99,7 @@ Full sequence down the stack: Data → Segment → Packet → Frame → Bits.
 
 ---
 
-### Q7. A user reports "the Internet is down." Apply the first three steps of the CompTIA 7-step troubleshooting model.
+### &#128269; Q7. A user reports "the Internet is down." Apply the first three steps of the CompTIA 7-step troubleshooting model.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -111,7 +111,7 @@ Full sequence down the stack: Data → Segment → Packet → Frame → Bits.
 
 ---
 
-### Q8. What are the last two steps of the 7-step troubleshooting model?
+### &#128269; Q8. What are the last two steps of the 7-step troubleshooting model?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -122,7 +122,7 @@ Full sequence down the stack: Data → Segment → Packet → Frame → Bits.
 
 ---
 
-### Q9. Which OSI layer would you check first if the link light is off and the cable seems dead? Why?
+### &#128161; Q9. Which OSI layer would you check first if the link light is off and the cable seems dead? Why?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -132,7 +132,7 @@ Full sequence down the stack: Data → Segment → Packet → Frame → Bits.
 
 ---
 
-### Q10. What safety device prevents static electricity from damaging components, and what document lists safe handling of hazardous materials?
+### &#128313; Q10. What safety device prevents static electricity from damaging components, and what document lists safe handling of hazardous materials?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -143,7 +143,7 @@ Full sequence down the stack: Data → Segment → Packet → Frame → Bits.
 
 ---
 
-### Q11. In a physical **star** topology, what happens if one workstation's cable breaks vs. if the central switch fails?
+### &#128313; Q11. In a physical **star** topology, what happens if one workstation's cable breaks vs. if the central switch fails?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -156,7 +156,7 @@ This is why star is easy to manage but the central device should be made redunda
 
 ---
 
-### Q12. Give one advantage and one disadvantage of a full-mesh topology.
+### &#128313; Q12. Give one advantage and one disadvantage of a full-mesh topology.
 
 <details>
 <summary><strong>Show answer</strong></summary>

@@ -1,4 +1,4 @@
-# 06: Wireless Networking — Exercises
+# &#9997; 06: Wireless Networking — Exercises
 
 <!-- course-header -->
 <div align="center">
@@ -19,7 +19,7 @@ Work through each question, then click **▶ Show answer** to check yourself. Re
 
 ---
 
-### Q1. In a crowded building on 2.4 GHz, which three channels should APs use, and why?
+### &#128161; Q1. In a crowded building on 2.4 GHz, which three channels should APs use, and why?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -29,7 +29,7 @@ Work through each question, then click **▶ Show answer** to check yourself. Re
 
 ---
 
-### Q2. Rank WEP, WPA, WPA2, WPA3 by security, and name the cipher WPA2 uses.
+### &#128272; Q2. Rank WEP, WPA, WPA2, WPA3 by security, and name the cipher WPA2 uses.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -39,7 +39,7 @@ Work through each question, then click **▶ Show answer** to check yourself. Re
 
 ---
 
-### Q3. Match the 802.11 amendment to its Wi-Fi name: 802.11n, 802.11ac, 802.11ax.
+### &#128313; Q3. Match the 802.11 amendment to its Wi-Fi name: 802.11n, 802.11ac, 802.11ax.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -51,7 +51,7 @@ Work through each question, then click **▶ Show answer** to check yourself. Re
 
 ---
 
-### Q4. A company wants each employee to log into Wi-Fi with their own credentials. Personal or Enterprise? What server is required?
+### &#127757; Q4. A company wants each employee to log into Wi-Fi with their own credentials. Personal or Enterprise? What server is required?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -61,7 +61,7 @@ Work through each question, then click **▶ Show answer** to check yourself. Re
 
 ---
 
-### Q5. Distinguish BSS, ESS, and SSID.
+### &#128313; Q5. Distinguish BSS, ESS, and SSID.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -73,7 +73,7 @@ Work through each question, then click **▶ Show answer** to check yourself. Re
 
 ---
 
-### Q6. Laptops keep connecting to a fake "Corp-WiFi" and leaking credentials. Name the attack and one defense.
+### &#128313; Q6. Laptops keep connecting to a fake "Corp-WiFi" and leaking credentials. Name the attack and one defense.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -83,7 +83,7 @@ An **evil twin** attack. Defenses: **WPA2/WPA3-Enterprise** (server certificate 
 
 ---
 
-### Q7. Why does Wi-Fi use CSMA/CA instead of CSMA/CD?
+### &#128161; Q7. Why does Wi-Fi use CSMA/CA instead of CSMA/CD?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -93,7 +93,7 @@ Stations can't reliably **detect** collisions on the shared radio medium (they c
 
 ---
 
-### Q8. Compare the 2.4 GHz and 5 GHz bands (range, speed, congestion).
+### &#128313; Q8. Compare the 2.4 GHz and 5 GHz bands (range, speed, congestion).
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -104,7 +104,7 @@ Stations can't reliably **detect** collisions on the shared radio medium (they c
 
 ---
 
-### Q9. A dense office has poor Wi-Fi capacity despite strong signal. Give two design changes.
+### &#128313; Q9. A dense office has poor Wi-Fi capacity despite strong signal. Give two design changes.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -114,7 +114,7 @@ Stations can't reliably **detect** collisions on the shared radio medium (they c
 
 ---
 
-### Q10. What is a wireless site survey, and what deliverable does it produce?
+### &#10067; Q10. What is a wireless site survey, and what deliverable does it produce?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -124,7 +124,7 @@ A measurement of RF conditions (passive/active/predictive) to plan AP placement,
 
 ---
 
-### Q11. Does hiding the SSID make a network secure? Explain.
+### &#128313; Q11. Does hiding the SSID make a network secure? Explain.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -134,7 +134,7 @@ A measurement of RF conditions (passive/active/predictive) to plan AP placement,
 
 ---
 
-### Q12. What does a wireless LAN controller (WLC) provide when managing many APs?
+### &#128246; Q12. What does a wireless LAN controller (WLC) provide when managing many APs?
 
 <details>
 <summary><strong>Show answer</strong></summary>

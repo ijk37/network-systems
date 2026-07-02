@@ -1,4 +1,4 @@
-# 09: Network Risk Management — Exercises
+# &#9997; 09: Network Risk Management — Exercises
 
 <!-- course-header -->
 <div align="center">
@@ -19,7 +19,7 @@ Work through each question, then click **▶ Show answer** to check yourself. Re
 
 ---
 
-### Q1. Define vulnerability, threat, and risk, and state the relationship.
+### &#128313; Q1. Define vulnerability, threat, and risk, and state the relationship.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -33,7 +33,7 @@ Controls reduce likelihood and/or impact.
 
 ---
 
-### Q2. Map each to the CIA triad: (a) ransomware encrypting files, (b) altering a bank balance, (c) eavesdropping on unencrypted traffic.
+### &#128193; Q2. Map each to the CIA triad: (a) ransomware encrypting files, (b) altering a bank balance, (c) eavesdropping on unencrypted traffic.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -45,7 +45,7 @@ Controls reduce likelihood and/or impact.
 
 ---
 
-### Q3. Distinguish a vulnerability scan from a penetration test.
+### &#128313; Q3. Distinguish a vulnerability scan from a penetration test.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -55,7 +55,7 @@ A **vulnerability scan** automatically *finds and reports* known weaknesses. A *
 
 ---
 
-### Q4. A user gets an urgent email "from IT" asking for their password. Name the attack category and the best organizational defense.
+### &#128313; Q4. A user gets an urgent email "from IT" asking for their password. Name the attack category and the best organizational defense.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -65,7 +65,7 @@ A **vulnerability scan** automatically *finds and reports* known weaknesses. A *
 
 ---
 
-### Q5. Distinguish a virus, a worm, and a Trojan.
+### &#128313; Q5. Distinguish a virus, a worm, and a Trojan.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -77,7 +77,7 @@ A **vulnerability scan** automatically *finds and reports* known weaknesses. A *
 
 ---
 
-### Q6. What is a zero-day vulnerability?
+### &#10067; Q6. What is a zero-day vulnerability?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -87,7 +87,7 @@ A flaw that is **exploited before the vendor has a patch** (defenders have had "
 
 ---
 
-### Q7. What do CVE and CVSS refer to?
+### &#128313; Q7. What do CVE and CVSS refer to?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -98,7 +98,7 @@ A flaw that is **exploited before the vendor has a patch** (defenders have had "
 
 ---
 
-### Q8. What are the four risk responses? Give an example of each.
+### &#128313; Q8. What are the four risk responses? Give an example of each.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -111,7 +111,7 @@ A flaw that is **exploited before the vendor has a patch** (defenders have had "
 
 ---
 
-### Q9. Explain least privilege and separation of duties.
+### &#128313; Q9. Explain least privilege and separation of duties.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -122,7 +122,7 @@ A flaw that is **exploited before the vendor has a patch** (defenders have had "
 
 ---
 
-### Q10. A company sets RTO = 4 hours and RPO = 1 hour. What does each require operationally?
+### &#128313; Q10. A company sets RTO = 4 hours and RPO = 1 hour. What does each require operationally?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -133,7 +133,7 @@ A flaw that is **exploited before the vendor has a patch** (defenders have had "
 
 ---
 
-### Q11. What is the 3-2-1 backup rule, and why does it defend against ransomware?
+### &#10067; Q11. What is the 3-2-1 backup rule, and why does it defend against ransomware?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -143,7 +143,7 @@ A flaw that is **exploited before the vendor has a patch** (defenders have had "
 
 ---
 
-### Q12. Name one physical and one detective security control.
+### &#128272; Q12. Name one physical and one detective security control.
 
 <details>
 <summary><strong>Show answer</strong></summary>

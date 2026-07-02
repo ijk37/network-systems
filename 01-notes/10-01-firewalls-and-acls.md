@@ -1,4 +1,4 @@
-# 10-01: Firewalls & ACLs
+# &#128216; 10-01: Firewalls & ACLs
 
 <!-- course-header -->
 <div align="center">
@@ -12,13 +12,13 @@
 </div>
 <!-- /course-header -->
 
-## What a Firewall Does
+## &#129521; What a Firewall Does
 
 A **firewall** filters traffic between network zones based on a **rule set (policy)** — permitting or denying by address, port, protocol, and more.
 
 ---
 
-## Firewall Types
+## &#129521; Firewall Types
 
 | Type | Behavior |
 |------|----------|
@@ -32,7 +32,7 @@ A **firewall** filters traffic between network zones based on a **rule set (poli
 
 ---
 
-## Access Control Lists (ACLs)
+## &#128204; Access Control Lists (ACLs)
 
 An **ACL** is an ordered list of permit/deny rules matched top-down.
 
@@ -43,12 +43,33 @@ An **ACL** is an ordered list of permit/deny rules matched top-down.
 
 ---
 
-## Directions of Filtering
+## &#128204; Directions of Filtering
 
 | Direction | Purpose |
 |-----------|---------|
 | **Ingress** | Filter traffic coming in (block external threats) |
 | **Egress** | Filter outbound (stop exfiltration, malware call-home, spoofed sources) |
+
+---
+
+## &#129517; Rule Order Scenario
+
+ACL and firewall rules are evaluated in order. A broad rule placed too early can override a more specific rule below it.
+
+Example policy goal:
+
+- Allow users to browse the web.
+- Allow IT administrators to SSH to network devices.
+- Block all other inbound management traffic.
+
+Better rule order:
+
+1. Permit admin subnet to SSH to device-management subnet.
+2. Permit user subnets to HTTP/HTTPS as required.
+3. Deny other management traffic.
+4. Deny everything else by default.
+
+If the deny rule is placed before the admin SSH permit, legitimate admin traffic is blocked. If a broad permit is placed first, unwanted traffic may bypass the intended restrictions.
 
 ---
 

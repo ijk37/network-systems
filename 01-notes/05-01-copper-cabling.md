@@ -1,4 +1,4 @@
-# 05-01: Copper Cabling
+# &#128216; 05-01: Copper Cabling
 
 <!-- course-header -->
 <div align="center">
@@ -12,7 +12,7 @@
 </div>
 <!-- /course-header -->
 
-## Twisted-Pair Basics
+## &#128204; Twisted-Pair Basics
 
 Most LAN copper cabling is **twisted pair** — pairs of wires twisted together to cancel EMI and crosstalk (common-mode rejection).
 
@@ -25,7 +25,7 @@ Connector: **RJ-45** (8P8C).
 
 ---
 
-## Category Ratings
+## &#128204; Category Ratings
 
 | Category | Max speed | Max distance | Notes |
 |----------|-----------|--------------|-------|
@@ -40,7 +40,7 @@ Connector: **RJ-45** (8P8C).
 
 ---
 
-## Common Problems
+## &#128204; Common Problems
 
 | Problem | Cause |
 |---------|-------|
@@ -52,7 +52,7 @@ Mitigate EMI with **STP** or **fiber**, and route away from noise sources.
 
 ---
 
-## Coaxial
+## &#128204; Coaxial
 
 **Coax** (RG-6, RG-59) is used for cable TV/broadband (DOCSIS) and legacy Ethernet. Connectors: **F-type**, **BNC**.
 

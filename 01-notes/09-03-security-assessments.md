@@ -1,4 +1,4 @@
-# 09-03: Security Assessments
+# &#128216; 09-03: Security Assessments
 
 <!-- course-header -->
 <div align="center">
@@ -12,7 +12,7 @@
 </div>
 <!-- /course-header -->
 
-## Finding Weaknesses Before Attackers Do
+## &#128204; Finding Weaknesses Before Attackers Do
 
 | Assessment | What it does |
 |------------|--------------|
@@ -25,7 +25,7 @@
 
 ---
 
-## Vulnerability Tracking
+## &#128204; Vulnerability Tracking
 
 | Term | Meaning |
 |------|---------|
@@ -36,7 +36,7 @@ Common scanners: **Nessus, OpenVAS, Qualys**.
 
 ---
 
-## Pen Test Knowledge Levels
+## &#128204; Pen Test Knowledge Levels
 
 | Type | Tester knowledge |
 |------|------------------|
@@ -46,7 +46,7 @@ Common scanners: **Nessus, OpenVAS, Qualys**.
 
 ---
 
-## Remediation
+## &#128204; Remediation
 
 Findings are **prioritized** (often by CVSS) and remediated via **patching**, configuration changes, or compensating controls. Re-scan to confirm fixes.
 

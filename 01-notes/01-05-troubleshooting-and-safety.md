@@ -1,4 +1,4 @@
-# 01-05: Troubleshooting Methodology & Safety
+# &#128216; 01-05: Troubleshooting Methodology & Safety
 
 <!-- course-header -->
 <div align="center">
@@ -12,7 +12,7 @@
 </div>
 <!-- /course-header -->
 
-## The 7-Step CompTIA Troubleshooting Model
+## &#128269; The 7-Step CompTIA Troubleshooting Model
 
 1. **Identify the problem** — gather information, question users, note symptoms and recent changes.
 2. **Establish a theory of probable cause** — question the obvious; consider multiple approaches (OSI top-down or bottom-up).
@@ -26,7 +26,7 @@
 
 ---
 
-## OSI-Based Troubleshooting
+## &#128269; OSI-Based Troubleshooting
 
 - **Bottom-up** — start at Physical (cable, link light) and move up. Good when a hardware fault is suspected.
 - **Top-down** — start at Application and move down. Good when an app-specific issue is reported.
@@ -34,7 +34,7 @@
 
 ---
 
-## Safety Best Practices
+## &#128204; Safety Best Practices
 
 | Concern | Practice |
 |---------|----------|

@@ -1,4 +1,4 @@
-# 04-03: Core Protocols & Their Ports
+# &#128216; 04-03: Core Protocols & Their Ports
 
 <!-- course-header -->
 <div align="center">
@@ -12,7 +12,7 @@
 </div>
 <!-- /course-header -->
 
-## Application-Layer Services
+## &#128204; Application-Layer Services
 
 | Protocol | Port(s) | Transport | Purpose |
 |----------|---------|-----------|---------|
@@ -33,7 +33,7 @@
 
 ---
 
-## Diagnostic & Infrastructure Protocols
+## &#128204; Diagnostic & Infrastructure Protocols
 
 | Protocol | Role |
 |----------|------|
@@ -43,7 +43,7 @@
 
 ---
 
-## Email Flow
+## &#128204; Email Flow
 
 - **SMTP** sends/relays mail between servers.
 - **POP3** downloads mail (usually removes from server) — single device.

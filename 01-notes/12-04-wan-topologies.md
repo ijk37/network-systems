@@ -1,4 +1,4 @@
-# 12-04: WAN Topologies & Modern WAN
+# &#128216; 12-04: WAN Topologies & Modern WAN
 
 <!-- course-header -->
 <div align="center">
@@ -12,7 +12,7 @@
 </div>
 <!-- /course-header -->
 
-## WAN Topologies
+## &#127757; WAN Topologies
 
 | Topology | Description | Trade-off |
 |----------|-------------|-----------|
@@ -23,7 +23,7 @@
 
 ---
 
-## Redundancy at the Edge
+## &#128204; Redundancy at the Edge
 
 | Term | Meaning |
 |------|---------|
@@ -32,7 +32,7 @@
 
 ---
 
-## SD-WAN
+## &#127757; SD-WAN
 
 **SD-WAN** uses software-defined control to combine and **intelligently steer** traffic across multiple transports (MPLS, broadband, LTE) by application policy and link quality.
 
@@ -42,7 +42,7 @@
 
 ---
 
-## VPN as WAN
+## &#127757; VPN as WAN
 
 A **site-to-site VPN** over the public Internet provides WAN connectivity between offices at far lower cost than dedicated circuits — with an encrypted tunnel (usually IPsec), though performance depends on the Internet.
 

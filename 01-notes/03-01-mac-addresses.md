@@ -1,4 +1,4 @@
-# 03-01: MAC Addresses
+# &#128216; 03-01: MAC Addresses
 
 <!-- course-header -->
 <div align="center">
@@ -12,7 +12,7 @@
 </div>
 <!-- /course-header -->
 
-## What Is a MAC Address?
+## &#10067; What Is a MAC Address?
 
 A **MAC (Media Access Control) address** is a **48-bit** Layer 2 physical address burned into every NIC. It is written as **six pairs of hex digits**:
 
@@ -25,7 +25,7 @@ A **MAC (Media Access Control) address** is a **48-bit** Layer 2 physical addres
 
 ---
 
-## Structure
+## &#128204; Structure
 
 | First 24 bits (OUI) | Last 24 bits |
 |---------------------|--------------|
@@ -36,7 +36,7 @@ A **MAC (Media Access Control) address** is a **48-bit** Layer 2 physical addres
 
 ---
 
-## MAC vs. IP
+## &#128204; MAC vs. IP
 
 | | MAC address | IP address |
 |---|-------------|------------|
@@ -50,7 +50,7 @@ A **MAC (Media Access Control) address** is a **48-bit** Layer 2 physical addres
 
 ---
 
-## ARP: Bridging IP and MAC
+## &#128204; ARP: Bridging IP and MAC
 
 **ARP (Address Resolution Protocol)** resolves a known **IP** to its **MAC** on the local segment so frames can be delivered. In IPv6, this is handled by **NDP** (Neighbor Discovery). View the cache with `arp -a`.
 

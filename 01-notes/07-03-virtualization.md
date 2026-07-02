@@ -1,4 +1,4 @@
-# 07-03: Virtualization
+# &#128216; 07-03: Virtualization
 
 <!-- course-header -->
 <div align="center">
@@ -12,13 +12,13 @@
 </div>
 <!-- /course-header -->
 
-## What Is Virtualization?
+## &#10067; What Is Virtualization?
 
 **Virtualization** abstracts physical hardware so multiple isolated systems run on one physical machine. It's the foundation of cloud computing.
 
 ---
 
-## Hypervisors
+## &#128204; Hypervisors
 
 A **hypervisor (VMM)** creates and runs virtual machines, allocating CPU/RAM/I/O and keeping VMs isolated.
 
@@ -29,7 +29,7 @@ A **hypervisor (VMM)** creates and runs virtual machines, allocating CPU/RAM/I/O
 
 ---
 
-## VMs vs. Containers
+## &#128204; VMs vs. Containers
 
 | | **Virtual Machine** | **Container** |
 |---|---------------------|---------------|
@@ -42,13 +42,13 @@ Containers are lighter and faster because they **share the host OS kernel** inst
 
 ---
 
-## Network Function Virtualization (NFV)
+## &#128204; Network Function Virtualization (NFV)
 
 **NFV** runs network functions — firewalls, routers, load balancers — as **software/VMs** on standard servers instead of dedicated appliances, improving flexibility and cost.
 
 ---
 
-## Virtual Networking
+## &#128204; Virtual Networking
 
 VMs connect via **virtual switches (vSwitches)** and virtual NICs inside the hypervisor, which then bridge to the physical network.
 

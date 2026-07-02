@@ -1,10 +1,10 @@
-# Quiz System — Reusable Design Blueprint
+# &#129514; Quiz System — Reusable Design Blueprint
 
 A self-contained, dependency-free quiz engine (plain HTML + CSS + JavaScript) that runs from static files — open locally or host on GitHub Pages. Copy this folder into any repository and swap the question data to make a quiz for any subject.
 
 ---
 
-## 1. What it does
+## &#128204; 1. What it does
 
 - **Topic hub** (`index.html`) — a card grid of all quizzes (chapters + mixed).
 - **Quiz engine** (`quiz.html`) — runs one quiz, selected via `?topic=<id>`.
@@ -18,7 +18,7 @@ No build step, no framework, no server logic. Just static files.
 
 ---
 
-## 2. File structure
+## &#128204; 2. File structure
 
 ```
 03-quiz/
@@ -36,9 +36,9 @@ No build step, no framework, no server logic. Just static files.
 
 ---
 
-## 3. Data format
+## &#128204; 3. Data format
 
-### TOPICS (list of quizzes, in display order)
+### &#129514; TOPICS (list of quizzes, in display order)
 ```js
 const TOPICS = [
   { id: "01", title: "Introduction to Networking" },
@@ -49,7 +49,7 @@ const TOPICS = [
 ];
 ```
 
-### QUIZ_CONFIG (how many questions per attempt)
+### &#129514; QUIZ_CONFIG (how many questions per attempt)
 ```js
 const QUIZ_CONFIG = {
   defaultAttempt: 25,          // random questions per attempt (chapters)
@@ -64,7 +64,7 @@ function attemptSizeFor(topicId, poolLen) {
 }
 ```
 
-### QUESTIONS (the question bank, keyed by topic id)
+### &#128313; QUESTIONS (the question bank, keyed by topic id)
 ```js
 const QUESTIONS = {};
 
@@ -79,7 +79,7 @@ QUESTIONS["01"] = [
 ];
 ```
 
-### Expansion via push (grow a pool without touching the base file)
+### &#128313; Expansion via push (grow a pool without touching the base file)
 ```js
 // data-01-b.js
 QUESTIONS["01"].push(
@@ -88,7 +88,7 @@ QUESTIONS["01"].push(
 );
 ```
 
-### Mixed quizzes (built from the chapter pools at load time)
+### &#129514; Mixed quizzes (built from the chapter pools at load time)
 Helpers live in the first mixed file and are reused by the rest:
 ```js
 function collectFrom(ids) { /* concat QUESTIONS[id] for each id */ }
@@ -101,7 +101,7 @@ QUESTIONS["mixed-1"] = buildMixed([{ids:EARLY,count:34},{ids:MID,count:10},{ids:
 
 ---
 
-## 4. Script loading order (important)
+## &#128204; 4. Script loading order (important)
 
 In **both** `index.html` and `quiz.html`, load in this order:
 1. `data.js` (defines `TOPICS`, `QUIZ_CONFIG`, `QUESTIONS = {}`, base chapters)
@@ -114,7 +114,7 @@ Missing `data-*.js` files 404 harmlessly (that pool just stays at its current si
 
 ---
 
-## 5. Engine behavior (quiz.html)
+## &#129514; 5. Engine behavior (quiz.html)
 
 Core state and functions:
 
@@ -141,7 +141,7 @@ Key rules:
 
 ---
 
-## 6. index.html (hub) responsibilities
+## &#128204; 6. index.html (hub) responsibilities
 
 - Loads the same data files (needs `TOPICS`, `QUESTIONS`, `attemptSizeFor`).
 - Renders a card per topic: icon, label ("Module NN" / "Mixed"), title, and count text — `"25 random of 94"` when the attempt is a subset, else `"N questions"`.
@@ -150,7 +150,7 @@ Key rules:
 
 ---
 
-## 7. Theme / styling
+## &#128204; 7. Theme / styling
 
 Dark theme, all inline in each HTML `<style>`:
 - Background `#0f1117`, cards `#1e2231`, borders `#2d3348`, accent `#4f8ef7`.
@@ -162,7 +162,7 @@ Change the accent + backgrounds in a few CSS variables/values to rebrand.
 
 ---
 
-## 8. Adapt for a new subject (checklist)
+## &#128204; 8. Adapt for a new subject (checklist)
 
 1. **Copy** the whole `03-quiz/` folder into the new repo.
 2. **Edit `TOPICS`** in `data.js` — set ids + titles for your subject's chapters and mixed quizzes.
@@ -173,14 +173,14 @@ Change the accent + backgrounds in a few CSS variables/values to rebrand.
 7. **Rebrand** — titles in `<title>`/`<header>`, the `ICONS` map in `index.html`, and accent colours.
 8. **Test**: open `index.html`, take a quiz, verify counts, shuffling, nav, timer, finish, and review.
 
-### Validation tips (no Node needed)
+### &#128313; Validation tips (no Node needed)
 - Every question object should have matching counts of `q:`, `options:`, `answer:`, `explain:`.
 - `answer` must be `0 ≤ answer < options.length`.
 - Braces/brackets balanced per file (a quick Python or editor check works).
 
 ---
 
-## 9. Deployment (GitHub Pages)
+## &#128204; 9. Deployment (GitHub Pages)
 
 1. Push the repo to GitHub.
 2. Settings → Pages → deploy from `main` (root).
@@ -189,7 +189,7 @@ Change the accent + backgrounds in a few CSS variables/values to rebrand.
 
 ---
 
-## 10. Design principles worth keeping
+## &#128204; 10. Design principles worth keeping
 
 - **Static-only**: no framework/build → trivial to host and maintain.
 - **Data separate from engine**: adding questions never touches logic.

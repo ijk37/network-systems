@@ -1,4 +1,4 @@
-# 10-02: IDS & IPS
+# &#128216; 10-02: IDS & IPS
 
 <!-- course-header -->
 <div align="center">
@@ -12,7 +12,7 @@
 </div>
 <!-- /course-header -->
 
-## Detecting and Preventing Intrusions
+## &#128204; Detecting and Preventing Intrusions
 
 | | **IDS** | **IPS** |
 |---|---------|---------|
@@ -24,7 +24,7 @@
 
 ---
 
-## Detection Methods
+## &#128204; Detection Methods
 
 | Method | How it works | Strength / weakness |
 |--------|--------------|---------------------|
@@ -34,7 +34,7 @@
 
 ---
 
-## Host vs. Network
+## &#128204; Host vs. Network
 
 | | **HIDS/HIPS** | **NIDS/NIPS** |
 |---|---------------|---------------|
@@ -43,7 +43,7 @@
 
 ---
 
-## Related Monitoring
+## &#128200; Related Monitoring
 
 - **SIEM** aggregates and correlates logs/events for detection and investigation.
 - **Port mirroring (SPAN)** feeds a copy of traffic to an IDS or analyzer.

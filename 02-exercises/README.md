@@ -1,4 +1,4 @@
-# 02 Exercises
+# &#9997; 02 Exercises
 
 <div align="center">
 
@@ -12,7 +12,7 @@
 
 Practice sets for each course module. Work the question first, then expand the answer block to check your reasoning.
 
-## Exercise Dashboard
+## &#9997; Exercise Dashboard
 
 | Module | Focus | Questions | Practice Set | Notes |
 | --- | --- | ---: | --- | --- |
@@ -29,7 +29,7 @@ Practice sets for each course module. Work the question first, then expand the a
 | 11 | Network Performance and Recovery | 12 | [11-exercise.md](11-exercise.md) | [Review notes](../01-notes/11-01-performance-concepts.md) |
 | 12 | Wide Area Networks | 12 | [12-exercise.md](12-exercise.md) | [Review notes](../01-notes/12-01-wan-fundamentals.md) |
 
-## How to Practice
+## &#129504; How to Practice
 
 1. Try each question before opening the answer.
 2. Mark anything that felt slow or uncertain.

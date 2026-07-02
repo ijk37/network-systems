@@ -1,4 +1,4 @@
-# Project 03 — Static & Dynamic Routing (OSPF)
+# &#128736; Project 03 — Static & Dynamic Routing (OSPF)
 
 
 <!-- course-header -->
@@ -19,13 +19,13 @@
 
 ---
 
-## Objective
+## &#127919; Objective
 
 Build a three-router WAN and make every LAN reachable — first with **static routes**, then with **OSPF** dynamic routing — and understand why one route is chosen over another (**administrative distance**).
 
 ---
 
-## Topology
+## &#128204; Topology
 
 ```
    [PC-A]         [PC-B]          [PC-C]
@@ -45,7 +45,7 @@ Build a three-router WAN and make every LAN reachable — first with **static ro
 
 ---
 
-## Part A — Static Routing
+## &#129517; Part A — Static Routing
 
 1. Configure all interface IPs and PC gateways.
 2. On each router, add static routes to the networks it doesn't directly connect to.
@@ -58,7 +58,7 @@ R1(config)# ip route 10.0.23.0 255.255.255.252 10.0.12.2
 
 3. Verify PC-A can ping PC-C end to end.
 
-## Part B — Convert to OSPF
+## &#128204; Part B — Convert to OSPF
 
 1. Remove the static routes.
 2. Enable OSPF and advertise the connected networks.
@@ -72,14 +72,14 @@ R2(config-router)# network 10.0.23.0 0.0.0.3 area 0
 
 3. Confirm routes are learned dynamically and full connectivity is restored.
 
-## Part C — Administrative Distance
+## &#128204; Part C — Administrative Distance
 
 1. Re-add one static route to a network also learned via OSPF.
 2. Check `show ip route` — which is installed? Explain using AD (static = 1, OSPF = 110).
 
 ---
 
-## Verification
+## &#9989; Verification
 
 - [ ] `show ip route` shows remote networks (marked `S` for static, `O` for OSPF).
 - [ ] End-to-end ping PC-A ↔ PC-C succeeds under both methods.
@@ -88,13 +88,13 @@ R2(config-router)# network 10.0.23.0 0.0.0.3 area 0
 
 ---
 
-## Deliverables
+## &#128230; Deliverables
 
 - Packet Tracer file (local).
 - A comparison table: static vs. dynamic (effort, scalability, convergence).
 - Answer: *what happens to OSPF if the R1–R2 link fails?* (Test it.)
 
-## Stretch Goals
+## &#128640; Stretch Goals
 
 - Add a **default route** on R1 toward a simulated ISP and redistribute it.
 - Configure a **floating static route** as a backup path.

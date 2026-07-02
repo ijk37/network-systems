@@ -1,4 +1,4 @@
-# 11-04: Fault Tolerance & Recovery
+# &#128216; 11-04: Fault Tolerance & Recovery
 
 <!-- course-header -->
 <div align="center">
@@ -12,7 +12,7 @@
 </div>
 <!-- /course-header -->
 
-## RAID (Storage Redundancy)
+## &#128204; RAID (Storage Redundancy)
 
 | Level | Method | Fault tolerance | Notes |
 |-------|--------|-----------------|-------|
@@ -26,7 +26,7 @@
 
 ---
 
-## Power Protection
+## &#128204; Power Protection
 
 | Device | Role |
 |--------|------|
@@ -36,7 +36,7 @@
 
 ---
 
-## Backups
+## &#128204; Backups
 
 | Type | Backs up | Restore |
 |------|----------|---------|
@@ -48,7 +48,7 @@
 
 ---
 
-## Disaster Recovery Sites
+## &#128204; Disaster Recovery Sites
 
 | Site | Readiness | Cost | Recovery time |
 |------|-----------|------|---------------|

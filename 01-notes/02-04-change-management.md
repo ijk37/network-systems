@@ -1,4 +1,4 @@
-# 02-04: Change Management & Agreements
+# &#128216; 02-04: Change Management & Agreements
 
 <!-- course-header -->
 <div align="center">
@@ -12,11 +12,11 @@
 </div>
 <!-- /course-header -->
 
-## Change Management
+## &#128204; Change Management
 
 **Change management** is the process of proposing, reviewing, approving, implementing, and documenting changes to minimize risk of outages.
 
-### A change request typically includes
+### &#128313; A change request typically includes
 - **Reason and scope** of the change
 - **Risk assessment** and potential effects
 - **Implementation plan** (steps, timing, maintenance window)
@@ -27,7 +27,7 @@
 
 ---
 
-## Common Agreements & Policies
+## &#128204; Common Agreements & Policies
 
 | Term | Meaning |
 |------|---------|
@@ -39,7 +39,7 @@
 
 ---
 
-## Reliability Metrics
+## &#128204; Reliability Metrics
 
 | Metric | Meaning |
 |--------|---------|
@@ -48,7 +48,7 @@
 
 ---
 
-## Fire & Cable Safety Ratings
+## &#128204; Fire & Cable Safety Ratings
 
 | Rating | Where used |
 |--------|-----------|

@@ -1,4 +1,4 @@
-# 05-04: Cable Issues, Tools & PoE
+# &#128216; 05-04: Cable Issues, Tools & PoE
 
 <!-- course-header -->
 <div align="center">
@@ -12,7 +12,7 @@
 </div>
 <!-- /course-header -->
 
-## Common Cabling Problems
+## &#128268; Common Cabling Problems
 
 | Problem | Symptom | Fix |
 |---------|---------|-----|
@@ -25,7 +25,7 @@
 
 ---
 
-## Diagnostic Tools
+## &#129520; Diagnostic Tools
 
 | Tool | Purpose |
 |------|---------|
@@ -37,7 +37,7 @@
 
 ---
 
-## Power over Ethernet (PoE)
+## &#128204; Power over Ethernet (PoE)
 
 PoE delivers **DC power + data** over the same twisted-pair cable — powering APs, IP phones, and cameras.
 
@@ -49,7 +49,7 @@ PoE delivers **DC power + data** over the same twisted-pair cable — powering A
 
 ---
 
-## Cable Fire Ratings
+## &#128204; Cable Fire Ratings
 
 | Rating | Where |
 |--------|-------|

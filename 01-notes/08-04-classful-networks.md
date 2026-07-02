@@ -1,4 +1,4 @@
-# 08-04: Classful Networks
+# &#128216; 08-04: Classful Networks
 
 <!-- course-header -->
 <div align="center">
@@ -12,7 +12,7 @@
 </div>
 <!-- /course-header -->
 
-## What are Classful Networks?
+## &#128204; What are Classful Networks?
 
 Classful networking is an older method of IP address allocation where IP addresses are divided into fixed classes.
 
@@ -22,7 +22,7 @@ Each class defines:
 
 ---
 
-## Why Classful Networks Were Used
+## &#128161; Why Classful Networks Were Used
 
 - Simple and easy to understand  
 - Standardized network sizes  
@@ -30,13 +30,13 @@ Each class defines:
 
 ---
 
-## IPv4 Address Classes
+## &#128290; IPv4 Address Classes
 
 IPv4 addresses are divided into five classes:
 
 ---
 
-### Class A
+### &#128313; Class A
 
 - Range: 0.0.0.0 → 127.255.255.255  
 - Default Subnet Mask:  
@@ -53,7 +53,7 @@ IPv4 addresses are divided into five classes:
 
 ---
 
-### Class B
+### &#128313; Class B
 
 - Range: 128.0.0.0 → 191.255.255.255  
 - Default Subnet Mask:  
@@ -65,7 +65,7 @@ IPv4 addresses are divided into five classes:
 
 ---
 
-### Class C
+### &#128313; Class C
 
 - Range: 192.0.0.0 → 223.255.255.255  
 - Default Subnet Mask:  
@@ -77,7 +77,7 @@ IPv4 addresses are divided into five classes:
 
 ---
 
-### Class D
+### &#128313; Class D
 
 - Range: 224.0.0.0 → 239.255.255.255  
 - Purpose: Multicast communication  
@@ -85,7 +85,7 @@ IPv4 addresses are divided into five classes:
 
 ---
 
-### Class E
+### &#128313; Class E
 
 - Range: 240.0.0.0 → 255.255.255.255  
 - Purpose: Experimental use  
@@ -93,7 +93,7 @@ IPv4 addresses are divided into five classes:
 
 ---
 
-## Key Observation
+## &#128204; Key Observation
 
 The first three classes (A, B, C) have fixed subnet masks.
 
@@ -103,7 +103,7 @@ This means:
 
 ---
 
-## Limitations of Classful Networking
+## &#128204; Limitations of Classful Networking
 
 - Inefficient use of IP addresses  
 - Fixed network sizes (too large or too small)  
@@ -111,7 +111,7 @@ This means:
 
 ---
 
-## Transition to Modern Networking
+## &#128204; Transition to Modern Networking
 
 Due to these limitations, classful networking was replaced by:
 
@@ -120,7 +120,7 @@ Due to these limitations, classful networking was replaced by:
 
 ---
 
-## Key Idea
+## &#128161; Key Idea
 
 Classful networking uses fixed network boundaries,
 

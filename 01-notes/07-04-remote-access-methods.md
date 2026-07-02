@@ -1,4 +1,4 @@
-# 07-04: Remote Access Methods
+# &#128216; 07-04: Remote Access Methods
 
 <!-- course-header -->
 <div align="center">
@@ -12,7 +12,7 @@
 </div>
 <!-- /course-header -->
 
-## Ways to Reach Remote Systems
+## &#128204; Ways to Reach Remote Systems
 
 | Method | Purpose |
 |--------|---------|
@@ -24,7 +24,7 @@
 
 ---
 
-## VPN Types (recap)
+## &#128204; VPN Types (recap)
 
 - **Site-to-site** — connects whole networks (IPsec).
 - **Client-to-site** — individual users into the LAN.
@@ -35,13 +35,13 @@ A **VPN concentrator** terminates many tunnels at the edge.
 
 ---
 
-## Out-of-Band Management
+## &#128204; Out-of-Band Management
 
 Uses a **separate path** (console/serial port, dedicated management interface, or cellular modem) so admins can reach devices **even during a production-network outage** — critical for recovery.
 
 ---
 
-## Secure-Access Building Blocks
+## &#128204; Secure-Access Building Blocks
 
 | Control | Benefit |
 |---------|---------|
@@ -53,7 +53,7 @@ Uses a **separate path** (console/serial port, dedicated management interface, o
 
 ---
 
-## SD-WAN
+## &#127757; SD-WAN
 
 **SD-WAN** centrally manages and steers traffic across multiple transports (broadband, LTE, MPLS) by application policy — improving WAN performance and reducing MPLS cost.
 

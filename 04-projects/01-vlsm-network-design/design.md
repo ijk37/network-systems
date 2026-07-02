@@ -1,8 +1,8 @@
-# Acme Corp — VLSM Addressing Plan
+# &#128736; Acme Corp — VLSM Addressing Plan
 
 **Assigned block:** 172.16.0.0/22 (172.16.0.0 – 172.16.3.255, 1024 addresses)
 
-## Step 1 — Determine prefix per department
+## &#128204; Step 1 — Determine prefix per department
 
 | Department | Hosts | Host bits (2^h − 2 ≥ need) | Prefix | Block size |
 |------------|-------|----------------------------|--------|------------|
@@ -14,7 +14,7 @@
 | WAN R1–R2 | 2 | 2 (2) | /30 | 4 |
 | WAN R2–R3 | 2 | 2 (2) | /30 | 4 |
 
-## Step 2 — Allocate (largest first), starting at 172.16.0.0
+## &#128204; Step 2 — Allocate (largest first), starting at 172.16.0.0
 
 | Department | Network ID | Mask | CIDR | Usable range | Broadcast |
 |------------|-----------|------|------|--------------|-----------|
@@ -28,7 +28,7 @@
 
 > **Address space used:** through 172.16.1.247 — leaving 172.16.1.248 – 172.16.3.255 free for growth. Giving each of the 7 subnets a `/24` would have needed 7 × 256 = 1792 addresses and **would not fit** in the /22 — VLSM makes it fit with room to spare.
 
-## Step 3 — Gateway assignments (first usable per LAN)
+## &#128204; Step 3 — Gateway assignments (first usable per LAN)
 
 | Department | Gateway |
 |------------|---------|

@@ -1,4 +1,4 @@
-# 08: Subnets & VLANs — Exercises
+# &#9997; 08: Subnets & VLANs — Exercises
 
 <!-- course-header -->
 <div align="center">
@@ -21,9 +21,9 @@ Hands-on **subnetting drills** — the highest-value practice for the exam. Read
 
 ---
 
-## Exercise 1 — Find Range, Network ID & Broadcast (/22, two methods)
+## &#9997; Exercise 1 — Find Range, Network ID & Broadcast (/22, two methods)
 
-### Question
+### &#128313; Question
 
 Find the **address range**, **usable host range**, **network ID**, and **broadcast ID** of the following subnet:
 
@@ -33,9 +33,9 @@ Find the **address range**, **usable host range**, **network ID**, and **broadca
 
 <details><summary>▶ Show worked solution</summary>
 
-### Solution
+### &#128313; Solution
 
-### Method 1: Binary Method
+### &#128313; Method 1: Binary Method
 
 #### Step 1: Write the Given IP Address in Binary
 
@@ -86,7 +86,7 @@ Usable host range:
 
 ---
 
-### Method 2: Block Size Method
+### &#128313; Method 2: Block Size Method
 
 #### Step 1: Find the Subnet Mask and Block Size
 
@@ -140,7 +140,7 @@ Usable host range:
 
 ---
 
-### Final Answer
+### &#128313; Final Answer
 
 - Network ID: 172.21.40.0
 - Broadcast ID: 172.21.43.255
@@ -151,9 +151,9 @@ Usable host range:
 
 ---
 
-## Exercise 2 — Subnet a Class B into 15 Subnets
+## &#9997; Exercise 2 — Subnet a Class B into 15 Subnets
 
-### Question
+### &#128313; Question
 
 A Class B network with network ID **172.20.0.0** is given.  
 The network needs to be divided into **at least 15 subnets**.
@@ -179,7 +179,7 @@ Based on this requirement, answer the following:
 
 <details><summary>▶ Show worked solution</summary>
 
-### Solution
+### &#128313; Solution
 
 #### Step 1: Number of bits to be borrowed
 
@@ -294,7 +294,7 @@ Number of usable hosts: 2¹² − 2 = 4096 − 2 = **4094**
 
 ---
 
-### Final Summary
+### &#128313; Final Summary
 
 1. Bits borrowed from host portion = 4  
 
@@ -321,9 +321,9 @@ Number of usable hosts: 2¹² − 2 = 4096 − 2 = **4094**
 
 ---
 
-## Exercise 3 — Locate a Host's Subnet (/27)
+## &#9997; Exercise 3 — Locate a Host's Subnet (/27)
 
-### Question
+### &#128313; Question
 
 An IPv4 host has the following configuration:
 
@@ -345,7 +345,7 @@ Based on this information, answer the following:
 
 <details><summary>▶ Show worked solution</summary>
 
-### Solution
+### &#128313; Solution
 
 #### Step 1: Magic number (Block Size)
 
@@ -430,7 +430,7 @@ Usable host range: 192.168.89.129 to 192.168.89.158
 
 ---
 
-### Final Summary
+### &#128313; Final Summary
 
 1. Magic number = 32  
 
@@ -450,9 +450,9 @@ Usable host range: 192.168.89.129 to 192.168.89.158
 
 ---
 
-## Exercise 4 — VLSM for Four Departments
+## &#9997; Exercise 4 — VLSM for Four Departments
 
-### Question
+### &#128313; Question
 
 A network **192.168.10.0/24** is given.  
 This network has to be divided using **VLSM** for the following departments:
@@ -475,7 +475,7 @@ Based on this requirement, answer the following:
 
 <details><summary>▶ Show worked solution</summary>
 
-### Solution
+### &#128313; Solution
 
 #### Step 1: Arrange host requirements in descending order
 
@@ -606,7 +606,7 @@ After allocating Department D, the remaining range is:
 
 ---
 
-### Final Summary
+### &#128313; Final Summary
 
 1. Required subnet sizes:
    - A → 128  
@@ -645,9 +645,9 @@ After allocating Department D, the remaining range is:
 
 ---
 
-## Exercise 5 — IPv6 Subnetting (/48 to /64)
+## &#9997; Exercise 5 — IPv6 Subnetting (/48 to /64)
 
-### Question
+### &#128313; Question
 
 An organization is assigned the IPv6 block **2001:0abc:23a4::/48**.
 
@@ -666,7 +666,7 @@ Based on this information, answer the following:
 
 <details><summary>▶ Show worked solution</summary>
 
-### Solution
+### &#128313; Solution
 
 #### Step 1: Number of bits available for subnetting
 
@@ -755,7 +755,7 @@ Number of host addresses = 2^64
 
 ---
 
-### Final Summary
+### &#128313; Final Summary
 
 1. Bits available for subnetting = 16  
 
@@ -776,9 +776,9 @@ Number of host addresses = 2^64
 
 ---
 
-## Quick-Recall Drills
+## &#128204; Quick-Recall Drills
 
-### Q1. How many usable hosts are in a /26, /28, and /30?
+### &#128313; Q1. How many usable hosts are in a /26, /28, and /30?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -790,7 +790,7 @@ Number of host addresses = 2^64
 
 ---
 
-### Q2. What is the subnet mask for /27, and its block size?
+### &#10067; Q2. What is the subnet mask for /27, and its block size?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -800,7 +800,7 @@ Number of host addresses = 2^64
 
 ---
 
-### Q3. Which subnet does host 192.168.10.100/27 belong to (network ID and broadcast)?
+### &#129518; Q3. Which subnet does host 192.168.10.100/27 belong to (network ID and broadcast)?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -810,7 +810,7 @@ Block size 32 → subnets .0, .32, .64, **.96**, .128. 100 falls in the **192.16
 
 ---
 
-### Q4. You need at least 500 hosts in one subnet. What is the smallest prefix that works?
+### &#10067; Q4. You need at least 500 hosts in one subnet. What is the smallest prefix that works?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -820,7 +820,7 @@ Block size 32 → subnets .0, .32, .64, **.96**, .128. 100 falls in the **192.16
 
 ---
 
-### Q5. What standard subnet size is used for an IPv6 LAN, and how many /64s come from a /48?
+### &#129518; Q5. What standard subnet size is used for an IPv6 LAN, and how many /64s come from a /48?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -830,7 +830,7 @@ IPv6 LANs use **/64**. From /48 to /64 = 16 subnet bits → 2^16 = **65,536** su
 
 ---
 
-### Q6. Summarize the four networks 192.168.4.0/24 … 192.168.7.0/24 into one route.
+### &#128313; Q6. Summarize the four networks 192.168.4.0/24 … 192.168.7.0/24 into one route.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -841,6 +841,42 @@ IPv6 LANs use **/64**. From /48 to /64 = 16 subnet bits → 2^16 = **65,536** su
 ---
 
 ⬅️ **Prev:** [Module 07](07-exercise.md)  ·  [📚 All Exercises](README.md)  ·  **Next:** [Module 09 — Network Risk Management](09-exercise.md) ➡️
+
+## &#129517; Bonus Scenario Practice
+
+### &#129513; Case A: Smallest Subnet That Fits
+
+You are assigning subnets for three departments:
+
+- Engineering: 110 hosts
+- Finance: 28 hosts
+- Guest Wi-Fi: 55 hosts
+
+Choose the smallest common IPv4 prefix for each department.
+
+<details>
+<summary><strong>Show answer</strong></summary>
+
+- Engineering needs 110 hosts: `/25` gives 126 usable.
+- Finance needs 28 hosts: `/27` gives 30 usable.
+- Guest Wi-Fi needs 55 hosts: `/26` gives 62 usable.
+
+The design should allocate larger subnets first when using VLSM, because large blocks are harder to fit later.
+</details>
+
+---
+
+### &#129513; Case B: VLAN and Subnet Mapping
+
+An administrator creates VLAN 10 for staff and VLAN 20 for guests, but both VLANs use `192.168.1.0/24`. Users report confusing intermittent connectivity. What design rule is being violated?
+
+<details>
+<summary><strong>Show answer</strong></summary>
+
+Each VLAN should normally have its own IP subnet. VLANs separate Layer 2 broadcast domains; routing and policy decisions happen cleanly when each VLAN maps to a distinct Layer 3 network.
+</details>
+
+---
 
 <!-- course-footer -->
 ---

@@ -1,4 +1,4 @@
-# 02-02: Racks, Patch Panels & Terminations
+# &#128216; 02-02: Racks, Patch Panels & Terminations
 
 <!-- course-header -->
 <div align="center">
@@ -12,7 +12,7 @@
 </div>
 <!-- /course-header -->
 
-## Equipment Racks
+## &#128204; Equipment Racks
 
 - Standard rack width is **19 inches**; height is measured in **rack units (U)**, where **1U = 1.75 inches**.
 - A common full rack is **42U**.
@@ -21,7 +21,7 @@
 
 ---
 
-## Patch Panels
+## &#128204; Patch Panels
 
 A **patch panel** terminates permanent horizontal cable runs. Short **patch cords** then connect panel ports to switch ports.
 
@@ -30,7 +30,7 @@ A **patch panel** terminates permanent horizontal cable runs. Short **patch cord
 
 ---
 
-## Termination Standards: T568A vs. T568B
+## &#128204; Termination Standards: T568A vs. T568B
 
 Two pin/pair color schemes define how the 8 conductors map to the RJ-45 pins:
 
@@ -45,7 +45,7 @@ Two pin/pair color schemes define how the 8 conductors map to the RJ-45 pins:
 
 ---
 
-## Tools
+## &#129520; Tools
 
 | Tool | Purpose |
 |------|---------|

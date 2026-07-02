@@ -1,4 +1,4 @@
-# 07: Cloud Computing & Remote Access — Exercises
+# &#9997; 07: Cloud Computing & Remote Access — Exercises
 
 <!-- course-header -->
 <div align="center">
@@ -19,7 +19,7 @@ Work through each question, then click **▶ Show answer** to check yourself. Re
 
 ---
 
-### Q1. Classify each as IaaS, PaaS, or SaaS: (a) Microsoft 365, (b) AWS EC2 VMs, (c) Azure App Service for deploying code.
+### &#128313; Q1. Classify each as IaaS, PaaS, or SaaS: (a) Microsoft 365, (b) AWS EC2 VMs, (c) Azure App Service for deploying code.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -31,7 +31,7 @@ Work through each question, then click **▶ Show answer** to check yourself. Re
 
 ---
 
-### Q2. In IaaS, what does the customer secure vs. the provider?
+### &#128313; Q2. In IaaS, what does the customer secure vs. the provider?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -44,7 +44,7 @@ Responsibility shifts more to the provider as you move IaaS → PaaS → SaaS.
 
 ---
 
-### Q3. A hospital and clinics share a compliance-focused cloud dedicated to healthcare orgs. Which deployment model?
+### &#9729; Q3. A hospital and clinics share a compliance-focused cloud dedicated to healthcare orgs. Which deployment model?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -54,7 +54,7 @@ Responsibility shifts more to the provider as you move IaaS → PaaS → SaaS.
 
 ---
 
-### Q4. Compare a Type 1 and a Type 2 hypervisor, with an example of each.
+### &#128313; Q4. Compare a Type 1 and a Type 2 hypervisor, with an example of each.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -65,7 +65,7 @@ Responsibility shifts more to the provider as you move IaaS → PaaS → SaaS.
 
 ---
 
-### Q5. Why are containers lighter than virtual machines?
+### &#128161; Q5. Why are containers lighter than virtual machines?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -75,7 +75,7 @@ Containers **share the host OS kernel** and package only the app + dependencies,
 
 ---
 
-### Q6. Define elasticity and multitenancy.
+### &#128313; Q6. Define elasticity and multitenancy.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -86,7 +86,7 @@ Containers **share the host OS kernel** and package only the app + dependencies,
 
 ---
 
-### Q7. A remote admin needs one secure entry point to manage internal servers. Name the design element and one hardening measure.
+### &#128313; Q7. A remote admin needs one secure entry point to manage internal servers. Name the design element and one hardening measure.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -96,7 +96,7 @@ A **jump box / bastion host**. Harden with **MFA**, least privilege, patching, a
 
 ---
 
-### Q8. RDP is exposed to the Internet on port 3389. State the risk and the recommended fix.
+### &#128313; Q8. RDP is exposed to the Internet on port 3389. State the risk and the recommended fix.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -106,7 +106,7 @@ A **jump box / bastion host**. Harden with **MFA**, least privilege, patching, a
 
 ---
 
-### Q9. Compare a site-to-site VPN with a client-to-site VPN.
+### &#128313; Q9. Compare a site-to-site VPN with a client-to-site VPN.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -117,7 +117,7 @@ A **jump box / bastion host**. Harden with **MFA**, least privilege, patching, a
 
 ---
 
-### Q10. What is the difference between a full-tunnel and a split-tunnel VPN?
+### &#10067; Q10. What is the difference between a full-tunnel and a split-tunnel VPN?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -128,7 +128,7 @@ A **jump box / bastion host**. Harden with **MFA**, least privilege, patching, a
 
 ---
 
-### Q11. What is out-of-band management, and why is it valuable?
+### &#10067; Q11. What is out-of-band management, and why is it valuable?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -138,7 +138,7 @@ A **separate management path** (console/serial port, dedicated interface, or cel
 
 ---
 
-### Q12. What problem does SD-WAN solve, and how?
+### &#127757; Q12. What problem does SD-WAN solve, and how?
 
 <details>
 <summary><strong>Show answer</strong></summary>

@@ -1,4 +1,4 @@
-# 08-09: Implementing Subnets on a Network
+# &#128216; 08-09: Implementing Subnets on a Network
 
 <!-- course-header -->
 <div align="center">
@@ -12,7 +12,7 @@
 </div>
 <!-- /course-header -->
 
-## Why Implement Subnets?
+## &#128161; Why Implement Subnets?
 
 Subnetting is not only a mathematical process, but also a practical network design technique.
 
@@ -26,25 +26,25 @@ Each subnet forms a **separate broadcast domain**.
 
 ---
 
-## Basic Network Structure
+## &#128204; Basic Network Structure
 
 ![Subnets 1, 2, and 3 and their respective default gateways](subnets-default-gateways.png)
 
 A subnetted network typically consists of:
 
-### Router
+### &#128313; Router
 - connects multiple subnets  
 - each interface represents a different subnet  
 
-### Switch
+### &#128313; Switch
 - connects devices within a subnet  
 
-### Hosts (PCs, printers)
+### &#128313; Hosts (PCs, printers)
 - assigned IP addresses within a subnet  
 
 ---
 
-## Subnet Assignment Example
+## &#129518; Subnet Assignment Example
 
 Example:
 
@@ -56,7 +56,7 @@ Example:
 
 ---
 
-## Default Gateway
+## &#128204; Default Gateway
 
 Each subnet requires a **default gateway** to communicate with other networks.
 
@@ -69,14 +69,14 @@ Each subnet requires a **default gateway** to communicate with other networks.
 
 ---
 
-## Communication Between Subnets
+## &#129518; Communication Between Subnets
 
 - Devices within the same subnet communicate **directly**  
 - Devices in different subnets communicate through a **router**  
 
 ---
 
-## One Router Connecting Multiple LANs
+## &#128204; One Router Connecting Multiple LANs
 
 ![One router connecting multiple LANs](router-multiple-lans.png)
 
@@ -92,9 +92,9 @@ A single router can connect multiple LANs:
 
 ---
 
-## DHCP Across Subnets
+## &#129518; DHCP Across Subnets
 
-### Problem
+### &#128313; Problem
 
 DHCP uses **broadcast messages**, which do not cross routers.
 
@@ -102,13 +102,13 @@ DHCP uses **broadcast messages**, which do not cross routers.
 
 ---
 
-### Solution: DHCP Relay Agent
+### &#128225; Solution: DHCP Relay Agent
 
 A **DHCP relay agent** allows DHCP communication across subnets.
 
 ---
 
-## How DHCP Relay Works
+## &#128225; How DHCP Relay Works
 
 1. A client sends a DHCP request (broadcast)  
 2. The router receives the request  
@@ -117,7 +117,7 @@ A **DHCP relay agent** allows DHCP communication across subnets.
 
 ---
 
-## Summary
+## &#128204; Summary
 
 - Subnet → logical division of a network  
 - Router → connects subnets  
@@ -127,7 +127,7 @@ A **DHCP relay agent** allows DHCP communication across subnets.
 
 ---
 
-## Key Insight
+## &#128204; Key Insight
 
 Subnetting transforms a large network into smaller, manageable networks, enabling efficient communication and better network design in real-world environments.
 

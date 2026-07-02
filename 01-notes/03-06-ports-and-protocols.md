@@ -1,4 +1,4 @@
-# 03-06: Ports & Protocols Reference
+# &#128216; 03-06: Ports & Protocols Reference
 
 <!-- course-header -->
 <div align="center">
@@ -12,7 +12,7 @@
 </div>
 <!-- /course-header -->
 
-## Port Number Ranges
+## &#128204; Port Number Ranges
 
 | Range | Name | Use |
 |-------|------|-----|
@@ -24,7 +24,7 @@ A **socket** = IP address + port (e.g., `192.168.1.5:443`).
 
 ---
 
-## Must-Know Ports (N10-008)
+## &#128204; Must-Know Ports (N10-008)
 
 | Port | Protocol | Purpose |
 |------|----------|---------|
@@ -49,7 +49,7 @@ A **socket** = IP address + port (e.g., `192.168.1.5:443`).
 
 ---
 
-## Secure vs. Insecure Pairs
+## &#128204; Secure vs. Insecure Pairs
 
 | Insecure | Secure replacement |
 |----------|--------------------|

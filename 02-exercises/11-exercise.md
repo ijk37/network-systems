@@ -1,4 +1,4 @@
-# 11: Network Performance & Recovery — Exercises
+# &#9997; 11: Network Performance & Recovery — Exercises
 
 <!-- course-header -->
 <div align="center">
@@ -19,7 +19,7 @@ Work through each question, then click **▶ Show answer** to check yourself. Re
 
 ---
 
-### Q1. Distinguish bandwidth, throughput, latency, and jitter.
+### &#128313; Q1. Distinguish bandwidth, throughput, latency, and jitter.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -32,7 +32,7 @@ Work through each question, then click **▶ Show answer** to check yourself. Re
 
 ---
 
-### Q2. VoIP audio is choppy. Which three metrics are most likely to blame, and which QoS action helps?
+### &#128313; Q2. VoIP audio is choppy. Which three metrics are most likely to blame, and which QoS action helps?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -42,7 +42,7 @@ Work through each question, then click **▶ Show answer** to check yourself. Re
 
 ---
 
-### Q3. Two routers should present a single, always-available gateway to hosts. Which protocol family?
+### &#128313; Q3. Two routers should present a single, always-available gateway to hosts. Which protocol family?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -52,7 +52,7 @@ A **First-Hop Redundancy Protocol** — **HSRP / VRRP** (or GLBP). They share a 
 
 ---
 
-### Q4. What does STP prevent, and how?
+### &#128313; Q4. What does STP prevent, and how?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -62,7 +62,7 @@ A **First-Hop Redundancy Protocol** — **HSRP / VRRP** (or GLBP). They share a 
 
 ---
 
-### Q5. What does link aggregation (LACP/EtherChannel) achieve?
+### &#128313; Q5. What does link aggregation (LACP/EtherChannel) achieve?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -72,7 +72,7 @@ Bundles multiple physical links into **one logical link** for **more bandwidth**
 
 ---
 
-### Q6. Compare full, incremental, and differential backups by what they copy and what a restore needs.
+### &#128313; Q6. Compare full, incremental, and differential backups by what they copy and what a restore needs.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -84,7 +84,7 @@ Bundles multiple physical links into **one logical link** for **more bandwidth**
 
 ---
 
-### Q7. Order hot, warm, and cold DR sites by recovery speed and cost.
+### &#128313; Q7. Order hot, warm, and cold DR sites by recovery speed and cost.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -94,7 +94,7 @@ Fastest/most expensive → slowest/cheapest: **Hot → Warm → Cold.** (Hot = r
 
 ---
 
-### Q8. RAID protects against drive failure — but which RAID level mirrors data, and why isn't RAID a backup?
+### &#128161; Q8. RAID protects against drive failure — but which RAID level mirrors data, and why isn't RAID a backup?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -104,7 +104,7 @@ Fastest/most expensive → slowest/cheapest: **Hot → Warm → Cold.** (Hot = r
 
 ---
 
-### Q9. Which protocols/tools would you use to (a) poll device metrics, (b) analyze traffic flows, (c) centralize logs?
+### &#129520; Q9. Which protocols/tools would you use to (a) poll device metrics, (b) analyze traffic flows, (c) centralize logs?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -116,7 +116,7 @@ Fastest/most expensive → slowest/cheapest: **Hot → Warm → Cold.** (Hot = r
 
 ---
 
-### Q10. What is a network baseline, and why capture one?
+### &#10067; Q10. What is a network baseline, and why capture one?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -126,7 +126,7 @@ A record of **normal** performance (utilization, latency, errors). Comparing cur
 
 ---
 
-### Q11. Express "five nines" availability and roughly how much downtime it allows per year.
+### &#128313; Q11. Express "five nines" availability and roughly how much downtime it allows per year.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -136,7 +136,7 @@ A record of **normal** performance (utilization, latency, errors). Comparing cur
 
 ---
 
-### Q12. What is failover, and how does it differ from load balancing?
+### &#10067; Q12. What is failover, and how does it differ from load balancing?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -148,6 +148,32 @@ A record of **normal** performance (utilization, latency, errors). Comparing cur
 ---
 
 ⬅️ **Prev:** [Module 10](10-exercise.md)  ·  [📚 All Exercises](README.md)  ·  **Next:** [Module 12 — Wide Area Networks](12-exercise.md) ➡️
+
+## &#129517; Bonus Scenario Practice
+
+### &#129513; Case A: Slow Network Complaint
+
+Users say "the network is slow" every afternoon. SNMP graphs show WAN utilization near 95%, but you do not know which application is responsible. What tool or data source should you check next?
+
+<details>
+<summary><strong>Show answer</strong></summary>
+
+Check NetFlow, IPFIX, or sFlow data. SNMP confirms the link is saturated, but flow data identifies top talkers, applications, protocols, and destinations so you can decide whether to tune QoS, block misuse, or upgrade capacity.
+</details>
+
+---
+
+### &#129513; Case B: Availability Design
+
+A business requires access to its web application during maintenance on one server. Which design is better: a single powerful server with backups, or two servers behind a load balancer? Explain.
+
+<details>
+<summary><strong>Show answer</strong></summary>
+
+Two servers behind a load balancer provide better availability. Backups help recovery after data loss or failure, but they do not keep the service online during planned maintenance. Load balancing can drain traffic from one server while the other continues serving users.
+</details>
+
+---
 
 <!-- course-footer -->
 ---

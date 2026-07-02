@@ -1,4 +1,4 @@
-# 03-02: IPv4 Addressing
+# &#128216; 03-02: IPv4 Addressing
 
 <!-- course-header -->
 <div align="center">
@@ -12,7 +12,7 @@
 </div>
 <!-- /course-header -->
 
-## Structure
+## &#128204; Structure
 
 An **IPv4 address** is **32 bits**, written as four decimal **octets** (0–255):
 
@@ -28,7 +28,7 @@ Each octet is 8 bits, so its range is **0–255** (2^8 = 256 values).
 
 ---
 
-## Subnet Mask
+## &#129518; Subnet Mask
 
 The **subnet mask** separates the **network** portion (1s) from the **host** portion (0s).
 
@@ -40,7 +40,7 @@ The **subnet mask** separates the **network** portion (1s) from the **host** por
 
 ---
 
-## Private (RFC 1918) Ranges
+## &#128204; Private (RFC 1918) Ranges
 
 Not routable on the Internet — used inside networks with NAT:
 
@@ -52,7 +52,7 @@ Not routable on the Internet — used inside networks with NAT:
 
 ---
 
-## Special Addresses
+## &#128204; Special Addresses
 
 | Address | Meaning |
 |---------|---------|
@@ -64,10 +64,25 @@ Not routable on the Internet — used inside networks with NAT:
 
 ---
 
-## Public vs. Private & NAT
+## &#128204; Public vs. Private & NAT
 
 - **Public** addresses are globally unique and Internet-routable.
 - **Private** addresses are reused internally; **NAT** translates them to a public address to reach the Internet.
+
+---
+
+## &#129517; Scenario: Reading an IP Configuration
+
+When troubleshooting a host, do not look at the IP address alone. Read the address, mask, gateway, and DNS settings together.
+
+| Symptom | Likely clue | What it suggests |
+| --- | --- | --- |
+| Host has `169.254.x.x` | APIPA address | DHCP did not provide a lease |
+| Host can ping gateway but not websites by name | IP works, DNS fails | Check DNS server and name resolution |
+| Host can ping local devices but not remote networks | No working gateway | Check default gateway and routing |
+| Host IP does not match local subnet | Wrong address or mask | Recheck DHCP scope, static config, or VLAN |
+
+Example: a workstation is configured as `192.168.10.75/24` with gateway `192.168.20.1`. The host may reach devices in `192.168.10.0/24`, but traffic to other networks will fail because the gateway is not in the host's local subnet.
 
 ---
 

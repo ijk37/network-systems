@@ -1,4 +1,4 @@
-# 12-03: Routing
+# &#128216; 12-03: Routing
 
 <!-- course-header -->
 <div align="center">
@@ -12,7 +12,7 @@
 </div>
 <!-- /course-header -->
 
-## Static vs. Dynamic Routing
+## &#129517; Static vs. Dynamic Routing
 
 | | **Static** | **Dynamic** |
 |---|-----------|-------------|
@@ -25,7 +25,7 @@ A **default route** (`0.0.0.0/0`) is the "gateway of last resort" for destinatio
 
 ---
 
-## Dynamic Routing Protocols
+## &#129517; Dynamic Routing Protocols
 
 | Protocol | Type | Metric | Scope |
 |----------|------|--------|-------|
@@ -39,7 +39,7 @@ A **default route** (`0.0.0.0/0`) is the "gateway of last resort" for destinatio
 
 ---
 
-## Administrative Distance (AD)
+## &#128204; Administrative Distance (AD)
 
 When multiple sources offer a route, the router prefers the **lowest AD** (most trusted):
 
@@ -53,9 +53,23 @@ When multiple sources offer a route, the router prefers the **lowest AD** (most 
 
 ---
 
-## Convergence
+## &#128204; Convergence
 
 **Convergence** is when all routers agree on the topology after a change. Faster convergence (OSPF/EIGRP > RIP) means less disruption during failures.
+
+---
+
+## &#129517; Scenario: Which Route Wins?
+
+Routers choose routes by using a consistent order:
+
+1. **Longest prefix match** wins first. A `/24` route beats a `/16` route for a matching destination.
+2. If prefix length ties, the route with the **lowest administrative distance** is preferred.
+3. If AD ties, the protocol metric decides, such as OSPF cost or RIP hop count.
+
+Example: a router has `10.10.0.0/16` via OSPF and `10.10.5.0/24` as a static route. Traffic to `10.10.5.25` uses the `/24` static route because it is more specific, even before comparing AD.
+
+This is why default routes (`0.0.0.0/0`) are used only when no more-specific route exists.
 
 ---
 

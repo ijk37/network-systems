@@ -1,4 +1,4 @@
-# 05-03: Ethernet Standards & Transceivers
+# &#128216; 05-03: Ethernet Standards & Transceivers
 
 <!-- course-header -->
 <div align="center">
@@ -12,7 +12,7 @@
 </div>
 <!-- /course-header -->
 
-## Reading Ethernet Names
+## &#128204; Reading Ethernet Names
 
 Format: **`<speed>BASE-<media>`**
 
@@ -22,7 +22,7 @@ Format: **`<speed>BASE-<media>`**
 
 ---
 
-## Common Standards
+## &#128204; Common Standards
 
 | Standard | Speed | Media | Distance |
 |----------|-------|-------|----------|
@@ -35,7 +35,7 @@ Format: **`<speed>BASE-<media>`**
 
 ---
 
-## Transceivers (Modular Ports)
+## &#128204; Transceivers (Modular Ports)
 
 Hot-swappable modules that give a switch/router a specific media/speed interface:
 
@@ -49,7 +49,7 @@ A **media converter** bridges two media types (e.g., copper ↔ fiber) to extend
 
 ---
 
-## Auto-MDIX
+## &#128204; Auto-MDIX
 
 Modern switch ports auto-detect straight-through vs. crossover cabling and adjust, so either cable works — making crossover cables largely obsolete.
 

@@ -1,4 +1,4 @@
-// ── Module 08 — Subnets & VLANs (50) ────────────────────────────────────────
+// ── Module 08 — Subnets & VLANs (54) ────────────────────────────────────────
 QUESTIONS["08"] = [
   {
     q: "What is the primary purpose of network segmentation?",
@@ -424,5 +424,44 @@ QUESTIONS["08"] = [
     options: ["172.16.32.0", "172.16.35.0", "172.16.34.0", "172.16.40.0"],
     answer: 0,
     explain: "/21 mask = 255.255.248.0, block size 8 in the 3rd octet: subnets are .0, .8, .16, .24, .32, .40. The 3rd octet 35 falls in the .32 block, so the network ID is 172.16.32.0 (range .32.0–.39.255).",
+  },
+  {
+    q: "A department needs 58 usable IPv4 addresses. What is the smallest subnet prefix that fits?",
+    options: ["/27", "/26", "/25", "/24"],
+    answer: 1,
+    explain: "/27 gives 30 usable hosts, which is too small. /26 gives 62 usable hosts, so it is the smallest option that fits 58 hosts.",
+  },
+  {
+    q: "A host is 192.168.10.77/27. Which network does it belong to?",
+    options: [
+      "192.168.10.32/27",
+      "192.168.10.64/27",
+      "192.168.10.77/27",
+      "192.168.10.96/27",
+    ],
+    answer: 1,
+    explain: "/27 has a block size of 32 in the last octet: .0, .32, .64, .96. The address .77 falls in the .64 block, so the network is 192.168.10.64/27.",
+  },
+  {
+    q: "Users in VLAN 30 need to reach a server in VLAN 40, but both VLANs are configured only on Layer 2 switches. What is missing?",
+    options: [
+      "Inter-VLAN routing through a router, Layer 3 switch, or firewall",
+      "A crossover cable between two PCs",
+      "A larger DHCP lease time",
+      "A public IP address on every host",
+    ],
+    answer: 0,
+    explain: "VLANs are separate broadcast domains. Traffic between VLANs requires Layer 3 routing, commonly router-on-a-stick, an SVI on a Layer 3 switch, or a firewall interface.",
+  },
+  {
+    q: "A trunk link between switches is configured to allow all VLANs by default. What is the better security practice?",
+    options: [
+      "Allow only VLAN 1",
+      "Allow only VLANs that are required across the trunk",
+      "Disable all tagging",
+      "Put all departments in the native VLAN",
+    ],
+    answer: 1,
+    explain: "Restricting trunks to required VLANs reduces unnecessary exposure and limits the effect of VLAN mistakes or attacks.",
   },
 ];

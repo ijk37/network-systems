@@ -1,4 +1,4 @@
-# 06-01: Wireless Fundamentals & 802.11 Standards
+# &#128216; 06-01: Wireless Fundamentals & 802.11 Standards
 
 <!-- course-header -->
 <div align="center">
@@ -12,13 +12,13 @@
 </div>
 <!-- /course-header -->
 
-## IEEE 802.11
+## &#128204; IEEE 802.11
 
 The **802.11** family defines Wi-Fi WLAN standards. Wireless uses **radio frequencies** and the **CSMA/CA** access method (Collision *Avoidance*, since collisions can't be reliably detected on air).
 
 ---
 
-## The 802.11 Standards
+## &#128204; The 802.11 Standards
 
 | Standard | Wi-Fi name | Band(s) | Max rate (approx) |
 |----------|-----------|---------|-------------------|
@@ -31,7 +31,7 @@ The **802.11** family defines Wi-Fi WLAN standards. Wireless uses **radio freque
 
 ---
 
-## Key Technologies
+## &#128204; Key Technologies
 
 | Feature | Introduced | Benefit |
 |---------|-----------|---------|
@@ -42,7 +42,7 @@ The **802.11** family defines Wi-Fi WLAN standards. Wireless uses **radio freque
 
 ---
 
-## Modes of Operation
+## &#128204; Modes of Operation
 
 - **Infrastructure mode** — clients connect through an **access point** (the norm).
 - **Ad hoc mode** — devices connect directly, no AP.

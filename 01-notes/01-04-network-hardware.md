@@ -1,4 +1,4 @@
-# 01-04: Network Hardware Devices
+# &#128216; 01-04: Network Hardware Devices
 
 <!-- course-header -->
 <div align="center">
@@ -12,7 +12,7 @@
 </div>
 <!-- /course-header -->
 
-## Common Devices and Their Roles
+## &#128204; Common Devices and Their Roles
 
 | Device | OSI Layer | Function |
 |--------|-----------|----------|
@@ -26,7 +26,7 @@
 
 ---
 
-## Hub vs. Switch vs. Router
+## &#128204; Hub vs. Switch vs. Router
 
 - **Hub** — "dumb" repeater; everyone hears everything. Causes collisions. Obsolete.
 - **Switch** — learns MAC addresses, builds a MAC table, and forwards frames only to the correct port. Each port is its own collision domain.
@@ -34,7 +34,7 @@
 
 ---
 
-## Collision vs. Broadcast Domains
+## &#128204; Collision vs. Broadcast Domains
 
 | | Collision domain | Broadcast domain |
 |---|------------------|------------------|
@@ -47,7 +47,7 @@
 
 ---
 
-## The NIC
+## &#128204; The NIC
 
 - Provides the host's **physical connection** (Layer 1) and its **MAC address** (Layer 2).
 - Can be wired (Ethernet) or wireless (Wi-Fi).

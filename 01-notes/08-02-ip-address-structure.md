@@ -1,4 +1,4 @@
-# 08-02: IP Address Structure
+# &#128216; 08-02: IP Address Structure
 
 <!-- course-header -->
 <div align="center">
@@ -12,13 +12,13 @@
 </div>
 <!-- /course-header -->
 
-## What is an IP Address?
+## &#10067; What is an IP Address?
 
 An IP address is a unique identifier assigned to each device in a network. It is used to identify and locate devices on the Internet for communication.
 
 ---
 
-## IPv4 Address Format
+## &#128290; IPv4 Address Format
 
 An IPv4 address consists of 32 bits divided into 4 octets (8 bits each).
 
@@ -32,7 +32,7 @@ So, an IPv4 address ranges from:
 
 ---
 
-## Binary Representation
+## &#128204; Binary Representation
 
 Each octet of an IPv4 address is represented in binary.
 
@@ -41,7 +41,7 @@ Each octet of an IPv4 address is represented in binary.
 
 ---
 
-## Structure of an IPv4 Address
+## &#128290; Structure of an IPv4 Address
 
 An IPv4 address consists of two logical parts:
 
@@ -54,7 +54,7 @@ These portions are:
 
 ---
 
-## Example Breakdown
+## &#128204; Example Breakdown
 
 **IPv4 Address:** 192.168.1.10  
 **Subnet Mask:** 255.255.255.0 (/24)
@@ -64,7 +64,7 @@ These portions are:
 
 ---
 
-## Binary Example Breakdown
+## &#128204; Binary Example Breakdown
 
 **IP Address:**
 172.16.5.10 → 10101100.00010000.00000101.00001010
@@ -78,7 +78,7 @@ These portions are:
 
 ---
 
-## Key Idea
+## &#128161; Key Idea
 
 An IP address alone does not define the network boundary.
 

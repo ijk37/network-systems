@@ -1,4 +1,4 @@
-# 09-04: Policies, Physical Security & Continuity
+# &#128216; 09-04: Policies, Physical Security & Continuity
 
 <!-- course-header -->
 <div align="center">
@@ -12,7 +12,7 @@
 </div>
 <!-- /course-header -->
 
-## Security Policies
+## &#128272; Security Policies
 
 Policies establish rules, roles, and expected behavior — the governance that technical controls enforce.
 
@@ -26,7 +26,7 @@ Policies establish rules, roles, and expected behavior — the governance that t
 
 ---
 
-## Access Control Best Practices
+## &#128204; Access Control Best Practices
 
 - **Least privilege** and **role-based access control (RBAC)**
 - **MFA** — combine factors: something you **know / have / are**
@@ -35,7 +35,7 @@ Policies establish rules, roles, and expected behavior — the governance that t
 
 ---
 
-## Physical Security
+## &#128272; Physical Security
 
 | Control | Example |
 |---------|---------|
@@ -45,7 +45,7 @@ Policies establish rules, roles, and expected behavior — the governance that t
 
 ---
 
-## Business Continuity & Disaster Recovery
+## &#128204; Business Continuity & Disaster Recovery
 
 | Metric | Meaning |
 |--------|---------|

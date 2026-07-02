@@ -1,4 +1,4 @@
-# 04-02: TCP vs. UDP
+# &#128216; 04-02: TCP vs. UDP
 
 <!-- course-header -->
 <div align="center">
@@ -12,7 +12,7 @@
 </div>
 <!-- /course-header -->
 
-## The Two Transport Protocols
+## &#128204; The Two Transport Protocols
 
 | Feature | **TCP** | **UDP** |
 |---------|---------|---------|
@@ -26,7 +26,7 @@
 
 ---
 
-## TCP Three-Way Handshake
+## &#128204; TCP Three-Way Handshake
 
 ```
 Client → SYN     →  Server     (synchronize)
@@ -39,7 +39,7 @@ Teardown uses **FIN** (graceful) or **RST** (abrupt reset).
 
 ---
 
-## Key TCP Flags
+## &#128204; Key TCP Flags
 
 | Flag | Meaning |
 |------|---------|
@@ -52,7 +52,7 @@ Teardown uses **FIN** (graceful) or **RST** (abrupt reset).
 
 ---
 
-## How TCP Ensures Reliability
+## &#128204; How TCP Ensures Reliability
 
 - **Sequence numbers** order bytes.
 - **Acknowledgments** confirm receipt; unACKed data is retransmitted.
@@ -60,7 +60,7 @@ Teardown uses **FIN** (graceful) or **RST** (abrupt reset).
 
 ---
 
-## Why UDP for Real-Time?
+## &#128161; Why UDP for Real-Time?
 
 For VoIP/video, a **late retransmitted packet is useless** — low latency beats guaranteed delivery. UDP simply sends, letting the app handle any loss.
 

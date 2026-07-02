@@ -1,4 +1,4 @@
-# 11-03: High Availability & Redundancy
+# &#128216; 11-03: High Availability & Redundancy
 
 <!-- course-header -->
 <div align="center">
@@ -12,7 +12,7 @@
 </div>
 <!-- /course-header -->
 
-## Availability ("Nines")
+## &#128204; Availability ("Nines")
 
 Availability is expressed as an uptime percentage:
 
@@ -26,7 +26,7 @@ Higher availability requires more **redundancy** — eliminating **single points
 
 ---
 
-## Redundancy Techniques
+## &#128204; Redundancy Techniques
 
 | Technique | Protects against |
 |-----------|------------------|
@@ -39,19 +39,19 @@ Higher availability requires more **redundancy** — eliminating **single points
 
 ---
 
-## First-Hop Redundancy Protocols
+## &#128204; First-Hop Redundancy Protocols
 
 **HSRP/VRRP** share a **virtual gateway IP/MAC** across two routers; if the active one fails, the standby takes over — hosts keep their gateway.
 
 ---
 
-## Load Balancing
+## &#128204; Load Balancing
 
 Distributes traffic across multiple servers/paths — improving throughput **and** availability (one server can fail without outage).
 
 ---
 
-## Failover
+## &#128204; Failover
 
 Automatic switching to a redundant/standby system when the primary fails, minimizing downtime.
 

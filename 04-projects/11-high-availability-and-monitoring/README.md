@@ -1,4 +1,4 @@
-# Project 11 — High Availability, Monitoring & Recovery
+# &#128736; Project 11 — High Availability, Monitoring & Recovery
 
 
 <!-- course-header -->
@@ -19,19 +19,19 @@
 
 ---
 
-## Objective
+## &#127919; Objective
 
 Build **redundancy** into a network so no single failure causes an outage, add **monitoring**, apply **QoS** for voice, and write a **backup/DR plan** that meets defined RTO/RPO targets.
 
 ---
 
-## Scenario
+## &#129517; Scenario
 
 **Harbor Logistics** cannot tolerate downtime on its core. You will add redundant paths, a redundant gateway, monitoring, and a recovery plan.
 
 ---
 
-## Part A — Redundancy (Packet Tracer)
+## &#128204; Part A — Redundancy (Packet Tracer)
 
 1. **Redundant links + STP** — connect two switches with two links; confirm **spanning tree** blocks one and fails over when the active link drops.
 2. **Link aggregation** — bundle two links into an **EtherChannel (LACP)** for more bandwidth and resilience.
@@ -43,13 +43,13 @@ R1(config-if)# standby 1 priority 110
 R1(config-if)# standby 1 preempt
 ```
 
-## Part B — Monitoring & QoS
+## &#128200; Part B — Monitoring & QoS
 
 1. Enable **SNMP** (v3) so a monitoring station can poll device stats; identify what a **baseline** would capture.
 2. Configure **QoS** to prioritize voice (mark with **DSCP EF**, give it a priority queue) and explain the effect on **latency/jitter**.
 3. Describe using **port mirroring (SPAN)** to feed an analyzer/IDS.
 
-## Part C — Backup & Disaster Recovery (design)
+## &#128204; Part C — Backup & Disaster Recovery (design)
 
 1. Define **RTO** and **RPO** targets for the core service.
 2. Apply the **3-2-1** backup rule; explain how it defends against ransomware.
@@ -58,7 +58,7 @@ R1(config-if)# standby 1 preempt
 
 ---
 
-## Verification Checklist
+## &#9989; Verification Checklist
 
 - [ ] STP blocks a redundant link and reconverges after a failure.
 - [ ] EtherChannel bundles links (`show etherchannel summary`).
@@ -68,12 +68,12 @@ R1(config-if)# standby 1 preempt
 
 ---
 
-## Deliverables
+## &#128230; Deliverables
 
 - Packet Tracer file with STP/EtherChannel/HSRP (local).
 - A one-page backup + DR plan (RTO/RPO, 3-2-1, site choice).
 
-## Stretch Goals
+## &#128640; Stretch Goals
 
 - Add a **load balancer** in front of two web servers.
 - Calculate the downtime allowed by a **99.99%** availability target.

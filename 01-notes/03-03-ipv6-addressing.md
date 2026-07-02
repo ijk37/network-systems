@@ -1,4 +1,4 @@
-# 03-03: IPv6 Addressing
+# &#128216; 03-03: IPv6 Addressing
 
 <!-- course-header -->
 <div align="center">
@@ -12,13 +12,13 @@
 </div>
 <!-- /course-header -->
 
-## Why IPv6?
+## &#128161; Why IPv6?
 
 IPv4's 32-bit space (~4.3 billion addresses) is exhausted. **IPv6** uses **128 bits**, providing a virtually unlimited address space.
 
 ---
 
-## Format
+## &#128204; Format
 
 Eight groups (hextets) of four hex digits, separated by colons:
 
@@ -26,7 +26,7 @@ Eight groups (hextets) of four hex digits, separated by colons:
 2001:0db8:85a3:0000:0000:8a2e:0370:7334
 ```
 
-### Compression rules
+### &#128313; Compression rules
 1. **Drop leading zeros** in each hextet: `0db8` → `db8`, `0000` → `0`.
 2. **Replace one run of consecutive all-zero hextets with `::`** (only once).
 
@@ -37,7 +37,7 @@ Eight groups (hextets) of four hex digits, separated by colons:
 
 ---
 
-## Address Types
+## &#128204; Address Types
 
 | Prefix | Type | Notes |
 |--------|------|-------|
@@ -49,7 +49,7 @@ Eight groups (hextets) of four hex digits, separated by colons:
 
 ---
 
-## Interface ID & Autoconfiguration
+## &#128204; Interface ID & Autoconfiguration
 
 - A LAN subnet is almost always **/64**: first 64 bits = network prefix, last 64 = **interface ID**.
 - **EUI-64** derives the interface ID from the 48-bit MAC (insert `FFFE`, flip U/L bit).

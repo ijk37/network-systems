@@ -1,4 +1,4 @@
-# 08-11: Subnets in IPv6
+# &#128216; 08-11: Subnets in IPv6
 
 <!-- course-header -->
 <div align="center">
@@ -12,7 +12,7 @@
 </div>
 <!-- /course-header -->
 
-## What is IPv6 Subnetting?
+## &#10067; What is IPv6 Subnetting?
 
 IPv6 subnetting is the process of dividing an IPv6 network into smaller sub-networks.
 
@@ -20,7 +20,7 @@ Unlike IPv4, IPv6 provides a **vast address space (128 bits)**, making subnettin
 
 ---
 
-## IPv6 Address Structure
+## &#127760; IPv6 Address Structure
 
 An IPv6 address consists of **128 bits**, divided into **8 blocks (hextets)**, each containing **16 bits** (16 × 8 = 128 bits).
 
@@ -39,7 +39,7 @@ An IPv6 address is logically divided into:
 
 ---
 
-## Standard IPv6 Subnet Size
+## &#129518; Standard IPv6 Subnet Size
 
 The most common subnet size in IPv6 is:
 
@@ -51,7 +51,7 @@ This means:
 
 ---
 
-## Why /64 is Standard
+## &#128161; Why /64 is Standard
 
 - Required for many IPv6 features (e.g., SLAAC)  
 - Provides a huge number of addresses  
@@ -62,7 +62,7 @@ Number of addresses in /64:
 
 ---
 
-## Subnetting in IPv6
+## &#129518; Subnetting in IPv6
 
 Subnetting in IPv6 is done by extending the **network prefix**.
 
@@ -80,7 +80,7 @@ We can create subnets by increasing the prefix:
 
 ---
 
-## Example: /48 to /64 Subnetting
+## &#129518; Example: /48 to /64 Subnetting
 
 **Given:**
 - Network: 2001:db8::/48  
@@ -89,7 +89,7 @@ We want to create /64 subnets.
 
 ---
 
-### Step 1: Calculate Available Subnet Bits
+### &#129518; Step 1: Calculate Available Subnet Bits
 
 - Original prefix = /48  
 - New prefix = /64  
@@ -98,13 +98,13 @@ Borrowed bits = 64 − 48 = 16
 
 ---
 
-### Step 2: Number of Subnets
+### &#129518; Step 2: Number of Subnets
 
 Number of subnets = 2¹⁶ = 65,536 subnets  
 
 ---
 
-### Step 3: Subnet Structure
+### &#129518; Step 3: Subnet Structure
 
 The 16 bits are used in the 4th hextet.
 
@@ -118,7 +118,7 @@ The 16 bits are used in the 4th hextet.
 
 ---
 
-## Key Differences: IPv4 vs IPv6 Subnetting
+## &#129518; Key Differences: IPv4 vs IPv6 Subnetting
 
 | Feature | IPv4 | IPv6 |
 |--------|------|------|
@@ -130,9 +130,9 @@ The 16 bits are used in the 4th hextet.
 
 ---
 
-## Important Concepts in IPv6
+## &#127760; Important Concepts in IPv6
 
-### No Broadcast Address
+### &#128313; No Broadcast Address
 
 IPv6 does **not use broadcast addresses**.
 
@@ -142,7 +142,7 @@ Instead, it uses:
 
 ---
 
-### Huge Address Space
+### &#128313; Huge Address Space
 
 Each subnet (/64) contains:
 - 2⁶⁴ addresses  
@@ -151,7 +151,7 @@ Each subnet (/64) contains:
 
 ---
 
-### Hierarchical Addressing
+### &#128313; Hierarchical Addressing
 
 IPv6 supports structured allocation:
 
@@ -165,7 +165,7 @@ This improves:
 
 ---
 
-## Practical Example
+## &#128204; Practical Example
 
 **Question:**  
 An organization is assigned: 2001:db8::/48  
@@ -190,7 +190,7 @@ It wants to assign a separate subnet to each department.
 
 ---
 
-## Key Idea
+## &#128161; Key Idea
 
 IPv6 subnetting focuses on simplicity and scalability,
 

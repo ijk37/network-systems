@@ -1,4 +1,4 @@
-# 12-02: WAN Technologies
+# &#128216; 12-02: WAN Technologies
 
 <!-- course-header -->
 <div align="center">
@@ -12,7 +12,7 @@
 </div>
 <!-- /course-header -->
 
-## Dedicated & Provider Technologies
+## &#128204; Dedicated & Provider Technologies
 
 | Technology | Notes |
 |------------|-------|
@@ -24,7 +24,7 @@
 
 ---
 
-## Broadband Access
+## &#128204; Broadband Access
 
 | Technology | Medium | Notes |
 |------------|--------|-------|
@@ -34,7 +34,7 @@
 
 ---
 
-## Wireless WAN
+## &#128246; Wireless WAN
 
 | Technology | Notes |
 |------------|-------|
@@ -43,7 +43,7 @@
 
 ---
 
-## Encapsulation on WAN Links
+## &#127757; Encapsulation on WAN Links
 
 - **PPP** — framing + authentication (**PAP/CHAP**) on point-to-point links. **CHAP** hashes the password (secure); **PAP** sends it in clear text.
 - **PPPoE** — PPP over Ethernet, common on DSL.

@@ -1,4 +1,4 @@
-# Project 06 — Wireshark Traffic Analysis
+# &#128736; Project 06 — Wireshark Traffic Analysis
 
 
 <!-- course-header -->
@@ -19,7 +19,7 @@
 
 ---
 
-## Objective
+## &#127919; Objective
 
 Use **Wireshark** to capture real traffic and identify how the protocols you studied actually look on the wire — encapsulation, the TCP handshake, DNS resolution, and ARP.
 
@@ -27,7 +27,7 @@ Use **Wireshark** to capture real traffic and identify how the protocols you stu
 
 ---
 
-## Setup
+## &#128204; Setup
 
 1. Install **Wireshark** (free, wireshark.org).
 2. Start a capture on your active interface.
@@ -35,24 +35,24 @@ Use **Wireshark** to capture real traffic and identify how the protocols you stu
 
 ---
 
-## Part A — DNS Resolution
+## &#127760; Part A — DNS Resolution
 
 1. Filter: `dns`
 2. Visit a new website; find the **A** (or **AAAA**) query and response.
 3. Record: query name, response IP(s), and which **port/transport** DNS used.
 
-## Part B — TCP Three-Way Handshake
+## &#128204; Part B — TCP Three-Way Handshake
 
 1. Filter: `tcp.flags.syn == 1`
 2. Find a **SYN → SYN/ACK → ACK** sequence to a web server.
 3. Note the client **ephemeral port** and server **port (443/80)**, and the sequence numbers.
 
-## Part C — Encapsulation
+## &#128204; Part C — Encapsulation
 
 1. Click any HTTP/TLS packet and expand the layers in the detail pane.
 2. Map each layer to the **OSI model**: Ethernet (L2, MACs) → IP (L3, addresses) → TCP (L4, ports) → application data.
 
-## Part D — ARP
+## &#128204; Part D — ARP
 
 1. Filter: `arp`
 2. Identify a **request** ("who has 192.168.1.1?") and its **reply** (the MAC).
@@ -60,7 +60,7 @@ Use **Wireshark** to capture real traffic and identify how the protocols you stu
 
 ---
 
-## Analysis Questions
+## &#128204; Analysis Questions
 
 1. What source and destination **ports** did your browser use? Which is well-known?
 2. Show where a packet's **MAC** addresses (L2) and **IP** addresses (L3) live, and why both are needed.
@@ -69,12 +69,12 @@ Use **Wireshark** to capture real traffic and identify how the protocols you stu
 
 ---
 
-## Deliverables
+## &#128230; Deliverables
 
 - A short report (with annotated screenshots) answering the analysis questions.
 - One saved capture (`.pcapng`) illustrating the handshake (keep local; the repo ignores captures).
 
-## Stretch Goals
+## &#128640; Stretch Goals
 
 - Capture and identify a **DHCP DORA** exchange (filter `bootp`/`dhcp`).
 - Compare **HTTP** vs **HTTPS** — show that payload is readable in one and encrypted in the other.

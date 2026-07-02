@@ -1,4 +1,4 @@
-# Project 02 — VLANs & Inter-VLAN Routing
+# &#128736; Project 02 — VLANs & Inter-VLAN Routing
 
 
 <!-- course-header -->
@@ -19,13 +19,13 @@
 
 ---
 
-## Objective
+## &#127919; Objective
 
 Segment a flat network into **VLANs**, carry them over an **802.1Q trunk**, and enable communication between them using **inter-VLAN routing** (router-on-a-stick, then a Layer 3 switch).
 
 ---
 
-## Scenario
+## &#129517; Scenario
 
 A small office currently has everyone on one flat LAN. You will separate traffic into three VLANs for security and performance.
 
@@ -37,7 +37,7 @@ A small office currently has everyone on one flat LAN. You will separate traffic
 
 ---
 
-## Part A — VLANs & Trunk
+## &#129521; Part A — VLANs & Trunk
 
 1. Create VLANs 10, 20, 30 on the switch.
 2. Assign access ports to the correct VLAN and connect a PC to each.
@@ -55,7 +55,7 @@ Switch(config-if)# switchport mode trunk
 Switch(config-if)# switchport trunk native vlan 99
 ```
 
-## Part B — Router-on-a-Stick
+## &#128204; Part B — Router-on-a-Stick
 
 1. Create subinterfaces on the router's trunk interface, one per VLAN.
 2. Tag each with `encapsulation dot1Q <vlan>` and assign the gateway IP.
@@ -66,7 +66,7 @@ Router(config-subif)# encapsulation dot1Q 10
 Router(config-subif)# ip address 192.168.10.1 255.255.255.0
 ```
 
-## Part C — Layer 3 Switch (alternative)
+## &#128204; Part C — Layer 3 Switch (alternative)
 
 1. Enable `ip routing` on a multilayer switch.
 2. Create an **SVI** per VLAN (`interface vlan 10` → assign gateway IP).
@@ -74,7 +74,7 @@ Router(config-subif)# ip address 192.168.10.1 255.255.255.0
 
 ---
 
-## Verification
+## &#9989; Verification
 
 - [ ] `show vlan brief` shows ports in the right VLANs.
 - [ ] `show interfaces trunk` shows VLANs 10/20/30 allowed and correct native VLAN.
@@ -83,13 +83,13 @@ Router(config-subif)# ip address 192.168.10.1 255.255.255.0
 
 ---
 
-## Deliverables
+## &#128230; Deliverables
 
 - Packet Tracer file (local).
 - Answer: *Why is VLAN 1 a poor choice for the native/management VLAN?*
 - A note on when you'd choose an L3 switch over router-on-a-stick.
 
-## Stretch Goals
+## &#128640; Stretch Goals
 
 - Add **DHCP** per VLAN with `ip helper-address` to a central server.
 - Apply an **ACL** so Guest cannot reach Staff, but both reach the Internet.

@@ -1,4 +1,4 @@
-# 10-03: Network Access Control & AAA
+# &#128216; 10-03: Network Access Control & AAA
 
 <!-- course-header -->
 <div align="center">
@@ -12,7 +12,7 @@
 </div>
 <!-- /course-header -->
 
-## AAA Framework
+## &#128204; AAA Framework
 
 | A | Question | Meaning |
 |---|----------|---------|
@@ -22,7 +22,7 @@
 
 ---
 
-## RADIUS vs. TACACS+
+## &#128204; RADIUS vs. TACACS+
 
 | | **RADIUS** | **TACACS+** |
 |---|-----------|-------------|
@@ -34,7 +34,7 @@
 
 ---
 
-## 802.1X Port-Based Access Control
+## &#128204; 802.1X Port-Based Access Control
 
 Requires authentication **before** a port is opened:
 
@@ -46,13 +46,13 @@ Requires authentication **before** a port is opened:
 
 ---
 
-## NAC (Network Access Control)
+## &#128204; NAC (Network Access Control)
 
 **NAC** checks **identity + device posture/health** (patches, AV) before granting access, quarantining noncompliant devices. Often built on 802.1X.
 
 ---
 
-## Multi-Factor Authentication
+## &#128204; Multi-Factor Authentication
 
 Combine independent factors:
 - **Something you know** (password)

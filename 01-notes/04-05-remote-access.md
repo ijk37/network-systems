@@ -1,4 +1,4 @@
-# 04-05: Remote Access
+# &#128216; 04-05: Remote Access
 
 <!-- course-header -->
 <div align="center">
@@ -12,7 +12,7 @@
 </div>
 <!-- /course-header -->
 
-## Methods to Reach Systems Remotely
+## &#128204; Methods to Reach Systems Remotely
 
 | Method | Port | Use |
 |--------|------|-----|
@@ -24,7 +24,7 @@
 
 ---
 
-## VPNs
+## &#128204; VPNs
 
 A **VPN (Virtual Private Network)** creates an **encrypted tunnel** over an untrusted network (the Internet).
 
@@ -34,7 +34,7 @@ A **VPN (Virtual Private Network)** creates an **encrypted tunnel** over an untr
 | **Client-to-site (remote-access)** | An individual user's device into the corporate LAN |
 | **Clientless (SSL/TLS)** | Browser-based access to internal web apps via an HTTPS portal |
 
-### Tunnel scope
+### &#128313; Tunnel scope
 - **Full tunnel** — *all* client traffic goes through the VPN (more secure, more load).
 - **Split tunnel** — only corporate-bound traffic uses the VPN.
 
@@ -42,7 +42,7 @@ A **VPN concentrator** terminates and manages many tunnels at the edge.
 
 ---
 
-## Securing Remote Access
+## &#128204; Securing Remote Access
 
 - Never expose **RDP (3389)** directly to the Internet — it's a top ransomware vector. Put it behind a **VPN/gateway**, require **MFA**, and restrict source IPs.
 - Use **MFA** on all remote-access services.

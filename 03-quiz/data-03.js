@@ -1,4 +1,4 @@
-// ── Module 03 — Addressing (50) ─────────────────────────────────────────────
+// ── Module 03 — Addressing (54) ─────────────────────────────────────────────
 QUESTIONS["03"] = [
   {
     q: "How many bits is a MAC address?",
@@ -359,5 +359,44 @@ QUESTIONS["03"] = [
     ],
     answer: 1,
     explain: "An exclusion range removes addresses from the assignable pool so they can be used statically (e.g., for the gateway or servers) without conflict.",
+  },
+  {
+    q: "A workstation receives 169.254.18.77/16 after rebooting. Other users on the same switch are online. What should you check first?",
+    options: [
+      "Whether the DHCP server or relay is reachable from that VLAN",
+      "Whether the website has an expired certificate",
+      "Whether the MAC address table is full",
+      "Whether the subnet uses IPv6 only",
+    ],
+    answer: 0,
+    explain: "A 169.254.x.x APIPA address usually means the host did not receive a DHCP lease. Check DHCP reachability, the DHCP scope, relay/ip helper, and VLAN placement.",
+  },
+  {
+    q: "A user can ping 203.0.113.10 but cannot reach intranet.example.com. Which test best isolates the likely problem?",
+    options: [
+      "Run nslookup intranet.example.com",
+      "Replace the Ethernet cable immediately",
+      "Change the default gateway",
+      "Disable the firewall on the switch",
+    ],
+    answer: 0,
+    explain: "Successful ping to an IP shows basic Layer 3 connectivity. Failure by name points to DNS, so nslookup or dig is the right next test.",
+  },
+  {
+    q: "A server is statically configured as 192.168.12.50/24, but the default gateway is 192.168.13.1. What will most likely fail?",
+    options: [
+      "Communication with hosts on 192.168.12.0/24",
+      "Communication with remote networks",
+      "ARP for local hosts",
+      "The server's loopback test",
+    ],
+    answer: 1,
+    explain: "The default gateway must be reachable on the local subnet. With /24, 192.168.13.1 is outside 192.168.12.0/24, so off-subnet traffic will fail.",
+  },
+  {
+    q: "A DHCP administrator wants one printer to always receive the same address while still using DHCP. Which feature should be used?",
+    options: ["Reservation", "Exclusion range", "APIPA", "NAT overload"],
+    answer: 0,
+    explain: "A DHCP reservation maps a specific client identifier or MAC address to a predictable IP address while keeping address management centralized in DHCP.",
   },
 ];

@@ -1,4 +1,4 @@
-# 12-01: WAN Fundamentals
+# &#128216; 12-01: WAN Fundamentals
 
 <!-- course-header -->
 <div align="center">
@@ -12,7 +12,7 @@
 </div>
 <!-- /course-header -->
 
-## LAN vs. WAN
+## &#127757; LAN vs. WAN
 
 | | **LAN** | **WAN** |
 |---|---------|---------|
@@ -26,7 +26,7 @@
 
 ---
 
-## WAN Selection Factors
+## &#127757; WAN Selection Factors
 
 Choosing a WAN technology depends on:
 
@@ -38,7 +38,7 @@ Choosing a WAN technology depends on:
 
 ---
 
-## Key Boundary Terms
+## &#128204; Key Boundary Terms
 
 | Term | Meaning |
 |------|---------|
@@ -49,7 +49,7 @@ Choosing a WAN technology depends on:
 
 ---
 
-## The Router's Role
+## &#128204; The Router's Role
 
 Routers manage **internetwork communication** — forwarding packets between separate networks using IP, choosing paths, and tying LANs into the WAN/Internet.
 

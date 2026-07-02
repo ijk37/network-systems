@@ -1,4 +1,4 @@
-# 01-01: What Is a Network?
+# &#128216; 01-01: What Is a Network?
 
 <!-- course-header -->
 <div align="center">
@@ -12,7 +12,7 @@
 </div>
 <!-- /course-header -->
 
-## Definition
+## &#128204; Definition
 
 A **computer network** is a collection of two or more interconnected devices that communicate and share resources over a shared medium.
 
@@ -22,7 +22,7 @@ A **computer network** is a collection of two or more interconnected devices tha
 
 ---
 
-## Why Networks Exist
+## &#128161; Why Networks Exist
 
 - Share hardware (printers, storage)
 - Share data and applications
@@ -31,7 +31,7 @@ A **computer network** is a collection of two or more interconnected devices tha
 
 ---
 
-## Peer-to-Peer vs. Client-Server
+## &#128204; Peer-to-Peer vs. Client-Server
 
 Networks are organized in one of two logical models.
 
@@ -48,7 +48,7 @@ Networks are organized in one of two logical models.
 
 ---
 
-## Network Sizes (Scope)
+## &#128204; Network Sizes (Scope)
 
 | Type | Scope | Example |
 |------|-------|---------|

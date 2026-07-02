@@ -1,4 +1,4 @@
-# 03 Quiz
+# &#129514; 03 Quiz
 
 <div align="center">
 
@@ -16,7 +16,7 @@ Interactive multiple-choice quizzes for all 12 modules of **CompTIA Network+ Gui
 
 ---
 
-## Chapter Quizzes
+## &#129514; Chapter Quizzes
 
 Each module has a pool of **~100 questions**; every attempt shows **25 random** of them.
 
@@ -37,7 +37,19 @@ Each module has a pool of **~100 questions**; every attempt shows **25 random** 
 
 **Total: ~1,200 chapter questions** (25 drawn per attempt).
 
-## Final Mixed Quizzes
+## &#129513; Scenario-Based Practice
+
+Several module pools include original scenario questions that ask you to choose the best next step, identify the root cause, or select the safest design option. These are especially useful after reading the notes because they test judgment, not only memorization.
+
+Recommended use:
+
+1. Take the module quiz once without notes.
+2. Review every explanation, including the questions you got right.
+3. Re-read the matching note sections for weak areas.
+4. Retake with a smaller custom set, such as `quiz.html?topic=08&n=15`.
+
+
+## &#129514; Final Mixed Quizzes
 
 Cumulative re-mixes drawn from all 12 module pools. The weighting shifts from fundamentals (Mixed 1) toward the later security/performance/WAN modules (Mixed 5).
 
@@ -51,7 +63,7 @@ Cumulative re-mixes drawn from all 12 module pools. The weighting shifts from fu
 
 ---
 
-## Dynamic attempts
+## &#128257; Dynamic attempts
 
 Each attempt draws a **random subset** of questions from the topic's pool, so no two attempts are the same:
 
@@ -69,11 +81,11 @@ quiz.html?topic=03&n=100  → up to the whole pool
 
 > The bigger the pool, the more variety. Each module's questions live across `data-NN.js` (base) + `data-NN-b.js` (expansion) + `data-topup*.js`, all of which `push()` onto the pool and load **before** the mixed quizzes (so mixed draws from the full pools too). To grow a pool further, just add more objects — the engine keeps drawing 25 (or whatever you set).
 
-## Answer positions
+## &#127919; Answer positions
 
 Every question's **options are shuffled on each render**, so the correct answer lands on A/B/C/D randomly and evenly — there is no positional bias even if the source data favored one letter.
 
-## Features
+## &#10024; Features
 
 - Random subset drawn each attempt (and re-drawn on retry)
 - Options shuffled every render — no answer-position bias
@@ -86,7 +98,7 @@ Every question's **options are shuffled on each render**, so the correct answer 
 - Score, grade, percentage, and time at the end
 - Full end-of-quiz review of **every** question with your answer, the correct answer, and explanation
 
-## Files
+## &#128193; Files
 
 | File | Purpose |
 |------|---------|

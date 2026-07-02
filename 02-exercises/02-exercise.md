@@ -1,4 +1,4 @@
-# 02: Infrastructure & Documentation — Exercises
+# &#9997; 02: Infrastructure & Documentation — Exercises
 
 <!-- course-header -->
 <div align="center">
@@ -19,7 +19,7 @@ Work through each question, then click **▶ Show answer** to check yourself. Re
 
 ---
 
-### Q1. Order these structured-cabling elements from the user's desk out to the ISP: MDF, work area, demarc, IDF, entrance facility, horizontal cabling, backbone cabling.
+### &#128268; Q1. Order these structured-cabling elements from the user's desk out to the ISP: MDF, work area, demarc, IDF, entrance facility, horizontal cabling, backbone cabling.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -29,7 +29,7 @@ Work through each question, then click **▶ Show answer** to check yourself. Re
 
 ---
 
-### Q2. What standard defines structured cabling for commercial buildings, and what topology does it assume?
+### &#128268; Q2. What standard defines structured cabling for commercial buildings, and what topology does it assume?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -39,7 +39,7 @@ Work through each question, then click **▶ Show answer** to check yourself. Re
 
 ---
 
-### Q3. A horizontal copper run measures 92 m of solid-core plus 12 m of patch cords. Does it comply with TIA-568? Why?
+### &#128161; Q3. A horizontal copper run measures 92 m of solid-core plus 12 m of patch cords. Does it comply with TIA-568? Why?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -49,7 +49,7 @@ Work through each question, then click **▶ Show answer** to check yourself. Re
 
 ---
 
-### Q4. You must connect two switches on gear without Auto-MDIX. What cable type do you need, and which pin standards go on each end?
+### &#128313; Q4. You must connect two switches on gear without Auto-MDIX. What cable type do you need, and which pin standards go on each end?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -59,7 +59,7 @@ A **crossover cable** — **T568A on one end, T568B on the other**. (With Auto-M
 
 ---
 
-### Q5. What is the difference between the MDF and an IDF?
+### &#10067; Q5. What is the difference between the MDF and an IDF?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -70,7 +70,7 @@ A **crossover cable** — **T568A on one end, T568B on the other**. (With Auto-M
 
 ---
 
-### Q6. A rack holds a 1U firewall, a 2U server, and a 4U UPS. How many rack units are used, and where is this recorded?
+### &#129521; Q6. A rack holds a 1U firewall, a 2U server, and a 4U UPS. How many rack units are used, and where is this recorded?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -80,7 +80,7 @@ A **crossover cable** — **T568A on one end, T568B on the other**. (With Auto-M
 
 ---
 
-### Q7. What is the demarcation point (demarc)?
+### &#10067; Q7. What is the demarcation point (demarc)?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -90,7 +90,7 @@ The boundary where the **service provider's** responsibility ends and the **cust
 
 ---
 
-### Q8. Distinguish a physical network diagram from a logical network diagram, with one item each would contain.
+### &#128313; Q8. Distinguish a physical network diagram from a logical network diagram, with one item each would contain.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -101,7 +101,7 @@ The boundary where the **service provider's** responsibility ends and the **cust
 
 ---
 
-### Q9. What is a performance baseline, and why is it valuable?
+### &#10067; Q9. What is a performance baseline, and why is it valuable?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -111,7 +111,7 @@ A record of **normal** traffic, utilization, latency, and error rates. It lets y
 
 ---
 
-### Q10. List the minimum contents of a change request for replacing a core switch.
+### &#128313; Q10. List the minimum contents of a change request for replacing a core switch.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -121,7 +121,7 @@ Reason/scope, risk assessment, implementation plan + maintenance window, **rollb
 
 ---
 
-### Q11. What do the metrics MTBF and MTTR measure?
+### &#128313; Q11. What do the metrics MTBF and MTTR measure?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -132,7 +132,7 @@ Reason/scope, risk assessment, implementation plan + maintenance window, **rollb
 
 ---
 
-### Q12. Where must plenum-rated (CMP) cable be used, and why?
+### &#128161; Q12. Where must plenum-rated (CMP) cable be used, and why?
 
 <details>
 <summary><strong>Show answer</strong></summary>

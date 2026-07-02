@@ -1,4 +1,4 @@
-# 11-01: Performance Concepts & QoS
+# &#128216; 11-01: Performance Concepts & QoS
 
 <!-- course-header -->
 <div align="center">
@@ -12,7 +12,7 @@
 </div>
 <!-- /course-header -->
 
-## Key Metrics
+## &#128204; Key Metrics
 
 | Metric | Definition |
 |--------|------------|
@@ -26,13 +26,13 @@
 
 ---
 
-## What Hurts Real-Time Traffic
+## &#128204; What Hurts Real-Time Traffic
 
 VoIP/video are most sensitive to **latency, jitter, and packet loss**. A late retransmitted voice packet is useless — so these apps use **UDP** and rely on **QoS**.
 
 ---
 
-## Quality of Service (QoS)
+## &#128204; Quality of Service (QoS)
 
 **QoS** prioritizes important traffic during congestion.
 
@@ -47,7 +47,7 @@ Shaping **buffers** excess; policing **drops** it.
 
 ---
 
-## Bottlenecks
+## &#128204; Bottlenecks
 
 A **bottleneck** is the point of least capacity that caps end-to-end performance (a slow link, overloaded router, or saturated server). Monitoring locates it for targeted upgrades.
 

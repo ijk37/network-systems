@@ -1,4 +1,4 @@
-# 07-02: Cloud Deployment Models & Characteristics
+# &#128216; 07-02: Cloud Deployment Models & Characteristics
 
 <!-- course-header -->
 <div align="center">
@@ -12,7 +12,7 @@
 </div>
 <!-- /course-header -->
 
-## Deployment Models
+## &#128204; Deployment Models
 
 | Model | Description | Trade-off |
 |-------|-------------|-----------|
@@ -23,7 +23,7 @@
 
 ---
 
-## Essential Cloud Characteristics
+## &#9729; Essential Cloud Characteristics
 
 | Characteristic | Meaning |
 |----------------|---------|
@@ -35,7 +35,7 @@
 
 ---
 
-## Key Concepts
+## &#128204; Key Concepts
 
 - **Elasticity** — capacity grows/shrinks automatically with load.
 - **Multitenancy** — many customers securely share pooled physical resources.
@@ -44,7 +44,7 @@
 
 ---
 
-## Connectivity
+## &#128204; Connectivity
 
 - **Public Internet** — simplest, variable performance.
 - **Dedicated private link** — AWS Direct Connect / Azure ExpressRoute for consistent latency/bandwidth and better security.

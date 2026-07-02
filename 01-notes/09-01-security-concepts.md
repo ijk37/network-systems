@@ -1,4 +1,4 @@
-# 09-01: Security Concepts
+# &#128216; 09-01: Security Concepts
 
 <!-- course-header -->
 <div align="center">
@@ -12,7 +12,7 @@
 </div>
 <!-- /course-header -->
 
-## The CIA Triad
+## &#128204; The CIA Triad
 
 The foundation of information security:
 
@@ -24,7 +24,7 @@ The foundation of information security:
 
 ---
 
-## Risk Vocabulary
+## &#128204; Risk Vocabulary
 
 | Term | Definition |
 |------|------------|
@@ -38,7 +38,7 @@ The foundation of information security:
 
 ---
 
-## Risk Responses
+## &#128204; Risk Responses
 
 | Response | Action | Example |
 |----------|--------|---------|
@@ -49,7 +49,7 @@ The foundation of information security:
 
 ---
 
-## Core Principles
+## &#128204; Core Principles
 
 - **Least privilege** — minimum access needed to do the job.
 - **Defense in depth** — layered, diverse controls so one failure isn't fatal.

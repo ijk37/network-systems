@@ -1,4 +1,4 @@
-# 04: Network Protocols — Exercises
+# &#9997; 04: Network Protocols — Exercises
 
 <!-- course-header -->
 <div align="center">
@@ -19,7 +19,7 @@ Work through each question, then click **▶ Show answer** to check yourself. Re
 
 ---
 
-### Q1. Describe the TCP three-way handshake, naming each message.
+### &#128313; Q1. Describe the TCP three-way handshake, naming each message.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -29,7 +29,7 @@ Work through each question, then click **▶ Show answer** to check yourself. Re
 
 ---
 
-### Q2. For each app, choose TCP or UDP and justify: (a) VoIP call, (b) large file download, (c) DNS query, (d) live video stream.
+### &#127760; Q2. For each app, choose TCP or UDP and justify: (a) VoIP call, (b) large file download, (c) DNS query, (d) live video stream.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -42,7 +42,7 @@ Work through each question, then click **▶ Show answer** to check yourself. Re
 
 ---
 
-### Q3. Trace the encapsulation of a web request, naming the PDU and the key header field added at Layers 4, 3, and 2.
+### &#128313; Q3. Trace the encapsulation of a web request, naming the PDU and the key header field added at Layers 4, 3, and 2.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -54,7 +54,7 @@ Work through each question, then click **▶ Show answer** to check yourself. Re
 
 ---
 
-### Q4. Match each insecure protocol to its secure replacement: Telnet, HTTP, FTP, SNMPv1.
+### &#128313; Q4. Match each insecure protocol to its secure replacement: Telnet, HTTP, FTP, SNMPv1.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -67,7 +67,7 @@ Work through each question, then click **▶ Show answer** to check yourself. Re
 
 ---
 
-### Q5. IPsec secures VPNs. Name its two core protocols and what each provides.
+### &#128313; Q5. IPsec secures VPNs. Name its two core protocols and what each provides.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -80,7 +80,7 @@ Work through each question, then click **▶ Show answer** to check yourself. Re
 
 ---
 
-### Q6. A capture shows a connection ending with an `RST` flag instead of `FIN`. What does that indicate?
+### &#128313; Q6. A capture shows a connection ending with an `RST` flag instead of `FIN`. What does that indicate?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -90,7 +90,7 @@ Work through each question, then click **▶ Show answer** to check yourself. Re
 
 ---
 
-### Q7. What is a socket, and how does it uniquely identify one end of a connection?
+### &#10067; Q7. What is a socket, and how does it uniquely identify one end of a connection?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -100,7 +100,7 @@ A **socket** = **IP address + port** (e.g., `192.168.1.5:443`). A pair of socket
 
 ---
 
-### Q8. How does TCP achieve reliable, ordered delivery?
+### &#128313; Q8. How does TCP achieve reliable, ordered delivery?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -110,7 +110,7 @@ A **socket** = **IP address + port** (e.g., `192.168.1.5:443`). A pair of socket
 
 ---
 
-### Q9. Which protocol powers `ping` and `traceroute`, and what field does traceroute manipulate?
+### &#128313; Q9. Which protocol powers `ping` and `traceroute`, and what field does traceroute manipulate?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -120,7 +120,7 @@ A **socket** = **IP address + port** (e.g., `192.168.1.5:443`). A pair of socket
 
 ---
 
-### Q10. SMTP does one job; POP3/IMAP do another. What is each for, and how do POP3 and IMAP differ?
+### &#10067; Q10. SMTP does one job; POP3/IMAP do another. What is each for, and how do POP3 and IMAP differ?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -131,7 +131,7 @@ A **socket** = **IP address + port** (e.g., `192.168.1.5:443`). A pair of socket
 
 ---
 
-### Q11. Which secure protocols provide (a) encrypted remote CLI, (b) remote graphical desktop, (c) encrypted file transfer over SSH?
+### &#128313; Q11. Which secure protocols provide (a) encrypted remote CLI, (b) remote graphical desktop, (c) encrypted file transfer over SSH?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -143,7 +143,7 @@ A **socket** = **IP address + port** (e.g., `192.168.1.5:443`). A pair of socket
 
 ---
 
-### Q12. What is the key difference between a connection-oriented and a connectionless protocol?
+### &#10067; Q12. What is the key difference between a connection-oriented and a connectionless protocol?
 
 <details>
 <summary><strong>Show answer</strong></summary>

@@ -1,4 +1,4 @@
-# 05: Cabling — Exercises
+# &#9997; 05: Cabling — Exercises
 
 <!-- course-header -->
 <div align="center">
@@ -19,7 +19,7 @@ Work through each question, then click **▶ Show answer** to check yourself. Re
 
 ---
 
-### Q1. You need 10 Gbps over 100 m of copper. Which category is the minimum, and why not Cat 6?
+### &#128161; Q1. You need 10 Gbps over 100 m of copper. Which category is the minimum, and why not Cat 6?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -29,7 +29,7 @@ Work through each question, then click **▶ Show answer** to check yourself. Re
 
 ---
 
-### Q2. Two buildings are 800 m apart and need a 10 Gbps link. Copper or fiber? Which fiber type and a suitable standard?
+### &#128313; Q2. Two buildings are 800 m apart and need a 10 Gbps link. Copper or fiber? Which fiber type and a suitable standard?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -39,7 +39,7 @@ Copper can't span 800 m (100 m limit) → **fiber**. Use **single-mode fiber (SM
 
 ---
 
-### Q3. Why are the pairs in twisted-pair cable twisted?
+### &#128161; Q3. Why are the pairs in twisted-pair cable twisted?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -49,7 +49,7 @@ Twisting causes interference to affect both wires of a pair equally so it **canc
 
 ---
 
-### Q4. Define attenuation and crosstalk, and give one mitigation for each.
+### &#128313; Q4. Define attenuation and crosstalk, and give one mitigation for each.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -60,7 +60,7 @@ Twisting causes interference to affect both wires of a pair equally so it **canc
 
 ---
 
-### Q5. A run near large industrial motors keeps getting errors. Give two mitigations.
+### &#128313; Q5. A run near large industrial motors keeps getting errors. Give two mitigations.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -70,7 +70,7 @@ Use **shielded cable (STP)** or **fiber**, and **reroute** the cable away from t
 
 ---
 
-### Q6. Match the connector to its media: RJ-45, LC, BNC.
+### &#128313; Q6. Match the connector to its media: RJ-45, LC, BNC.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -82,7 +82,7 @@ Use **shielded cable (STP)** or **fiber**, and **reroute** the cable away from t
 
 ---
 
-### Q7. Compare single-mode and multimode fiber (core size, light source, distance).
+### &#128313; Q7. Compare single-mode and multimode fiber (core size, light source, distance).
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -95,7 +95,7 @@ Mnemonic: **S**ingle-mode = **S**maller core, **S**tretches further.
 
 ---
 
-### Q8. A department needs to power 8 APs at ~25 W each from the switch. Which PoE standard, and why not 802.3af?
+### &#128161; Q8. A department needs to power 8 APs at ~25 W each from the switch. Which PoE standard, and why not 802.3af?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -105,7 +105,7 @@ Each AP needs ~30 W → **802.3at (PoE+)**. **802.3af** supplies only ~15.4 W, i
 
 ---
 
-### Q9. Which tool verifies a cable's wiremap (opens/shorts/miswires), and which traces a specific cable in a bundle?
+### &#128313; Q9. Which tool verifies a cable's wiremap (opens/shorts/miswires), and which traces a specific cable in a bundle?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -116,7 +116,7 @@ Each AP needs ~30 W → **802.3at (PoE+)**. **802.3af** supplies only ~15.4 W, i
 
 ---
 
-### Q10. In `1000BASE-T`, what do "1000," "BASE," and "T" mean, and what's the max distance?
+### &#128313; Q10. In `1000BASE-T`, what do "1000," "BASE," and "T" mean, and what's the max distance?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -130,7 +130,7 @@ Max distance = **100 m**.
 
 ---
 
-### Q11. What does Auto-MDIX do, and why does it make crossover cables largely unnecessary?
+### &#128161; Q11. What does Auto-MDIX do, and why does it make crossover cables largely unnecessary?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -140,7 +140,7 @@ Auto-MDIX auto-detects the cable type and swaps transmit/receive pairs as needed
 
 ---
 
-### Q12. What is a fiber's minimum bend radius, and what happens if you exceed it?
+### &#10067; Q12. What is a fiber's minimum bend radius, and what happens if you exceed it?
 
 <details>
 <summary><strong>Show answer</strong></summary>

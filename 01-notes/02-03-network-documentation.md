@@ -1,4 +1,4 @@
-# 02-03: Network Documentation
+# &#128216; 02-03: Network Documentation
 
 <!-- course-header -->
 <div align="center">
@@ -12,13 +12,13 @@
 </div>
 <!-- /course-header -->
 
-## Why Document?
+## &#128161; Why Document?
 
 Documentation makes troubleshooting faster, onboarding easier, audits possible, and changes safer. **Stale documentation is worse than none** — update it after every change.
 
 ---
 
-## Types of Documentation
+## &#128204; Types of Documentation
 
 | Document | Shows |
 |----------|-------|
@@ -32,19 +32,19 @@ Documentation makes troubleshooting faster, onboarding easier, audits possible, 
 
 ---
 
-## Labeling
+## &#128204; Labeling
 
 Consistent labels on cables, patch panels, jacks, and racks let a technician trace connections quickly and reduce errors during changes. A good scheme is unambiguous and standardized.
 
 ---
 
-## Baselines
+## &#128204; Baselines
 
 A **performance baseline** records normal traffic, utilization, latency, and error rates so that anomalies (spikes, slowdowns, breaches) are recognizable by comparison later.
 
 ---
 
-## IP Address Management (IPAM)
+## &#128204; IP Address Management (IPAM)
 
 IPAM tracks which addresses/subnets are **assigned, reserved, or free**, along with DNS/DHCP data — preventing IP conflicts and simplifying audits.
 

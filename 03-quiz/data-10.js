@@ -1,4 +1,4 @@
-// ── Module 10 — Security in Network Design (45) ─────────────────────────────
+// ── Module 10 — Security in Network Design (49) ─────────────────────────────
 QUESTIONS["10"] = [
   {
     q: "The primary purpose of a firewall is to...",
@@ -494,5 +494,44 @@ QUESTIONS["10"] = [
     ],
     answer: 1,
     explain: "Default deny (fail-closed) blocks everything not explicitly allowed — the safe posture behind firewall rule design and the implicit deny at the end of an ACL. It minimizes accidental exposure.",
+  },
+  {
+    q: "A firewall has a broad deny rule for the management subnet above a specific permit rule for IT administrators. Admin SSH fails. What should be changed?",
+    options: [
+      "Move the specific admin permit above the broad deny",
+      "Disable the implicit deny",
+      "Change SSH to Telnet",
+      "Move the firewall behind the switch only",
+    ],
+    answer: 0,
+    explain: "Firewall and ACL rules are usually evaluated top-down. The specific permit must appear before the broader deny or the traffic will be dropped first.",
+  },
+  {
+    q: "A company wants alerts on suspicious traffic but cannot place a device inline because outage risk is unacceptable. Which control fits best?",
+    options: ["IDS on a SPAN/TAP feed", "Inline IPS only", "DHCP snooping", "NAT overload"],
+    answer: 0,
+    explain: "An IDS can monitor copied traffic out-of-band and alert without becoming a failure point in the forwarding path. An IPS is inline and can block, but adds availability risk.",
+  },
+  {
+    q: "Which firewall rule best follows least privilege?",
+    options: [
+      "Permit any source to any destination on any port",
+      "Permit the payroll server to TCP 443 on the tax service only",
+      "Permit all internal hosts to all management ports",
+      "Disable logging for denied sessions",
+    ],
+    answer: 1,
+    explain: "Least privilege permits only the required source, destination, protocol, and port. Narrow rules reduce accidental exposure.",
+  },
+  {
+    q: "A guest Wi-Fi network should reach the Internet but not internal file servers. Which design is most appropriate?",
+    options: [
+      "Place guests in the same VLAN as employees",
+      "Use a separate guest VLAN/SSID with firewall rules blocking internal subnets",
+      "Disable DHCP for guests",
+      "Use the native VLAN for all guest traffic",
+    ],
+    answer: 1,
+    explain: "Guest access should be segmented from internal networks and controlled with firewall policy. Internet-only access is common, while RFC1918 internal ranges are denied.",
   },
 ];

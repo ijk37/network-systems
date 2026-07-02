@@ -1,4 +1,4 @@
-# 01-03: The OSI Model
+# &#128216; 01-03: The OSI Model
 
 <!-- course-header -->
 <div align="center">
@@ -12,13 +12,13 @@
 </div>
 <!-- /course-header -->
 
-## What Is the OSI Model?
+## &#10067; What Is the OSI Model?
 
 The **OSI (Open Systems Interconnection)** model is a 7-layer conceptual framework that standardizes how data moves through a network. Each layer has a specific job and talks to the layers above and below it.
 
 ---
 
-## The Seven Layers
+## &#128204; The Seven Layers
 
 | # | Layer | Job | PDU | Examples |
 |---|-------|-----|-----|----------|
@@ -34,7 +34,7 @@ The **OSI (Open Systems Interconnection)** model is a 7-layer conceptual framewo
 
 ---
 
-## Protocol Data Units (PDUs)
+## &#128204; Protocol Data Units (PDUs)
 
 Data is named differently at each layer as headers are added (**encapsulation**):
 
@@ -48,7 +48,7 @@ Data  →  Segment  →  Packet  →  Frame  →  Bits
 
 ---
 
-## Which Devices Live Where
+## &#128204; Which Devices Live Where
 
 | Device | Layer |
 |--------|-------|
@@ -59,7 +59,7 @@ Data  →  Segment  →  Packet  →  Frame  →  Bits
 
 ---
 
-## Why It Matters
+## &#128161; Why It Matters
 
 - **Troubleshooting:** work bottom-up (Physical first) or top-down. A dead cable is Layer 1; a routing issue is Layer 3.
 - **Design:** knowing the layer of a device/protocol clarifies its role.

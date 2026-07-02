@@ -1,4 +1,4 @@
-# 01-02: Network Models & Topologies
+# &#128216; 01-02: Network Models & Topologies
 
 <!-- course-header -->
 <div align="center">
@@ -12,7 +12,7 @@
 </div>
 <!-- /course-header -->
 
-## Topology
+## &#128204; Topology
 
 **Topology** describes how the parts of a network fit and work together.
 
@@ -23,7 +23,7 @@
 
 ---
 
-## Physical Topologies
+## &#128204; Physical Topologies
 
 | Topology | Description | Pros | Cons |
 |----------|-------------|------|------|
@@ -36,13 +36,13 @@ The **star** topology dominates modern LANs (every device to a switch). **Mesh**
 
 ---
 
-## Hybrid Topologies
+## &#128204; Hybrid Topologies
 
 Real networks combine topologies — e.g., a **star-of-stars** (hierarchical star) where multiple switches connect up to a core switch. Structured cabling assumes a hierarchical star.
 
 ---
 
-## Logical Models Recap
+## &#128204; Logical Models Recap
 
 - **Peer-to-peer** — no central control; each host shares its own resources.
 - **Client-server** — a NOS on servers centrally controls access.

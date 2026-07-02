@@ -1,4 +1,4 @@
-# 07-01: Cloud Service Models
+# &#128216; 07-01: Cloud Service Models
 
 <!-- course-header -->
 <div align="center">
@@ -12,7 +12,7 @@
 </div>
 <!-- /course-header -->
 
-## The Three Core Models
+## &#128204; The Three Core Models
 
 Cloud services differ by **how much the provider manages vs. you**.
 
@@ -26,7 +26,7 @@ Cloud services differ by **how much the provider manages vs. you**.
 
 ---
 
-## The "Pizza as a Service" Analogy
+## &#128204; The "Pizza as a Service" Analogy
 
 - **IaaS** — they give you the kitchen; you cook.
 - **PaaS** — they give you the oven and dough; you add toppings.
@@ -34,7 +34,7 @@ Cloud services differ by **how much the provider manages vs. you**.
 
 ---
 
-## Other "as-a-Service" Terms
+## &#128204; Other "as-a-Service" Terms
 
 | Term | Delivers |
 |------|----------|
@@ -44,7 +44,7 @@ Cloud services differ by **how much the provider manages vs. you**.
 
 ---
 
-## Shared Responsibility
+## &#128204; Shared Responsibility
 
 The provider secures the layers **they** manage; **you** secure your OS/apps/data/access according to the model. Responsibility shifts more to the provider as you move IaaS → PaaS → SaaS.
 

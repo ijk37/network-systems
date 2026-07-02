@@ -1,4 +1,4 @@
-# 12: Wide Area Networks — Exercises
+# &#9997; 12: Wide Area Networks — Exercises
 
 <!-- course-header -->
 <div align="center">
@@ -19,7 +19,7 @@ Work through each question, then click **▶ Show answer** to check yourself. Re
 
 ---
 
-### Q1. At which OSI layers do LANs and WANs differ, and which do they share?
+### &#127757; Q1. At which OSI layers do LANs and WANs differ, and which do they share?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -29,7 +29,7 @@ They **differ at Layers 1–2** (media, access methods, framing) and **share Lay
 
 ---
 
-### Q2. Match the metric/behavior to the routing protocol: hop count (max 15), cost/bandwidth link-state, between autonomous systems.
+### &#129517; Q2. Match the metric/behavior to the routing protocol: hop count (max 15), cost/bandwidth link-state, between autonomous systems.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -41,7 +41,7 @@ They **differ at Layers 1–2** (media, access methods, framing) and **share Lay
 
 ---
 
-### Q3. A router learns a route to the same network via OSPF and via a static route. Which is installed, and why?
+### &#128161; Q3. A router learns a route to the same network via OSPF and via a static route. Which is installed, and why?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -51,7 +51,7 @@ The **static route** — it has a lower **administrative distance** (static = 1 
 
 ---
 
-### Q4. Compare hub-and-spoke and full-mesh WAN topologies (redundancy vs. cost).
+### &#127757; Q4. Compare hub-and-spoke and full-mesh WAN topologies (redundancy vs. cost).
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -62,7 +62,7 @@ The **static route** — it has a lower **administrative distance** (static = 1 
 
 ---
 
-### Q5. A branch office needs cheap, encrypted connectivity to HQ over the Internet. What fits?
+### &#128313; Q5. A branch office needs cheap, encrypted connectivity to HQ over the Internet. What fits?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -72,7 +72,7 @@ A **site-to-site VPN** (typically IPsec) over the public Internet — far cheape
 
 ---
 
-### Q6. Rank by typical bandwidth/latency for last-mile access: dial-up, DSL, fiber (FTTH), satellite (geostationary).
+### &#128313; Q6. Rank by typical bandwidth/latency for last-mile access: dial-up, DSL, fiber (FTTH), satellite (geostationary).
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -82,7 +82,7 @@ Best → worst: **Fiber (FTTH) > DSL > Satellite (geostationary — high latency
 
 ---
 
-### Q7. What is the "last mile," and what is a CSU/DSU used for?
+### &#10067; Q7. What is the "last mile," and what is a CSU/DSU used for?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -93,7 +93,7 @@ Best → worst: **Fiber (FTTH) > DSL > Satellite (geostationary — high latency
 
 ---
 
-### Q8. How does MPLS forward traffic, and what advantage does that give?
+### &#128313; Q8. How does MPLS forward traffic, and what advantage does that give?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -103,7 +103,7 @@ MPLS forwards by **labels** (label swapping) rather than full IP lookups at each
 
 ---
 
-### Q9. What is a default route, and when is it used?
+### &#10067; Q9. What is a default route, and when is it used?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -113,7 +113,7 @@ MPLS forwards by **labels** (label swapping) rather than full IP lookups at each
 
 ---
 
-### Q10. Contrast single-homed and multihomed Internet connectivity.
+### &#128313; Q10. Contrast single-homed and multihomed Internet connectivity.
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -124,7 +124,7 @@ MPLS forwards by **labels** (label swapping) rather than full IP lookups at each
 
 ---
 
-### Q11. Which PPP authentication method is secure, and why?
+### &#128161; Q11. Which PPP authentication method is secure, and why?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -134,7 +134,7 @@ MPLS forwards by **labels** (label swapping) rather than full IP lookups at each
 
 ---
 
-### Q12. What is convergence, and why does faster convergence matter?
+### &#10067; Q12. What is convergence, and why does faster convergence matter?
 
 <details>
 <summary><strong>Show answer</strong></summary>
@@ -145,6 +145,38 @@ Convergence is when **all routers agree** on the topology after a change. Faster
 ---
 
 ⬅️ **Prev:** [Module 11](11-exercise.md)  ·  [📚 All Exercises](README.md)
+
+## &#129517; Bonus Scenario Practice
+
+### &#129513; Case A: Route Selection
+
+A router knows these routes:
+
+- `10.0.0.0/8` through OSPF
+- `10.10.0.0/16` through RIP
+- `10.10.5.0/24` as a static route
+
+Which route is used for destination `10.10.5.44`, and why?
+
+<details>
+<summary><strong>Show answer</strong></summary>
+
+The static `10.10.5.0/24` route is used because it is the longest prefix match. Route specificity is checked before administrative distance.
+</details>
+
+---
+
+### &#129513; Case B: WAN Choice
+
+A rural branch office needs connectivity for email and cloud apps, but fiber and cable are unavailable. Latency-sensitive voice calls perform poorly over the current satellite link. What should the design discussion focus on?
+
+<details>
+<summary><strong>Show answer</strong></summary>
+
+The discussion should focus on latency, not just bandwidth. Geostationary satellite links can have high delay, which hurts voice and real-time applications. Options may include low-earth-orbit satellite, fixed wireless, cellular, or SD-WAN with multiple available links.
+</details>
+
+---
 
 <!-- course-footer -->
 ---

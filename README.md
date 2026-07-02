@@ -6,13 +6,13 @@
   <a href="01-notes/README.md"><img src="https://img.shields.io/badge/Notes-12_modules-B4122E?style=for-the-badge&labelColor=7E0E23" alt="Course Notes"></a>
   <a href="02-exercises/README.md"><img src="https://img.shields.io/badge/Exercises-12_sets-B4122E?style=for-the-badge&labelColor=7E0E23" alt="Exercises"></a>
   <a href="https://ijk37.github.io/network-systems/03-quiz/"><img src="https://img.shields.io/badge/Quiz_Hub-Open-C8901A?style=for-the-badge&labelColor=7E0E23" alt="Quiz Hub"></a>
-  <a href="04-projects/README.md"><img src="https://img.shields.io/badge/Projects-11_labs-B4122E?style=for-the-badge&labelColor=7E0E23" alt="Projects"></a>
+  <a href="04-projects/README.md"><img src="https://img.shields.io/badge/Projects-13_labs-B4122E?style=for-the-badge&labelColor=7E0E23" alt="Projects"></a>
 </p>
 
 <p>
   <img src="https://img.shields.io/badge/Question_Bank-~1,200-C8901A?style=flat-square&labelColor=7E0E23" alt="Question Bank">
   <img src="https://img.shields.io/badge/Modules-12-B4122E?style=flat-square&labelColor=7E0E23" alt="Modules">
-  <img src="https://img.shields.io/badge/Projects-11-B4122E?style=flat-square&labelColor=7E0E23" alt="Projects count">
+  <img src="https://img.shields.io/badge/Projects-13-B4122E?style=flat-square&labelColor=7E0E23" alt="Projects count">
   <img src="https://img.shields.io/badge/Exam-N10--008-C8901A?style=flat-square&labelColor=7E0E23" alt="Exam">
 </p>
 
@@ -89,6 +89,8 @@ The project track turns concepts into implementation and design practice.
 | [Wireless Network Design](04-projects/09-wireless-network-design/README.md) | Coverage, channels, and security |
 | [Cloud and VPN Connectivity](04-projects/10-cloud-and-vpn-connectivity/README.md) | Remote access and hybrid connectivity |
 | [High Availability and Monitoring](04-projects/11-high-availability-and-monitoring/README.md) | Resilience and observability |
+| [Network Troubleshooting and Incident Response](04-projects/12-troubleshooting-incident-response/README.md) | Outage triage, evidence collection, and incident reporting |
+| [IPv6 Dual-Stack Migration](04-projects/13-ipv6-dual-stack-migration/README.md) | IPv6 addressing, routing, DNS, and security validation |
 
 ## Prerequisites
 

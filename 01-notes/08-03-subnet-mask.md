@@ -1,4 +1,4 @@
-# 08-03: Subnet Mask
+# &#128216; 08-03: Subnet Mask
 
 <!-- course-header -->
 <div align="center">
@@ -12,7 +12,7 @@
 </div>
 <!-- /course-header -->
 
-## What is a Subnet Mask?
+## &#10067; What is a Subnet Mask?
 
 A subnet mask is used to divide an IP address into two parts:
 
@@ -27,13 +27,13 @@ It defines where the network ends and the host begins.
 
 ---
 
-## How Subnet Mask is Represented
+## &#129518; How Subnet Mask is Represented
 
 There are three ways to represent a subnet mask:
 
 ---
 
-### 1. Binary Representation
+### &#128313; 1. Binary Representation
 
 **Example:**
 Subnet Mask: 11111111.11111111.00000000.00000000
@@ -49,7 +49,7 @@ In this example:
 
 ---
 
-### 2. Decimal Representation
+### &#128313; 2. Decimal Representation
 
 **Example:**
 Subnet Mask: 255.255.0.0
@@ -60,7 +60,7 @@ To understand network and host portions, it must be interpreted in binary.
 
 ---
 
-### 3. CIDR Notation
+### &#128313; 3. CIDR Notation
 
 Subnet masks are often written using CIDR notation.
 
@@ -71,7 +71,7 @@ Subnet masks are often written using CIDR notation.
 
 ---
 
-## Why Subnet Mask is Important
+## &#128161; Why Subnet Mask is Important
 
 - Defines network boundaries  
 - Enables communication within networks  
@@ -80,7 +80,7 @@ Subnet masks are often written using CIDR notation.
 
 ---
 
-## Key Idea
+## &#128161; Key Idea
 
 An IP address alone is not enough.
 

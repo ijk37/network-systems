@@ -1,4 +1,4 @@
-# Project 05 — Secure Small-Business Network Design
+# &#128736; Project 05 — Secure Small-Business Network Design
 
 
 <!-- course-header -->
@@ -19,17 +19,17 @@
 
 ---
 
-## Objective
+## &#127919; Objective
 
 Design a **defense-in-depth** network for a small business: segment with VLANs, isolate public servers in a **DMZ**, filter traffic with **ACLs/firewall rules**, and produce a **hardening checklist**.
 
 ---
 
-## Scenario
+## &#129517; Scenario
 
 **Bright Retail** (30 staff) needs a network that supports staff, guests, point-of-sale (POS), and a public web/email server — without letting a breach in one area reach the others.
 
-### Zones
+### &#128313; Zones
 
 | Zone | VLAN/Segment | Notes |
 |------|--------------|-------|
@@ -41,7 +41,7 @@ Design a **defense-in-depth** network for a small business: segment with VLANs, 
 
 ---
 
-## Part A — Design Document
+## &#128204; Part A — Design Document
 
 Produce a design covering:
 
@@ -58,7 +58,7 @@ Produce a design covering:
 
 4. **Hardening checklist** (see below).
 
-## Part B — Partial Build (Packet Tracer)
+## &#128204; Part B — Partial Build (Packet Tracer)
 
 1. Create the VLANs and inter-VLAN routing.
 2. Place a "web server" in the DMZ segment.
@@ -67,7 +67,7 @@ Produce a design covering:
 
 ---
 
-## Hardening Checklist
+## &#128204; Hardening Checklist
 
 - [ ] Change all **default credentials**; disable unused accounts.
 - [ ] **SSH** (not Telnet) for management; management on VLAN 99 only.
@@ -81,7 +81,7 @@ Produce a design covering:
 
 ---
 
-## Verification
+## &#9989; Verification
 
 - [ ] Staff can reach the DMZ web server on 80/443 but **cannot** reach POS.
 - [ ] Guest reaches the Internet but **nothing internal**.
@@ -89,7 +89,7 @@ Produce a design covering:
 
 ---
 
-## Deliverables
+## &#128230; Deliverables
 
 - Design document (diagram + addressing + policy matrix).
 - Packet Tracer file (local) with ACLs.

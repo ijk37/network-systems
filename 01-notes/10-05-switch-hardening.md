@@ -1,4 +1,4 @@
-# 10-05: Switch & Port Hardening
+# &#128216; 10-05: Switch & Port Hardening
 
 <!-- course-header -->
 <div align="center">
@@ -12,7 +12,7 @@
 </div>
 <!-- /course-header -->
 
-## Layer 2 Attacks and Their Defenses
+## &#128204; Layer 2 Attacks and Their Defenses
 
 | Attack | Defense |
 |--------|---------|
@@ -26,13 +26,13 @@
 
 ---
 
-## Port Security
+## &#128272; Port Security
 
 Restricts a port to specific or a maximum number of MAC addresses; on violation it can **shut down**, **restrict**, or **protect**. Defends against MAC flooding and rogue devices.
 
 ---
 
-## DHCP Snooping + DAI + IP Source Guard
+## &#128225; DHCP Snooping + DAI + IP Source Guard
 
 These work together using a **binding table**:
 
@@ -42,7 +42,7 @@ These work together using a **binding table**:
 
 ---
 
-## VLAN Hardening
+## &#129521; VLAN Hardening
 
 - Move user/management traffic **off VLAN 1**.
 - Set a dedicated, unused **native VLAN** on trunks.

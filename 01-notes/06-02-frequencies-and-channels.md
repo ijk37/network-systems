@@ -1,4 +1,4 @@
-# 06-02: Frequencies, Channels & Antennas
+# &#128216; 06-02: Frequencies, Channels & Antennas
 
 <!-- course-header -->
 <div align="center">
@@ -12,7 +12,7 @@
 </div>
 <!-- /course-header -->
 
-## The Two Main Bands
+## &#128204; The Two Main Bands
 
 | | **2.4 GHz** | **5 GHz** |
 |---|-------------|-----------|
@@ -25,17 +25,17 @@
 
 ---
 
-## Channels
+## &#128204; Channels
 
 - In **2.4 GHz**, the only **non-overlapping** 20 MHz channels are **1, 6, and 11**. Using others causes co-channel/adjacent-channel interference.
 - **5 GHz** has many non-overlapping channels, allowing more APs and wider (channel-bonded) channels.
 
-### Channel bonding
+### &#128313; Channel bonding
 Combining channels (40/80/160 MHz) increases speed but consumes more spectrum — practical mainly in 5/6 GHz; it worsens congestion in 2.4 GHz.
 
 ---
 
-## Antennas
+## &#128204; Antennas
 
 | Type | Pattern | Use |
 |------|---------|-----|
@@ -46,7 +46,7 @@ Higher **gain** = more focused/farther signal.
 
 ---
 
-## Signal Quality
+## &#128204; Signal Quality
 
 - **RSSI** — received signal strength.
 - **SNR** (signal-to-noise ratio) — higher is better; low SNR forces lower data rates, retransmissions, and drops.

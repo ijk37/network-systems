@@ -1,4 +1,4 @@
-# 02-01: Structured Cabling
+# &#128216; 02-01: Structured Cabling
 
 <!-- course-header -->
 <div align="center">
@@ -12,13 +12,13 @@
 </div>
 <!-- /course-header -->
 
-## The Standard: ANSI/TIA-568
+## &#128204; The Standard: ANSI/TIA-568
 
 **ANSI/TIA-568** is the Commercial Building Wiring Standard ("structured cabling"). It defines how to install network media to maximize performance and minimize maintenance, assuming a **hierarchical star** topology.
 
 ---
 
-## Structured Cabling Hierarchy
+## &#128268; Structured Cabling Hierarchy
 
 ```
 Entrance Facility  →  MDF  →  Backbone cabling  →  IDF  →  Horizontal cabling  →  Work Area
@@ -37,14 +37,14 @@ Entrance Facility  →  MDF  →  Backbone cabling  →  IDF  →  Horizontal ca
 
 ---
 
-## Distance Limits
+## &#128204; Distance Limits
 
 - **Horizontal copper run:** 100 m total = 90 m solid-core permanent link + ~10 m patch cords.
 - Runs exceeding this (or needing high bandwidth) use **fiber** for the backbone.
 
 ---
 
-## Media Choices
+## &#128204; Media Choices
 
 - **Copper (UTP/STP)** — inexpensive, easy; limited to 100 m. Used for horizontal runs.
 - **Fiber** — long distance, high bandwidth, EMI-immune. Used for backbone/inter-building.

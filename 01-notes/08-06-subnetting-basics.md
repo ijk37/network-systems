@@ -1,4 +1,4 @@
-# 08-06: Subnetting Basics
+# &#128216; 08-06: Subnetting Basics
 
 <!-- course-header -->
 <div align="center">
@@ -12,7 +12,7 @@
 </div>
 <!-- /course-header -->
 
-## What is Subnetting?
+## &#10067; What is Subnetting?
 
 Subnetting is the process of dividing a network into smaller sub-networks (subnets).
 
@@ -20,7 +20,7 @@ It allows a large network to be split into multiple smaller and manageable netwo
 
 ---
 
-## Why Subnetting is Needed
+## &#128161; Why Subnetting is Needed
 
 - Improves network performance  
 - Enhances security by isolating segments  
@@ -29,7 +29,7 @@ It allows a large network to be split into multiple smaller and manageable netwo
 
 ---
 
-## Relationship with Classful Networks
+## &#128204; Relationship with Classful Networks
 
 In classful networking:
 - network and host portions are fixed  
@@ -42,7 +42,7 @@ Subnetting allows:
 
 ---
 
-## How Subnetting Works
+## &#129518; How Subnetting Works
 
 Subnetting works by borrowing bits from the host portion.
 
@@ -51,7 +51,7 @@ Subnetting works by borrowing bits from the host portion.
 
 ---
 
-## Example
+## &#128204; Example
 
 **Original Network:**
 - IP Address: 192.168.1.0  
@@ -67,7 +67,7 @@ Subnetting works by borrowing bits from the host portion.
 
 ---
 
-## Number of Subnets
+## &#129518; Number of Subnets
 
 **Formula:**
 Number of subnets = 2ⁿ  
@@ -80,7 +80,7 @@ Where:
 
 ---
 
-## Number of Addresses and Hosts per Subnet
+## &#129518; Number of Addresses and Hosts per Subnet
 
 **Formula:**
 - Total addresses per subnet = 2ʰ  
@@ -95,7 +95,7 @@ Where:
 
 ---
 
-### Example
+### &#128313; Example
 
 6 host bits → 2⁶ = 64 total addresses  
 
@@ -106,7 +106,7 @@ Usable hosts = 64 − 2 = 62
 
 ---
 
-## Block Size
+## &#128204; Block Size
 
 Block size determines the increment between subnet ranges.
 
@@ -123,7 +123,7 @@ Subnet ranges increase as:
 
 ---
 
-## Why Block Size Matters
+## &#128161; Why Block Size Matters
 
 - Helps identify subnet ranges  
 - Determines network and broadcast addresses  
@@ -131,7 +131,31 @@ Subnet ranges increase as:
 
 ---
 
-## Key Idea
+## &#127919; Choosing the Right Subnet Size
+
+For design questions, start with the host requirement, not with the mask.
+
+| Need | Smallest common prefix | Usable hosts |
+| ---: | --- | ---: |
+| 2 hosts | /30 | 2 |
+| 14 hosts | /28 | 14 |
+| 30 hosts | /27 | 30 |
+| 62 hosts | /26 | 62 |
+| 126 hosts | /25 | 126 |
+| 254 hosts | /24 | 254 |
+| 510 hosts | /23 | 510 |
+
+Process:
+
+1. Find the smallest host-bit value where `2^h - 2` meets the requirement.
+2. Convert host bits to prefix length: `32 - h`.
+3. Check the block size to identify the network and broadcast range.
+
+Example: a department needs 58 hosts. `2^5 - 2 = 30` is too small, but `2^6 - 2 = 62`, so the smallest subnet is **/26**.
+
+---
+
+## &#128161; Key Idea
 
 Classful networking uses fixed boundaries.
 

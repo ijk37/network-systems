@@ -1,4 +1,4 @@
-# 05-02: Fiber-Optic Cabling
+# &#128216; 05-02: Fiber-Optic Cabling
 
 <!-- course-header -->
 <div align="center">
@@ -12,13 +12,13 @@
 </div>
 <!-- /course-header -->
 
-## How Fiber Works
+## &#128204; How Fiber Works
 
 Fiber carries data as **pulses of light** through a glass/plastic core. Because it carries no electrical signal, it is **immune to EMI/RFI** and supports **long distances** and **high bandwidth**.
 
 ---
 
-## Single-Mode vs. Multimode
+## &#128204; Single-Mode vs. Multimode
 
 | | **Single-mode (SMF)** | **Multimode (MMF)** |
 |---|----------------------|---------------------|
@@ -32,7 +32,7 @@ Mnemonic: **S**ingle-mode = **S**maller core, **S**tretches further.
 
 ---
 
-## Fiber Connectors
+## &#128204; Fiber Connectors
 
 | Connector | Notes |
 |-----------|-------|
@@ -43,7 +43,7 @@ Mnemonic: **S**ingle-mode = **S**maller core, **S**tretches further.
 
 ---
 
-## Ethernet over Fiber
+## &#128204; Ethernet over Fiber
 
 | Standard | Media | Distance |
 |----------|-------|----------|
@@ -52,7 +52,7 @@ Mnemonic: **S**ingle-mode = **S**maller core, **S**tretches further.
 
 ---
 
-## Handling Care
+## &#128204; Handling Care
 
 - Respect the **minimum bend radius** — over-bending causes macrobend light loss.
 - Keep end-faces **clean**; contamination raises **insertion loss** and causes errors.

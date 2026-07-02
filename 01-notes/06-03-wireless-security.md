@@ -1,4 +1,4 @@
-# 06-03: Wireless Security
+# &#128216; 06-03: Wireless Security
 
 <!-- course-header -->
 <div align="center">
@@ -12,7 +12,7 @@
 </div>
 <!-- /course-header -->
 
-## The Evolution of Wi-Fi Security
+## &#128272; The Evolution of Wi-Fi Security
 
 | Standard | Status | Cipher | Notes |
 |----------|--------|--------|-------|
@@ -25,7 +25,7 @@
 
 ---
 
-## Personal vs. Enterprise
+## &#128204; Personal vs. Enterprise
 
 | | **Personal (PSK)** | **Enterprise (802.1X)** |
 |---|--------------------|--------------------------|
@@ -37,7 +37,7 @@
 
 ---
 
-## Common Wireless Threats
+## &#128246; Common Wireless Threats
 
 | Threat | Description |
 |--------|-------------|

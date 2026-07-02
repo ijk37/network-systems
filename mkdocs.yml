@@ -222,4 +222,6 @@ nav:
       - "Wireless Network Design": 04-projects/09-wireless-network-design/README.md
       - "Cloud and VPN Connectivity": 04-projects/10-cloud-and-vpn-connectivity/README.md
       - "High Availability and Monitoring": 04-projects/11-high-availability-and-monitoring/README.md
+      - "Network Troubleshooting and Incident Response": 04-projects/12-troubleshooting-incident-response/README.md
+      - "IPv6 Dual-Stack Migration": 04-projects/13-ipv6-dual-stack-migration/README.md
   - "05 Resources": resources.md

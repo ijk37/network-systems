@@ -1,4 +1,4 @@
-# 06-04: Wireless Design & Roaming
+# &#128216; 06-04: Wireless Design & Roaming
 
 <!-- course-header -->
 <div align="center">
@@ -12,7 +12,7 @@
 </div>
 <!-- /course-header -->
 
-## Service Sets
+## &#128204; Service Sets
 
 | Term | Meaning |
 |------|---------|
@@ -25,7 +25,7 @@ An **ESS** lets clients **roam** seamlessly between APs without dropping the con
 
 ---
 
-## Site Survey
+## &#128204; Site Survey
 
 A **site survey** measures RF conditions to plan coverage:
 
@@ -37,7 +37,7 @@ Output: a **heat map** of signal strength, revealing coverage gaps and interfere
 
 ---
 
-## Design Principles
+## &#128204; Design Principles
 
 - Use **channels 1/6/11** (2.4 GHz) to avoid overlap; spread channels in 5 GHz.
 - In **high-density** areas, **lower AP power** and add **more APs** to shrink cells, reduce co-channel interference, and increase capacity.
@@ -45,7 +45,7 @@ Output: a **heat map** of signal strength, revealing coverage gaps and interfere
 
 ---
 
-## Wireless LAN Controller (WLC)
+## &#128246; Wireless LAN Controller (WLC)
 
 A **WLC** centrally manages many "thin" APs:
 - Pushes configuration
@@ -54,7 +54,7 @@ A **WLC** centrally manages many "thin" APs:
 
 ---
 
-## Guest Access
+## &#128204; Guest Access
 
 A **captive portal** intercepts new clients and redirects to a login/terms page before granting Internet access — common for guest Wi-Fi (often on a separate VLAN).
 
