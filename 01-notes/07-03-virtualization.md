@@ -3,13 +3,13 @@
 <!-- course-header -->
 <div align="center">
 
-<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/07-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+<a href="../README.md"><img src="../assets/banner.svg" alt="Network Systems" width="100%"></a>
+
+<img src="https://img.shields.io/badge/Module_07-Cloud_Computing_and_Remote_Access-B4122E?style=for-the-badge&labelColor=7E0E23" alt="Module 07: Cloud Computing and Remote Access">
+
+<a href="../README.md"><img src="https://img.shields.io/badge/⌂_Home-3B2530?style=flat-square" alt="Home"></a> <a href="README.md"><img src="https://img.shields.io/badge/All_Notes-3B2530?style=flat-square" alt="All Notes"></a> <a href="../02-exercises/07-exercise.md"><img src="https://img.shields.io/badge/✎_Practice-C8901A?style=flat-square&labelColor=7E0E23" alt="Practice"></a> <a href="../03-quiz/"><img src="https://img.shields.io/badge/▶_Quiz-C8901A?style=flat-square&labelColor=7E0E23" alt="Quiz"></a>
 
 </div>
-
-| Course | Module | Lesson |
-| --- | --- | --- |
-| Network Systems | 07: Cloud Computing and Remote Access | 07-03 |
 <!-- /course-header -->
 
 ## What Is Virtualization?
@@ -54,9 +54,8 @@ VMs connect via **virtual switches (vSwitches)** and virtual NICs inside the hyp
 
 ---
 
-## Key Idea
-
-> **Hypervisors** run VMs: **Type 1** on bare metal (servers), **Type 2** on a host OS (desktops). **Containers** are lighter, sharing the host kernel. **NFV** turns network appliances into software.
+> [!TIP]
+> **Key idea —** **Hypervisors** run VMs: **Type 1** on bare metal (servers), **Type 2** on a host OS (desktops). **Containers** are lighter, sharing the host kernel. **NFV** turns network appliances into software.
 
 See also: [Cloud Service Models](07-01-cloud-service-models.md), [Remote Access Methods](07-04-remote-access-methods.md)
 

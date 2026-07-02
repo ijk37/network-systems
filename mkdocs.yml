@@ -9,6 +9,7 @@ edit_uri: edit/main/
 
 docs_dir: .
 site_dir: ../network-systems-site
+use_directory_urls: false
 exclude_docs: |
   mkdocs.yml
   requirements.txt
@@ -26,15 +27,15 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: teal
-      accent: deep orange
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: teal
-      accent: amber
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
@@ -61,7 +62,9 @@ theme:
     - toc.follow
 
 plugins:
+  - same-dir
   - search
+  - callouts
 
 markdown_extensions:
   - admonition

@@ -1,5 +1,18 @@
 # Project 05 — Secure Small-Business Network Design
 
+
+<!-- course-header -->
+<div align="center">
+
+<a href="../../README.md"><img src="../../assets/banner.svg" alt="Network Systems" width="100%"></a>
+
+<img src="https://img.shields.io/badge/Project_05-Secure_Small--Business_Network_Design-B4122E?style=for-the-badge&labelColor=7E0E23" alt="Project 05: Secure Small-Business Network Design">
+
+<a href="../../README.md"><img src="https://img.shields.io/badge/⌂_Home-3B2530?style=flat-square" alt="Home"></a> <a href="../README.md"><img src="https://img.shields.io/badge/All_Projects-3B2530?style=flat-square" alt="All Projects"></a> <a href="../../01-notes/README.md"><img src="https://img.shields.io/badge/Notes-3B2530?style=flat-square" alt="Notes"></a> <a href="../../03-quiz/"><img src="https://img.shields.io/badge/▶_Quiz-C8901A?style=flat-square&labelColor=7E0E23" alt="Quiz"></a>
+
+</div>
+<!-- /course-header -->
+
 **Type:** Design document + partial Packet Tracer build
 **Modules:** 09 (Risk), 10 (Security in Network Design), 08 (VLANs)
 **Difficulty:** ⭐⭐⭐⭐

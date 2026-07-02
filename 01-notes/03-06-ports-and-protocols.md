@@ -3,13 +3,13 @@
 <!-- course-header -->
 <div align="center">
 
-<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/03-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+<a href="../README.md"><img src="../assets/banner.svg" alt="Network Systems" width="100%"></a>
+
+<img src="https://img.shields.io/badge/Module_03-Addressing-B4122E?style=for-the-badge&labelColor=7E0E23" alt="Module 03: Addressing">
+
+<a href="../README.md"><img src="https://img.shields.io/badge/⌂_Home-3B2530?style=flat-square" alt="Home"></a> <a href="README.md"><img src="https://img.shields.io/badge/All_Notes-3B2530?style=flat-square" alt="All Notes"></a> <a href="../02-exercises/03-exercise.md"><img src="https://img.shields.io/badge/✎_Practice-C8901A?style=flat-square&labelColor=7E0E23" alt="Practice"></a> <a href="../03-quiz/"><img src="https://img.shields.io/badge/▶_Quiz-C8901A?style=flat-square&labelColor=7E0E23" alt="Quiz"></a>
 
 </div>
-
-| Course | Module | Lesson |
-| --- | --- | --- |
-| Network Systems | 03: Addressing | 03-06 |
 <!-- /course-header -->
 
 ## Port Number Ranges
@@ -60,9 +60,8 @@ A **socket** = IP address + port (e.g., `192.168.1.5:443`).
 
 ---
 
-## Key Idea
-
-> Memorize the **well-known ports** and their secure equivalents. Ports identify the **application**; a **socket** (IP:port) uniquely identifies an endpoint of a connection.
+> [!TIP]
+> **Key idea —** Memorize the **well-known ports** and their secure equivalents. Ports identify the **application**; a **socket** (IP:port) uniquely identifies an endpoint of a connection.
 
 See also: [Core Protocols & Their Ports](04-03-core-protocols-and-ports.md), [Secure Protocols & Encryption](04-04-secure-protocols.md)
 

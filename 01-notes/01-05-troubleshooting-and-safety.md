@@ -3,13 +3,13 @@
 <!-- course-header -->
 <div align="center">
 
-<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/01-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+<a href="../README.md"><img src="../assets/banner.svg" alt="Network Systems" width="100%"></a>
+
+<img src="https://img.shields.io/badge/Module_01-Introduction_to_Networking-B4122E?style=for-the-badge&labelColor=7E0E23" alt="Module 01: Introduction to Networking">
+
+<a href="../README.md"><img src="https://img.shields.io/badge/⌂_Home-3B2530?style=flat-square" alt="Home"></a> <a href="README.md"><img src="https://img.shields.io/badge/All_Notes-3B2530?style=flat-square" alt="All Notes"></a> <a href="../02-exercises/01-exercise.md"><img src="https://img.shields.io/badge/✎_Practice-C8901A?style=flat-square&labelColor=7E0E23" alt="Practice"></a> <a href="../03-quiz/"><img src="https://img.shields.io/badge/▶_Quiz-C8901A?style=flat-square&labelColor=7E0E23" alt="Quiz"></a>
 
 </div>
-
-| Course | Module | Lesson |
-| --- | --- | --- |
-| Network Systems | 01: Introduction to Networking | 01-05 |
 <!-- /course-header -->
 
 ## The 7-Step CompTIA Troubleshooting Model
@@ -46,9 +46,8 @@
 
 ---
 
-## Key Idea
-
-> Troubleshooting is a **repeatable process**: identify → theorize → test → plan → implement → verify → document. Pair it with the **OSI model** to isolate the layer at fault, and always work safely (ESD strap, MSDS).
+> [!TIP]
+> **Key idea —** Troubleshooting is a **repeatable process**: identify → theorize → test → plan → implement → verify → document. Pair it with the **OSI model** to isolate the layer at fault, and always work safely (ESD strap, MSDS).
 
 See also: [The OSI Model](01-03-osi-model.md), [CLI Troubleshooting Tools](03-07-cli-troubleshooting-tools.md)
 

@@ -3,13 +3,13 @@
 <!-- course-header -->
 <div align="center">
 
-<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/09-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+<a href="../README.md"><img src="../assets/banner.svg" alt="Network Systems" width="100%"></a>
+
+<img src="https://img.shields.io/badge/Module_09-Network_Risk_Management-B4122E?style=for-the-badge&labelColor=7E0E23" alt="Module 09: Network Risk Management">
+
+<a href="../README.md"><img src="https://img.shields.io/badge/⌂_Home-3B2530?style=flat-square" alt="Home"></a> <a href="README.md"><img src="https://img.shields.io/badge/All_Notes-3B2530?style=flat-square" alt="All Notes"></a> <a href="../02-exercises/09-exercise.md"><img src="https://img.shields.io/badge/✎_Practice-C8901A?style=flat-square&labelColor=7E0E23" alt="Practice"></a> <a href="../03-quiz/"><img src="https://img.shields.io/badge/▶_Quiz-C8901A?style=flat-square&labelColor=7E0E23" alt="Quiz"></a>
 
 </div>
-
-| Course | Module | Lesson |
-| --- | --- | --- |
-| Network Systems | 09: Network Risk Management | 09-04 |
 <!-- /course-header -->
 
 ## Security Policies
@@ -56,9 +56,8 @@ Policies establish rules, roles, and expected behavior — the governance that t
 
 ---
 
-## Key Idea
-
-> Policies + access control (**least privilege, MFA**) + physical security + tested **3-2-1 backups** and **RTO/RPO** targets form a complete risk-management program.
+> [!TIP]
+> **Key idea —** Policies + access control (**least privilege, MFA**) + physical security + tested **3-2-1 backups** and **RTO/RPO** targets form a complete risk-management program.
 
 See also: [Security Concepts](09-01-security-concepts.md), [Fault Tolerance & Recovery](11-04-fault-tolerance-and-recovery.md)
 

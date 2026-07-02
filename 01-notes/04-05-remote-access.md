@@ -3,13 +3,13 @@
 <!-- course-header -->
 <div align="center">
 
-<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/04-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+<a href="../README.md"><img src="../assets/banner.svg" alt="Network Systems" width="100%"></a>
+
+<img src="https://img.shields.io/badge/Module_04-Network_Protocols-B4122E?style=for-the-badge&labelColor=7E0E23" alt="Module 04: Network Protocols">
+
+<a href="../README.md"><img src="https://img.shields.io/badge/⌂_Home-3B2530?style=flat-square" alt="Home"></a> <a href="README.md"><img src="https://img.shields.io/badge/All_Notes-3B2530?style=flat-square" alt="All Notes"></a> <a href="../02-exercises/04-exercise.md"><img src="https://img.shields.io/badge/✎_Practice-C8901A?style=flat-square&labelColor=7E0E23" alt="Practice"></a> <a href="../03-quiz/"><img src="https://img.shields.io/badge/▶_Quiz-C8901A?style=flat-square&labelColor=7E0E23" alt="Quiz"></a>
 
 </div>
-
-| Course | Module | Lesson |
-| --- | --- | --- |
-| Network Systems | 04: Network Protocols | 04-05 |
 <!-- /course-header -->
 
 ## Methods to Reach Systems Remotely
@@ -50,9 +50,8 @@ A **VPN concentrator** terminates and manages many tunnels at the edge.
 
 ---
 
-## Key Idea
-
-> Remote access = **SSH** (CLI), **RDP** (GUI), **VPN** (tunnel). Always protect it with **MFA**, restrict exposure, and use **out-of-band** management for resilience.
+> [!TIP]
+> **Key idea —** Remote access = **SSH** (CLI), **RDP** (GUI), **VPN** (tunnel). Always protect it with **MFA**, restrict exposure, and use **out-of-band** management for resilience.
 
 See also: [Secure Protocols & Encryption](04-04-secure-protocols.md), [Remote Access Methods](07-04-remote-access-methods.md)
 

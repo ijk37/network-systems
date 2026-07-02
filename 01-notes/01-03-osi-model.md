@@ -3,13 +3,13 @@
 <!-- course-header -->
 <div align="center">
 
-<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/01-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+<a href="../README.md"><img src="../assets/banner.svg" alt="Network Systems" width="100%"></a>
+
+<img src="https://img.shields.io/badge/Module_01-Introduction_to_Networking-B4122E?style=for-the-badge&labelColor=7E0E23" alt="Module 01: Introduction to Networking">
+
+<a href="../README.md"><img src="https://img.shields.io/badge/⌂_Home-3B2530?style=flat-square" alt="Home"></a> <a href="README.md"><img src="https://img.shields.io/badge/All_Notes-3B2530?style=flat-square" alt="All Notes"></a> <a href="../02-exercises/01-exercise.md"><img src="https://img.shields.io/badge/✎_Practice-C8901A?style=flat-square&labelColor=7E0E23" alt="Practice"></a> <a href="../03-quiz/"><img src="https://img.shields.io/badge/▶_Quiz-C8901A?style=flat-square&labelColor=7E0E23" alt="Quiz"></a>
 
 </div>
-
-| Course | Module | Lesson |
-| --- | --- | --- |
-| Network Systems | 01: Introduction to Networking | 01-03 |
 <!-- /course-header -->
 
 ## What Is the OSI Model?
@@ -66,9 +66,8 @@ Data  →  Segment  →  Packet  →  Frame  →  Bits
 
 ---
 
-## Key Idea
-
-> The OSI model splits communication into **7 independent layers**. Remember the order, the **PDU names** (segment → packet → frame → bits), and **which device operates at which layer**.
+> [!TIP]
+> **Key idea —** The OSI model splits communication into **7 independent layers**. Remember the order, the **PDU names** (segment → packet → frame → bits), and **which device operates at which layer**.
 
 See also: [Network Hardware Devices](01-04-network-hardware.md), [The TCP/IP Suite & Encapsulation](04-01-tcp-ip-suite.md)
 

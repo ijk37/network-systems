@@ -3,13 +3,13 @@
 <!-- course-header -->
 <div align="center">
 
-<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/02-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+<a href="../README.md"><img src="../assets/banner.svg" alt="Network Systems" width="100%"></a>
+
+<img src="https://img.shields.io/badge/Module_02-Infrastructure_and_Documentation-B4122E?style=for-the-badge&labelColor=7E0E23" alt="Module 02: Infrastructure and Documentation">
+
+<a href="../README.md"><img src="https://img.shields.io/badge/⌂_Home-3B2530?style=flat-square" alt="Home"></a> <a href="README.md"><img src="https://img.shields.io/badge/All_Notes-3B2530?style=flat-square" alt="All Notes"></a> <a href="../02-exercises/02-exercise.md"><img src="https://img.shields.io/badge/✎_Practice-C8901A?style=flat-square&labelColor=7E0E23" alt="Practice"></a> <a href="../03-quiz/"><img src="https://img.shields.io/badge/▶_Quiz-C8901A?style=flat-square&labelColor=7E0E23" alt="Quiz"></a>
 
 </div>
-
-| Course | Module | Lesson |
-| --- | --- | --- |
-| Network Systems | 02: Infrastructure and Documentation | 02-02 |
 <!-- /course-header -->
 
 ## Equipment Racks
@@ -56,9 +56,8 @@ Two pin/pair color schemes define how the 8 conductors map to the RJ-45 pins:
 
 ---
 
-## Key Idea
-
-> Horizontal runs are **punched down** into patch panels; **patch cords** connect them to switches. Use **T568B** consistently (or A/B for a crossover), and remember **1U = 1.75 in**.
+> [!TIP]
+> **Key idea —** Horizontal runs are **punched down** into patch panels; **patch cords** connect them to switches. Use **T568B** consistently (or A/B for a crossover), and remember **1U = 1.75 in**.
 
 See also: [Structured Cabling](02-01-structured-cabling.md), [Cable Issues, Tools & PoE](05-04-cable-issues-and-tools.md)
 

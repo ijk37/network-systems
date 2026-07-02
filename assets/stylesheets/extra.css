@@ -1,19 +1,38 @@
+/* ── Network Systems · crimson & gold theme ─────────────────────────────── */
+
 :root {
-  --ns-teal: #007c89;
+  --ns-crimson: #b4122e;
+  --ns-crimson-dark: #7e0e23;
+  --ns-crimson-bright: #d8213f;
+  --ns-gold: #e4a72a;
+  --ns-gold-deep: #c8901a;
   --ns-ink: #17252a;
-  --ns-orange: #d85d27;
-  --ns-gold: #c28b00;
-  --ns-green: #248263;
   --ns-border: rgba(23, 37, 42, 0.14);
+
+  /* Drive Material's primary (header/nav/footer) and accent (links/hover) */
+  --md-primary-fg-color: #b4122e;
+  --md-primary-fg-color--light: #d8213f;
+  --md-primary-fg-color--dark: #7e0e23;
+  --md-accent-fg-color: #c8901a;
 }
 
 [data-md-color-scheme="slate"] {
   --ns-border: rgba(255, 255, 255, 0.16);
+  --md-primary-fg-color: #b4122e;
+  --md-primary-fg-color--light: #d8213f;
+  --md-primary-fg-color--dark: #7e0e23;
+  --md-accent-fg-color: #e4a72a; /* brighter gold reads better on dark */
+  --md-typeset-a-color: #e4a72a;
 }
 
 .md-header,
 .md-tabs {
   box-shadow: none;
+}
+
+/* gold hairline under the header/tabs for the two-tone look */
+.md-tabs {
+  border-bottom: 3px solid var(--ns-gold);
 }
 
 .md-header__title {
@@ -28,10 +47,15 @@
 
 .md-typeset h1 {
   margin-bottom: 0.9rem;
+  color: var(--ns-crimson);
+}
+
+[data-md-color-scheme="slate"] .md-typeset h1 {
+  color: var(--ns-gold);
 }
 
 .md-typeset h2 {
-  border-bottom: 1px solid var(--ns-border);
+  border-bottom: 2px solid var(--ns-gold);
   padding-bottom: 0.35rem;
 }
 
@@ -42,7 +66,8 @@
 }
 
 .md-typeset table:not([class]) th {
-  background: color-mix(in srgb, var(--md-primary-fg-color) 14%, transparent);
+  background: var(--ns-crimson);
+  color: #fff;
   font-weight: 700;
 }
 
@@ -55,6 +80,12 @@
   border-radius: 0.45rem;
 }
 
+/* colored left rule on blockquotes for a little warmth */
+.md-typeset blockquote {
+  border-left: 0.2rem solid var(--ns-gold);
+}
+
+/* ── Home hero cards ──────────────────────────────────────────────────── */
 .ns-hero-grid {
   display: grid;
   gap: 0.8rem;
@@ -65,7 +96,7 @@
 .md-typeset .ns-card {
   align-items: center;
   border: 1px solid var(--ns-border);
-  border-left: 0.35rem solid var(--md-primary-fg-color);
+  border-left: 0.35rem solid var(--ns-crimson);
   border-radius: 0.5rem;
   color: var(--md-default-fg-color);
   display: flex;
@@ -79,25 +110,25 @@
 }
 
 .md-typeset .ns-card:hover {
-  border-color: var(--md-accent-fg-color);
-  box-shadow: 0 0.55rem 1.4rem rgba(0, 0, 0, 0.09);
-  transform: translateY(-1px);
+  border-color: var(--ns-gold);
+  box-shadow: 0 0.55rem 1.4rem rgba(126, 14, 35, 0.18);
+  transform: translateY(-2px);
 }
 
 .md-typeset .ns-card-notes {
-  border-left-color: var(--ns-teal);
+  border-left-color: var(--ns-crimson);
 }
 
 .md-typeset .ns-card-exercises {
-  border-left-color: var(--ns-orange);
+  border-left-color: var(--ns-gold-deep);
 }
 
 .md-typeset .ns-card-quiz {
-  border-left-color: var(--ns-gold);
+  border-left-color: var(--ns-crimson-bright);
 }
 
 .md-typeset .ns-card-projects {
-  border-left-color: var(--ns-green);
+  border-left-color: var(--ns-gold);
 }
 
 .md-nav__item .md-nav__link--active {

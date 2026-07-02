@@ -3,13 +3,13 @@
 <!-- course-header -->
 <div align="center">
 
-<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/05-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+<a href="../README.md"><img src="../assets/banner.svg" alt="Network Systems" width="100%"></a>
+
+<img src="https://img.shields.io/badge/Module_05-Cabling-B4122E?style=for-the-badge&labelColor=7E0E23" alt="Module 05: Cabling">
+
+<a href="../README.md"><img src="https://img.shields.io/badge/⌂_Home-3B2530?style=flat-square" alt="Home"></a> <a href="README.md"><img src="https://img.shields.io/badge/All_Notes-3B2530?style=flat-square" alt="All Notes"></a> <a href="../02-exercises/05-exercise.md"><img src="https://img.shields.io/badge/✎_Practice-C8901A?style=flat-square&labelColor=7E0E23" alt="Practice"></a> <a href="../03-quiz/"><img src="https://img.shields.io/badge/▶_Quiz-C8901A?style=flat-square&labelColor=7E0E23" alt="Quiz"></a>
 
 </div>
-
-| Course | Module | Lesson |
-| --- | --- | --- |
-| Network Systems | 05: Cabling | 05-01 |
 <!-- /course-header -->
 
 ## Twisted-Pair Basics
@@ -58,9 +58,8 @@ Mitigate EMI with **STP** or **fiber**, and route away from noise sources.
 
 ---
 
-## Key Idea
-
-> Twisting cancels interference. Use **Cat 5e** for 1G and **Cat 6a** for 10G, all capped at **100 m**. Fight EMI with shielding or fiber.
+> [!TIP]
+> **Key idea —** Twisting cancels interference. Use **Cat 5e** for 1G and **Cat 6a** for 10G, all capped at **100 m**. Fight EMI with shielding or fiber.
 
 See also: [Fiber-Optic Cabling](05-02-fiber-optic.md), [Cable Issues, Tools & PoE](05-04-cable-issues-and-tools.md)
 

@@ -3,16 +3,17 @@
 <!-- course-header -->
 <div align="center">
 
-<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="../01-notes/README.md">All Notes</a> &nbsp;|&nbsp; <a href="README.md">All Exercises</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+<a href="../README.md"><img src="../assets/banner.svg" alt="Network Systems" width="100%"></a>
+
+<img src="https://img.shields.io/badge/Module_08-Subnets_and_VLANs-B4122E?style=for-the-badge&labelColor=7E0E23" alt="Module 08: Subnets and VLANs"> <img src="https://img.shields.io/badge/6_questions-C8901A?style=for-the-badge&labelColor=7E0E23" alt="6 questions">
+
+<a href="../README.md"><img src="https://img.shields.io/badge/⌂_Home-3B2530?style=flat-square" alt="Home"></a> <a href="../01-notes/08-01-network-segmentation.md"><img src="https://img.shields.io/badge/Notes-3B2530?style=flat-square" alt="Notes"></a> <a href="README.md"><img src="https://img.shields.io/badge/All_Exercises-3B2530?style=flat-square" alt="All Exercises"></a> <a href="../03-quiz/"><img src="https://img.shields.io/badge/▶_Quiz-C8901A?style=flat-square&labelColor=7E0E23" alt="Quiz"></a>
 
 </div>
-
-| Course | Module | Practice |
-| --- | --- | ---: |
-| Network Systems | 08: Subnets and VLANs | 6 questions |
-
-> Try each question first. Open the answer only after you have written or spoken your attempt.
 <!-- /course-header -->
+
+> [!TIP]
+> **Practice —** try each question first, then expand the answer to check your reasoning.
 
 Hands-on **subnetting drills** — the highest-value practice for the exam. Read each question, work it out on paper, then click **▶ Show worked solution** to check (binary method, block-size/magic-number method, VLSM, and IPv6). Quick-recall questions follow at the end.
 

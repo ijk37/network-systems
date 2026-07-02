@@ -3,13 +3,13 @@
 <!-- course-header -->
 <div align="center">
 
-<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/03-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+<a href="../README.md"><img src="../assets/banner.svg" alt="Network Systems" width="100%"></a>
+
+<img src="https://img.shields.io/badge/Module_03-Addressing-B4122E?style=for-the-badge&labelColor=7E0E23" alt="Module 03: Addressing">
+
+<a href="../README.md"><img src="https://img.shields.io/badge/⌂_Home-3B2530?style=flat-square" alt="Home"></a> <a href="README.md"><img src="https://img.shields.io/badge/All_Notes-3B2530?style=flat-square" alt="All Notes"></a> <a href="../02-exercises/03-exercise.md"><img src="https://img.shields.io/badge/✎_Practice-C8901A?style=flat-square&labelColor=7E0E23" alt="Practice"></a> <a href="../03-quiz/"><img src="https://img.shields.io/badge/▶_Quiz-C8901A?style=flat-square&labelColor=7E0E23" alt="Quiz"></a>
 
 </div>
-
-| Course | Module | Lesson |
-| --- | --- | --- |
-| Network Systems | 03: Addressing | 03-02 |
 <!-- /course-header -->
 
 ## Structure
@@ -71,9 +71,8 @@ Not routable on the Internet — used inside networks with NAT:
 
 ---
 
-## Key Idea
-
-> IPv4 = **32 bits, four octets (0–255)**. The **subnet mask** marks network vs. host bits. Know the **private ranges**, **loopback (127.0.0.1)**, and **APIPA (169.254.x.x)**.
+> [!TIP]
+> **Key idea —** IPv4 = **32 bits, four octets (0–255)**. The **subnet mask** marks network vs. host bits. Know the **private ranges**, **loopback (127.0.0.1)**, and **APIPA (169.254.x.x)**.
 
 See also: [IPv6 Addressing](03-03-ipv6-addressing.md), [IP Address Structure](08-02-ip-address-structure.md), [Subnet Mask](08-03-subnet-mask.md)
 

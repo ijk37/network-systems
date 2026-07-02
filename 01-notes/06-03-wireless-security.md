@@ -3,13 +3,13 @@
 <!-- course-header -->
 <div align="center">
 
-<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/06-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+<a href="../README.md"><img src="../assets/banner.svg" alt="Network Systems" width="100%"></a>
+
+<img src="https://img.shields.io/badge/Module_06-Wireless_Networking-B4122E?style=for-the-badge&labelColor=7E0E23" alt="Module 06: Wireless Networking">
+
+<a href="../README.md"><img src="https://img.shields.io/badge/⌂_Home-3B2530?style=flat-square" alt="Home"></a> <a href="README.md"><img src="https://img.shields.io/badge/All_Notes-3B2530?style=flat-square" alt="All Notes"></a> <a href="../02-exercises/06-exercise.md"><img src="https://img.shields.io/badge/✎_Practice-C8901A?style=flat-square&labelColor=7E0E23" alt="Practice"></a> <a href="../03-quiz/"><img src="https://img.shields.io/badge/▶_Quiz-C8901A?style=flat-square&labelColor=7E0E23" alt="Quiz"></a>
 
 </div>
-
-| Course | Module | Lesson |
-| --- | --- | --- |
-| Network Systems | 06: Wireless Networking | 06-03 |
 <!-- /course-header -->
 
 ## The Evolution of Wi-Fi Security
@@ -50,9 +50,8 @@ Mitigations: **WPA2/WPA3**, **802.1X**, WIPS, and disabling unused APs. **Hiding
 
 ---
 
-## Key Idea
-
-> Use **WPA2 (AES)** at minimum, **WPA3 (SAE)** where possible. Choose **Enterprise/802.1X** for per-user auth in organizations. **WEP is broken**; SSID hiding is not real security.
+> [!TIP]
+> **Key idea —** Use **WPA2 (AES)** at minimum, **WPA3 (SAE)** where possible. Choose **Enterprise/802.1X** for per-user auth in organizations. **WEP is broken**; SSID hiding is not real security.
 
 See also: [Wireless Design & Roaming](06-04-wireless-design.md), [Network Access Control & AAA](10-03-nac-and-aaa.md)
 

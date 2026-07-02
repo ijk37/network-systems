@@ -3,13 +3,13 @@
 <!-- course-header -->
 <div align="center">
 
-<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/03-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+<a href="../README.md"><img src="../assets/banner.svg" alt="Network Systems" width="100%"></a>
+
+<img src="https://img.shields.io/badge/Module_03-Addressing-B4122E?style=for-the-badge&labelColor=7E0E23" alt="Module 03: Addressing">
+
+<a href="../README.md"><img src="https://img.shields.io/badge/⌂_Home-3B2530?style=flat-square" alt="Home"></a> <a href="README.md"><img src="https://img.shields.io/badge/All_Notes-3B2530?style=flat-square" alt="All Notes"></a> <a href="../02-exercises/03-exercise.md"><img src="https://img.shields.io/badge/✎_Practice-C8901A?style=flat-square&labelColor=7E0E23" alt="Practice"></a> <a href="../03-quiz/"><img src="https://img.shields.io/badge/▶_Quiz-C8901A?style=flat-square&labelColor=7E0E23" alt="Quiz"></a>
 
 </div>
-
-| Course | Module | Lesson |
-| --- | --- | --- |
-| Network Systems | 03: Addressing | 03-03 |
 <!-- /course-header -->
 
 ## Why IPv6?
@@ -58,9 +58,8 @@ Eight groups (hextets) of four hex digits, separated by colons:
 
 ---
 
-## Key Idea
-
-> IPv6 = **128 bits, eight hextets**, compressed with **`::` (once)** and dropped leading zeros. LANs use **/64**; hosts can self-configure via **SLAAC/EUI-64**.
+> [!TIP]
+> **Key idea —** IPv6 = **128 bits, eight hextets**, compressed with **`::` (once)** and dropped leading zeros. LANs use **/64**; hosts can self-configure via **SLAAC/EUI-64**.
 
 See also: [IPv4 Addressing](03-02-ipv4-addressing.md), [Subnets in IPv6](08-11-ipv6-subnetting.md)
 

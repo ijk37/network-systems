@@ -3,13 +3,13 @@
 <!-- course-header -->
 <div align="center">
 
-<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/11-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+<a href="../README.md"><img src="../assets/banner.svg" alt="Network Systems" width="100%"></a>
+
+<img src="https://img.shields.io/badge/Module_11-Network_Performance_and_Recovery-B4122E?style=for-the-badge&labelColor=7E0E23" alt="Module 11: Network Performance and Recovery">
+
+<a href="../README.md"><img src="https://img.shields.io/badge/⌂_Home-3B2530?style=flat-square" alt="Home"></a> <a href="README.md"><img src="https://img.shields.io/badge/All_Notes-3B2530?style=flat-square" alt="All Notes"></a> <a href="../02-exercises/11-exercise.md"><img src="https://img.shields.io/badge/✎_Practice-C8901A?style=flat-square&labelColor=7E0E23" alt="Practice"></a> <a href="../03-quiz/"><img src="https://img.shields.io/badge/▶_Quiz-C8901A?style=flat-square&labelColor=7E0E23" alt="Quiz"></a>
 
 </div>
-
-| Course | Module | Lesson |
-| --- | --- | --- |
-| Network Systems | 11: Network Performance and Recovery | 11-01 |
 <!-- /course-header -->
 
 ## Key Metrics
@@ -53,9 +53,8 @@ A **bottleneck** is the point of least capacity that caps end-to-end performance
 
 ---
 
-## Key Idea
-
-> Know **bandwidth vs. throughput** and **latency/jitter/loss**. Use **QoS** (mark with DSCP, prioritize voice, shape/police) to protect real-time traffic and find the **bottleneck**.
+> [!TIP]
+> **Key idea —** Know **bandwidth vs. throughput** and **latency/jitter/loss**. Use **QoS** (mark with DSCP, prioritize voice, shape/police) to protect real-time traffic and find the **bottleneck**.
 
 See also: [Network Monitoring](11-02-monitoring.md), [TCP vs. UDP](04-02-tcp-vs-udp.md)
 

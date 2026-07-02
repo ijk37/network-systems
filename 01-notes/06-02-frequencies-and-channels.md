@@ -3,13 +3,13 @@
 <!-- course-header -->
 <div align="center">
 
-<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/06-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+<a href="../README.md"><img src="../assets/banner.svg" alt="Network Systems" width="100%"></a>
+
+<img src="https://img.shields.io/badge/Module_06-Wireless_Networking-B4122E?style=for-the-badge&labelColor=7E0E23" alt="Module 06: Wireless Networking">
+
+<a href="../README.md"><img src="https://img.shields.io/badge/⌂_Home-3B2530?style=flat-square" alt="Home"></a> <a href="README.md"><img src="https://img.shields.io/badge/All_Notes-3B2530?style=flat-square" alt="All Notes"></a> <a href="../02-exercises/06-exercise.md"><img src="https://img.shields.io/badge/✎_Practice-C8901A?style=flat-square&labelColor=7E0E23" alt="Practice"></a> <a href="../03-quiz/"><img src="https://img.shields.io/badge/▶_Quiz-C8901A?style=flat-square&labelColor=7E0E23" alt="Quiz"></a>
 
 </div>
-
-| Course | Module | Lesson |
-| --- | --- | --- |
-| Network Systems | 06: Wireless Networking | 06-02 |
 <!-- /course-header -->
 
 ## The Two Main Bands
@@ -54,9 +54,8 @@ Higher **gain** = more focused/farther signal.
 
 ---
 
-## Key Idea
-
-> **2.4 GHz** = range but crowded (use **channels 1/6/11**); **5/6 GHz** = speed and clean channels. Use **directional antennas** for point-to-point, and design for good **SNR**.
+> [!TIP]
+> **Key idea —** **2.4 GHz** = range but crowded (use **channels 1/6/11**); **5/6 GHz** = speed and clean channels. Use **directional antennas** for point-to-point, and design for good **SNR**.
 
 See also: [Wireless Fundamentals & 802.11 Standards](06-01-wireless-standards.md), [Wireless Design & Roaming](06-04-wireless-design.md)
 

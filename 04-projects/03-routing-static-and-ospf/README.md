@@ -1,5 +1,18 @@
 # Project 03 — Static & Dynamic Routing (OSPF)
 
+
+<!-- course-header -->
+<div align="center">
+
+<a href="../../README.md"><img src="../../assets/banner.svg" alt="Network Systems" width="100%"></a>
+
+<img src="https://img.shields.io/badge/Project_03-Static_%26_Dynamic_Routing_(OSPF)-B4122E?style=for-the-badge&labelColor=7E0E23" alt="Project 03: Static & Dynamic Routing (OSPF)">
+
+<a href="../../README.md"><img src="https://img.shields.io/badge/⌂_Home-3B2530?style=flat-square" alt="Home"></a> <a href="../README.md"><img src="https://img.shields.io/badge/All_Projects-3B2530?style=flat-square" alt="All Projects"></a> <a href="../../01-notes/README.md"><img src="https://img.shields.io/badge/Notes-3B2530?style=flat-square" alt="Notes"></a> <a href="../../03-quiz/"><img src="https://img.shields.io/badge/▶_Quiz-C8901A?style=flat-square&labelColor=7E0E23" alt="Quiz"></a>
+
+</div>
+<!-- /course-header -->
+
 **Type:** Hands-on Packet Tracer lab
 **Modules:** 12 (WAN), 03/08 (Addressing/Subnets)
 **Difficulty:** ⭐⭐⭐⭐

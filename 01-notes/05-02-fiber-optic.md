@@ -3,13 +3,13 @@
 <!-- course-header -->
 <div align="center">
 
-<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/05-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+<a href="../README.md"><img src="../assets/banner.svg" alt="Network Systems" width="100%"></a>
+
+<img src="https://img.shields.io/badge/Module_05-Cabling-B4122E?style=for-the-badge&labelColor=7E0E23" alt="Module 05: Cabling">
+
+<a href="../README.md"><img src="https://img.shields.io/badge/⌂_Home-3B2530?style=flat-square" alt="Home"></a> <a href="README.md"><img src="https://img.shields.io/badge/All_Notes-3B2530?style=flat-square" alt="All Notes"></a> <a href="../02-exercises/05-exercise.md"><img src="https://img.shields.io/badge/✎_Practice-C8901A?style=flat-square&labelColor=7E0E23" alt="Practice"></a> <a href="../03-quiz/"><img src="https://img.shields.io/badge/▶_Quiz-C8901A?style=flat-square&labelColor=7E0E23" alt="Quiz"></a>
 
 </div>
-
-| Course | Module | Lesson |
-| --- | --- | --- |
-| Network Systems | 05: Cabling | 05-02 |
 <!-- /course-header -->
 
 ## How Fiber Works
@@ -60,9 +60,8 @@ Mnemonic: **S**ingle-mode = **S**maller core, **S**tretches further.
 
 ---
 
-## Key Idea
-
-> Fiber = **light, no EMI, long distance**. **Single-mode** (small core, laser) for long haul; **multimode** (large core, LED) for shorter runs. **LC** is the dominant connector.
+> [!TIP]
+> **Key idea —** Fiber = **light, no EMI, long distance**. **Single-mode** (small core, laser) for long haul; **multimode** (large core, LED) for shorter runs. **LC** is the dominant connector.
 
 See also: [Copper Cabling](05-01-copper-cabling.md), [Ethernet Standards & Transceivers](05-03-ethernet-standards.md)
 

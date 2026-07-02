@@ -3,13 +3,13 @@
 <!-- course-header -->
 <div align="center">
 
-<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/06-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+<a href="../README.md"><img src="../assets/banner.svg" alt="Network Systems" width="100%"></a>
+
+<img src="https://img.shields.io/badge/Module_06-Wireless_Networking-B4122E?style=for-the-badge&labelColor=7E0E23" alt="Module 06: Wireless Networking">
+
+<a href="../README.md"><img src="https://img.shields.io/badge/⌂_Home-3B2530?style=flat-square" alt="Home"></a> <a href="README.md"><img src="https://img.shields.io/badge/All_Notes-3B2530?style=flat-square" alt="All Notes"></a> <a href="../02-exercises/06-exercise.md"><img src="https://img.shields.io/badge/✎_Practice-C8901A?style=flat-square&labelColor=7E0E23" alt="Practice"></a> <a href="../03-quiz/"><img src="https://img.shields.io/badge/▶_Quiz-C8901A?style=flat-square&labelColor=7E0E23" alt="Quiz"></a>
 
 </div>
-
-| Course | Module | Lesson |
-| --- | --- | --- |
-| Network Systems | 06: Wireless Networking | 06-01 |
 <!-- /course-header -->
 
 ## IEEE 802.11
@@ -50,9 +50,8 @@ The **802.11** family defines Wi-Fi WLAN standards. Wireless uses **radio freque
 
 ---
 
-## Key Idea
-
-> Wi-Fi = **802.11**, using **CSMA/CA**. Know the generations: **n = Wi-Fi 4, ac = Wi-Fi 5, ax = Wi-Fi 6**. **MIMO/OFDMA** boost capacity in dense environments.
+> [!TIP]
+> **Key idea —** Wi-Fi = **802.11**, using **CSMA/CA**. Know the generations: **n = Wi-Fi 4, ac = Wi-Fi 5, ax = Wi-Fi 6**. **MIMO/OFDMA** boost capacity in dense environments.
 
 See also: [Frequencies, Channels & Antennas](06-02-frequencies-and-channels.md), [Wireless Security](06-03-wireless-security.md)
 

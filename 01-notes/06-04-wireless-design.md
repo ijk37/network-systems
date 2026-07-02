@@ -3,13 +3,13 @@
 <!-- course-header -->
 <div align="center">
 
-<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/06-exercise.md">Practice Set</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+<a href="../README.md"><img src="../assets/banner.svg" alt="Network Systems" width="100%"></a>
+
+<img src="https://img.shields.io/badge/Module_06-Wireless_Networking-B4122E?style=for-the-badge&labelColor=7E0E23" alt="Module 06: Wireless Networking">
+
+<a href="../README.md"><img src="https://img.shields.io/badge/⌂_Home-3B2530?style=flat-square" alt="Home"></a> <a href="README.md"><img src="https://img.shields.io/badge/All_Notes-3B2530?style=flat-square" alt="All Notes"></a> <a href="../02-exercises/06-exercise.md"><img src="https://img.shields.io/badge/✎_Practice-C8901A?style=flat-square&labelColor=7E0E23" alt="Practice"></a> <a href="../03-quiz/"><img src="https://img.shields.io/badge/▶_Quiz-C8901A?style=flat-square&labelColor=7E0E23" alt="Quiz"></a>
 
 </div>
-
-| Course | Module | Lesson |
-| --- | --- | --- |
-| Network Systems | 06: Wireless Networking | 06-04 |
 <!-- /course-header -->
 
 ## Service Sets
@@ -60,9 +60,8 @@ A **captive portal** intercepts new clients and redirects to a login/terms page 
 
 ---
 
-## Key Idea
-
-> **BSS** = one AP; **ESS** = many APs, one SSID (enables roaming). Plan with a **site survey/heat map**, avoid channel overlap, and use a **WLC** to manage APs at scale.
+> [!TIP]
+> **Key idea —** **BSS** = one AP; **ESS** = many APs, one SSID (enables roaming). Plan with a **site survey/heat map**, avoid channel overlap, and use a **WLC** to manage APs at scale.
 
 See also: [Frequencies, Channels & Antennas](06-02-frequencies-and-channels.md), [Virtual LAN (VLAN)](08-12-vlan.md)
 
