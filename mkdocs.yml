@@ -18,6 +18,10 @@ exclude_docs: |
   .git/**
   05-resources/**
   tools/**
+  01-notes.md
+  02-exercises.md
+  03-quiz.md
+  04-projects.md
 
 theme:
   name: material
