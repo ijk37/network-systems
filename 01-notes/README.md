@@ -4,6 +4,8 @@
 
 ![Network Systems](../assets/banner.svg)
 
+[![View the live site — ijk37.com](https://img.shields.io/badge/%F0%9F%8C%90_View_the_Live_Site-IJK37.COM-E4A72A?style=for-the-badge&labelColor=7E0E23)](https://ijk37.com/network-systems/)
+
 <img src="https://img.shields.io/badge/01_·_Notes-12_modules-B4122E?style=for-the-badge&labelColor=7E0E23" alt="Notes">
 
 [Home](../index.md) &nbsp;|&nbsp; [Exercises](../02-exercises/README.md) &nbsp;|&nbsp; [Quiz Hub](../03-quiz/) &nbsp;|&nbsp; [Projects](../04-projects/README.md)

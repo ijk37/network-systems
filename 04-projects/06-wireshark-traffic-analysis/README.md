@@ -6,6 +6,8 @@
 
 ![Network Systems](../../assets/banner.svg)
 
+[![View the live site — ijk37.com](https://img.shields.io/badge/%F0%9F%8C%90_View_the_Live_Site-IJK37.COM-E4A72A?style=for-the-badge&labelColor=7E0E23)](https://ijk37.com/network-systems/)
+
 <img src="https://img.shields.io/badge/Project_06-Wireshark_Traffic_Analysis-B4122E?style=for-the-badge&labelColor=7E0E23" alt="Project 06: Wireshark Traffic Analysis">
 
 [![Home](https://img.shields.io/badge/⌂_Home-3B2530?style=flat-square)](../../index.md) [![All Projects](https://img.shields.io/badge/All_Projects-3B2530?style=flat-square)](../README.md) [![Notes](https://img.shields.io/badge/Notes-3B2530?style=flat-square)](../../01-notes/README.md) [![Quiz](https://img.shields.io/badge/▶_Quiz-C8901A?style=flat-square&labelColor=7E0E23)](../../03-quiz/)

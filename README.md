@@ -3,7 +3,7 @@
 <a href="https://ijk37.com/network-systems/"><img src="assets/banner.svg" alt="Network Systems" width="100%"></a>
 
 <p>
-  <a href="https://ijk37.com/network-systems/"><img src="https://img.shields.io/badge/%F0%9F%8C%90_View_the_Live_Site-ijk37.com%2Fnetwork--systems-B4122E?style=for-the-badge&labelColor=7E0E23" alt="View the live site"></a>
+  <a href="https://ijk37.com/network-systems/"><img src="https://img.shields.io/badge/%F0%9F%8C%90_View_the_Live_Site-IJK37.COM-E4A72A?style=for-the-badge&labelColor=7E0E23" alt="View the live site — ijk37.com"></a>
 </p>
 
 <p>

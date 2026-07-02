@@ -4,6 +4,8 @@
 
 <a href="https://ijk37.com/network-systems/03-quiz/"><img src="../assets/banner.svg" alt="Network Systems" width="100%"></a>
 
+[![View the live site — ijk37.com](https://img.shields.io/badge/%F0%9F%8C%90_View_the_Live_Site-IJK37.COM-E4A72A?style=for-the-badge&labelColor=7E0E23)](https://ijk37.com/network-systems/)
+
 <a href="https://ijk37.com/network-systems/03-quiz/"><img src="https://img.shields.io/badge/▶_Launch_Quiz_Hub-C8901A?style=for-the-badge&labelColor=7E0E23" alt="Launch Quiz Hub"></a>
 
 <a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="../01-notes/README.md">Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/README.md">Exercises</a> &nbsp;|&nbsp; <a href="../04-projects/README.md">Projects</a>
