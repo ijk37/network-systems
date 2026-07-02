@@ -17,6 +17,7 @@ exclude_docs: |
   .claude/**
   .git/**
   05-resources/**
+  tools/**
 
 theme:
   name: material
