@@ -9,5 +9,3 @@
 <sub>Prefer the source? Browse <a href="04-projects/README.md">the <code>04-projects/</code> folder</a> on GitHub.</sub>
 
 </div>
-
-x
