@@ -1,6 +1,10 @@
 <div align="center">
 
-<a href="https://ijk37.github.io/network-systems/03-quiz/"><img src="assets/banner.svg" alt="Network Systems — CompTIA Network+" width="100%"></a>
+<a href="https://ijk37.com/network-systems/"><img src="assets/banner.svg" alt="Network Systems" width="100%"></a>
+
+<p>
+  <a href="https://ijk37.com/network-systems/"><img src="https://img.shields.io/badge/%F0%9F%8C%90_View_the_Live_Site-ijk37.com%2Fnetwork--systems-B4122E?style=for-the-badge&labelColor=7E0E23" alt="View the live site"></a>
+</p>
 
 <p>
   <a href="01-notes/README.md"><img src="https://img.shields.io/badge/Notes-12_modules-B4122E?style=for-the-badge&labelColor=7E0E23" alt="Course Notes"></a>

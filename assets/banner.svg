@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="1200" height="260" role="img" aria-label="Network Systems — CompTIA Network+">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="1200" height="260" role="img" aria-label="Network Systems">
   <defs>
     <linearGradient id="crimson" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#7E0E23"/>
@@ -34,7 +34,7 @@
   </g>
 
   <!-- text -->
-  <text x="64" y="86" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="4" fill="#F5D283">NETWORK SYSTEMS &#183; COMPTIA NETWORK+</text>
+  <text x="64" y="86" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="4" fill="#F5D283">NETWORK SYSTEMS &#183; SELF-PACED STUDY</text>
   <text x="60" y="158" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="72" font-weight="800" fill="#ffffff">Network Systems</text>
-  <text x="64" y="205" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="500" fill="#F3D6DB">CompTIA Network+ Guide to Networks &#8212; 9th Edition</text>
+  <text x="64" y="205" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="500" fill="#F3D6DB">Notes &#183; Exercises &#183; Quizzes &#183; Projects</text>
 </svg>

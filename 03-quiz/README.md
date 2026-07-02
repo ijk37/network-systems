@@ -10,7 +10,7 @@
 
 </div>
 
-Interactive multiple-choice quizzes for all 12 modules of **CompTIA Network+ Guide to Networks, 9th Edition**, plus 5 cumulative mixed quizzes — crimson & gold theme, built with plain HTML + JavaScript, no server required.
+Interactive multiple-choice quizzes for all 12 **Network+** modules, plus 5 cumulative mixed quizzes — crimson & gold theme, built with plain HTML + JavaScript, no server required.
 
 **Locally:** open `index.html` in your browser.
 
