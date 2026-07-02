@@ -26,7 +26,7 @@
 
 ---
 
-## Course 
+## Course Dashboard
 
 | Section | Purpose | Start Here |
 | --- | --- | --- |
