@@ -2,13 +2,13 @@
 
 
 <!-- course-header -->
-<div align="center">
+<div align="center" markdown>
 
-<a href="../../README.md"><img src="../../assets/banner.svg" alt="Network Systems" width="100%"></a>
+![Network Systems](../../assets/banner.svg)
 
 <img src="https://img.shields.io/badge/Project_05-Secure_Small--Business_Network_Design-B4122E?style=for-the-badge&labelColor=7E0E23" alt="Project 05: Secure Small-Business Network Design">
 
-<a href="../../README.md"><img src="https://img.shields.io/badge/⌂_Home-3B2530?style=flat-square" alt="Home"></a> <a href="../README.md"><img src="https://img.shields.io/badge/All_Projects-3B2530?style=flat-square" alt="All Projects"></a> <a href="../../01-notes/README.md"><img src="https://img.shields.io/badge/Notes-3B2530?style=flat-square" alt="Notes"></a> <a href="../../03-quiz/"><img src="https://img.shields.io/badge/▶_Quiz-C8901A?style=flat-square&labelColor=7E0E23" alt="Quiz"></a>
+[![Home](https://img.shields.io/badge/⌂_Home-3B2530?style=flat-square)](../../index.md) [![All Projects](https://img.shields.io/badge/All_Projects-3B2530?style=flat-square)](../README.md) [![Notes](https://img.shields.io/badge/Notes-3B2530?style=flat-square)](../../01-notes/README.md) [![Quiz](https://img.shields.io/badge/▶_Quiz-C8901A?style=flat-square&labelColor=7E0E23)](../../03-quiz/)
 
 </div>
 <!-- /course-header -->

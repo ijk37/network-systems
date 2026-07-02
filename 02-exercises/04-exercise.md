@@ -1,13 +1,13 @@
 # &#9997; 04: Network Protocols — Exercises
 
 <!-- course-header -->
-<div align="center">
+<div align="center" markdown>
 
-<a href="../README.md"><img src="../assets/banner.svg" alt="Network Systems" width="100%"></a>
+![Network Systems](../assets/banner.svg)
 
 <img src="https://img.shields.io/badge/Module_04-Network_Protocols-B4122E?style=for-the-badge&labelColor=7E0E23" alt="Module 04: Network Protocols"> <img src="https://img.shields.io/badge/12_questions-C8901A?style=for-the-badge&labelColor=7E0E23" alt="12 questions">
 
-<a href="../README.md"><img src="https://img.shields.io/badge/⌂_Home-3B2530?style=flat-square" alt="Home"></a> <a href="../01-notes/04-01-tcp-ip-suite.md"><img src="https://img.shields.io/badge/Notes-3B2530?style=flat-square" alt="Notes"></a> <a href="README.md"><img src="https://img.shields.io/badge/All_Exercises-3B2530?style=flat-square" alt="All Exercises"></a> <a href="../03-quiz/"><img src="https://img.shields.io/badge/▶_Quiz-C8901A?style=flat-square&labelColor=7E0E23" alt="Quiz"></a>
+[![Home](https://img.shields.io/badge/⌂_Home-3B2530?style=flat-square)](../index.md) [![Notes](https://img.shields.io/badge/Notes-3B2530?style=flat-square)](../01-notes/04-01-tcp-ip-suite.md) [![All Exercises](https://img.shields.io/badge/All_Exercises-3B2530?style=flat-square)](README.md) [![Quiz](https://img.shields.io/badge/▶_Quiz-C8901A?style=flat-square&labelColor=7E0E23)](../03-quiz/)
 
 </div>
 <!-- /course-header -->
@@ -158,9 +158,9 @@ A **socket** = **IP address + port** (e.g., `192.168.1.5:443`). A pair of socket
 <!-- course-footer -->
 ---
 
-<div align="center">
+<div align="center" markdown>
 
-<strong>Previous:</strong> <a href="03-exercise.md">03: Addressing — Exercises</a> &nbsp;|&nbsp; <a href="README.md">All Exercises</a> &nbsp;|&nbsp; <a href="../01-notes/04-01-tcp-ip-suite.md">Module 04 Notes</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="05-exercise.md">05: Cabling — Exercises</a>
+<strong>Previous:</strong> [03: Addressing — Exercises](03-exercise.md) &nbsp;|&nbsp; [All Exercises](README.md) &nbsp;|&nbsp; [Module 04 Notes](../01-notes/04-01-tcp-ip-suite.md) &nbsp;|&nbsp; <strong>Next:</strong> [05: Cabling — Exercises](05-exercise.md)
 
 </div>
 <!-- /course-footer -->

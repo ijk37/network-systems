@@ -1,13 +1,13 @@
 # &#128216; 04-03: Core Protocols & Their Ports
 
 <!-- course-header -->
-<div align="center">
+<div align="center" markdown>
 
-<a href="../README.md"><img src="../assets/banner.svg" alt="Network Systems" width="100%"></a>
+![Network Systems](../assets/banner.svg)
 
 <img src="https://img.shields.io/badge/Module_04-Network_Protocols-B4122E?style=for-the-badge&labelColor=7E0E23" alt="Module 04: Network Protocols">
 
-<a href="../README.md"><img src="https://img.shields.io/badge/⌂_Home-3B2530?style=flat-square" alt="Home"></a> <a href="README.md"><img src="https://img.shields.io/badge/All_Notes-3B2530?style=flat-square" alt="All Notes"></a> <a href="../02-exercises/04-exercise.md"><img src="https://img.shields.io/badge/✎_Practice-C8901A?style=flat-square&labelColor=7E0E23" alt="Practice"></a> <a href="../03-quiz/"><img src="https://img.shields.io/badge/▶_Quiz-C8901A?style=flat-square&labelColor=7E0E23" alt="Quiz"></a>
+[![Home](https://img.shields.io/badge/⌂_Home-3B2530?style=flat-square)](../index.md) [![All Notes](https://img.shields.io/badge/All_Notes-3B2530?style=flat-square)](README.md) [![Practice](https://img.shields.io/badge/✎_Practice-C8901A?style=flat-square&labelColor=7E0E23)](../02-exercises/04-exercise.md) [![Quiz](https://img.shields.io/badge/▶_Quiz-C8901A?style=flat-square&labelColor=7E0E23)](../03-quiz/)
 
 </div>
 <!-- /course-header -->
@@ -59,9 +59,9 @@ See also: [Ports & Protocols Reference](03-06-ports-and-protocols.md), [Secure P
 <!-- course-footer -->
 ---
 
-<div align="center">
+<div align="center" markdown>
 
-<strong>Previous:</strong> <a href="04-02-tcp-vs-udp.md">TCP vs. UDP</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/04-exercise.md">Module 04 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="04-04-secure-protocols.md">Secure Protocols &amp; Encryption</a>
+<strong>Previous:</strong> [TCP vs. UDP](04-02-tcp-vs-udp.md) &nbsp;|&nbsp; [All Notes](README.md) &nbsp;|&nbsp; [Module 04 Exercise](../02-exercises/04-exercise.md) &nbsp;|&nbsp; <strong>Next:</strong> [Secure Protocols &amp; Encryption](04-04-secure-protocols.md)
 
 </div>
 <!-- /course-footer -->

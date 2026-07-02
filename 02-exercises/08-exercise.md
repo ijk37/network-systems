@@ -1,13 +1,13 @@
 # &#9997; 08: Subnets & VLANs — Exercises
 
 <!-- course-header -->
-<div align="center">
+<div align="center" markdown>
 
-<a href="../README.md"><img src="../assets/banner.svg" alt="Network Systems" width="100%"></a>
+![Network Systems](../assets/banner.svg)
 
 <img src="https://img.shields.io/badge/Module_08-Subnets_and_VLANs-B4122E?style=for-the-badge&labelColor=7E0E23" alt="Module 08: Subnets and VLANs"> <img src="https://img.shields.io/badge/6_questions-C8901A?style=for-the-badge&labelColor=7E0E23" alt="6 questions">
 
-<a href="../README.md"><img src="https://img.shields.io/badge/⌂_Home-3B2530?style=flat-square" alt="Home"></a> <a href="../01-notes/08-01-network-segmentation.md"><img src="https://img.shields.io/badge/Notes-3B2530?style=flat-square" alt="Notes"></a> <a href="README.md"><img src="https://img.shields.io/badge/All_Exercises-3B2530?style=flat-square" alt="All Exercises"></a> <a href="../03-quiz/"><img src="https://img.shields.io/badge/▶_Quiz-C8901A?style=flat-square&labelColor=7E0E23" alt="Quiz"></a>
+[![Home](https://img.shields.io/badge/⌂_Home-3B2530?style=flat-square)](../index.md) [![Notes](https://img.shields.io/badge/Notes-3B2530?style=flat-square)](../01-notes/08-01-network-segmentation.md) [![All Exercises](https://img.shields.io/badge/All_Exercises-3B2530?style=flat-square)](README.md) [![Quiz](https://img.shields.io/badge/▶_Quiz-C8901A?style=flat-square&labelColor=7E0E23)](../03-quiz/)
 
 </div>
 <!-- /course-header -->
@@ -881,9 +881,9 @@ Each VLAN should normally have its own IP subnet. VLANs separate Layer 2 broadca
 <!-- course-footer -->
 ---
 
-<div align="center">
+<div align="center" markdown>
 
-<strong>Previous:</strong> <a href="07-exercise.md">07: Cloud Computing &amp; Remote Access — Exercises</a> &nbsp;|&nbsp; <a href="README.md">All Exercises</a> &nbsp;|&nbsp; <a href="../01-notes/08-01-network-segmentation.md">Module 08 Notes</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="09-exercise.md">09: Network Risk Management — Exercises</a>
+<strong>Previous:</strong> [07: Cloud Computing &amp; Remote Access — Exercises](07-exercise.md) &nbsp;|&nbsp; [All Exercises](README.md) &nbsp;|&nbsp; [Module 08 Notes](../01-notes/08-01-network-segmentation.md) &nbsp;|&nbsp; <strong>Next:</strong> [09: Network Risk Management — Exercises](09-exercise.md)
 
 </div>
 <!-- /course-footer -->

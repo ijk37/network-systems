@@ -1,12 +1,12 @@
 # &#9997; 02 Exercises
 
-<div align="center">
+<div align="center" markdown>
 
-<a href="../README.md"><img src="../assets/banner.svg" alt="Network Systems" width="100%"></a>
+![Network Systems](../assets/banner.svg)
 
 <img src="https://img.shields.io/badge/02_·_Exercises-12_sets-B4122E?style=for-the-badge&labelColor=7E0E23" alt="Exercises">
 
-<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="../01-notes/README.md">Notes</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a> &nbsp;|&nbsp; <a href="../04-projects/README.md">Projects</a>
+[Home](../index.md) &nbsp;|&nbsp; [Notes](../01-notes/README.md) &nbsp;|&nbsp; [Quiz Hub](../03-quiz/) &nbsp;|&nbsp; [Projects](../04-projects/README.md)
 
 </div>
 
@@ -38,8 +38,8 @@ Practice sets for each course module. Work the question first, then expand the a
 
 > The answer blocks use GitHub-supported `<details>` sections, so they are readable directly in the repository.
 
-<div align="center">
+<div align="center" markdown>
 
-<a href="../README.md">Back to repository home</a>
+[Back to repository home](../index.md)
 
 </div>

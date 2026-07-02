@@ -1,13 +1,13 @@
 # &#128216; 11-02: Network Monitoring
 
 <!-- course-header -->
-<div align="center">
+<div align="center" markdown>
 
-<a href="../README.md"><img src="../assets/banner.svg" alt="Network Systems" width="100%"></a>
+![Network Systems](../assets/banner.svg)
 
 <img src="https://img.shields.io/badge/Module_11-Network_Performance_and_Recovery-B4122E?style=for-the-badge&labelColor=7E0E23" alt="Module 11: Network Performance and Recovery">
 
-<a href="../README.md"><img src="https://img.shields.io/badge/⌂_Home-3B2530?style=flat-square" alt="Home"></a> <a href="README.md"><img src="https://img.shields.io/badge/All_Notes-3B2530?style=flat-square" alt="All Notes"></a> <a href="../02-exercises/11-exercise.md"><img src="https://img.shields.io/badge/✎_Practice-C8901A?style=flat-square&labelColor=7E0E23" alt="Practice"></a> <a href="../03-quiz/"><img src="https://img.shields.io/badge/▶_Quiz-C8901A?style=flat-square&labelColor=7E0E23" alt="Quiz"></a>
+[![Home](https://img.shields.io/badge/⌂_Home-3B2530?style=flat-square)](../index.md) [![All Notes](https://img.shields.io/badge/All_Notes-3B2530?style=flat-square)](README.md) [![Practice](https://img.shields.io/badge/✎_Practice-C8901A?style=flat-square&labelColor=7E0E23)](../02-exercises/11-exercise.md) [![Quiz](https://img.shields.io/badge/▶_Quiz-C8901A?style=flat-square&labelColor=7E0E23)](../03-quiz/)
 
 </div>
 <!-- /course-header -->
@@ -75,9 +75,9 @@ See also: [Performance Concepts & QoS](11-01-performance-concepts.md), [IDS & IP
 <!-- course-footer -->
 ---
 
-<div align="center">
+<div align="center" markdown>
 
-<strong>Previous:</strong> <a href="11-01-performance-concepts.md">Performance Concepts &amp; QoS</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/11-exercise.md">Module 11 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="11-03-high-availability.md">High Availability &amp; Redundancy</a>
+<strong>Previous:</strong> [Performance Concepts &amp; QoS](11-01-performance-concepts.md) &nbsp;|&nbsp; [All Notes](README.md) &nbsp;|&nbsp; [Module 11 Exercise](../02-exercises/11-exercise.md) &nbsp;|&nbsp; <strong>Next:</strong> [High Availability &amp; Redundancy](11-03-high-availability.md)
 
 </div>
 <!-- /course-footer -->

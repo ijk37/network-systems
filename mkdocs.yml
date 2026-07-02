@@ -53,8 +53,6 @@ theme:
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.path
-    - navigation.sections
-    - navigation.tabs
     - navigation.top
     - search.highlight
     - search.share
@@ -206,9 +204,7 @@ nav:
       - "Exercise 10": 02-exercises/10-exercise.md
       - "Exercise 11": 02-exercises/11-exercise.md
       - "Exercise 12": 02-exercises/12-exercise.md
-  - Quiz:
-      - Overview: 03-quiz/README.md
-      - Quiz Hub: 03-quiz/index.html
+  - Quiz: 03-quiz/index.html
   - Projects:
       - Overview: 04-projects/README.md
       - "VLSM Network Design": 04-projects/01-vlsm-network-design/README.md

@@ -1,12 +1,12 @@
 # &#128736; 04 Projects
 
-<div align="center">
+<div align="center" markdown>
 
-<a href="../README.md"><img src="../assets/banner.svg" alt="Network Systems" width="100%"></a>
+![Network Systems](../assets/banner.svg)
 
 <img src="https://img.shields.io/badge/04_·_Projects-13_labs-B4122E?style=for-the-badge&labelColor=7E0E23" alt="Projects">
 
-<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="../01-notes/README.md">Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/README.md">Exercises</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a>
+[Home](../index.md) &nbsp;|&nbsp; [Notes](../01-notes/README.md) &nbsp;|&nbsp; [Exercises](../02-exercises/README.md) &nbsp;|&nbsp; [Quiz Hub](../03-quiz/)
 
 </div>
 
@@ -68,4 +68,4 @@ Every module (01–12) is exercised by at least one project:
 6. **13** - add IPv6 after IPv4 subnetting, VLANs, and routing are comfortable.
 7. **06** - anytime, to see protocols on the wire.
 
-[← Back to Root](../README.md)
+[← Back to Root](../index.md)

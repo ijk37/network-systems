@@ -1,12 +1,12 @@
 # &#128216; 01 Notes
 
-<div align="center">
+<div align="center" markdown>
 
-<a href="../README.md"><img src="../assets/banner.svg" alt="Network Systems" width="100%"></a>
+![Network Systems](../assets/banner.svg)
 
 <img src="https://img.shields.io/badge/01_·_Notes-12_modules-B4122E?style=for-the-badge&labelColor=7E0E23" alt="Notes">
 
-<a href="../README.md">Home</a> &nbsp;|&nbsp; <a href="../02-exercises/README.md">Exercises</a> &nbsp;|&nbsp; <a href="../03-quiz/">Quiz Hub</a> &nbsp;|&nbsp; <a href="../04-projects/README.md">Projects</a>
+[Home](../index.md) &nbsp;|&nbsp; [Exercises](../02-exercises/README.md) &nbsp;|&nbsp; [Quiz Hub](../03-quiz/) &nbsp;|&nbsp; [Projects](../04-projects/README.md)
 
 </div>
 
@@ -161,8 +161,8 @@ Topic-based Network+ study notes organized into 12 modules. Each page is designe
 3. Use the quiz hub for recall practice.
 4. Build a project when the concept needs hands-on reinforcement.
 
-<div align="center">
+<div align="center" markdown>
 
-<a href="../README.md">Back to repository home</a>
+[Back to repository home](../index.md)
 
 </div>

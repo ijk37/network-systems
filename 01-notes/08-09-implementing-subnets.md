@@ -1,13 +1,13 @@
 # &#128216; 08-09: Implementing Subnets on a Network
 
 <!-- course-header -->
-<div align="center">
+<div align="center" markdown>
 
-<a href="../README.md"><img src="../assets/banner.svg" alt="Network Systems" width="100%"></a>
+![Network Systems](../assets/banner.svg)
 
 <img src="https://img.shields.io/badge/Module_08-Subnets_and_VLANs-B4122E?style=for-the-badge&labelColor=7E0E23" alt="Module 08: Subnets and VLANs">
 
-<a href="../README.md"><img src="https://img.shields.io/badge/⌂_Home-3B2530?style=flat-square" alt="Home"></a> <a href="README.md"><img src="https://img.shields.io/badge/All_Notes-3B2530?style=flat-square" alt="All Notes"></a> <a href="../02-exercises/08-exercise.md"><img src="https://img.shields.io/badge/✎_Practice-C8901A?style=flat-square&labelColor=7E0E23" alt="Practice"></a> <a href="../03-quiz/"><img src="https://img.shields.io/badge/▶_Quiz-C8901A?style=flat-square&labelColor=7E0E23" alt="Quiz"></a>
+[![Home](https://img.shields.io/badge/⌂_Home-3B2530?style=flat-square)](../index.md) [![All Notes](https://img.shields.io/badge/All_Notes-3B2530?style=flat-square)](README.md) [![Practice](https://img.shields.io/badge/✎_Practice-C8901A?style=flat-square&labelColor=7E0E23)](../02-exercises/08-exercise.md) [![Quiz](https://img.shields.io/badge/▶_Quiz-C8901A?style=flat-square&labelColor=7E0E23)](../03-quiz/)
 
 </div>
 <!-- /course-header -->
@@ -28,7 +28,7 @@ Each subnet forms a **separate broadcast domain**.
 
 ## &#128204; Basic Network Structure
 
-![Subnets 1, 2, and 3 and their respective default gateways](subnets-default-gateways.png)
+![Subnets 1, 2, and 3 and their respective default gateways](../assets/images/subnets-default-gateways.png)
 
 A subnetted network typically consists of:
 
@@ -78,7 +78,7 @@ Each subnet requires a **default gateway** to communicate with other networks.
 
 ## &#128204; One Router Connecting Multiple LANs
 
-![One router connecting multiple LANs](router-multiple-lans.png)
+![One router connecting multiple LANs](../assets/images/router-multiple-lans.png)
 
 A single router can connect multiple LANs:
 - Each LAN is assigned a different subnet  
@@ -98,7 +98,7 @@ A single router can connect multiple LANs:
 
 DHCP uses **broadcast messages**, which do not cross routers.
 
-![DHCP Relay Agent](dhcp-relay-agent.png)
+![DHCP Relay Agent](../assets/images/dhcp-relay-agent.png)
 
 ---
 
@@ -134,9 +134,9 @@ Subnetting transforms a large network into smaller, manageable networks, enablin
 <!-- course-footer -->
 ---
 
-<div align="center">
+<div align="center" markdown>
 
-<strong>Previous:</strong> <a href="08-08-subnet-calculation-using-binary.md">Subnet Calculation Using Binary</a> &nbsp;|&nbsp; <a href="README.md">All Notes</a> &nbsp;|&nbsp; <a href="../02-exercises/08-exercise.md">Module 08 Exercise</a> &nbsp;|&nbsp; <strong>Next:</strong> <a href="08-10-vlsm.md">Variable Length Subnet Mask (VLSM)</a>
+<strong>Previous:</strong> [Subnet Calculation Using Binary](08-08-subnet-calculation-using-binary.md) &nbsp;|&nbsp; [All Notes](README.md) &nbsp;|&nbsp; [Module 08 Exercise](../02-exercises/08-exercise.md) &nbsp;|&nbsp; <strong>Next:</strong> [Variable Length Subnet Mask (VLSM)](08-10-vlsm.md)
 
 </div>
 <!-- /course-footer -->
