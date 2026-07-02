@@ -8,3 +8,7 @@ __pycache__
 *.docx
 *.pkt
 *.pka
+
+# MkDocs build output
+_site/
+/site/
