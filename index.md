@@ -17,6 +17,8 @@ CompTIA Network+ learning materials organized for fast review, practice, and lab
 
 [:octicons-tools-16: Projects](04-projects/README.md){ .ns-card .ns-card-projects }
 
+[:octicons-archive-16: Resources](05-resources/README.md){ .ns-card .ns-card-resources }
+
 </div>
 
 ## Course Flow
